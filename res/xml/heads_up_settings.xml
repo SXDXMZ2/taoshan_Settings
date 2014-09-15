@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/heads_up_dnd_title" android:key="dnd_applications_list">
+        <Preference android:icon="@drawable/ic_menu_add" android:title="@string/add_heads_up_package" android:key="add_dnd_packages" android:summary="@string/add_heads_up_dnd_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/heads_up_blacklist_title" android:key="blacklist_applications">
+        <Preference android:icon="@drawable/ic_menu_add" android:title="@string/add_heads_up_package" android:key="add_blacklist_packages" android:summary="@string/add_heads_up_blacklist_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

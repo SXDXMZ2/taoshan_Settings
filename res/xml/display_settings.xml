@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/display_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.android.settings.BrightnessPreference android:persistent="false" android:title="@string/brightness" />
+    <PreferenceCategory android:title="@string/display_settings_title" android:key="display_prefs">
+        <PreferenceScreen android:title="@string/display_rotation_title" android:key="display_rotation" android:fragment="com.android.settings.cyanogenmod.DisplayRotation" />
+        <ListPreference android:persistent="false" android:entries="@array/screen_timeout_entries" android:title="@string/screen_timeout" android:key="screen_timeout" android:summary="@string/screen_timeout_summary" android:entryValues="@array/screen_timeout_values" />
+        <com.android.settings.FontDialogPreference android:title="@string/title_font_size" android:key="font_size" android:summary="@string/summary_font_size" android:dialogTitle="@string/dialog_title_font_size" />
+        <PreferenceScreen android:title="@string/screensaver_settings_title" android:key="screensaver" android:fragment="com.android.settings.DreamSettings" />
+        <PreferenceScreen android:title="@string/wifi_display_settings_title" android:key="wifi_display" android:fragment="com.android.settings.wfd.WifiDisplaySettings" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/power_menu_expanded_desktop" android:key="expanded_desktop_category">
+        <ListPreference android:persistent="false" android:entries="@array/expanded_desktop_entries" android:title="@string/expanded_desktop_style" android:key="expanded_desktop" android:entryValues="@array/expanded_desktop_values" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/power_menu_expanded_desktop" android:key="expanded_desktop_no_navbar" />
+        <com.android.settings.cyanogenmod.SystemSettingCheckBoxPreference android:title="@string/expanded_desktop_system_bars_visibility" android:key="expanded_desktop_system_bars_visibility" android:summary="@string/expanded_desktop_system_bars_visibility_summary" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/lights_category_title" android:key="lights_prefs">
+        <PreferenceScreen android:title="@string/notification_light_title" android:key="notification_pulse" android:fragment="com.android.settings.notificationlight.NotificationLightSettings" />
+        <PreferenceScreen android:title="@string/battery_light_title" android:key="battery_light" android:fragment="com.android.settings.notificationlight.BatteryLightSettings" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/advanced_settings" android:key="advanced_display_prefs">
+        <CheckBoxPreference android:title="@string/adaptive_backlight_title" android:key="adaptive_backlight" android:summary="@string/adaptive_backlight_summary" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/sunlight_enhancement_title" android:key="sunlight_enhancement" android:summary="@string/sunlight_enhancement_summary" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/color_enhancement_title" android:key="color_enhancement" android:summary="@string/color_enhancement_summary" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/double_tap_to_wake_title" android:key="double_tap_wake_gesture" android:defaultValue="false" />
+        <com.android.settings.cyanogenmod.SystemSettingCheckBoxPreference android:title="@string/proximity_wake_title" android:key="proximity_on_wake" android:summary="@string/proximity_wake_summary" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/wake_when_plugged_or_unplugged_title" android:key="wake_when_plugged_or_unplugged" android:summary="@string/wake_when_plugged_or_unplugged_summary" android:defaultValue="false" />
+        <com.android.settings.cyanogenmod.SystemSettingCheckBoxPreference android:title="@string/screen_animation_off_title" android:key="screen_off_animation" android:defaultValue="true" />
+        <ListPreference android:entries="@array/screen_animation_style_entries" android:title="@string/screen_animation_style_title" android:key="screen_animation_style" android:entryValues="@array/screen_animation_style_values" />
+        <com.android.settings.hardware.DisplayColor android:persistent="false" android:title="@string/color_calibration_title" android:key="color_calibration" android:summary="@string/color_calibration_summary" android:dialogTitle="@string/color_calibration_title" />
+        <com.android.settings.hardware.DisplayGamma android:persistent="false" android:title="@string/gamma_tuning_title_head" android:key="gamma_tuning" android:summary="@string/gamma_tuning_summary_head" android:dialogTitle="@string/gamma_tuning_title_head" />
+        <PreferenceScreen android:persistent="false" android:title="@string/screencolor" android:key="screencolor_settings">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.ScreenColorSettings" />
+        </PreferenceScreen>
+        <Preference android:title="@string/radio_controls_title" android:key="advanced_display_settings">
+            <intent android:targetPackage="com.cyanogenmod.settings.device" android:action="com.cyanogenmod.action.LAUNCH_DEVICE_SETTINGS" android:targetClass="com.cyanogenmod.settings.device.DisplaySettings" />
+        </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>

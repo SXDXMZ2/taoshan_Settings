@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="android_beam_settings_title">Android Beam</string>
+    <string name="android_beam_label">Android Beam</string>
+    <string name="wifi_security_short_wep">WEP</string>
+    <string name="wifi_security_wep">WEP</string>
+</resources>

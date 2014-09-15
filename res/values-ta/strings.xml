@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="delete">நீக்கு</string>
+    <string name="wifi_setting_countrycode_title">வை-பையின் வட்டாரக் குறியீடு</string>
+    <string name="battery_info_status_discharging">மின்னூட்டப்படவில்லை</string>
+    <string name="battery_info_status_not_charging">மின்னூட்டப்படவில்லை</string>
+    <string name="battery_info_health_good">நல்லது</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="cancel">ரத்து</string>
+    <string name="lockpassword_cancel_label">ரத்து</string>
+    <string name="lockpattern_tutorial_cancel_label">ரத்து</string>
+    <string name="bluetooth_quick_toggle_title">Bluetooth</string>
+    <string name="bluetooth_settings">Bluetooth</string>
+    <string name="bluetooth_settings_title">Bluetooth</string>
+    <string name="bluetooth_pairing_decline">ரத்து</string>
+    <string name="bluetooth_profile_opp">கோப்பு இடமாற்றம்</string>
+    <string name="wifi_cancel">ரத்து</string>
+    <string name="wifi_ip_settings_menu_cancel">ரத்து</string>
+    <string name="home_settings">வீடு</string>
+    <string name="sim_enter_cancel">ரத்து</string>
+    <string name="dlg_cancel">ரத்து</string>
+    <string name="user_dict_settings_context_menu_delete_title">நீக்கு</string>
+    <string name="quick_launch_clear_cancel_button">ரத்து</string>
+    <string name="print_cancel">ரத்து</string>
+    <string name="power_bluetooth">Bluetooth</string>
+    <string name="gadget_bluetooth">Bluetooth</string>
+    <string name="wifi_setup_cancel">ரத்து</string>
+    <string name="data_usage_tab_mobile">நகர்பேசி</string>
+    <string name="data_usage_list_mobile">நகர்பேசி</string>
+    <string name="vpn_cancel">ரத்து</string>
+    <string name="backup_pw_cancel_button_text">ரத்து</string>
+    <string name="user_delete_button">நீக்கு</string>
+    <string name="restriction_bluetooth_config_title">Bluetooth</string>
+</resources>
