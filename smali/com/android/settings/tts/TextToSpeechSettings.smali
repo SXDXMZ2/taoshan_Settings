@@ -138,7 +138,7 @@
     invoke-direct {p0, v2}, Lcom/android/settings/tts/TextToSpeechSettings;->updateWidgetState(Z)V
 
     .line 263
-    const v2, 0x7f080a0f
+    const v2, 0x7f0c0a0a
 
     invoke-direct {p0, v2}, Lcom/android/settings/tts/TextToSpeechSettings;->updateEngineStatus(I)V
 
@@ -266,7 +266,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f080a0a
+    const v3, 0x7f0c0a05
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -479,7 +479,7 @@
 
     .line 304
     :cond_6
-    const v5, 0x7f080a0f
+    const v5, 0x7f0c0a0a
 
     invoke-direct {p0, v5}, Lcom/android/settings/tts/TextToSpeechSettings;->updateEngineStatus(I)V
 
@@ -500,7 +500,7 @@
     if-eqz v6, :cond_8
 
     .line 309
-    const v6, 0x7f080a0e
+    const v6, 0x7f0c0a09
 
     invoke-direct {p0, v6}, Lcom/android/settings/tts/TextToSpeechSettings;->updateEngineStatus(I)V
 
@@ -512,7 +512,7 @@
 
     .line 311
     :cond_8
-    const v6, 0x7f080a0d
+    const v6, 0x7f0c0a08
 
     invoke-direct {p0, v6}, Lcom/android/settings/tts/TextToSpeechSettings;->updateEngineStatus(I)V
 
@@ -557,7 +557,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0c000e
+    const v5, 0x7f0b000e
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -573,7 +573,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0c000f
+    const v5, 0x7f0b000f
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -625,7 +625,7 @@
     .end local v2           #langs:[Ljava/lang/String;
     .end local v3           #strings:[Ljava/lang/String;
     :cond_1
-    const v4, 0x7f080a0b
+    const v4, 0x7f0c0a06
 
     invoke-virtual {p0, v4}, Lcom/android/settings/tts/TextToSpeechSettings;->getString(I)Ljava/lang/String;
 
@@ -1299,7 +1299,7 @@
     invoke-direct {p0, v1}, Lcom/android/settings/tts/TextToSpeechSettings;->updateWidgetState(Z)V
 
     .line 485
-    const v1, 0x7f080a10
+    const v1, 0x7f0c0a0b
 
     invoke-direct {p0, v1}, Lcom/android/settings/tts/TextToSpeechSettings;->updateEngineStatus(I)V
 
@@ -1582,7 +1582,7 @@
     iput-object v0, p0, Lcom/android/settings/tts/TextToSpeechSettings;->mEngineStatus:Landroid/preference/Preference;
 
     .line 160
-    const v0, 0x7f080a10
+    const v0, 0x7f0c0a0b
 
     invoke-direct {p0, v0}, Lcom/android/settings/tts/TextToSpeechSettings;->updateEngineStatus(I)V
 

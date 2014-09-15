@@ -27,7 +27,7 @@
     .parameter
 
     .prologue
-    .line 66
+    .line 65
     iput-object p1, p0, Lcom/android/settings/applications/ProtectedAppsActivity$1;->this$0:Lcom/android/settings/applications/ProtectedAppsActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -59,7 +59,7 @@
 
     const/4 v6, 0x0
 
-    .line 69
+    .line 68
     iget-object v5, p0, Lcom/android/settings/applications/ProtectedAppsActivity$1;->this$0:Lcom/android/settings/applications/ProtectedAppsActivity;
 
     #getter for: Lcom/android/settings/applications/ProtectedAppsActivity;->mAppsAdapter:Lcom/android/settings/applications/ProtectedAppsActivity$AppsAdapter;
@@ -75,17 +75,17 @@
 
     iget-object v0, v5, Lcom/android/settings/applications/ProtectedAppsActivity$AppEntry;->componentName:Landroid/content/ComponentName;
 
-    .line 70
+    .line 69
     .local v0, cn:Landroid/content/ComponentName;
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 71
+    .line 70
     .local v1, componentsList:Ljava/util/ArrayList;,"Ljava/util/ArrayList<Landroid/content/ComponentName;>;"
     invoke-virtual {v1, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 72
+    .line 71
     iget-object v5, p0, Lcom/android/settings/applications/ProtectedAppsActivity$1;->this$0:Lcom/android/settings/applications/ProtectedAppsActivity;
 
     #getter for: Lcom/android/settings/applications/ProtectedAppsActivity;->mListView:Landroid/widget/ListView;
@@ -101,7 +101,7 @@
 
     move v3, v6
 
-    .line 76
+    .line 75
     .local v3, state:Z
     :goto_0
     new-instance v2, Lcom/android/settings/applications/ProtectedAppsActivity$AppProtectList;
@@ -110,7 +110,7 @@
 
     invoke-direct {v2, v5, v1, v3}, Lcom/android/settings/applications/ProtectedAppsActivity$AppProtectList;-><init>(Lcom/android/settings/applications/ProtectedAppsActivity;Ljava/util/ArrayList;Z)V
 
-    .line 77
+    .line 76
     .local v2, list:Lcom/android/settings/applications/ProtectedAppsActivity$AppProtectList;
     new-instance v4, Lcom/android/settings/applications/ProtectedAppsActivity$StoreComponentProtectedStatus;
 
@@ -120,7 +120,7 @@
 
     invoke-direct {v4, v5, v8}, Lcom/android/settings/applications/ProtectedAppsActivity$StoreComponentProtectedStatus;-><init>(Lcom/android/settings/applications/ProtectedAppsActivity;Landroid/content/Context;)V
 
-    .line 79
+    .line 78
     .local v4, task:Lcom/android/settings/applications/ProtectedAppsActivity$StoreComponentProtectedStatus;
     new-array v5, v7, [Lcom/android/settings/applications/ProtectedAppsActivity$AppProtectList;
 
@@ -128,7 +128,7 @@
 
     invoke-virtual {v4, v5}, Lcom/android/settings/applications/ProtectedAppsActivity$StoreComponentProtectedStatus;->execute([Ljava/lang/Object;)Landroid/os/AsyncTask;
 
-    .line 80
+    .line 79
     return-void
 
     .end local v2           #list:Lcom/android/settings/applications/ProtectedAppsActivity$AppProtectList;
@@ -137,6 +137,6 @@
     :cond_0
     move v3, v7
 
-    .line 72
+    .line 71
     goto :goto_0
 .end method

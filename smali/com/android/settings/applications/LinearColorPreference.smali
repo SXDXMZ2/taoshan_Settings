@@ -30,7 +30,7 @@
     iput v0, p0, Lcom/android/settings/applications/LinearColorPreference;->mColoredRegions:I
 
     .line 33
-    const v0, 0x7f04009c
+    const v0, 0x7f04009e
 
     invoke-virtual {p0, v0}, Lcom/android/settings/applications/LinearColorPreference;->setLayoutResource(I)V
 

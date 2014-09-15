@@ -20,7 +20,7 @@
 
     .line 43
     .local v0, res:Landroid/content/res/Resources;
-    const v1, 0x7f0c003d
+    const v1, 0x7f0b003d
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getIntArray(I)[I
 
@@ -29,7 +29,7 @@
     invoke-virtual {p0, v1}, Lcom/android/settings/accessibility/EdgeTypePreference;->setValues([I)V
 
     .line 44
-    const v1, 0x7f0c003c
+    const v1, 0x7f0b003c
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -43,7 +43,7 @@
     invoke-virtual {p0, v1}, Lcom/android/settings/accessibility/EdgeTypePreference;->setDialogLayoutResource(I)V
 
     .line 46
-    const v1, 0x7f0400ad
+    const v1, 0x7f0400af
 
     invoke-virtual {p0, v1}, Lcom/android/settings/accessibility/EdgeTypePreference;->setListItemLayoutResource(I)V
 

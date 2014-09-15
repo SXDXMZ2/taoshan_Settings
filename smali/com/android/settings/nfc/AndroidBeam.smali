@@ -199,7 +199,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0805f9
+    const v3, 0x7f0c05f4
 
     invoke-virtual {v2, v3}, Landroid/app/ActionBar;->setTitle(I)V
 

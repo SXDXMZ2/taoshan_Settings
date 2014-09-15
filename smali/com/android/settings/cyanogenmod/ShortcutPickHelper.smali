@@ -333,7 +333,7 @@
     .line 127
     iget-object v9, p0, Lcom/android/settings/cyanogenmod/ShortcutPickHelper;->mParent:Landroid/app/Activity;
 
-    const v10, 0x7f0800fe
+    const v10, 0x7f0c00fe
 
     invoke-virtual {v9, v10}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -343,7 +343,7 @@
     .local v3, applicationName:Ljava/lang/String;
     iget-object v9, p0, Lcom/android/settings/cyanogenmod/ShortcutPickHelper;->mParent:Landroid/app/Activity;
 
-    const v10, 0x7f0802c5
+    const v10, 0x7f0c02c0
 
     invoke-virtual {v9, v10}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -473,7 +473,7 @@
 
     iget-object v10, p0, Lcom/android/settings/cyanogenmod/ShortcutPickHelper;->mParent:Landroid/app/Activity;
 
-    const v11, 0x7f0802c7
+    const v11, 0x7f0c02c2
 
     invoke-virtual {v10, v11}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -731,7 +731,7 @@
     :cond_0
     iget-object v8, p0, Lcom/android/settings/cyanogenmod/ShortcutPickHelper;->mParent:Landroid/app/Activity;
 
-    const v9, 0x7f0800fe
+    const v9, 0x7f0c00fe
 
     invoke-virtual {v8, v9}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -742,7 +742,7 @@
     .line 93
     iget-object v8, p0, Lcom/android/settings/cyanogenmod/ShortcutPickHelper;->mParent:Landroid/app/Activity;
 
-    const v9, 0x7f0802c5
+    const v9, 0x7f0c02c0
 
     invoke-virtual {v8, v9}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -844,7 +844,7 @@
 
     iget-object v9, p0, Lcom/android/settings/cyanogenmod/ShortcutPickHelper;->mParent:Landroid/app/Activity;
 
-    const v10, 0x7f0802c6
+    const v10, 0x7f0c02c1
 
     invoke-virtual {v9, v10}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;
 

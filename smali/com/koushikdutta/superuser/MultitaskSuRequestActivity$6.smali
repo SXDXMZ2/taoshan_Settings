@@ -50,7 +50,7 @@
 
     iget-object v1, p0, Lcom/koushikdutta/superuser/MultitaskSuRequestActivity$6;->this$0:Lcom/koushikdutta/superuser/MultitaskSuRequestActivity;
 
-    const v2, 0x7f080002
+    const v2, 0x7f0c0002
 
     new-array v3, v6, [Ljava/lang/Object;
 
@@ -90,7 +90,7 @@
 
     iget-object v1, p0, Lcom/koushikdutta/superuser/MultitaskSuRequestActivity$6;->this$0:Lcom/koushikdutta/superuser/MultitaskSuRequestActivity;
 
-    const v2, 0x7f080001
+    const v2, 0x7f0c0001
 
     invoke-virtual {v1, v2}, Lcom/koushikdutta/superuser/MultitaskSuRequestActivity;->getString(I)Ljava/lang/String;
 

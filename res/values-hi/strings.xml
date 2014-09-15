@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="allow">अनुमति दें</string>
+    <string name="deny">अस्वीकार करें</string>
     <string name="delete">हटाएं</string>
     <string name="battery_info_status_full">भरी</string>
     <string name="yes">हां</string>
     <string name="no">नहीं</string>
     <string name="create">बनाएं</string>
-    <string name="allow">अनुमति दें</string>
-    <string name="deny">अस्वीकार करें</string>
     <string name="device_info_default">अज्ञात</string>
     <string name="show_dev_on">अब आप डेवलपर बन गए हैं!</string>
     <string name="show_dev_already">आवश्यकता नहीं, आप पहले से ही डेवलपर हैं.</string>
@@ -647,6 +647,8 @@
     <string name="volume_notification_mute">सूचनाएं म्‍यूट करें</string>
     <string name="volume_alarm_mute">अलार्म म्‍यूट करें</string>
     <string name="vibrate_when_ringing_title">रिंग आने पर कंपन करें</string>
+    <string name="system_update_settings_list_item_title">सिस्‍टम के बारे में नई जानकारी</string>
+    <string name="system_update_settings_list_item_summary" />
     <string name="dock_settings">डॉक</string>
     <string name="dock_settings_title">डॉक सेटिंग</string>
     <string name="dock_audio_settings_title">ऑडियो</string>
@@ -711,8 +713,6 @@
     <string name="wrong_pin_code_pukked">गलत सिम PIN कोड अपने उपकरण को अनलॉक करने के लिए अब आपको अपने वाहक से संपर्क करना होगा.</string>
     <string name="pin_failed">सिम PIN की कार्यवाही विफल रही!</string>
     <string name="device_info_settings">फ़ोन स्‍थिति</string>
-    <string name="system_update_settings_list_item_title">सिस्‍टम के बारे में नई जानकारी</string>
-    <string name="system_update_settings_list_item_summary" />
     <string name="firmware_version">Android संस्‍करण</string>
     <string name="model_number">मॉडल नंबर</string>
     <string name="fcc_equipment_id">उपकरण आईडी</string>
@@ -1952,4 +1952,36 @@
     <string name="user_image_take_photo">फ़ोटो लें</string>
     <string name="user_image_choose_photo">गैलरी से फ़ोटो चुनें</string>
     <string name="regulatory_info_text" />
+    <string name="quick_settings_description">अधिसूचना पैनल में त्वरित सेटिंग की संख्या का चयन करें और उनका क्रम संपादित करें</string>
+    <string name="swiqi_strings_swiqi_desc_txt">फोटो और वीडियो के लिए छवि गुणवत्ता एन्हांसर</string>
+    <string name="theme_label_summary">थीम बदलें या डाउनलोड करें</string>
+    <string name="find_my_device">मेरा डिवाइस ढूंढें</string>
+    <string name="display_category_personalisation_title">वैयक्तिकरण</string>
+    <string name="xperia_connectivity">Xperia™ कनेक्टिविटी</string>
+    <string name="preference_summary">अगर आप कभी अपना डिवाइस खोते हैं – तो my Xperia से अपने डेटा का पता लगाएँ, लॉक करें और/या मिटाएँ</string>
+    <string name="playanywhere_strings_throw_settings_title_txt">Throw सेटिंग</string>
+    <string name="playanywhere_strings_throw_setting_summary_txt">वायरलेस रूप से आपके Xperia™ में अन्य डिवाइस पर सामग्री चलाता है</string>
+    <string name="usbux_strings_local_connectivity_settings_summary_txt">अपने डिवाइस को USB या Wi-Fi के माध्यम से अन्य डिवाइस या PC से कनेक्ट करें</string>
+    <string name="mil_strings_app_name_mirrorlink_settings_txt">MirrorLink™ सेटिंग</string>
+    <string name="mil_strings_mirrorlink_activator_txt">MirrorLink™ आरंभ करें</string>
+    <string name="mil_strings_dialog_usb_not_connected_txt">किसी डिवाइस का पता नही लगा. सुनिश्चित करें कि संगत डिवाइस कनेक्ट है.</string>
+    <string name="mil_strings_dialog_mirrorlink_start_txt">MirrorLink™ शीघ्र ही आरंभ होगा. अगर डिवाइस MirrorLink™ प्रमाणित नहीं है तो हो सकता है कि यह उचित रूप से प्रारंभ न हो.</string>
+    <string name="mil_strings_mirrorlink_activator_sub_txt">USB का उपयोग करके MirrorLink™ प्रमाणित डिवाइस से कनेक्ट होने पर, आप डिवाइस से अपना Xperia™ नियंत्रित कर सकते हैं</string>
+    <string name="setupguide_settings_title">सेटअप मार्गदर्शिका</string>
+    <string name="lockscreen_app_name">लॉक स्क्रीन</string>
+    <string name="lockscreen_settings_title">लॉक स्क्रीन</string>
+    <string name="lockscreen_settings_title_txt">लॉक स्क्रीन</string>
+    <string name="lockscreen_settings_wallpaper_summary_txt">लॉक स्क्रीन में वॉलपेपर परिवर्तित करें</string>
+    <string name="lockscreen_setting_wallpaper_wait_txt">वॉलपेपर सेट कर रहा है</string>
+    <string name="lockscreen_could_not_load_wallpaper_txt">वॉलपेपर सेट नहीं कर सका</string>
+    <string name="lockscreen_dialog_title_pick_wallpaper">वॉलपेपर चयनित करें</string>
+    <string name="lockscreen_wallpaper_picker_semc_name">Xperia™ वॉलपेपर</string>
+    <string name="lockscreen_wallpaper_picker_semc_set_wallpaper">वॉलपेपर सेट करें</string>
+    <string name="lockscreen_wallpaper_picker_album_name">एलबम</string>
+    <string name="lockscreen_unlock_hint">अनलॉक करने के लिए ऊपर या नीचे स्वाइप करें</string>
+    <string name="lockscreen_short_unlock_hint">अनलॉक करने के लिए स्वाइप करें</string>
+    <string name="lockscreen_accessibility_unlock_hint">अनलॉक के लिए स्क्रीन के केंद्र से ऊपर या नीचे स्वाइप करें</string>
+    <string name="lockscreen_set_as_wallpaper_txt">लॉक स्क्रीन वॉलपेपर</string>
+    <string name="status_bar_tab_quick_settings_title">त्वरित सेटिंग</string>
+    <string name="power_settings_title">पॉवर प्रबंधन</string>
 </resources>

@@ -6,9 +6,6 @@
     <plurals name="app_ops_count">
         <item quantity="other">%d 次</item>
     </plurals>
-    <plurals name="show_dev_countdown_cm">
-        <item quantity="other">还需 %1$d 步就可以启用开发者选项。</item>
-    </plurals>
     <plurals name="show_dev_countdown">
         <item quantity="other">只需 %1$d 步操作即可进入开发者模式。</item>
         <item quantity="one">只需 %1$d 步操作即可进入开发者模式。</item>

@@ -479,11 +479,6 @@
         <item>15 сек. | 1 хв. | 5 хв.</item>
         <item>30 сек. | 2 хв. | 5 хв.</item>
     </string-array>
-    <string-array name="data_usage_cycle_length">
-        <item>Щоденно</item>
-        <item>Щотижня</item>
-        <item>Щомісяця</item>
-    </string-array>
     <string-array name="data_usage_cycle_weekdays">
         <item>Неділя</item>
         <item>Понеділок</item>
@@ -497,11 +492,5 @@
         <item>Дозволено</item>
         <item>Відмовлено</item>
         <item>Завжди питати</item>
-    </string-array>
-    <string-array name="qs_quick_access_size_entries">
-        <item>Автоматично</item>
-        <item>Автоматично (вузька)</item>
-        <item>Велика</item>
-        <item>Вузька</item>
     </string-array>
 </resources>

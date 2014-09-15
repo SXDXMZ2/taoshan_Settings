@@ -772,7 +772,7 @@
 
     .line 100
     .local v0, resources:Landroid/content/res/Resources;
-    const v2, 0x1060070
+    const v2, 0x106006f
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -1004,7 +1004,7 @@
     invoke-virtual {v2, v3}, Landroid/widget/ListView;->setAdapter(Landroid/widget/ListAdapter;)V
 
     .line 418
-    const v3, 0x7f080103
+    const v3, 0x7f0c0103
 
     invoke-virtual {v0, v3}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -1047,7 +1047,7 @@
     .line 385
     iget-object v0, p0, Lcom/android/settings/notificationlight/NotificationLightSettings;->mMenu:Landroid/view/Menu;
 
-    const v1, 0x7f0800c0
+    const v1, 0x7f0c00c0
 
     invoke-interface {v0, v2, v2, v2, v1}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
@@ -1131,13 +1131,13 @@
 
     invoke-direct {v2, v3}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v3, 0x7f08014b
+    const v3, 0x7f0c0149
 
     invoke-virtual {v2, v3}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
     move-result-object v2
 
-    const v3, 0x7f08014c
+    const v3, 0x7f0c014a
 
     invoke-virtual {v2, v3}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 

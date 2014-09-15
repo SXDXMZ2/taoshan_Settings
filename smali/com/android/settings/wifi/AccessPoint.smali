@@ -95,7 +95,7 @@
     iput-object v0, p0, Lcom/android/settings/wifi/AccessPoint;->pskType:Lcom/android/settings/wifi/AccessPoint$PskType;
 
     .line 154
-    const v0, 0x7f0400ac
+    const v0, 0x7f0400ae
 
     invoke-virtual {p0, v0}, Lcom/android/settings/wifi/AccessPoint;->setWidgetLayoutResource(I)V
 
@@ -132,7 +132,7 @@
     iput-object v0, p0, Lcom/android/settings/wifi/AccessPoint;->pskType:Lcom/android/settings/wifi/AccessPoint$PskType;
 
     .line 147
-    const v0, 0x7f0400ac
+    const v0, 0x7f0400ae
 
     invoke-virtual {p0, v0}, Lcom/android/settings/wifi/AccessPoint;->setWidgetLayoutResource(I)V
 
@@ -169,7 +169,7 @@
     iput-object v0, p0, Lcom/android/settings/wifi/AccessPoint;->pskType:Lcom/android/settings/wifi/AccessPoint$PskType;
 
     .line 161
-    const v0, 0x7f0400ac
+    const v0, 0x7f0400ae
 
     invoke-virtual {p0, v0}, Lcom/android/settings/wifi/AccessPoint;->setWidgetLayoutResource(I)V
 
@@ -703,7 +703,7 @@
     if-eqz v3, :cond_0
 
     .line 351
-    const v3, 0x7f080405
+    const v3, 0x7f0c0400
 
     invoke-virtual {v0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -750,7 +750,7 @@
 
     .line 356
     :pswitch_0
-    const v3, 0x7f080650
+    const v3, 0x7f0c064b
 
     invoke-virtual {v0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -762,7 +762,7 @@
 
     .line 360
     :pswitch_1
-    const v3, 0x7f08064f
+    const v3, 0x7f0c064a
 
     invoke-virtual {v0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -774,7 +774,7 @@
 
     .line 363
     :pswitch_2
-    const v3, 0x7f08005e
+    const v3, 0x7f0c005e
 
     invoke-virtual {v0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -786,7 +786,7 @@
 
     .line 366
     :pswitch_3
-    const v3, 0x7f08064e
+    const v3, 0x7f0c0649
 
     invoke-virtual {v0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -805,7 +805,7 @@
     if-ne v3, v4, :cond_3
 
     .line 369
-    const v3, 0x7f080651
+    const v3, 0x7f0c064c
 
     invoke-virtual {v0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -839,7 +839,7 @@
     if-eqz v3, :cond_5
 
     .line 374
-    const v3, 0x7f08064d
+    const v3, 0x7f0c0648
 
     invoke-virtual {v0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -861,7 +861,7 @@
     if-nez v3, :cond_7
 
     .line 380
-    const v3, 0x7f080654
+    const v3, 0x7f0c064f
 
     invoke-virtual {v0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -905,7 +905,7 @@
     if-nez v3, :cond_8
 
     .line 389
-    const v3, 0x7f080652
+    const v3, 0x7f0c064d
 
     invoke-virtual {v0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -917,7 +917,7 @@
 
     .line 382
     :cond_7
-    const v3, 0x7f080655
+    const v3, 0x7f0c0650
 
     invoke-virtual {v0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -929,7 +929,7 @@
     .line 391
     .end local v1           #securityStrFormat:Ljava/lang/String;
     :cond_8
-    const v3, 0x7f080653
+    const v3, 0x7f0c064e
 
     invoke-virtual {v0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1312,7 +1312,7 @@
     :pswitch_0
     if-eqz p1, :cond_0
 
-    const v1, 0x7f08065b
+    const v1, 0x7f0c0656
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1321,7 +1321,7 @@
     goto :goto_0
 
     :cond_0
-    const v1, 0x7f080662
+    const v1, 0x7f0c065d
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1346,7 +1346,7 @@
     .line 118
     if-eqz p1, :cond_4
 
-    const v1, 0x7f08065a
+    const v1, 0x7f0c0655
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1358,7 +1358,7 @@
     :pswitch_2
     if-eqz p1, :cond_1
 
-    const v1, 0x7f080657
+    const v1, 0x7f0c0652
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1367,7 +1367,7 @@
     goto :goto_0
 
     :cond_1
-    const v1, 0x7f08065e
+    const v1, 0x7f0c0659
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1379,7 +1379,7 @@
     :pswitch_3
     if-eqz p1, :cond_2
 
-    const v1, 0x7f080658
+    const v1, 0x7f0c0653
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1388,7 +1388,7 @@
     goto :goto_0
 
     :cond_2
-    const v1, 0x7f08065f
+    const v1, 0x7f0c065a
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1400,7 +1400,7 @@
     :pswitch_4
     if-eqz p1, :cond_3
 
-    const v1, 0x7f080659
+    const v1, 0x7f0c0654
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1409,7 +1409,7 @@
     goto :goto_0
 
     :cond_3
-    const v1, 0x7f080660
+    const v1, 0x7f0c065b
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1419,7 +1419,7 @@
 
     .line 118
     :cond_4
-    const v1, 0x7f080661
+    const v1, 0x7f0c065c
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1431,7 +1431,7 @@
     :pswitch_5
     if-eqz p1, :cond_5
 
-    const v1, 0x7f080656
+    const v1, 0x7f0c0651
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1440,7 +1440,7 @@
     goto :goto_0
 
     :cond_5
-    const v1, 0x7f08065d
+    const v1, 0x7f0c0658
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1450,7 +1450,7 @@
 
     .line 126
     :cond_6
-    const v1, 0x7f08065c
+    const v1, 0x7f0c0657
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

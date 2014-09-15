@@ -191,7 +191,7 @@
     iput-object v4, p0, Lcom/android/settings/cyanogenmod/PerformanceSettings;->mPowerManager:Landroid/os/PowerManager;
 
     .line 91
-    const v4, 0x10400f9
+    const v4, 0x10400f8
 
     invoke-virtual {p0, v4}, Lcom/android/settings/cyanogenmod/PerformanceSettings;->getString(I)Ljava/lang/String;
 
@@ -381,7 +381,7 @@
     .line 132
     iget-object v4, p0, Lcom/android/settings/cyanogenmod/PerformanceSettings;->alertDialog:Landroid/app/AlertDialog;
 
-    const v5, 0x7f080230
+    const v5, 0x7f0c022c
 
     invoke-virtual {v4, v5}, Landroid/app/AlertDialog;->setTitle(I)V
 
@@ -392,7 +392,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f080231
+    const v6, 0x7f0c022d
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

@@ -66,7 +66,7 @@
     .parameter "styleId"
 
     .prologue
-    const v6, 0x7f080959
+    const v6, 0x7f0c0954
 
     .line 153
     invoke-virtual {p1, p2}, Lcom/android/internal/widget/SubtitleView;->setStyle(I)V
@@ -163,7 +163,7 @@
 
     .line 208
     .local v8, res:Landroid/content/res/Resources;
-    const v9, 0x7f0c0043
+    const v9, 0x7f0b0043
 
     invoke-virtual {v8, v9}, Landroid/content/res/Resources;->getIntArray(I)[I
 
@@ -171,7 +171,7 @@
 
     .line 209
     .local v7, presetValues:[I
-    const v9, 0x7f0c0042
+    const v9, 0x7f0b0042
 
     invoke-virtual {v8, v9}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -214,7 +214,7 @@
     iput-boolean v12, p0, Lcom/android/settings/accessibility/CaptionPropertiesFragment;->mShowingCustom:Z
 
     .line 217
-    const v9, 0x7f0c003f
+    const v9, 0x7f0b003f
 
     invoke-virtual {v8, v9}, Landroid/content/res/Resources;->getIntArray(I)[I
 
@@ -222,7 +222,7 @@
 
     .line 218
     .local v3, colorValues:[I
-    const v9, 0x7f0c003e
+    const v9, 0x7f0b003e
 
     invoke-virtual {v8, v9}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -253,7 +253,7 @@
     invoke-virtual {v9, v3}, Lcom/android/settings/accessibility/ColorPreference;->setValues([I)V
 
     .line 223
-    const v9, 0x7f0c0041
+    const v9, 0x7f0b0041
 
     invoke-virtual {v8, v9}, Landroid/content/res/Resources;->getIntArray(I)[I
 
@@ -261,7 +261,7 @@
 
     .line 224
     .local v5, opacityValues:[I
-    const v9, 0x7f0c0040
+    const v9, 0x7f0b0040
 
     invoke-virtual {v8, v9}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -344,7 +344,7 @@
     aput v11, v1, v11
 
     .line 240
-    const v9, 0x7f08095b
+    const v9, 0x7f0c0956
 
     invoke-virtual {p0, v9}, Lcom/android/settings/accessibility/CaptionPropertiesFragment;->getString(I)Ljava/lang/String;
 
@@ -696,7 +696,7 @@
     .locals 7
 
     .prologue
-    const v6, 0x7f080958
+    const v6, 0x7f0c0953
 
     .line 129
     invoke-virtual {p0}, Lcom/android/settings/accessibility/CaptionPropertiesFragment;->getActivity()Landroid/app/Activity;

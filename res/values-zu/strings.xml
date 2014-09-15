@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="allow">Vumela</string>
+    <string name="deny">Nqaba</string>
     <string name="delete">Susa</string>
     <string name="battery_info_status_full">Kugcwele</string>
     <string name="yes">Yebo</string>
     <string name="no">Cha</string>
     <string name="create">Yakha</string>
-    <string name="allow">Vumela</string>
-    <string name="deny">Nqaba</string>
     <string name="device_info_default">Akwaziwa</string>
     <string name="show_dev_on">Manje ungunjiniyela!</string>
     <string name="show_dev_already">Asikho isidingo, usuvele ungunjiniyela.</string>
@@ -647,6 +647,8 @@ Ukusethwa kwefoni kungadinga umsebenzi wenethiwekhi omcane."</string>
     <string name="volume_notification_mute">Thulisa izaziso</string>
     <string name="volume_alarm_mute">Thulisa i-alamu</string>
     <string name="vibrate_when_ringing_title">Dlidlizisa uma ikhala</string>
+    <string name="system_update_settings_list_item_title">Izibuyekezo zesistimu</string>
+    <string name="system_update_settings_list_item_summary" />
     <string name="dock_settings">Dokha</string>
     <string name="dock_settings_title">Izilungiselelo zokudokha</string>
     <string name="dock_audio_settings_title">Umsindo</string>
@@ -711,8 +713,6 @@ Kungenzeka i-PIN engalungile."</string>
     <string name="wrong_pin_code_pukked">Ikhodi yephinikhodi ye-SIM engalungile manje kumele uxhumane nenkampini yenethiwekhi yakho ukuvula idivayisi yakho.</string>
     <string name="pin_failed">Umsebenzi wephinikhodi ye-SIM wehlulekile!</string>
     <string name="device_info_settings">Umumo wefoni</string>
-    <string name="system_update_settings_list_item_title">Izibuyekezo zesistimu</string>
-    <string name="system_update_settings_list_item_summary" />
     <string name="firmware_version">Inguqulo ye-Android</string>
     <string name="model_number">Inombolo yemodeli</string>
     <string name="fcc_equipment_id">I-ID yempahla</string>
@@ -791,7 +791,7 @@ Kungenzeka i-PIN engalungile."</string>
     <string name="battery_level_title">Izinga lebhetri</string>
     <string name="apn_settings">APNs</string>
     <string name="apn_edit">Hlela indawo yokungena</string>
-    <string name="apn_not_set">&amp;lt;Ayisethiwe&amp;gt;</string>
+    <string name="apn_not_set">&lt;Ayisethiwe&amp;gt;</string>
     <string name="apn_name">Igama</string>
     <string name="apn_apn">APN</string>
     <string name="apn_http_proxy">Ummeleli</string>

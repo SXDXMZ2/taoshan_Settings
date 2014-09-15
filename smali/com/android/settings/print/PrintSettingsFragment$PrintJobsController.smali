@@ -293,7 +293,7 @@
     :pswitch_0
     iget-object v11, p0, Lcom/android/settings/print/PrintSettingsFragment$PrintJobsController;->this$0:Lcom/android/settings/print/PrintSettingsFragment;
 
-    const v12, 0x7f080984
+    const v12, 0x7f0c097f
 
     const/4 v1, 0x2
 
@@ -388,7 +388,7 @@
     .line 380
     iget-object v1, p0, Lcom/android/settings/print/PrintSettingsFragment$PrintJobsController;->this$0:Lcom/android/settings/print/PrintSettingsFragment;
 
-    const v2, 0x7f080985
+    const v2, 0x7f0c0980
 
     const/4 v3, 0x1
 
@@ -414,7 +414,7 @@
     :cond_4
     iget-object v1, p0, Lcom/android/settings/print/PrintSettingsFragment$PrintJobsController;->this$0:Lcom/android/settings/print/PrintSettingsFragment;
 
-    const v2, 0x7f080986
+    const v2, 0x7f0c0981
 
     const/4 v3, 0x1
 
@@ -440,7 +440,7 @@
     :pswitch_3
     iget-object v1, p0, Lcom/android/settings/print/PrintSettingsFragment$PrintJobsController;->this$0:Lcom/android/settings/print/PrintSettingsFragment;
 
-    const v2, 0x7f080987
+    const v2, 0x7f0c0982
 
     const/4 v3, 0x1
 
@@ -473,7 +473,7 @@
     .line 398
     iget-object v1, p0, Lcom/android/settings/print/PrintSettingsFragment$PrintJobsController;->this$0:Lcom/android/settings/print/PrintSettingsFragment;
 
-    const v2, 0x7f080988
+    const v2, 0x7f0c0983
 
     const/4 v3, 0x1
 
@@ -499,7 +499,7 @@
     :cond_5
     iget-object v1, p0, Lcom/android/settings/print/PrintSettingsFragment$PrintJobsController;->this$0:Lcom/android/settings/print/PrintSettingsFragment;
 
-    const v2, 0x7f080986
+    const v2, 0x7f0c0981
 
     const/4 v3, 0x1
 

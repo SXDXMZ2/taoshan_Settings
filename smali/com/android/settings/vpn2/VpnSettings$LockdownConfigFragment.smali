@@ -150,7 +150,7 @@
     .line 488
     iget-object v3, p0, Lcom/android/settings/vpn2/VpnSettings$LockdownConfigFragment;->mTitles:Ljava/util/List;
 
-    const v4, 0x7f080b50
+    const v4, 0x7f0c0b4b
 
     invoke-virtual {p2, v4}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -297,12 +297,12 @@
 
     .line 509
     .local v2, dialogInflater:Landroid/view/LayoutInflater;
-    const v6, 0x7f080b4e
+    const v6, 0x7f0c0b49
 
     invoke-virtual {v0, v6}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
     .line 511
-    const v6, 0x7f0400e8
+    const v6, 0x7f0400e9
 
     const/4 v7, 0x0
 

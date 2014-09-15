@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="show_dev_countdown_cm">
-        <item quantity="other">أنت الآن في %1$d خطوات بعيداً عن تمكين خيارات المطور.</item>
-        <item quantity="zero">أنت الآن %1$d بخطوة بعيد عن تمكين خيارات المطور.</item>
-        <item quantity="one">أنت الآن في %1$d خطوات بعيداً عن تمكين خيارات المطور.</item>
-        <item quantity="two">أنت الآن في %1$d خطوات بعيداً عن تمكين خيارات المطور.</item>
-        <item quantity="few">أنت الآن في %1$d خطوات بعيداً عن تمكين خيارات المطور.</item>
-        <item quantity="many">أنت الآن في %1$d خطوات بعيداً عن تمكين خيارات المطور.</item>
-    </plurals>
     <plurals name="show_dev_countdown">
         <item quantity="other">لا يفصلك الآن عن الوصول إلى مرحلة مطوري البرامج سوى %1$d من الخطوات.</item>
         <item quantity="one">لا يفصلك الآن عن الوصول إلى مرحلة مطوري البرامج سوى %1$d من الخطوات.</item>

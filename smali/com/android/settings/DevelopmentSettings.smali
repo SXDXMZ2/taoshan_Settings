@@ -1239,7 +1239,7 @@
     :cond_2
     iget-object v0, p0, Lcom/android/settings/DevelopmentSettings;->mAdbOverNetwork:Landroid/preference/CheckBoxPreference;
 
-    const v1, 0x7f080296
+    const v1, 0x7f0c0292
 
     invoke-virtual {v0, v1}, Landroid/preference/CheckBoxPreference;->setSummary(I)V
 
@@ -2175,7 +2175,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f080ac1
+    const v5, 0x7f0c0abc
 
     new-array v6, v1, [Ljava/lang/Object;
 
@@ -2231,7 +2231,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f080ac0
+    const v3, 0x7f0c0abb
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2474,7 +2474,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0c0048
+    const v2, 0x7f0b0048
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -2485,7 +2485,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0c0049
+    const v2, 0x7f0b0049
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -2843,7 +2843,7 @@
     .line 813
     iget-object v0, p0, Lcom/android/settings/DevelopmentSettings;->mPassword:Landroid/preference/PreferenceScreen;
 
-    const v1, 0x7f080a59
+    const v1, 0x7f0c0a54
 
     invoke-virtual {v0, v1}, Landroid/preference/PreferenceScreen;->setSummary(I)V
 
@@ -2855,7 +2855,7 @@
     :cond_0
     iget-object v0, p0, Lcom/android/settings/DevelopmentSettings;->mPassword:Landroid/preference/PreferenceScreen;
 
-    const v1, 0x7f080a58
+    const v1, 0x7f0c0a53
 
     invoke-virtual {v0, v1}, Landroid/preference/PreferenceScreen;->setSummary(I)V
     :try_end_0
@@ -2929,7 +2929,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0c0095
+    const v3, 0x7f0b0095
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -2979,7 +2979,7 @@
 
     move-result-object v1
 
-    const v4, 0x7f0c0045
+    const v4, 0x7f0b0045
 
     invoke-virtual {v1, v4}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -2990,7 +2990,7 @@
 
     move-result-object v1
 
-    const v5, 0x7f0c0046
+    const v5, 0x7f0b0046
 
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -3511,9 +3511,9 @@
 
 .method private writeAnimationScaleOption(ILcom/android/settings/AnimationScalePreference;Ljava/lang/Object;)V
     .locals 2
-    .parameter "which"
-    .parameter "pref"
-    .parameter "newValue"
+    .parameter
+    .parameter
+    .parameter
 
     .prologue
     .line 1238
@@ -3522,14 +3522,13 @@
     :try_start_0
     invoke-virtual {p3}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
-    move-result-object v1
+    move-result-object v0
 
-    invoke-static {v1}, Ljava/lang/Float;->parseFloat(Ljava/lang/String;)F
+    invoke-static {v0}, Ljava/lang/Float;->parseFloat(Ljava/lang/String;)F
 
     move-result v0
 
     .line 1239
-    .local v0, scale:F
     :goto_0
     iget-object v1, p0, Lcom/android/settings/DevelopmentSettings;->mWindowManager:Landroid/view/IWindowManager;
 
@@ -3541,19 +3540,18 @@
     .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
 
     .line 1243
-    .end local v0           #scale:F
     :goto_1
     return-void
 
     .line 1238
     :cond_0
-    const/high16 v0, 0x3f80
+    const/high16 v0, 0x3f40
 
     goto :goto_0
 
     .line 1241
     :catch_0
-    move-exception v1
+    move-exception v0
 
     goto :goto_1
 .end method
@@ -4811,7 +4809,7 @@
 
     move-result-object v1
 
-    const v4, 0x7f0c0045
+    const v4, 0x7f0b0045
 
     invoke-virtual {v1, v4}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -4822,7 +4820,7 @@
 
     move-result-object v1
 
-    const v5, 0x7f0c0046
+    const v5, 0x7f0b0046
 
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -5082,7 +5080,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f08091b
+    const v2, 0x7f0c0916
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -5092,7 +5090,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f08091a
+    const v1, 0x7f0c0915
 
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -6338,7 +6336,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f080912
+    const v7, 0x7f0c090d
 
     new-array v8, v8, [Ljava/lang/Object;
 
@@ -6405,7 +6403,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f08036f
+    const v7, 0x7f0c036a
 
     new-array v8, v8, [Ljava/lang/Object;
 
@@ -6428,7 +6426,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f08036e
+    const v2, 0x7f0c0369
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -6663,7 +6661,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0801f2
+    const v3, 0x7f0c01ee
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -6673,7 +6671,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0801f1
+    const v2, 0x7f0c01ed
 
     invoke-virtual {v0, v2}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -6824,7 +6822,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f080918
+    const v3, 0x7f0c0913
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -6834,7 +6832,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f080917
+    const v2, 0x7f0c0912
 
     invoke-virtual {v0, v2}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -6952,7 +6950,7 @@
 
     invoke-direct {v0, v2}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v2, 0x7f080919
+    const v2, 0x7f0c0914
 
     invoke-virtual {v0, v2}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
@@ -7088,7 +7086,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f080297
+    const v3, 0x7f0c0293
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -7098,7 +7096,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f080295
+    const v2, 0x7f0c0291
 
     invoke-virtual {v0, v2}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -7607,7 +7605,7 @@
     if-eqz v1, :cond_0
 
     .line 509
-    const v2, 0x7f080906
+    const v2, 0x7f0c0901
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 

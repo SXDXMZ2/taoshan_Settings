@@ -33,7 +33,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0c008e
+    const v2, 0x7f0b008e
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -203,7 +203,7 @@
 
     if-eqz v0, :cond_1
 
-    const v1, 0x7f080182
+    const v1, 0x7f0c017e
 
     :goto_1
     invoke-virtual {v2, v1}, Landroid/preference/Preference;->setSummary(I)V
@@ -221,7 +221,7 @@
     .line 62
     .restart local v0       #headsUpEnabled:Z
     :cond_1
-    const v1, 0x7f080183
+    const v1, 0x7f0c017f
 
     goto :goto_1
 .end method

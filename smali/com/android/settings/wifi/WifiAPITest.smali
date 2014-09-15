@@ -68,7 +68,7 @@
 
     .prologue
     .line 72
-    const v1, 0x7f0400ec
+    const v1, 0x7f0400ed
 
     invoke-virtual {p0, v1}, Lcom/android/settings/wifi/WifiAPITest;->addPreferencesFromResource(I)V
 

@@ -58,7 +58,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f0807d7
+    const v3, 0x7f0c07d2
 
     iget-object v5, p0, Lcom/android/settings/location/LocationSettings$2;->this$0:Lcom/android/settings/location/LocationSettings;
 

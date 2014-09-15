@@ -632,7 +632,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f08087e
+    const v1, 0x7f0c0879
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -646,7 +646,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f08087f
+    const v1, 0x7f0c087a
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -660,7 +660,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f080880
+    const v1, 0x7f0c087b
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -674,7 +674,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f080881
+    const v1, 0x7f0c087c
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -688,7 +688,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f080882
+    const v1, 0x7f0c087d
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -791,7 +791,7 @@
     .parameter "button"
 
     .prologue
-    const v3, 0x7f080841
+    const v3, 0x7f0c083c
 
     .line 345
     const/4 v0, 0x0
@@ -846,7 +846,7 @@
 
     .line 356
     :cond_2
-    const v1, 0x7f080842
+    const v1, 0x7f0c083d
 
     invoke-virtual {p1, v1}, Landroid/widget/Button;->setText(I)V
 
@@ -860,7 +860,7 @@
     .locals 4
 
     .prologue
-    const v3, 0x7f080843
+    const v3, 0x7f0c083e
 
     .line 255
     const/4 v0, 0x0
@@ -960,7 +960,7 @@
     .line 269
     iget-object v1, p0, Lcom/android/settings/applications/InstalledAppDetails;->mClearDataButton:Landroid/widget/Button;
 
-    const v2, 0x7f080855
+    const v2, 0x7f0c0850
 
     invoke-virtual {v1, v2}, Landroid/widget/Button;->setText(I)V
 
@@ -1032,7 +1032,7 @@
     .line 316
     iget-object v4, p0, Lcom/android/settings/applications/InstalledAppDetails;->mMoveAppButton:Landroid/widget/Button;
 
-    const v5, 0x7f08087a
+    const v5, 0x7f0c0875
 
     invoke-virtual {v4, v5}, Landroid/widget/Button;->setText(I)V
 
@@ -1072,7 +1072,7 @@
     .line 318
     iget-object v4, p0, Lcom/android/settings/applications/InstalledAppDetails;->mMoveAppButton:Landroid/widget/Button;
 
-    const v5, 0x7f08087b
+    const v5, 0x7f0c0876
 
     invoke-virtual {v4, v5}, Landroid/widget/Button;->setText(I)V
 
@@ -1085,7 +1085,7 @@
     :cond_3
     iget-object v4, p0, Lcom/android/settings/applications/InstalledAppDetails;->mMoveAppButton:Landroid/widget/Button;
 
-    const v5, 0x7f08087c
+    const v5, 0x7f0c0877
 
     invoke-virtual {v4, v5}, Landroid/widget/Button;->setText(I)V
 
@@ -1283,7 +1283,7 @@
     .locals 9
 
     .prologue
-    const v8, 0x7f08083e
+    const v8, 0x7f0c0839
 
     const/16 v7, 0x8
 
@@ -1319,7 +1319,7 @@
     .line 367
     iget-object v4, p0, Lcom/android/settings/applications/InstalledAppDetails;->mUninstallButton:Landroid/widget/Button;
 
-    const v8, 0x7f080844
+    const v8, 0x7f0c083f
 
     invoke-virtual {v4, v8}, Landroid/widget/Button;->setText(I)V
 
@@ -1693,7 +1693,7 @@
     :cond_1
     iget-object v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mClearDataButton:Landroid/widget/Button;
 
-    const v1, 0x7f080862
+    const v1, 0x7f0c085d
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setText(I)V
 
@@ -1789,7 +1789,7 @@
     .line 1101
     iget-object v2, p0, Lcom/android/settings/applications/InstalledAppDetails;->mClearDataButton:Landroid/widget/Button;
 
-    const v3, 0x7f080843
+    const v3, 0x7f0c083e
 
     invoke-virtual {v2, v3}, Landroid/widget/Button;->setText(I)V
 
@@ -1952,7 +1952,7 @@
     :cond_0
     iget-object v0, p0, Lcom/android/settings/applications/InstalledAppDetails;->mMoveAppButton:Landroid/widget/Button;
 
-    const v1, 0x7f08087d
+    const v1, 0x7f0c0878
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setText(I)V
 
@@ -2673,7 +2673,7 @@
 
     move-result-object v2
 
-    const v8, 0x7f0c0061
+    const v8, 0x7f0b0061
 
     const v9, 0x1090008
 
@@ -2817,7 +2817,7 @@
     if-eqz v7, :cond_f
 
     .line 808
-    const v8, 0x7f080831
+    const v8, 0x7f0c082c
 
     invoke-virtual {v0, v8}, Landroid/widget/TextView;->setText(I)V
 
@@ -2840,7 +2840,7 @@
     if-eqz v5, :cond_b
 
     .line 817
-    const v5, 0x7f080845
+    const v5, 0x7f0c0840
 
     invoke-virtual {p0, v5}, Lcom/android/settings/applications/InstalledAppDetails;->getText(I)Ljava/lang/CharSequence;
 
@@ -2887,7 +2887,7 @@
     if-eqz v7, :cond_d
 
     .line 826
-    const v5, 0x7f080846
+    const v5, 0x7f0c0841
 
     invoke-virtual {p0, v5}, Lcom/android/settings/applications/InstalledAppDetails;->getText(I)Ljava/lang/CharSequence;
 
@@ -2953,7 +2953,7 @@
 
     .line 810
     :cond_f
-    const v8, 0x7f080830
+    const v8, 0x7f0c082b
 
     invoke-virtual {v0, v8}, Landroid/widget/TextView;->setText(I)V
 
@@ -3099,7 +3099,7 @@
     check-cast v0, Landroid/widget/TextView;
 
     .line 939
-    const v2, 0x7f08086f
+    const v2, 0x7f0c086a
 
     new-array v5, v11, [Ljava/lang/Object;
 
@@ -3180,7 +3180,7 @@
     if-ne v6, v11, :cond_1a
 
     .line 926
-    const v0, 0x7f080870
+    const v0, 0x7f0c086b
 
     new-array v1, v11, [Ljava/lang/Object;
 
@@ -3231,7 +3231,7 @@
     .line 931
     if-nez v1, :cond_1b
 
-    const v0, 0x7f080872
+    const v0, 0x7f0c086d
 
     :goto_f
     new-array v8, v11, [Ljava/lang/Object;
@@ -3257,13 +3257,13 @@
 
     .line 931
     :cond_1b
-    const v0, 0x7f080873
+    const v0, 0x7f0c086e
 
     goto :goto_f
 
     .line 934
     :cond_1c
-    const v0, 0x7f080871
+    const v0, 0x7f0c086c
 
     new-array v1, v11, [Ljava/lang/Object;
 
@@ -3345,12 +3345,12 @@
 
     .prologue
     .line 1017
-    const v0, 0x7f080830
+    const v0, 0x7f0c082b
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(I)V
 
     .line 1018
-    const v0, 0x7f080847
+    const v0, 0x7f0c0842
 
     invoke-virtual {p2, v0}, Landroid/widget/TextView;->setText(I)V
 
@@ -3650,7 +3650,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f080879
+    const v6, 0x7f0c0874
 
     const/4 v7, 0x1
 
@@ -4726,7 +4726,7 @@
     const/4 v2, 0x0
 
     .line 537
-    const v0, 0x7f08083f
+    const v0, 0x7f0c083a
 
     invoke-interface {p1, v2, v3, v3, v0}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
@@ -4737,7 +4737,7 @@
     .line 539
     const/4 v0, 0x2
 
-    const v1, 0x7f08041b
+    const v1, 0x7f0c0416
 
     invoke-interface {p1, v2, v0, v2, v1}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
@@ -4770,9 +4770,9 @@
     .parameter "savedInstanceState"
 
     .prologue
-    const v8, 0x7f0d0231
+    const v8, 0x7f0d022f
 
-    const v7, 0x7f0d0230
+    const v7, 0x7f0d022e
 
     const/16 v6, 0x8
 
@@ -4797,7 +4797,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f080876
+    const v4, 0x7f0c0871
 
     invoke-virtual {v3, v4}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;
 
@@ -4910,7 +4910,7 @@
     .line 503
     iget-object v3, p0, Lcom/android/settings/applications/InstalledAppDetails;->mForceStopButton:Landroid/widget/Button;
 
-    const v4, 0x7f080838
+    const v4, 0x7f0c0833
 
     invoke-virtual {v3, v4}, Landroid/widget/Button;->setText(I)V
 

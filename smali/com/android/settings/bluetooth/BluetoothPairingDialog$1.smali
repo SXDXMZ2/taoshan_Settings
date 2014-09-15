@@ -53,7 +53,7 @@
 
     move-result v3
 
-    if-eqz v3, :cond_3
+    if-eqz v3, :cond_2
 
     .line 75
     const-string v3, "android.bluetooth.device.extra.BOND_STATE"
@@ -68,43 +68,33 @@
     .local v1, bondState:I
     const/16 v3, 0xc
 
-    if-ne v1, v3, :cond_0
+    if-eq v1, v3, :cond_0
 
-    iget-object v3, p0, Lcom/android/settings/bluetooth/BluetoothPairingDialog$1;->this$0:Lcom/android/settings/bluetooth/BluetoothPairingDialog;
-
-    #getter for: Lcom/android/settings/bluetooth/BluetoothPairingDialog;->mIsSecurityHigh:Z
-    invoke-static {v3}, Lcom/android/settings/bluetooth/BluetoothPairingDialog;->access$000(Lcom/android/settings/bluetooth/BluetoothPairingDialog;)Z
-
-    move-result v3
-
-    if-eqz v3, :cond_1
-
-    :cond_0
     const/16 v3, 0xa
 
-    if-ne v1, v3, :cond_2
+    if-ne v1, v3, :cond_1
 
     .line 79
-    :cond_1
+    :cond_0
     iget-object v3, p0, Lcom/android/settings/bluetooth/BluetoothPairingDialog$1;->this$0:Lcom/android/settings/bluetooth/BluetoothPairingDialog;
 
     invoke-virtual {v3}, Lcom/android/settings/bluetooth/BluetoothPairingDialog;->dismiss()V
 
     .line 87
     .end local v1           #bondState:I
-    :cond_2
+    :cond_1
     :goto_0
     return-void
 
     .line 81
-    :cond_3
+    :cond_2
     const-string v3, "android.bluetooth.device.action.PAIRING_CANCEL"
 
     invoke-virtual {v3, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v3
 
-    if-eqz v3, :cond_2
+    if-eqz v3, :cond_1
 
     .line 82
     const-string v3, "android.bluetooth.device.extra.DEVICE"
@@ -117,12 +107,12 @@
 
     .line 83
     .local v2, device:Landroid/bluetooth/BluetoothDevice;
-    if-eqz v2, :cond_4
+    if-eqz v2, :cond_3
 
     iget-object v3, p0, Lcom/android/settings/bluetooth/BluetoothPairingDialog$1;->this$0:Lcom/android/settings/bluetooth/BluetoothPairingDialog;
 
     #getter for: Lcom/android/settings/bluetooth/BluetoothPairingDialog;->mDevice:Landroid/bluetooth/BluetoothDevice;
-    invoke-static {v3}, Lcom/android/settings/bluetooth/BluetoothPairingDialog;->access$100(Lcom/android/settings/bluetooth/BluetoothPairingDialog;)Landroid/bluetooth/BluetoothDevice;
+    invoke-static {v3}, Lcom/android/settings/bluetooth/BluetoothPairingDialog;->access$000(Lcom/android/settings/bluetooth/BluetoothPairingDialog;)Landroid/bluetooth/BluetoothDevice;
 
     move-result-object v3
 
@@ -130,10 +120,10 @@
 
     move-result v3
 
-    if-eqz v3, :cond_2
+    if-eqz v3, :cond_1
 
     .line 84
-    :cond_4
+    :cond_3
     iget-object v3, p0, Lcom/android/settings/bluetooth/BluetoothPairingDialog$1;->this$0:Lcom/android/settings/bluetooth/BluetoothPairingDialog;
 
     invoke-virtual {v3}, Lcom/android/settings/bluetooth/BluetoothPairingDialog;->dismiss()V

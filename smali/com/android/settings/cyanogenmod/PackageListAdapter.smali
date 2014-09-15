@@ -402,7 +402,7 @@
     :cond_1
     iget-object v3, p0, Lcom/android/settings/cyanogenmod/PackageListAdapter;->mInflater:Landroid/view/LayoutInflater;
 
-    const v6, 0x7f040099
+    const v6, 0x7f04009b
 
     invoke-virtual {v3, v6, v7, v5}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 

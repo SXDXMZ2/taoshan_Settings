@@ -163,7 +163,7 @@
 
     iget-object v4, p0, Lcom/android/settings/DreamSettings;->mContext:Landroid/content/Context;
 
-    const v5, 0x7f0806f9
+    const v5, 0x7f0c06f6
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -173,7 +173,7 @@
 
     iget-object v4, p0, Lcom/android/settings/DreamSettings;->mContext:Landroid/content/Context;
 
-    const v5, 0x7f0806f8
+    const v5, 0x7f0c06f5
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -183,7 +183,7 @@
 
     iget-object v4, p0, Lcom/android/settings/DreamSettings;->mContext:Landroid/content/Context;
 
-    const v5, 0x7f0806f7
+    const v5, 0x7f0c06f4
 
     invoke-virtual {v4, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -218,7 +218,7 @@
 
     invoke-direct {v2, v3}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v3, 0x7f0806fc
+    const v3, 0x7f0c06f9
 
     invoke-virtual {v2, v3}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -293,7 +293,7 @@
     if-nez v1, :cond_0
 
     .line 255
-    const v2, 0x7f0806fa
+    const v2, 0x7f0c06f7
 
     invoke-virtual {p0, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -433,7 +433,7 @@
 
     .prologue
     .line 72
-    const v0, 0x7f080bb3
+    const v0, 0x7f0c0bae
 
     return v0
 .end method
@@ -483,7 +483,7 @@
 
     .line 129
     .local v0, emptyView:Landroid/widget/TextView;
-    const v2, 0x7f0806fb
+    const v2, 0x7f0c06f8
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(I)V
 
@@ -710,7 +710,7 @@
 
     .line 143
     .local v4, isEnabled:Z
-    const v2, 0x7f0806fd
+    const v2, 0x7f0c06fa
 
     const/4 v3, 0x2
 
@@ -728,7 +728,7 @@
 
     .line 152
     .local v6, start:Landroid/view/MenuItem;
-    const v2, 0x7f0806fc
+    const v2, 0x7f0c06f9
 
     const/4 v3, 0x1
 

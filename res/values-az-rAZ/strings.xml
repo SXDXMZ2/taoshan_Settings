@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="allow">İcazə verin</string>
+    <string name="deny">Rədd edin</string>
     <string name="delete">Sil</string>
     <string name="battery_info_status_full">Tam</string>
     <string name="category_printers">Printerlər</string>
@@ -34,8 +36,6 @@
     <string name="yes">Bəli</string>
     <string name="no">Xeyr</string>
     <string name="create">Yarat</string>
-    <string name="allow">İcazə verin</string>
-    <string name="deny">Rədd edin</string>
     <string name="device_info_default">Naməlum</string>
     <string name="show_dev_on">Siz indi tərtibatçısınız!</string>
     <string name="show_dev_already">Ehtiyac yoxdur, Siz artı gəlişdiricisiniz.</string>
@@ -668,6 +668,8 @@ Telefon quraşdırması zəruri şəbəkə aktivliyi tələb edə bilər."</stri
     <string name="volume_notification_mute">Bildirişlərin səsini kəsin</string>
     <string name="volume_alarm_mute">Uyarıları susdurun</string>
     <string name="vibrate_when_ringing_title">Zəng çalanda vibrasiya olsun</string>
+    <string name="system_update_settings_list_item_title">Sistem güncəlləmələri</string>
+    <string name="system_update_settings_list_item_summary" />
     <string name="dock_settings">Dok</string>
     <string name="dock_settings_title">Dok parametrləri</string>
     <string name="dock_audio_settings_title">Audio</string>
@@ -730,8 +732,6 @@ Bəlkə PIN yanlışdır"</string>
     <string name="sim_enter_ok">OK</string>
     <string name="sim_enter_cancel">Ləğv et</string>
     <string name="device_info_settings">Telefon statusu</string>
-    <string name="system_update_settings_list_item_title">Sistem güncəlləmələri</string>
-    <string name="system_update_settings_list_item_summary" />
     <string name="firmware_version">Android versiyası</string>
     <string name="model_number">Model nömrəsi</string>
     <string name="fcc_equipment_id">Avadanlıq ID</string>

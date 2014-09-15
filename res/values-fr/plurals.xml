@@ -8,10 +8,6 @@
         <item quantity="other">%d fois</item>
         <item quantity="one">une fois</item>
     </plurals>
-    <plurals name="show_dev_countdown_cm">
-        <item quantity="other">"Vous êtes maintenant à %1$d étapes de l'activation des options de développeur."</item>
-        <item quantity="one">"Vous êtes maintenant à %1$d étape de l'activation des options de développeur."</item>
-    </plurals>
     <plurals name="show_dev_countdown">
         <item quantity="other">Plus que %1$d étapes pour devenir un développeur.</item>
         <item quantity="one">Plus que %1$d étape pour devenir un développeur.</item>

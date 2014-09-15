@@ -231,7 +231,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f080a90
+    const v3, 0x7f0c0a8b
 
     invoke-virtual {p1}, Lcom/android/settings/AccountPreference;->getAccount()Landroid/accounts/Account;
 
@@ -308,7 +308,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f08054c
+    const v5, 0x7f0c0547
 
     invoke-direct {v3, p0, v4, v5}, Lcom/android/settings/accounts/ManageAccountsSettings$FragmentStarter;-><init>(Lcom/android/settings/accounts/ManageAccountsSettings;Ljava/lang/String;I)V
 
@@ -841,7 +841,7 @@
     .line 157
     const/4 v2, 0x1
 
-    const v3, 0x7f080a9f
+    const v3, 0x7f0c0a9a
 
     invoke-virtual {p0, v3}, Lcom/android/settings/accounts/ManageAccountsSettings;->getString(I)Ljava/lang/String;
 
@@ -861,7 +861,7 @@
     .local v1, syncNow:Landroid/view/MenuItem;
     const/4 v2, 0x2
 
-    const v3, 0x7f080aa0
+    const v3, 0x7f0c0a9b
 
     invoke-virtual {p0, v3}, Lcom/android/settings/accounts/ManageAccountsSettings;->getString(I)Ljava/lang/String;
 
@@ -895,7 +895,7 @@
     const/4 v3, 0x0
 
     .line 102
-    const v2, 0x7f040067
+    const v2, 0x7f040069
 
     invoke-virtual {p1, v2, p2, v3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -1713,7 +1713,7 @@
 
     move-result-object v29
 
-    const v30, 0x7f080a9b
+    const v30, 0x7f0c0a96
 
     const/16 v31, 0x1
 

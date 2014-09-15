@@ -280,7 +280,7 @@
     .parameter "exclList"
 
     .prologue
-    const v9, 0x7f0804db
+    const v9, 0x7f0c04d6
 
     .line 206
     sget-object v10, Lcom/android/settings/ProxySelector;->HOSTNAME_PATTERN:Ljava/util/regex/Pattern;
@@ -305,7 +305,7 @@
 
     if-nez v10, :cond_1
 
-    const v9, 0x7f0804d7
+    const v9, 0x7f0c04d2
 
     .line 234
     :cond_0
@@ -344,7 +344,7 @@
 
     if-nez v10, :cond_2
 
-    const v9, 0x7f0804d8
+    const v9, 0x7f0c04d3
 
     goto :goto_0
 
@@ -371,7 +371,7 @@
     if-nez v10, :cond_4
 
     .line 217
-    const v9, 0x7f0804d9
+    const v9, 0x7f0c04d4
 
     goto :goto_0
 
@@ -391,7 +391,7 @@
     if-nez v10, :cond_5
 
     .line 222
-    const v9, 0x7f0804da
+    const v9, 0x7f0c04d5
 
     goto :goto_0
 
@@ -601,13 +601,13 @@
 
     invoke-direct {v5, v6}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v6, 0x7f0804d5
+    const v6, 0x7f0c04d0
 
     invoke-virtual {v5, v6}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
     move-result-object v5
 
-    const v6, 0x7f0804d6
+    const v6, 0x7f0c04d1
 
     invoke-virtual {v5, v6, v4}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
@@ -638,7 +638,7 @@
 
     .prologue
     .line 90
-    const v0, 0x7f0400b7
+    const v0, 0x7f0400b9
 
     const/4 v1, 0x0
 

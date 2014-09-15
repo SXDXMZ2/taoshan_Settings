@@ -195,13 +195,13 @@
 
     move-result-object v0
 
-    const v1, 0x7f0803f8
+    const v1, 0x7f0c03f3
 
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
     move-result-object v0
 
-    const v1, 0x7f0803f9
+    const v1, 0x7f0c03f4
 
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
@@ -314,7 +314,7 @@
     invoke-virtual {p2, v0, p1}, Landroid/view/MenuInflater;->inflate(ILandroid/view/Menu;)V
 
     .line 168
-    const v0, 0x7f0d02eb
+    const v0, 0x7f0d02e9
 
     invoke-interface {p1, v0}, Landroid/view/Menu;->findItem(I)Landroid/view/MenuItem;
 
@@ -327,7 +327,7 @@
     invoke-interface {v0, v1}, Landroid/view/MenuItem;->setChecked(Z)Landroid/view/MenuItem;
 
     .line 169
-    const v0, 0x7f0d02ec
+    const v0, 0x7f0d02ea
 
     invoke-interface {p1, v0}, Landroid/view/Menu;->findItem(I)Landroid/view/MenuItem;
 
@@ -376,7 +376,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0c00af
+    const v3, 0x7f0b00af
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getTextArray(I)[Ljava/lang/CharSequence;
 
@@ -579,7 +579,7 @@
 
     .line 201
     :pswitch_data_0
-    .packed-switch 0x7f0d02eb
+    .packed-switch 0x7f0d02e9
         :pswitch_0
         :pswitch_1
         :pswitch_2

@@ -8,10 +8,6 @@
         <item quantity="other">%d alkalommal</item>
         <item quantity="one">egyszer</item>
     </plurals>
-    <plurals name="show_dev_countdown_cm">
-        <item quantity="other">%1$d lépésre van attól, hogy engedélyezze a fejlesztői beállításokat.</item>
-        <item quantity="one">%1$d lépésre van attól, hogy engedélyezze a fejlesztői beállításokat.</item>
-    </plurals>
     <plurals name="show_dev_countdown">
         <item quantity="other">%1$d lépésre van attól, hogy fejlesztő legyen.</item>
         <item quantity="one">%1$d lépésre van attól, hogy fejlesztő legyen.</item>

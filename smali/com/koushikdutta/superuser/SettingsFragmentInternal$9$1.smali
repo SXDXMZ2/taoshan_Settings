@@ -65,7 +65,7 @@
 
     iget-object v1, v1, Lcom/koushikdutta/superuser/SettingsFragmentInternal$9;->this$0:Lcom/koushikdutta/superuser/SettingsFragmentInternal;
 
-    const v2, 0x7f08001b
+    const v2, 0x7f0c001b
 
     const/4 v3, 0x1
 

@@ -3,7 +3,7 @@
   xmlns:android="http://schemas.android.com/apk/res/android">
     <Space android:layout_width="1.0dip" android:layout_height="0.0dip" android:layout_weight="0.5" />
     <TextView android:textSize="18.0sp" android:textColor="@*android:color/white" android:layout_gravity="center_horizontal" android:id="@id/pattern_lock_header" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/lockpattern_recording_intro_header" android:layout_weight="1.0" />
-    <View android:background="@*android:drawable/code_lock_top" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+    <View android:background="@*android:drawable/cm_platlogo" android:layout_width="fill_parent" android:layout_height="2.0dip" />
     <Space android:layout_width="1.0dip" android:layout_height="0.0dip" android:layout_weight="0.5" />
     <com.android.internal.widget.LockPatternView android:layout_gravity="center" android:id="@id/lock_pattern_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="4.0" />
     <com.android.settings.cyanogenmod.ProtectedAccountView android:layout_gravity="center" android:id="@id/lock_account_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="4.0">

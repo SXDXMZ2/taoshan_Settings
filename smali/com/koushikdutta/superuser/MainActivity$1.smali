@@ -57,7 +57,7 @@
 
     iget-object v2, p0, Lcom/koushikdutta/superuser/MainActivity$1;->this$0:Lcom/koushikdutta/superuser/MainActivity;
 
-    const v3, 0x7f080040
+    const v3, 0x7f0c0040
 
     invoke-virtual {v2, v3}, Lcom/koushikdutta/superuser/MainActivity;->getString(I)Ljava/lang/String;
 

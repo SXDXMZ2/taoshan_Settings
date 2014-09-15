@@ -6,9 +6,6 @@
     <plurals name="app_ops_count">
         <item quantity="other">%d回</item>
     </plurals>
-    <plurals name="show_dev_countdown_cm">
-        <item quantity="other">開発者向けオプションが有効になるまであと%1$dステップです。</item>
-    </plurals>
     <plurals name="show_dev_countdown">
         <item quantity="other">デベロッパーになるまであと%1$dステップです。</item>
         <item quantity="one">デベロッパーになるまであと%1$dステップです。</item>

@@ -479,11 +479,6 @@
         <item>15mp | 1p | 5p</item>
         <item>30mp | 2p | 5p</item>
     </string-array>
-    <string-array name="data_usage_cycle_length">
-        <item>Napi</item>
-        <item>Heti</item>
-        <item>Havi</item>
-    </string-array>
     <string-array name="data_usage_cycle_weekdays">
         <item>Vasárnap</item>
         <item>Hétfő</item>
@@ -497,11 +492,5 @@
         <item>Engedélyezett</item>
         <item>Tiltott</item>
         <item>Mindig rákérdez</item>
-    </string-array>
-    <string-array name="qs_quick_access_size_entries">
-        <item>Automatikus</item>
-        <item>Automatikus (keskeny)</item>
-        <item>Nagy</item>
-        <item>Keskeny</item>
     </string-array>
 </resources>

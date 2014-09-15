@@ -122,7 +122,7 @@
 
     .line 204
     .local v2, capabilitiesHeaderView:Landroid/widget/TextView;
-    const v13, 0x7f080967
+    const v13, 0x7f0c0962
 
     const/4 v14, 0x1
 
@@ -206,7 +206,7 @@
 
     .line 220
     .local v12, labelView:Landroid/widget/TextView;
-    const v13, 0x7f080968
+    const v13, 0x7f0c0963
 
     move-object/from16 v0, p0
 
@@ -227,7 +227,7 @@
 
     .line 224
     .local v8, descriptionView:Landroid/widget/TextView;
-    const v13, 0x7f080969
+    const v13, 0x7f0c0964
 
     move-object/from16 v0, p0
 
@@ -620,7 +620,7 @@
 
     invoke-direct {v1, v2}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v2, 0x7f080966
+    const v2, 0x7f0c0961
 
     new-array v3, v6, [Ljava/lang/Object;
 
@@ -707,7 +707,7 @@
 
     invoke-direct {v1, v2}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v2, 0x7f08096a
+    const v2, 0x7f0c0965
 
     new-array v3, v6, [Ljava/lang/Object;
 
@@ -737,7 +737,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f08096b
+    const v2, 0x7f0c0966
 
     new-array v3, v6, [Ljava/lang/Object;
 

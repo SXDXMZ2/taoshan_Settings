@@ -85,7 +85,7 @@
 
     .line 2103
     .local v0, builder:Landroid/app/AlertDialog$Builder;
-    const v2, 0x7f080528
+    const v2, 0x7f0c0523
 
     invoke-virtual {v0, v2}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -97,7 +97,7 @@
     if-eqz v2, :cond_0
 
     .line 2105
-    const v2, 0x7f080527
+    const v2, 0x7f0c0522
 
     invoke-virtual {v0, v2}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
@@ -127,7 +127,7 @@
 
     .line 2107
     :cond_0
-    const v2, 0x7f080526
+    const v2, 0x7f0c0521
 
     invoke-virtual {v0, v2}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 

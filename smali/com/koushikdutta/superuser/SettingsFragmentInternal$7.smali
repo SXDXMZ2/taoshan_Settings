@@ -62,7 +62,7 @@
 
     .line 281
     .local v0, builder:Landroid/app/AlertDialog$Builder;
-    const v2, 0x7f080030
+    const v2, 0x7f0c0030
 
     invoke-virtual {v0, v2}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -75,7 +75,7 @@
 
     iget-object v3, p0, Lcom/koushikdutta/superuser/SettingsFragmentInternal$7;->this$0:Lcom/koushikdutta/superuser/SettingsFragmentInternal;
 
-    const v4, 0x7f080031
+    const v4, 0x7f0c0031
 
     invoke-virtual {v3, v4}, Lcom/koushikdutta/superuser/SettingsFragmentInternal;->getString(I)Ljava/lang/String;
 
@@ -87,7 +87,7 @@
 
     iget-object v3, p0, Lcom/koushikdutta/superuser/SettingsFragmentInternal$7;->this$0:Lcom/koushikdutta/superuser/SettingsFragmentInternal;
 
-    const v4, 0x7f080003
+    const v4, 0x7f0c0003
 
     invoke-virtual {v3, v4}, Lcom/koushikdutta/superuser/SettingsFragmentInternal;->getString(I)Ljava/lang/String;
 
@@ -99,7 +99,7 @@
 
     iget-object v3, p0, Lcom/koushikdutta/superuser/SettingsFragmentInternal$7;->this$0:Lcom/koushikdutta/superuser/SettingsFragmentInternal;
 
-    const v4, 0x7f080001
+    const v4, 0x7f0c0001
 
     invoke-virtual {v3, v4}, Lcom/koushikdutta/superuser/SettingsFragmentInternal;->getString(I)Ljava/lang/String;
 
@@ -149,7 +149,7 @@
 
     .line 262
     :pswitch_0
-    const v0, 0x7f080032
+    const v0, 0x7f0c0032
 
     invoke-virtual {p0, v0}, Lcom/koushikdutta/superuser/SettingsFragmentInternal$7;->setSummary(I)Lcom/koushikdutta/widgets/ListItem;
 
@@ -157,7 +157,7 @@
 
     .line 265
     :pswitch_1
-    const v0, 0x7f080033
+    const v0, 0x7f0c0033
 
     invoke-virtual {p0, v0}, Lcom/koushikdutta/superuser/SettingsFragmentInternal$7;->setSummary(I)Lcom/koushikdutta/widgets/ListItem;
 
@@ -165,7 +165,7 @@
 
     .line 268
     :pswitch_2
-    const v0, 0x7f080034
+    const v0, 0x7f0c0034
 
     invoke-virtual {p0, v0}, Lcom/koushikdutta/superuser/SettingsFragmentInternal$7;->setSummary(I)Lcom/koushikdutta/widgets/ListItem;
 

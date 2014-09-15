@@ -133,7 +133,7 @@
 
     .line 113
     .local v1, dialog:Landroid/app/Dialog;
-    const v6, 0x7f0802c8
+    const v6, 0x7f0c02c3
 
     invoke-virtual {v1, v6}, Landroid/app/Dialog;->setTitle(I)V
 
@@ -388,7 +388,7 @@
 
     iget-object v5, p0, Lcom/android/settings/cyanogenmod/IconPicker;->mResources:Landroid/content/res/Resources;
 
-    const v6, 0x7f08012b
+    const v6, 0x7f0c012b
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -402,7 +402,7 @@
     .line 81
     iget-object v3, p0, Lcom/android/settings/cyanogenmod/IconPicker;->mResources:Landroid/content/res/Resources;
 
-    const v5, 0x7f08012d
+    const v5, 0x7f0c012d
 
     invoke-virtual {v3, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -418,7 +418,7 @@
 
     invoke-direct {v3, v4}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v4, 0x7f08012a
+    const v4, 0x7f0c012a
 
     invoke-virtual {v3, v4}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 

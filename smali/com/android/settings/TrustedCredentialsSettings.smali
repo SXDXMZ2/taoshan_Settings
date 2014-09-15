@@ -292,7 +292,7 @@
 
     .line 365
     .local v1, builder:Landroid/app/AlertDialog$Builder;
-    const v6, 0x10405e9
+    const v6, 0x10405e8
 
     invoke-virtual {v1, v6}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -335,7 +335,7 @@
 
     .line 376
     .local v3, inflater:Landroid/view/LayoutInflater;
-    const v6, 0x7f0400d9
+    const v6, 0x7f0400da
 
     const/4 v7, 0x0
 
@@ -452,7 +452,7 @@
 
     .prologue
     .line 168
-    const v0, 0x7f0400da
+    const v0, 0x7f0400db
 
     const/4 v1, 0x0
 

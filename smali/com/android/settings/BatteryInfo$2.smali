@@ -169,7 +169,7 @@
 
     iget-object v6, p0, Lcom/android/settings/BatteryInfo$2;->this$0:Lcom/android/settings/BatteryInfo;
 
-    const v7, 0x7f08046e
+    const v7, 0x7f0c0469
 
     invoke-virtual {v6, v7}, Lcom/android/settings/BatteryInfo;->getString(I)Ljava/lang/String;
 
@@ -222,7 +222,7 @@
 
     iget-object v6, p0, Lcom/android/settings/BatteryInfo$2;->this$0:Lcom/android/settings/BatteryInfo;
 
-    const v7, 0x7f080470
+    const v7, 0x7f0c046b
 
     invoke-virtual {v6, v7}, Lcom/android/settings/BatteryInfo;->getString(I)Ljava/lang/String;
 
@@ -305,7 +305,7 @@
 
     iget-object v5, p0, Lcom/android/settings/BatteryInfo$2;->this$0:Lcom/android/settings/BatteryInfo;
 
-    const v6, 0x7f080481
+    const v6, 0x7f0c047c
 
     invoke-virtual {v5, v6}, Lcom/android/settings/BatteryInfo;->getString(I)Ljava/lang/String;
 
@@ -332,7 +332,7 @@
     .line 121
     iget-object v4, p0, Lcom/android/settings/BatteryInfo$2;->this$0:Lcom/android/settings/BatteryInfo;
 
-    const v5, 0x7f080483
+    const v5, 0x7f0c047e
 
     invoke-virtual {v4, v5}, Lcom/android/settings/BatteryInfo;->getString(I)Ljava/lang/String;
 
@@ -369,7 +369,7 @@
 
     iget-object v5, p0, Lcom/android/settings/BatteryInfo$2;->this$0:Lcom/android/settings/BatteryInfo;
 
-    const v6, 0x7f08047c
+    const v6, 0x7f0c0477
 
     invoke-virtual {v5, v6}, Lcom/android/settings/BatteryInfo;->getString(I)Ljava/lang/String;
 
@@ -390,7 +390,7 @@
 
     iget-object v5, p0, Lcom/android/settings/BatteryInfo$2;->this$0:Lcom/android/settings/BatteryInfo;
 
-    const v6, 0x7f08047d
+    const v6, 0x7f0c0478
 
     invoke-virtual {v5, v6}, Lcom/android/settings/BatteryInfo;->getString(I)Ljava/lang/String;
 
@@ -411,7 +411,7 @@
 
     iget-object v5, p0, Lcom/android/settings/BatteryInfo$2;->this$0:Lcom/android/settings/BatteryInfo;
 
-    const v6, 0x7f08047e
+    const v6, 0x7f0c0479
 
     invoke-virtual {v5, v6}, Lcom/android/settings/BatteryInfo;->getString(I)Ljava/lang/String;
 
@@ -432,7 +432,7 @@
 
     iget-object v5, p0, Lcom/android/settings/BatteryInfo$2;->this$0:Lcom/android/settings/BatteryInfo;
 
-    const v6, 0x7f08047f
+    const v6, 0x7f0c047a
 
     invoke-virtual {v5, v6}, Lcom/android/settings/BatteryInfo;->getString(I)Ljava/lang/String;
 
@@ -453,7 +453,7 @@
 
     iget-object v5, p0, Lcom/android/settings/BatteryInfo$2;->this$0:Lcom/android/settings/BatteryInfo;
 
-    const v6, 0x7f080480
+    const v6, 0x7f0c047b
 
     invoke-virtual {v5, v6}, Lcom/android/settings/BatteryInfo;->getString(I)Ljava/lang/String;
 
@@ -473,7 +473,7 @@
     .line 123
     iget-object v4, p0, Lcom/android/settings/BatteryInfo$2;->this$0:Lcom/android/settings/BatteryInfo;
 
-    const v5, 0x7f080484
+    const v5, 0x7f0c047f
 
     invoke-virtual {v4, v5}, Lcom/android/settings/BatteryInfo;->getString(I)Ljava/lang/String;
 
@@ -492,7 +492,7 @@
     .line 125
     iget-object v4, p0, Lcom/android/settings/BatteryInfo$2;->this$0:Lcom/android/settings/BatteryInfo;
 
-    const v5, 0x7f080485
+    const v5, 0x7f0c0480
 
     invoke-virtual {v4, v5}, Lcom/android/settings/BatteryInfo;->getString(I)Ljava/lang/String;
 
@@ -511,7 +511,7 @@
     .line 127
     iget-object v4, p0, Lcom/android/settings/BatteryInfo$2;->this$0:Lcom/android/settings/BatteryInfo;
 
-    const v5, 0x7f080486
+    const v5, 0x7f0c0481
 
     invoke-virtual {v4, v5}, Lcom/android/settings/BatteryInfo;->getString(I)Ljava/lang/String;
 
@@ -530,7 +530,7 @@
     .line 129
     iget-object v4, p0, Lcom/android/settings/BatteryInfo$2;->this$0:Lcom/android/settings/BatteryInfo;
 
-    const v5, 0x7f080487
+    const v5, 0x7f0c0482
 
     invoke-virtual {v4, v5}, Lcom/android/settings/BatteryInfo;->getString(I)Ljava/lang/String;
 
@@ -549,7 +549,7 @@
     .line 131
     iget-object v4, p0, Lcom/android/settings/BatteryInfo$2;->this$0:Lcom/android/settings/BatteryInfo;
 
-    const v5, 0x7f080488
+    const v5, 0x7f0c0483
 
     invoke-virtual {v4, v5}, Lcom/android/settings/BatteryInfo;->getString(I)Ljava/lang/String;
 
@@ -563,7 +563,7 @@
     :cond_6
     iget-object v4, p0, Lcom/android/settings/BatteryInfo$2;->this$0:Lcom/android/settings/BatteryInfo;
 
-    const v5, 0x7f080482
+    const v5, 0x7f0c047d
 
     invoke-virtual {v4, v5}, Lcom/android/settings/BatteryInfo;->getString(I)Ljava/lang/String;
 

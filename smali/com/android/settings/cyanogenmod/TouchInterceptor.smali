@@ -852,7 +852,7 @@
     iput v11, p0, Lcom/android/settings/cyanogenmod/TouchInterceptor;->mCoordOffset:I
 
     .line 83
-    const v11, 0x7f0d029b
+    const v11, 0x7f0d0299
 
     invoke-virtual {v2, v11}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 

@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="allow">අවසර දෙන්න</string>
+    <string name="deny">ප්‍රතික්ෂේප කරන්න</string>
     <string name="delete">මකන්න</string>
     <string name="battery_info_status_full">පූර්ණ</string>
     <string name="category_printers">මුද්‍රණ යන්ත්‍ර</string>
@@ -34,8 +36,6 @@
     <string name="yes">ඔව්</string>
     <string name="no">නැත</string>
     <string name="create">නිර්මාණය කරන්න</string>
-    <string name="allow">අවසර දෙන්න</string>
-    <string name="deny">ප්‍රතික්ෂේප කරන්න</string>
     <string name="device_info_default">නොදනී</string>
     <string name="show_dev_on">ඔබ දැන් වර්ධකයෙකි</string>
     <string name="show_dev_already">අවශ්‍ය නැත, ඔබ දැනටමත් වර්ධකයෙකි.</string>
@@ -668,6 +668,8 @@
     <string name="volume_notification_mute">දැනුම්දීම් නිහඬ කරන්න</string>
     <string name="volume_alarm_mute">සීනු නිහඬ කිරීම</string>
     <string name="vibrate_when_ringing_title">රිගින් වන විට කම්පන වන්න</string>
+    <string name="system_update_settings_list_item_title">පද්ධති යාවත්කාලීන</string>
+    <string name="system_update_settings_list_item_summary" />
     <string name="dock_settings">තටය</string>
     <string name="dock_settings_title">තට සැකසීම්</string>
     <string name="dock_audio_settings_title">ශ්‍රව්‍ය</string>
@@ -730,8 +732,6 @@
     <string name="sim_enter_ok">හරි</string>
     <string name="sim_enter_cancel">අවලංගු කරන්න</string>
     <string name="device_info_settings">දුරකථනයේ තත්වය</string>
-    <string name="system_update_settings_list_item_title">පද්ධති යාවත්කාලීන</string>
-    <string name="system_update_settings_list_item_summary" />
     <string name="firmware_version">Android අනුවාදය</string>
     <string name="model_number">අනුකෘතිය අංකය</string>
     <string name="fcc_equipment_id">උපකරණ ID</string>

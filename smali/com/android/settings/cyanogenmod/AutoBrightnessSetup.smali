@@ -124,7 +124,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0c008c
+    const v5, 0x7f0b008c
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getIntArray(I)[I
 
@@ -205,7 +205,7 @@
     iput v4, v2, Lcom/android/internal/app/AlertController$AlertParams;->mIconId:I
 
     .line 53
-    const v4, 0x7f0801c5
+    const v4, 0x7f0c01c1
 
     invoke-virtual {p0, v4}, Lcom/android/settings/cyanogenmod/AutoBrightnessSetup;->getString(I)Ljava/lang/String;
 
@@ -229,7 +229,7 @@
     iput-object p0, v2, Lcom/android/internal/app/AlertController$AlertParams;->mPositiveButtonListener:Landroid/content/DialogInterface$OnClickListener;
 
     .line 57
-    const v4, 0x7f0801cc
+    const v4, 0x7f0c01c8
 
     invoke-virtual {p0, v4}, Lcom/android/settings/cyanogenmod/AutoBrightnessSetup;->getString(I)Ljava/lang/String;
 
@@ -278,7 +278,7 @@
     iput-object v4, p0, Lcom/android/settings/cyanogenmod/AutoBrightnessSetup;->mSensitivity:Landroid/widget/Spinner;
 
     .line 67
-    const v4, 0x7f0c008b
+    const v4, 0x7f0b008b
 
     const v5, 0x1090008
 
@@ -512,7 +512,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f0c008c
+    const v7, 0x7f0b008c
 
     invoke-virtual {v6, v7}, Landroid/content/res/Resources;->getIntArray(I)[I
 

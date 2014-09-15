@@ -77,7 +77,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f08059d
+    const v6, 0x7f0c0598
 
     new-array v7, v8, [Ljava/lang/Object;
 
@@ -93,7 +93,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f08059e
+    const v6, 0x7f0c0599
 
     new-array v7, v8, [Ljava/lang/Object;
 

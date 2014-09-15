@@ -115,9 +115,9 @@
 
     :array_0
     .array-data 0x4
-        0xdt 0x0t 0x8t 0x7ft
-        0xet 0x0t 0x8t 0x7ft
-        0xft 0x0t 0x8t 0x7ft
+        0xdt 0x0t 0xct 0x7ft
+        0xet 0x0t 0xct 0x7ft
+        0xft 0x0t 0xct 0x7ft
     .end array-data
 .end method
 
@@ -265,7 +265,7 @@
 
     .line 82
     .local v0, id:I
-    const v3, 0x7f08000e
+    const v3, 0x7f0c000e
 
     if-ne v0, v3, :cond_1
 
@@ -297,7 +297,7 @@
     .restart local v0       #id:I
     .restart local v1       #pos:I
     :cond_1
-    const v3, 0x7f08000f
+    const v3, 0x7f0c000f
 
     if-ne v0, v3, :cond_0
 
@@ -557,7 +557,7 @@
 
     .prologue
     .line 381
-    const v1, 0x7f090007
+    const v1, 0x7f080007
 
     invoke-static {p0, v1}, Lcom/koushikdutta/superuser/util/Settings;->applyDarkThemeSetting(Landroid/app/Activity;I)V
 
@@ -761,7 +761,7 @@
 
     .line 156
     .local v17, pkgs:[Ljava/lang/String;
-    const v21, 0x7f0d0232
+    const v21, 0x7f0d0230
 
     move-object/from16 v0, p0
 
@@ -775,7 +775,7 @@
 
     .line 157
     .local v20, unknown:Landroid/widget/TextView;
-    const v21, 0x7f080005
+    const v21, 0x7f0c0005
 
     const/16 v22, 0x1
 
@@ -964,7 +964,7 @@
 
     check-cast v21, Landroid/widget/TextView;
 
-    const v22, 0x7f080006
+    const v22, 0x7f0c0006
 
     const/16 v23, 0x1
 
@@ -1186,7 +1186,7 @@
     .end local v15           #pi:Landroid/content/pm/PackageInfo;
     .end local v16           #pkg:Ljava/lang/String;
     :cond_1
-    const v21, 0x7f0d0232
+    const v21, 0x7f0d0230
 
     move-object/from16 v0, p0
 
@@ -1403,7 +1403,7 @@
     const/4 v9, 0x0
 
     .line 454
-    const v5, 0x7f0400be
+    const v5, 0x7f0400c0
 
     invoke-virtual {p0, v5}, Lcom/koushikdutta/superuser/MultitaskSuRequestActivity;->setContentView(I)V
 
@@ -1423,7 +1423,7 @@
 
     new-instance v6, Landroid/widget/ArrayAdapter;
 
-    const v7, 0x7f0400c1
+    const v7, 0x7f0400c3
 
     const v8, 0x7f0d01f1
 
@@ -1499,7 +1499,7 @@
 
     .line 464
     .local v4, rememberFor:Landroid/widget/RadioButton;
-    const v5, 0x7f08000e
+    const v5, 0x7f0c000e
 
     new-array v6, v10, [Ljava/lang/Object;
 

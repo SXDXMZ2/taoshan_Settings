@@ -94,12 +94,12 @@
     invoke-virtual {p0, v2}, Lcom/android/settings/deviceinfo/MiscFilesHandler;->setFinishOnTouchOutside(Z)V
 
     .line 62
-    const v1, 0x7f080ab8
+    const v1, 0x7f0c0ab3
 
     invoke-virtual {p0, v1}, Lcom/android/settings/deviceinfo/MiscFilesHandler;->setTitle(I)V
 
     .line 63
-    const v1, 0x7f080ab9
+    const v1, 0x7f0c0ab4
 
     invoke-virtual {p0, v1}, Lcom/android/settings/deviceinfo/MiscFilesHandler;->getString(I)Ljava/lang/String;
 
@@ -108,7 +108,7 @@
     iput-object v1, p0, Lcom/android/settings/deviceinfo/MiscFilesHandler;->mNumSelectedFormat:Ljava/lang/String;
 
     .line 64
-    const v1, 0x7f080aba
+    const v1, 0x7f0c0ab5
 
     invoke-virtual {p0, v1}, Lcom/android/settings/deviceinfo/MiscFilesHandler;->getString(I)Ljava/lang/String;
 
@@ -135,7 +135,7 @@
     iput-object v1, p0, Lcom/android/settings/deviceinfo/MiscFilesHandler;->mInflater:Landroid/view/LayoutInflater;
 
     .line 67
-    const v1, 0x7f0400d0
+    const v1, 0x7f0400d2
 
     invoke-virtual {p0, v1}, Lcom/android/settings/deviceinfo/MiscFilesHandler;->setContentView(I)V
 

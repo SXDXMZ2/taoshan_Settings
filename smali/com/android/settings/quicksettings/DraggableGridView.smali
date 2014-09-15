@@ -2383,7 +2383,7 @@
 
     .line 273
     .local v1, resid:I
-    const v2, 0x7f0800c0
+    const v2, 0x7f0c00c0
 
     .line 274
     .local v2, stringid:I
@@ -2393,7 +2393,7 @@
     const v1, 0x7f020085
 
     .line 276
-    const v2, 0x7f08014b
+    const v2, 0x7f0c0149
 
     .line 278
     :cond_0

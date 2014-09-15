@@ -35,7 +35,7 @@
     .parameter
 
     .prologue
-    .line 391
+    .line 368
     iput-object p1, p0, Lcom/android/settings/applications/ProtectedAppsActivity$AppsAdapter$LoadIconsTask;->this$1:Lcom/android/settings/applications/ProtectedAppsActivity$AppsAdapter;
 
     invoke-direct {p0}, Landroid/os/AsyncTask;-><init>()V
@@ -49,7 +49,7 @@
     .parameter "x1"
 
     .prologue
-    .line 391
+    .line 368
     invoke-direct {p0, p1}, Lcom/android/settings/applications/ProtectedAppsActivity$AppsAdapter$LoadIconsTask;-><init>(Lcom/android/settings/applications/ProtectedAppsActivity$AppsAdapter;)V
 
     return-void
@@ -62,7 +62,7 @@
     .parameter "x0"
 
     .prologue
-    .line 391
+    .line 368
     check-cast p1, [Lcom/android/settings/applications/ProtectedAppsActivity$AppEntry;
 
     .end local p1
@@ -78,7 +78,7 @@
     .parameter "apps"
 
     .prologue
-    .line 394
+    .line 371
     move-object v1, p1
 
     .local v1, arr$:[Lcom/android/settings/applications/ProtectedAppsActivity$AppEntry;
@@ -93,7 +93,7 @@
 
     aget-object v0, v1, v2
 
-    .line 396
+    .line 373
     .local v0, app:Lcom/android/settings/applications/ProtectedAppsActivity$AppEntry;
     :try_start_0
     iget-object v6, v0, Lcom/android/settings/applications/ProtectedAppsActivity$AppEntry;->componentName:Landroid/content/ComponentName;
@@ -102,7 +102,7 @@
 
     move-result-object v5
 
-    .line 397
+    .line 374
     .local v5, packageName:Ljava/lang/String;
     iget-object v6, p0, Lcom/android/settings/applications/ProtectedAppsActivity$AppsAdapter$LoadIconsTask;->this$1:Lcom/android/settings/applications/ProtectedAppsActivity$AppsAdapter;
 
@@ -117,14 +117,14 @@
 
     if-eqz v6, :cond_0
 
-    .line 394
+    .line 371
     .end local v5           #packageName:Ljava/lang/String;
     :goto_1
     add-int/lit8 v2, v2, 0x1
 
     goto :goto_0
 
-    .line 400
+    .line 377
     .restart local v5       #packageName:Ljava/lang/String;
     :cond_0
     iget-object v6, p0, Lcom/android/settings/applications/ProtectedAppsActivity$AppsAdapter$LoadIconsTask;->this$1:Lcom/android/settings/applications/ProtectedAppsActivity$AppsAdapter;
@@ -140,7 +140,7 @@
 
     move-result-object v3
 
-    .line 401
+    .line 378
     .local v3, icon:Landroid/graphics/drawable/Drawable;
     iget-object v6, p0, Lcom/android/settings/applications/ProtectedAppsActivity$AppsAdapter$LoadIconsTask;->this$1:Lcom/android/settings/applications/ProtectedAppsActivity$AppsAdapter;
 
@@ -151,7 +151,7 @@
 
     invoke-virtual {v6, v5, v3}, Ljava/util/concurrent/ConcurrentHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 402
+    .line 379
     const/4 v6, 0x0
 
     new-array v6, v6, [Ljava/lang/Void;
@@ -162,7 +162,7 @@
 
     goto :goto_1
 
-    .line 403
+    .line 380
     .end local v3           #icon:Landroid/graphics/drawable/Drawable;
     .end local v5           #packageName:Ljava/lang/String;
     :catch_0
@@ -170,7 +170,7 @@
 
     goto :goto_1
 
-    .line 408
+    .line 385
     .end local v0           #app:Lcom/android/settings/applications/ProtectedAppsActivity$AppEntry;
     :cond_1
     const/4 v6, 0x0
@@ -183,7 +183,7 @@
     .parameter "x0"
 
     .prologue
-    .line 391
+    .line 368
     check-cast p1, [Ljava/lang/Void;
 
     .end local p1
@@ -197,11 +197,11 @@
     .parameter "progress"
 
     .prologue
-    .line 413
+    .line 390
     iget-object v0, p0, Lcom/android/settings/applications/ProtectedAppsActivity$AppsAdapter$LoadIconsTask;->this$1:Lcom/android/settings/applications/ProtectedAppsActivity$AppsAdapter;
 
     invoke-virtual {v0}, Lcom/android/settings/applications/ProtectedAppsActivity$AppsAdapter;->notifyDataSetChanged()V
 
-    .line 414
+    .line 391
     return-void
 .end method

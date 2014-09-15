@@ -130,7 +130,7 @@
     .line 82
     iget-object v1, p0, Lcom/android/settings/accessibility/ToggleFeaturePreferenceFragment;->mSummaryPreference:Landroid/preference/Preference;
 
-    const v2, 0x7f0400d6
+    const v2, 0x7f0400d7
 
     invoke-virtual {v1, v2}, Landroid/preference/Preference;->setLayoutResource(I)V
 

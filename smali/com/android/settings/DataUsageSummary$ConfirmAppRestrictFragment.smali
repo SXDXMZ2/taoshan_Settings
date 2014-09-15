@@ -85,12 +85,12 @@
 
     .line 2210
     .local v0, builder:Landroid/app/AlertDialog$Builder;
-    const v2, 0x7f080b12
+    const v2, 0x7f0c0b0d
 
     invoke-virtual {v0, v2}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
     .line 2211
-    const v2, 0x7f080b13
+    const v2, 0x7f0c0b0e
 
     invoke-virtual {v0, v2}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 

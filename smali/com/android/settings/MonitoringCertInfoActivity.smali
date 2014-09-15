@@ -98,7 +98,7 @@
 
     .line 48
     .local v0, builder:Landroid/app/AlertDialog$Builder;
-    const v5, 0x7f080b69
+    const v5, 0x7f0c0b64
 
     invoke-virtual {v0, v5}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -127,7 +127,7 @@
 
     move-result-object v5
 
-    const v8, 0x7f080b6a
+    const v8, 0x7f0c0b65
 
     new-array v6, v6, [Ljava/lang/Object;
 
@@ -146,7 +146,7 @@
     invoke-virtual {v0, v4}, Landroid/app/AlertDialog$Builder;->setMessage(Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;
 
     .line 57
-    const v1, 0x7f080b68
+    const v1, 0x7f0c0b63
 
     .line 65
     .end local v4           #message:Ljava/lang/String;
@@ -208,12 +208,12 @@
     invoke-virtual {v0, v5}, Landroid/app/AlertDialog$Builder;->setIcon(I)Landroid/app/AlertDialog$Builder;
 
     .line 61
-    const v5, 0x7f080b6b
+    const v5, 0x7f0c0b66
 
     invoke-virtual {v0, v5}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
     .line 62
-    const v1, 0x7f080b6c
+    const v1, 0x7f0c0b67
 
     .restart local v1       #buttonLabel:I
     goto :goto_1

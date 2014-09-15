@@ -128,7 +128,7 @@
 
     iget-object v1, v1, Lcom/koushikdutta/superuser/MultitaskSuRequestActivity$11;->this$0:Lcom/koushikdutta/superuser/MultitaskSuRequestActivity;
 
-    const v2, 0x7f080021
+    const v2, 0x7f0c0021
 
     invoke-virtual {v1, v2}, Lcom/koushikdutta/superuser/MultitaskSuRequestActivity;->getString(I)Ljava/lang/String;
 

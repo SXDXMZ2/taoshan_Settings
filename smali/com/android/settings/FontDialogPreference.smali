@@ -44,7 +44,7 @@
     invoke-direct {p0}, Lcom/android/settings/FontDialogPreference;->initDisplayMetrics()V
 
     .line 40
-    const v0, 0x7f040091
+    const v0, 0x7f040093
 
     invoke-virtual {p0, v0}, Lcom/android/settings/FontDialogPreference;->setDialogLayoutResource(I)V
 
@@ -64,7 +64,7 @@
 
     .prologue
     .line 111
-    const v5, 0x7f0c0008
+    const v5, 0x7f0b0008
 
     invoke-virtual {p0, v5}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -72,7 +72,7 @@
 
     .line 112
     .local v3, names:[Ljava/lang/String;
-    const v5, 0x7f0c0009
+    const v5, 0x7f0b0009
 
     invoke-virtual {p0, v5}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -353,7 +353,7 @@
 
     .line 48
     .local v1, inflater:Landroid/view/LayoutInflater;
-    const v4, 0x7f040091
+    const v4, 0x7f040093
 
     const/4 v5, 0x0
 

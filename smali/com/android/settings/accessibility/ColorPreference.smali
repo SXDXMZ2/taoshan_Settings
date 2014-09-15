@@ -85,7 +85,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f080965
+    const v6, 0x7f0c0960
 
     const/4 v7, 0x3
 
@@ -156,7 +156,7 @@
     if-ge v0, v6, :cond_1
 
     .line 119
-    const v6, 0x7f02013a
+    const v6, 0x7f02013b
 
     invoke-virtual {v4, v6}, Landroid/widget/ImageView;->setBackgroundResource(I)V
 
@@ -268,7 +268,7 @@
     if-ge v3, v4, :cond_1
 
     .line 89
-    const v3, 0x7f02013a
+    const v3, 0x7f02013b
 
     invoke-virtual {v1, v3}, Landroid/widget/ImageView;->setBackgroundResource(I)V
 

@@ -40,7 +40,7 @@
     if-nez p1, :cond_0
 
     .line 25
-    const v1, 0x7f04006a
+    const v1, 0x7f04006c
 
     const/4 v2, 0x0
 

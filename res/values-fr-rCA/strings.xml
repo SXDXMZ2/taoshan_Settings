@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="allow">Autoriser</string>
+    <string name="deny">Refusers</string>
     <string name="delete">Supprimer</string>
     <string name="battery_info_status_full">Pleine</string>
     <string name="yes">Oui</string>
     <string name="no">Non</string>
     <string name="create">Créer</string>
-    <string name="allow">Autoriser</string>
-    <string name="deny">Refusers</string>
     <string name="device_info_default">Inconnu</string>
     <string name="show_dev_on">Vous êtes désormais un développeur!</string>
     <string name="show_dev_already">Inuti, vous êtes déjà un développeur.</string>
@@ -647,6 +647,8 @@ La configuration du téléphone peut générer une forte activité sur le résea
     <string name="volume_notification_mute">Désactiver les notifications</string>
     <string name="volume_alarm_mute">Couper le son des alarmes</string>
     <string name="vibrate_when_ringing_title">Mode Vibreur lorsque le tél. sonne</string>
+    <string name="system_update_settings_list_item_title">Mises à jour du système</string>
+    <string name="system_update_settings_list_item_summary" />
     <string name="dock_settings">Dock</string>
     <string name="dock_settings_title">Paramètres station d’accueil</string>
     <string name="dock_audio_settings_title">Audio</string>
@@ -711,8 +713,6 @@ Le NIP est peut-être incorrect."</string>
     <string name="wrong_pin_code_pukked">NIP de carte SIM incorrect. Vous devez maintenant communiquer avec votre fournisseur de services pour déverrouiller votre appareil.</string>
     <string name="pin_failed">Le déverrouillage par NIP de carte SIM a échoué.</string>
     <string name="device_info_settings">État du téléphone</string>
-    <string name="system_update_settings_list_item_title">Mises à jour du système</string>
-    <string name="system_update_settings_list_item_summary" />
     <string name="firmware_version">"Version d'Android"</string>
     <string name="model_number">Numéro du modèle</string>
     <string name="fcc_equipment_id">Equipment ID</string>
@@ -1951,4 +1951,36 @@ N'importe quel utilisateur peut accepter des autorisations mises à jour pour le
     <string name="user_image_take_photo">Prendre une photo</string>
     <string name="user_image_choose_photo">Sélectionner une photo dans la galerie</string>
     <string name="regulatory_info_text" />
+    <string name="quick_settings_description">"Sélectionnez le nombre de réglages rapides dans la sous-fenêtre Notifications, avant d'en modifier l'ordre"</string>
+    <string name="swiqi_strings_swiqi_desc_txt">Améliore qual. image photos/vidéos</string>
+    <string name="theme_label_summary">Modifier ou télécharger des thèmes</string>
+    <string name="find_my_device">Trouver mon appareil</string>
+    <string name="display_category_personalisation_title">Personalisation</string>
+    <string name="xperia_connectivity">Connectivité Xperia™</string>
+    <string name="preference_summary">Si vous perdez votre appareil – le localiser, le verrouiller ou effacer vos données avec my Xperia</string>
+    <string name="playanywhere_strings_throw_settings_title_txt">Paramètres de Throw</string>
+    <string name="playanywhere_strings_throw_setting_summary_txt">"Lire le contenu de votre Xperia™ sur d'autres appareils par connexion sans fil"</string>
+    <string name="usbux_strings_local_connectivity_settings_summary_txt">"Connectez l'appareil à d'autres appareils ou PC par USB ou Wi-Fi"</string>
+    <string name="mil_strings_app_name_mirrorlink_settings_txt">Paramètres de MirrorLink™</string>
+    <string name="mil_strings_mirrorlink_activator_txt">Démarrer MirrorLink™</string>
+    <string name="mil_strings_dialog_usb_not_connected_txt">"Aucun appareil détecté. Assurez-vous qu'un périphérique compatible soit connecté."</string>
+    <string name="mil_strings_dialog_mirrorlink_start_txt">"MirrorLink™ démarrera bientôt. Il pourrait ne pas fonctionner de façon appropriée si l'appareil n'est pas certifié pour MirrorLink™."</string>
+    <string name="mil_strings_mirrorlink_activator_sub_txt">Lorsque vous êtes connecté par USB à un appareil certifié MirrorLink™, vous pouvez utiliser cet appareil pour contrôler votre Xperia™</string>
+    <string name="setupguide_settings_title">Guide de configuration</string>
+    <string name="lockscreen_app_name">"Verrouillage de l'écran"</string>
+    <string name="lockscreen_settings_title">"Verrouiller l'écran"</string>
+    <string name="lockscreen_settings_title_txt">"Verrouiller l'écran"</string>
+    <string name="lockscreen_settings_wallpaper_summary_txt">Changer papier peint écran de verrouillage</string>
+    <string name="lockscreen_setting_wallpaper_wait_txt">Configuration de papier peint</string>
+    <string name="lockscreen_could_not_load_wallpaper_txt">Impossible de configurer le papier peint</string>
+    <string name="lockscreen_dialog_title_pick_wallpaper">Sélectionnez le papier peint</string>
+    <string name="lockscreen_wallpaper_picker_semc_name">Papiers peints de Xperia™</string>
+    <string name="lockscreen_wallpaper_picker_semc_set_wallpaper">Définir le papier peint</string>
+    <string name="lockscreen_wallpaper_picker_album_name">Album</string>
+    <string name="lockscreen_unlock_hint">Glissez vers le haut ou le bas pour déverrouiller</string>
+    <string name="lockscreen_short_unlock_hint">Glisser pour déverrouiller</string>
+    <string name="lockscreen_accessibility_unlock_hint">"Pour déverrouiller, glisser vers le haut ou le bas à partir du milieu de l'écran"</string>
+    <string name="lockscreen_set_as_wallpaper_txt">"Verrouiller le papier peint de l'écran"</string>
+    <string name="status_bar_tab_quick_settings_title">Réglages rapides</string>
+    <string name="power_settings_title">"Gestion de l'alimentation"</string>
 </resources>

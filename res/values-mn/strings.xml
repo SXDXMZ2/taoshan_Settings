@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="allow">Зөвшөөрөх</string>
+    <string name="deny">Татгалзах</string>
     <string name="delete">Устгах</string>
     <string name="battery_info_status_full">Дүүрэн</string>
     <string name="cell_broadcast_settings_summary">Харуулах яаралтай сэрэмжлүүлгийн төрлийг сонгоно уу.</string>
@@ -23,8 +25,6 @@
     <string name="yes">Тийм</string>
     <string name="no">Үгүй</string>
     <string name="create">Үүсгэх</string>
-    <string name="allow">Зөвшөөрөх</string>
-    <string name="deny">Татгалзах</string>
     <string name="device_info_default">Тодорхойгүй</string>
     <string name="show_dev_on">Та одоо хөгжүүлэгч боллоо!</string>
     <string name="show_dev_already">Шаардлагагүй, та аль хэдийн хөгжүүлэгч болсон.</string>
@@ -655,6 +655,8 @@
     <string name="volume_notification_mute">Мэдэгдлийн хаах</string>
     <string name="volume_alarm_mute">Сэрүүлгүүдийг дуугүй болгох</string>
     <string name="vibrate_when_ringing_title">Хонх дуугарах үед чичрэх</string>
+    <string name="system_update_settings_list_item_title">Системийн шинэчлэлтүүд</string>
+    <string name="system_update_settings_list_item_summary" />
     <string name="dock_settings">Док</string>
     <string name="dock_settings_title">Док-н тохиргоо</string>
     <string name="dock_audio_settings_title">Аудио</string>
@@ -717,8 +719,6 @@
     <string name="sim_enter_ok">Тийм</string>
     <string name="sim_enter_cancel">Цуцлах</string>
     <string name="device_info_settings">Утасны статус</string>
-    <string name="system_update_settings_list_item_title">Системийн шинэчлэлтүүд</string>
-    <string name="system_update_settings_list_item_summary" />
     <string name="firmware_version">Андройд хувилбар</string>
     <string name="model_number">Загварын дугаар</string>
     <string name="fcc_equipment_id">Төхөөрөмжийн ID</string>

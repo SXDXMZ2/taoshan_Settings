@@ -29,15 +29,15 @@
     .parameter "info"
 
     .prologue
-    .line 240
+    .line 222
     iput-object p1, p0, Lcom/android/settings/applications/ProtectedAppsActivity$AppEntry;->this$0:Lcom/android/settings/applications/ProtectedAppsActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 241
+    .line 223
     iget-object v0, p2, Landroid/content/pm/ResolveInfo;->activityInfo:Landroid/content/pm/ActivityInfo;
 
-    .line 242
+    .line 224
     .local v0, aInfo:Landroid/content/pm/ActivityInfo;
     new-instance v1, Landroid/content/ComponentName;
 
@@ -49,7 +49,7 @@
 
     iput-object v1, p0, Lcom/android/settings/applications/ProtectedAppsActivity$AppEntry;->componentName:Landroid/content/ComponentName;
 
-    .line 243
+    .line 225
     #getter for: Lcom/android/settings/applications/ProtectedAppsActivity;->mPackageManager:Landroid/content/pm/PackageManager;
     invoke-static {p1}, Lcom/android/settings/applications/ProtectedAppsActivity;->access$400(Lcom/android/settings/applications/ProtectedAppsActivity;)Landroid/content/pm/PackageManager;
 
@@ -65,6 +65,6 @@
 
     iput-object v1, p0, Lcom/android/settings/applications/ProtectedAppsActivity$AppEntry;->title:Ljava/lang/String;
 
-    .line 244
+    .line 226
     return-void
 .end method

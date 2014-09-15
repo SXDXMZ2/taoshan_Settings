@@ -8,10 +8,6 @@
         <item quantity="other">%d vegades</item>
         <item quantity="one">una vegada</item>
     </plurals>
-    <plurals name="show_dev_countdown_cm">
-        <item quantity="other">"Ara ets a %1$d passos d'habilitar les opcions de desenvolupament."</item>
-        <item quantity="one">"Ara ets a %1$d pas d'habilitar les opcions de desenvolupament."</item>
-    </plurals>
     <plurals name="show_dev_countdown">
         <item quantity="other">Ara només et queden %1$d passos per convertir-te en desenvolupador</item>
         <item quantity="one">Ara només et queda %1$d pas per convertir-te en desenvolupador</item>

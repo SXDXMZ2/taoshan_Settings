@@ -46,9 +46,9 @@
 
     :array_0
     .array-data 0x4
-        0x88t 0x2t 0x8t 0x7ft
-        0x89t 0x2t 0x8t 0x7ft
-        0x8at 0x2t 0x8t 0x7ft
+        0x84t 0x2t 0xct 0x7ft
+        0x85t 0x2t 0xct 0x7ft
+        0x86t 0x2t 0xct 0x7ft
     .end array-data
 .end method
 
@@ -298,7 +298,7 @@
 
     .line 94
     .local v9, res:Landroid/content/res/Resources;
-    const v10, 0x7f0c0094
+    const v10, 0x7f0b0094
 
     invoke-virtual {v9, v10}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -486,7 +486,7 @@
     .end local v7           #item:Landroid/view/ViewGroup;
     .restart local v4       #header:Landroid/widget/TextView;
     :cond_2
-    const v10, 0x7f08028d
+    const v10, 0x7f0c0289
 
     const/4 v11, 0x1
 
@@ -625,7 +625,7 @@
 
     .prologue
     .line 78
-    const v0, 0x7f0801ce
+    const v0, 0x7f0c01ca
 
     new-instance v1, Lcom/android/settings/hardware/DisplayGamma$1;
 

@@ -56,30 +56,12 @@
         <item>Hiperrrápida</item>
         <item>Lo más rápido posible</item>
     </string-array>
-    <string-array name="tts_rate_values">
-        <item>60</item>
-        <item>80</item>
-        <item>100</item>
-        <item>150</item>
-        <item>200</item>
-        <item>250</item>
-        <item>300</item>
-        <item>350</item>
-        <item>400</item>
-    </string-array>
     <string-array name="tts_pitch_entries">
         <item>Mui baxo</item>
         <item>Baxo</item>
         <item>Normal</item>
         <item>Alto</item>
         <item>Mui alto</item>
-    </string-array>
-    <string-array name="tts_pitch_values">
-        <item>50</item>
-        <item>80</item>
-        <item>100</item>
-        <item>120</item>
-        <item>150</item>
     </string-array>
     <string-array name="wifi_status">
         <item></item>
@@ -109,22 +91,6 @@
         <item>Bloquiada</item>
         <item>Inhabilitando conexón inestable temporalmente...</item>
     </string-array>
-    <string-array name="wifi_security">
-        <item>@string/wifi_security_none</item>
-        <item>@string/wifi_security_wep</item>
-        <item>@string/wifi_security_psk_generic</item>
-        <item>@string/wifi_security_eap</item>
-    </string-array>
-    <string-array name="wifi_security_no_eap">
-        <item>@string/wifi_security_none</item>
-        <item>@string/wifi_security_wep</item>
-        <item>@string/wifi_security_psk_generic</item>
-    </string-array>
-    <string-array name="wifi_ap_security">
-        <item>@string/wifi_security_none</item>
-        <item>@string/wifi_security_wpa</item>
-        <item>@string/wifi_security_wpa2</item>
-    </string-array>
     <string-array name="wifi_eap_method">
         <item>PEAP</item>
         <item>TLS</item>
@@ -133,13 +99,13 @@
     </string-array>
     <string-array name="wifi_p2p_wps_setup">
         <item>Botón WPS</item>
-        <item>PIN del otru preséu</item>
+        <item>PIN del otro preséu</item>
         <item>PIN del preséu</item>
     </string-array>
     <string-array name="wifi_p2p_status">
         <item>Coneutáu</item>
         <item>Invitáu</item>
-        <item>Con fallu</item>
+        <item>Con error</item>
         <item>Disponible</item>
         <item>Fuera del algame</item>
     </string-array>
@@ -165,20 +131,10 @@
         <item>Namái si se ta cargando</item>
         <item>Enxamás</item>
     </string-array>
-    <string-array name="wifi_sleep_policy_values">
-        <item>2</item>
-        <item>1</item>
-        <item>0</item>
-    </string-array>
     <string-array name="wifi_frequency_band_entries">
         <item>Automáticu</item>
         <item>Namái 5 GHz</item>
         <item>Namái 2,4 GHz</item>
-    </string-array>
-    <string-array name="wifi_frequency_band_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
     </string-array>
     <string-array name="usage_stats_display_order_types">
         <item>"Tiempu d'usu"</item>
@@ -215,11 +171,6 @@
         <item>Desconeutáu</item>
         <item>Alerta</item>
         <item>Vibración</item>
-    </string-array>
-    <string-array name="emergency_tone_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
     </string-array>
     <string-array name="apn_auth_entries">
         <item>Nengún</item>
@@ -283,12 +234,12 @@
         <item>dibuxar en parte superior</item>
         <item>acceder a les notificaciones</item>
         <item>cámara</item>
-        <item>grabar audiu</item>
-        <item>reproducir audiu</item>
+        <item>grabar audio</item>
+        <item>reproducir audio</item>
         <item>lleer cartafueyu</item>
         <item>modificar cartafueyu</item>
         <item>botones multimedia</item>
-        <item>"focu d'audiu"</item>
+        <item>"focu d'audio"</item>
         <item>volume principal</item>
         <item>volume de la voz</item>
         <item>volume del tonu</item>
@@ -328,12 +279,12 @@
         <item>Dibuxar en parte superior</item>
         <item>Acceder a les notificaciones</item>
         <item>Cámara</item>
-        <item>Grabar audiu</item>
-        <item>Reproducir audiu</item>
+        <item>Grabar audio</item>
+        <item>Reproducir audio</item>
         <item>Lleer cartafueyu</item>
         <item>Modificar cartafueyu</item>
         <item>Botones multimedia</item>
-        <item>"Focu d'audiu"</item>
+        <item>"Focu d'audio"</item>
         <item>Volume principal</item>
         <item>Volume de la voz</item>
         <item>Volume del tonu</item>
@@ -346,16 +297,16 @@
         <item>Llocalización</item>
     </string-array>
     <string-array name="long_press_timeout_selector_titles">
-        <item>Curtiu</item>
+        <item>Cortu</item>
         <item>Mediu</item>
         <item>Llargu</item>
     </string-array>
     <string-array name="captioning_typeface_selector_titles">
         <item>Predetermináu</item>
         <item>Sans-serif</item>
-        <item>Sans-serif condensáu</item>
+        <item>Sans-serif condensed</item>
         <item>Serif</item>
-        <item>Monoespaciáu</item>
+        <item>Monospace</item>
     </string-array>
     <string-array name="captioning_font_size_selector_titles">
         <item>Mui pequeña</item>
@@ -463,7 +414,7 @@
         <item>Amosar contador de sobredibuxos</item>
     </string-array>
     <string-array name="app_process_limit_entries">
-        <item>Llende estándar</item>
+        <item>Llímite estándar</item>
         <item>Ensin procesos en segundu planu</item>
         <item>1 procesu</item>
         <item>2 procesos</item>
@@ -484,7 +435,7 @@
         <item>Coneutando...</item>
         <item>Coneutáu</item>
         <item>"Tiempu d'espera superáu"</item>
-        <item>Con fallu</item>
+        <item>Con error</item>
     </string-array>
     <string-array name="security_settings_premium_sms_values">
         <item>Entrugar</item>
@@ -528,11 +479,6 @@
         <item>15s | 1m | 5m</item>
         <item>30s | 2m | 5m</item>
     </string-array>
-    <string-array name="data_usage_cycle_length">
-        <item>Caldía</item>
-        <item>Selmanalmente</item>
-        <item>Mensualmente</item>
-    </string-array>
     <string-array name="data_usage_cycle_weekdays">
         <item>Domingu</item>
         <item>Llunes</item>
@@ -546,11 +492,5 @@
         <item>Permitir</item>
         <item>Refugar</item>
         <item>Entrugar siempre</item>
-    </string-array>
-    <string-array name="qs_quick_access_size_entries">
-        <item>Automáticu</item>
-        <item>Automáticu (estrechu)</item>
-        <item>Grande</item>
-        <item>Estrechu</item>
     </string-array>
 </resources>

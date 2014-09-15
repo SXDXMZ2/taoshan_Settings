@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="allow">اجازه دادن</string>
+    <string name="deny">ردکردن</string>
     <string name="delete">حذف</string>
     <string name="battery_info_status_full">پر</string>
     <string name="yes">بله</string>
     <string name="no">خیر</string>
     <string name="create">ایجاد</string>
-    <string name="allow">اجازه دادن</string>
-    <string name="deny">ردکردن</string>
     <string name="device_info_default">ناشناس</string>
     <string name="show_dev_on">شما اکنون یک برنامه‌نویس هستید!</string>
     <string name="show_dev_already">نیازی نیست، شما در حال حاضر یک برنامه‌نویس هستید.</string>
@@ -647,6 +647,8 @@
     <string name="volume_notification_mute">بی‌صدا کردن اعلان‌ها</string>
     <string name="volume_alarm_mute">بی‌صدا کردن زنگ هشدار</string>
     <string name="vibrate_when_ringing_title">لرزش هنگام زنگ زدن</string>
+    <string name="system_update_settings_list_item_title">به‌روزرسانی‌های سیستم</string>
+    <string name="system_update_settings_list_item_summary" />
     <string name="dock_settings">جایگاه</string>
     <string name="dock_settings_title">تنظیمات جایگاه</string>
     <string name="dock_audio_settings_title">صوتی</string>
@@ -711,8 +713,6 @@
     <string name="wrong_pin_code_pukked">کد پین سیم کارت اشتباه است، اکنون برای گشودن قفل دستگاهتان باید با شرکت مخابراتی تماس بگیرید.</string>
     <string name="pin_failed">عملیات پین سیم کارت ناموفق بود!</string>
     <string name="device_info_settings">وضعیت تلفن</string>
-    <string name="system_update_settings_list_item_title">به‌روزرسانی‌های سیستم</string>
-    <string name="system_update_settings_list_item_summary" />
     <string name="firmware_version">‏نسخهٔ Android</string>
     <string name="model_number">شمارهٔ مدل</string>
     <string name="fcc_equipment_id">شناسه دستگاه</string>
@@ -1952,4 +1952,36 @@
     <string name="user_image_take_photo">عکس گرفتن</string>
     <string name="user_image_choose_photo">انتخاب عکس از گالری</string>
     <string name="regulatory_info_text" />
+    <string name="quick_settings_description">تعداد تنظیمات سریع را در پانل اعلان انتخاب کرده و ترتیب آنها را ویرایش کنید</string>
+    <string name="swiqi_strings_swiqi_desc_txt">تقویت کننده کیفیت تصویر برای عکس ها و فیلم ها</string>
+    <string name="theme_label_summary">طرح های زمینه را تغییر داده یا دانلود کنید</string>
+    <string name="find_my_device">یافتن دستگاه من</string>
+    <string name="display_category_personalisation_title">تنظیم شخصی</string>
+    <string name="xperia_connectivity">قابلیت اتصال ™Xperia</string>
+    <string name="preference_summary">اگر دستگاه خود را گم کردید - داده های خود را با استفاده از my Xperia پیدا کرده، قفل کرده و/یا پاک کنید</string>
+    <string name="playanywhere_strings_throw_settings_title_txt">تنظیمات Throw</string>
+    <string name="playanywhere_strings_throw_setting_summary_txt">بصورت بی سیم محتوای موجود در Xperia™‎ خود را در دیگر دستگاه ها پخش کنید</string>
+    <string name="usbux_strings_local_connectivity_settings_summary_txt">دستگاه خود را با USB یا از طریق Wi-Fi، به دستگاه ها یا رایانه های دیگر وصل کنید</string>
+    <string name="mil_strings_app_name_mirrorlink_settings_txt">تنظیمات ™MirrorLink</string>
+    <string name="mil_strings_mirrorlink_activator_txt">شروع به کار ™MirrorLink</string>
+    <string name="mil_strings_dialog_usb_not_connected_txt">هیچ دستگاهی شناسایی نشده است. بررسی کنید که دستگاه سازگار متصل باشد.</string>
+    <string name="mil_strings_dialog_mirrorlink_start_txt">‏™MirrorLink به زودی شروع به کار می کند. اگر دستگاه تحت مجوز ™MirrorLink نباشد، ممکن است بدرستی کار نکند.</string>
+    <string name="mil_strings_mirrorlink_activator_sub_txt">هنگام اتصال به یک دستگاه مورد تأیید ™MirrorLink با استفاده از USB، می توانید ™Xperia خود را از دستگاه کنترل کنید</string>
+    <string name="setupguide_settings_title">راهنمای تنظیم</string>
+    <string name="lockscreen_app_name">صفحه قفل</string>
+    <string name="lockscreen_settings_title">صفحه قفل</string>
+    <string name="lockscreen_settings_title_txt">صفحه قفل</string>
+    <string name="lockscreen_settings_wallpaper_summary_txt">تغییر تصویر پیش زمینه در صفحه قفل</string>
+    <string name="lockscreen_setting_wallpaper_wait_txt">تنظیم تصویر زمینه</string>
+    <string name="lockscreen_could_not_load_wallpaper_txt">نمی توان تصویر زمینه را تنظیم کرد</string>
+    <string name="lockscreen_dialog_title_pick_wallpaper">انتخاب تصویر زمینه</string>
+    <string name="lockscreen_wallpaper_picker_semc_name">تصویر زمینه های ™Xperia</string>
+    <string name="lockscreen_wallpaper_picker_semc_set_wallpaper">تنظیم تصویر زمینه</string>
+    <string name="lockscreen_wallpaper_picker_album_name">آلبوم</string>
+    <string name="lockscreen_unlock_hint">برای بازگشایی قفل بالا یا پایین بروید</string>
+    <string name="lockscreen_short_unlock_hint">برای باز کردن بکشید</string>
+    <string name="lockscreen_accessibility_unlock_hint">برای بازگشایی قفل، از مرکز صفحه به بالا یا پایین بکشید</string>
+    <string name="lockscreen_set_as_wallpaper_txt">تصویر زمینه صفحه قفل</string>
+    <string name="status_bar_tab_quick_settings_title">تنظیمات سریع</string>
+    <string name="power_settings_title">مدیریت نیرو</string>
 </resources>

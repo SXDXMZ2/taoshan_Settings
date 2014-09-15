@@ -206,12 +206,12 @@
 
     .line 639
     .local v0, ab:Landroid/app/AlertDialog$Builder;
-    const v1, 0x7f0806e3
+    const v1, 0x7f0c06e0
 
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
     .line 640
-    const v1, 0x7f0806e4
+    const v1, 0x7f0c06e1
 
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
@@ -588,7 +588,7 @@
     .local v0, intent:Landroid/content/Intent;
     const-string v2, "android.intent.extra.ringtone.TITLE"
 
-    const v3, 0x7f0802b6
+    const v3, 0x7f0c02b1
 
     invoke-virtual {p0, v3}, Lcom/android/settings/SoundSettings;->getString(I)Ljava/lang/String;
 
@@ -670,7 +670,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0002
+    const v1, 0x7f0a0002
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getBoolean(I)Z
 
@@ -876,7 +876,7 @@
     .end local v1           #toneName:Ljava/lang/String;
     .end local v2           #toneUriPath:Ljava/lang/String;
     :cond_0
-    const v4, 0x7f0802b7
+    const v4, 0x7f0c02b2
 
     invoke-virtual {p0, v4}, Lcom/android/settings/SoundSettings;->getString(I)Ljava/lang/String;
 
@@ -932,7 +932,7 @@
     .local v0, end:Ljava/lang/String;
     iget-object v3, p0, Lcom/android/settings/SoundSettings;->mQuietHours:Landroid/preference/PreferenceScreen;
 
-    const v4, 0x7f080208
+    const v4, 0x7f0c0204
 
     const/4 v5, 0x2
 
@@ -966,7 +966,7 @@
     :cond_0
     iget-object v3, p0, Lcom/android/settings/SoundSettings;->mQuietHours:Landroid/preference/PreferenceScreen;
 
-    const v4, 0x7f0801fb
+    const v4, 0x7f0c01f7
 
     invoke-virtual {p0, v4}, Lcom/android/settings/SoundSettings;->getString(I)Ljava/lang/String;
 
@@ -1009,7 +1009,7 @@
 
     .line 375
     .local v1, ringtoneUri:Landroid/net/Uri;
-    const v0, 0x10404f0
+    const v0, 0x10404ef
 
     invoke-virtual {v6, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1020,7 +1020,7 @@
     if-nez v1, :cond_3
 
     .line 378
-    const v0, 0x10404ee
+    const v0, 0x10404ed
 
     invoke-virtual {v6, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1152,7 +1152,7 @@
 
     .prologue
     .line 506
-    const v0, 0x7f080bad
+    const v0, 0x7f0c0ba8
 
     return v0
 .end method
@@ -1372,7 +1372,7 @@
 
     move-result-object v17
 
-    const v18, 0x7f0b0003
+    const v18, 0x7f0a0003
 
     invoke-virtual/range {v17 .. v18}, Landroid/content/res/Resources;->getBoolean(I)Z
 
@@ -2128,7 +2128,7 @@
 
     move-object/from16 v17, v0
 
-    const v18, 0x7f0802b7
+    const v18, 0x7f0c02b2
 
     move-object/from16 v0, p0
 

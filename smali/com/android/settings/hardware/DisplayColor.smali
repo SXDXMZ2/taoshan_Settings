@@ -346,7 +346,7 @@
 
     .prologue
     .line 75
-    const v0, 0x7f0801ce
+    const v0, 0x7f0c01ca
 
     new-instance v1, Lcom/android/settings/hardware/DisplayColor$1;
 

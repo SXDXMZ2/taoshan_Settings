@@ -80,7 +80,7 @@
     if-gez v8, :cond_0
 
     .line 609
-    const v8, 0x104010a
+    const v8, 0x1040109
 
     invoke-virtual {p1, v8}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -174,7 +174,7 @@
     .end local v5           #unit:Ljava/lang/CharSequence;
     .end local v6           #unitFactor:J
     :cond_0
-    const v8, 0x104010b
+    const v8, 0x104010a
 
     invoke-virtual {p1, v8}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 

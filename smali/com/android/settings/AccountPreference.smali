@@ -107,7 +107,7 @@
     .parameter "status"
 
     .prologue
-    const v3, 0x7f080a8d
+    const v3, 0x7f0c0a88
 
     .line 136
     packed-switch p1, :pswitch_data_0
@@ -153,7 +153,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f080a8b
+    const v1, 0x7f0c0a86
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -167,7 +167,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f080a8c
+    const v1, 0x7f0c0a87
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -193,7 +193,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f080402
+    const v1, 0x7f0c03fd
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -307,7 +307,7 @@
     packed-switch p1, :pswitch_data_0
 
     .line 107
-    const v0, 0x7f080a9a
+    const v0, 0x7f0c0a95
 
     .line 108
     .local v0, res:I
@@ -340,7 +340,7 @@
     .line 95
     .end local v0           #res:I
     :pswitch_0
-    const v0, 0x7f080a98
+    const v0, 0x7f0c0a93
 
     .line 96
     .restart local v0       #res:I
@@ -349,7 +349,7 @@
     .line 98
     .end local v0           #res:I
     :pswitch_1
-    const v0, 0x7f080a99
+    const v0, 0x7f0c0a94
 
     .line 99
     .restart local v0       #res:I
@@ -358,7 +358,7 @@
     .line 101
     .end local v0           #res:I
     :pswitch_2
-    const v0, 0x7f080a9a
+    const v0, 0x7f0c0a95
 
     .line 102
     .restart local v0       #res:I
@@ -367,7 +367,7 @@
     .line 104
     .end local v0           #res:I
     :pswitch_3
-    const v0, 0x7f080a9c
+    const v0, 0x7f0c0a97
 
     .line 105
     .restart local v0       #res:I

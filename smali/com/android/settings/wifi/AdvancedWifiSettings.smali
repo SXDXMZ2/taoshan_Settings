@@ -302,7 +302,7 @@
     if-eqz v12, :cond_3
 
     .line 146
-    const v12, 0x7f0c001b
+    const v12, 0x7f0b001b
 
     invoke-virtual {v7, v12}, Landroid/preference/ListPreference;->setEntries(I)V
 
@@ -464,16 +464,16 @@
     .locals 7
 
     .prologue
-    const v6, 0x7f08073d
+    const v6, 0x7f0c0738
 
-    .line 257
+    .line 255
     iget-object v5, p0, Lcom/android/settings/wifi/AdvancedWifiSettings;->mWifiManager:Landroid/net/wifi/WifiManager;
 
     invoke-virtual {v5}, Landroid/net/wifi/WifiManager;->getConnectionInfo()Landroid/net/wifi/WifiInfo;
 
     move-result-object v2
 
-    .line 259
+    .line 257
     .local v2, wifiInfo:Landroid/net/wifi/WifiInfo;
     const-string v5, "mac_address"
 
@@ -481,13 +481,13 @@
 
     move-result-object v4
 
-    .line 260
+    .line 258
     .local v4, wifiMacAddressPref:Landroid/preference/Preference;
     if-nez v2, :cond_1
 
     const/4 v1, 0x0
 
-    .line 261
+    .line 259
     .local v1, macAddress:Ljava/lang/String;
     :goto_0
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -500,14 +500,14 @@
     :goto_1
     invoke-virtual {v4, v1}, Landroid/preference/Preference;->setSummary(Ljava/lang/CharSequence;)V
 
-    .line 264
+    .line 262
     const-string v5, "current_ip_address"
 
     invoke-virtual {p0, v5}, Lcom/android/settings/wifi/AdvancedWifiSettings;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v3
 
-    .line 265
+    .line 263
     .local v3, wifiIpAddressPref:Landroid/preference/Preference;
     invoke-virtual {p0}, Lcom/android/settings/wifi/AdvancedWifiSettings;->getActivity()Landroid/app/Activity;
 
@@ -517,7 +517,7 @@
 
     move-result-object v0
 
-    .line 266
+    .line 264
     .local v0, ipAddress:Ljava/lang/String;
     if-nez v0, :cond_0
 
@@ -533,10 +533,10 @@
     :cond_0
     invoke-virtual {v3, v0}, Landroid/preference/Preference;->setSummary(Ljava/lang/CharSequence;)V
 
-    .line 268
+    .line 266
     return-void
 
-    .line 260
+    .line 258
     .end local v3           #wifiIpAddressPref:Landroid/preference/Preference;
     :cond_1
     invoke-virtual {v2}, Landroid/net/wifi/WifiInfo;->getMacAddress()Ljava/lang/String;
@@ -545,7 +545,7 @@
 
     goto :goto_0
 
-    .line 261
+    .line 259
     .restart local v1       #macAddress:Ljava/lang/String;
     :cond_2
     invoke-virtual {p0}, Lcom/android/settings/wifi/AdvancedWifiSettings;->getActivity()Landroid/app/Activity;
@@ -570,7 +570,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0c001d
+    const v2, 0x7f0b001d
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -600,7 +600,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0c001c
+    const v5, 0x7f0b001c
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -618,7 +618,7 @@
 
     if-eqz v4, :cond_0
 
-    const v2, 0x7f0c001b
+    const v2, 0x7f0b001b
 
     .line 166
     .local v2, summaryArrayResId:I
@@ -671,7 +671,7 @@
     .line 164
     .restart local v3       #values:[Ljava/lang/String;
     :cond_0
-    const v2, 0x7f0c001a
+    const v2, 0x7f0b001a
 
     goto :goto_0
 
@@ -825,21 +825,6 @@
 
     .line 230
     :try_start_1
-    invoke-virtual {p0}, Lcom/android/settings/wifi/AdvancedWifiSettings;->getContentResolver()Landroid/content/ContentResolver;
-
-    move-result-object v8
-
-    const-string v9, "wifi_country_code"
-
-    move-object v0, p2
-
-    check-cast v0, Ljava/lang/String;
-
-    move-object v5, v0
-
-    invoke-static {v8, v9, v5}, Landroid/provider/Settings$Global;->putString(Landroid/content/ContentResolver;Ljava/lang/String;Ljava/lang/String;)Z
-
-    .line 232
     iget-object v8, p0, Lcom/android/settings/wifi/AdvancedWifiSettings;->mWifiManager:Landroid/net/wifi/WifiManager;
 
     move-object v0, p2
@@ -854,7 +839,7 @@
     :try_end_1
     .catch Ljava/lang/IllegalArgumentException; {:try_start_1 .. :try_end_1} :catch_1
 
-    .line 240
+    .line 238
     :cond_1
     const-string v5, "sleep_policy"
 
@@ -864,7 +849,7 @@
 
     if-eqz v5, :cond_2
 
-    .line 242
+    .line 240
     :try_start_2
     move-object v0, p2
 
@@ -872,7 +857,7 @@
 
     move-object v3, v0
 
-    .line 243
+    .line 241
     .local v3, stringValue:Ljava/lang/String;
     invoke-virtual {p0}, Lcom/android/settings/wifi/AdvancedWifiSettings;->getContentResolver()Landroid/content/ContentResolver;
 
@@ -886,7 +871,7 @@
 
     invoke-static {v5, v8, v9}, Landroid/provider/Settings$Global;->putInt(Landroid/content/ContentResolver;Ljava/lang/String;I)Z
 
-    .line 245
+    .line 243
     invoke-direct {p0, p1, v3}, Lcom/android/settings/wifi/AdvancedWifiSettings;->updateSleepPolicySummary(Landroid/preference/Preference;Ljava/lang/String;)V
     :try_end_2
     .catch Ljava/lang/NumberFormatException; {:try_start_2 .. :try_end_2} :catch_2
@@ -895,7 +880,7 @@
     :cond_2
     move v5, v7
 
-    .line 253
+    .line 251
     :goto_0
     return v5
 
@@ -909,7 +894,7 @@
 
     move-result-object v5
 
-    const v7, 0x7f080675
+    const v7, 0x7f0c0670
 
     invoke-static {v5, v7, v6}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 
@@ -922,18 +907,18 @@
     .line 224
     goto :goto_0
 
-    .line 233
+    .line 231
     .end local v1           #e:Ljava/lang/NumberFormatException;
     :catch_1
     move-exception v1
 
-    .line 234
+    .line 232
     .local v1, e:Ljava/lang/IllegalArgumentException;
     invoke-virtual {p0}, Lcom/android/settings/wifi/AdvancedWifiSettings;->getActivity()Landroid/app/Activity;
 
     move-result-object v5
 
-    const v7, 0x7f0800aa
+    const v7, 0x7f0c00aa
 
     invoke-static {v5, v7, v6}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 
@@ -943,21 +928,21 @@
 
     move v5, v6
 
-    .line 236
+    .line 234
     goto :goto_0
 
-    .line 246
+    .line 244
     .end local v1           #e:Ljava/lang/IllegalArgumentException;
     :catch_2
     move-exception v1
 
-    .line 247
+    .line 245
     .local v1, e:Ljava/lang/NumberFormatException;
     invoke-virtual {p0}, Lcom/android/settings/wifi/AdvancedWifiSettings;->getActivity()Landroid/app/Activity;
 
     move-result-object v5
 
-    const v7, 0x7f080618
+    const v7, 0x7f0c0613
 
     invoke-static {v5, v7, v6}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 
@@ -967,7 +952,7 @@
 
     move v5, v6
 
-    .line 249
+    .line 247
     goto :goto_0
 .end method
 

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="allow">Թույլատրել</string>
+    <string name="deny">Մերժել</string>
     <string name="delete">Ջնջել</string>
     <string name="battery_info_status_full">Լիցքավորված</string>
     <string name="yes">Այո</string>
     <string name="no">Ոչ</string>
     <string name="create">Ստեղծել</string>
-    <string name="allow">Թույլատրել</string>
-    <string name="deny">Մերժել</string>
     <string name="device_info_default">Անհայտ</string>
     <string name="show_dev_on">Դուք արդեն ծրագրավորո՛ղ եք:</string>
     <string name="show_dev_already">Կարիք չկա, դուք արդեն իսկ ծրագրավորող եք:</string>
@@ -647,6 +647,8 @@
     <string name="volume_notification_mute">Խլացնել ծանուցումները</string>
     <string name="volume_alarm_mute">Համրեցնել ահազանգերը</string>
     <string name="vibrate_when_ringing_title">Թրթռալ զանգելիս</string>
+    <string name="system_update_settings_list_item_title">Համակարգի թարմացումներ</string>
+    <string name="system_update_settings_list_item_summary" />
     <string name="dock_settings">Միակցել</string>
     <string name="dock_settings_title">Հարակցման կարգավորումներ</string>
     <string name="dock_audio_settings_title">Աուդիո</string>
@@ -711,8 +713,6 @@
     <string name="wrong_pin_code_pukked">SIM PIN կոդը սխալ է: Պետք է դիմեք ձեր օպերատորին՝ սարքն արգելաբացելու համար:</string>
     <string name="pin_failed">SIM PIN կոդի գործողությունը ձախողվեց:</string>
     <string name="device_info_settings">Հեռախոսի կարգավիճակը</string>
-    <string name="system_update_settings_list_item_title">Համակարգի թարմացումներ</string>
-    <string name="system_update_settings_list_item_summary" />
     <string name="firmware_version">Android տարբերակ</string>
     <string name="model_number">Մոդելի համարը</string>
     <string name="fcc_equipment_id">Սարքավորման ID-ն</string>

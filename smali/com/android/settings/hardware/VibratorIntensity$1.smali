@@ -1,35 +1,28 @@
-.class Lcom/android/settings/hardware/VibratorIntensity$1;
+.class final Lcom/android/settings/hardware/VibratorIntensity$1;
 .super Ljava/lang/Object;
 .source "VibratorIntensity.java"
 
 # interfaces
-.implements Landroid/content/DialogInterface$OnClickListener;
+.implements Lcom/android/settings/hardware/HWValueSliderPreference$HardwareInterface;
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/android/settings/hardware/VibratorIntensity;->onPrepareDialogBuilder(Landroid/app/AlertDialog$Builder;)V
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/android/settings/hardware/VibratorIntensity;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x0
+    accessFlags = 0x8
     name = null
 .end annotation
 
 
-# instance fields
-.field final synthetic this$0:Lcom/android/settings/hardware/VibratorIntensity;
-
-
 # direct methods
-.method constructor <init>(Lcom/android/settings/hardware/VibratorIntensity;)V
+.method constructor <init>()V
     .locals 0
-    .parameter
 
     .prologue
-    .line 67
-    iput-object p1, p0, Lcom/android/settings/hardware/VibratorIntensity$1;->this$0:Lcom/android/settings/hardware/VibratorIntensity;
-
+    .line 28
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -37,12 +30,85 @@
 
 
 # virtual methods
-.method public onClick(Landroid/content/DialogInterface;I)V
-    .locals 0
-    .parameter "dialog"
-    .parameter "which"
+.method public getCurrentValue()I
+    .locals 1
 
     .prologue
-    .line 70
-    return-void
+    .line 39
+    invoke-static {}, Lorg/cyanogenmod/hardware/VibratorHW;->getCurIntensity()I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public getDefaultValue()I
+    .locals 1
+
+    .prologue
+    .line 43
+    invoke-static {}, Lorg/cyanogenmod/hardware/VibratorHW;->getDefaultIntensity()I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public getMaxValue()I
+    .locals 1
+
+    .prologue
+    .line 35
+    invoke-static {}, Lorg/cyanogenmod/hardware/VibratorHW;->getMaxIntensity()I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public getMinValue()I
+    .locals 1
+
+    .prologue
+    .line 31
+    invoke-static {}, Lorg/cyanogenmod/hardware/VibratorHW;->getMinIntensity()I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public getPreferenceName()Ljava/lang/String;
+    .locals 1
+
+    .prologue
+    .line 55
+    const-string v0, "vibration_intensity"
+
+    return-object v0
+.end method
+
+.method public getWarningThreshold()I
+    .locals 1
+
+    .prologue
+    .line 47
+    invoke-static {}, Lorg/cyanogenmod/hardware/VibratorHW;->getWarningThreshold()I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public setValue(I)Z
+    .locals 1
+    .parameter "value"
+
+    .prologue
+    .line 51
+    invoke-static {p1}, Lorg/cyanogenmod/hardware/VibratorHW;->setIntensity(I)Z
+
+    move-result v0
+
+    return v0
 .end method

@@ -622,7 +622,7 @@
     .line 183
     iget-object v3, p0, Lcom/android/settings/CustomScreenColor;->mScreenColorLayout:Landroid/widget/LinearLayout;
 
-    const v4, 0x7f0a0031
+    const v4, 0x7f090031
 
     invoke-virtual {v3, v4}, Landroid/widget/LinearLayout;->setBackgroundColor(I)V
 
@@ -737,7 +737,7 @@
     .line 200
     iget-object v3, p0, Lcom/android/settings/CustomScreenColor;->mHTv:Landroid/widget/TextView;
 
-    const v4, 0x7f080086
+    const v4, 0x7f0c0086
 
     new-array v5, v7, [Ljava/lang/Object;
 
@@ -773,7 +773,7 @@
     .line 202
     iget-object v3, p0, Lcom/android/settings/CustomScreenColor;->mSTv:Landroid/widget/TextView;
 
-    const v4, 0x7f080087
+    const v4, 0x7f0c0087
 
     new-array v5, v7, [Ljava/lang/Object;
 
@@ -809,7 +809,7 @@
     .line 204
     iget-object v3, p0, Lcom/android/settings/CustomScreenColor;->mITv:Landroid/widget/TextView;
 
-    const v4, 0x7f080089
+    const v4, 0x7f0c0089
 
     new-array v5, v7, [Ljava/lang/Object;
 
@@ -845,7 +845,7 @@
     .line 206
     iget-object v3, p0, Lcom/android/settings/CustomScreenColor;->mCTv:Landroid/widget/TextView;
 
-    const v4, 0x7f080088
+    const v4, 0x7f0c0088
 
     new-array v5, v7, [Ljava/lang/Object;
 
@@ -1278,7 +1278,7 @@
     .line 555
     iget-object v0, p0, Lcom/android/settings/CustomScreenColor;->mUpdown:Landroid/widget/ImageView;
 
-    const v1, 0x7f02013b
+    const v1, 0x7f02013c
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setBackgroundResource(I)V
 
@@ -2096,7 +2096,7 @@
     if-eqz v2, :cond_0
 
     .line 685
-    const v2, 0x7f0d0307
+    const v2, 0x7f0d0305
 
     invoke-interface {v0, v2}, Landroid/view/Menu;->removeItem(I)V
 
@@ -2118,12 +2118,12 @@
 
     .line 687
     :cond_0
-    const v2, 0x7f0d0305
+    const v2, 0x7f0d0303
 
     invoke-interface {v0, v2}, Landroid/view/Menu;->removeItem(I)V
 
     .line 688
-    const v2, 0x7f0d0306
+    const v2, 0x7f0d0304
 
     invoke-interface {v0, v2}, Landroid/view/Menu;->removeItem(I)V
 
@@ -2153,7 +2153,7 @@
     .line 672
     iget-object v0, p0, Lcom/android/settings/CustomScreenColor;->mUpdown:Landroid/widget/ImageView;
 
-    const v1, 0x7f02013b
+    const v1, 0x7f02013c
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setBackgroundResource(I)V
 
@@ -2584,7 +2584,7 @@
     .parameter "menu"
 
     .prologue
-    const v5, 0x7f080085
+    const v5, 0x7f0c0085
 
     const/4 v4, 0x3
 
@@ -2595,7 +2595,7 @@
     .line 298
     const/4 v0, 0x2
 
-    const v1, 0x7f080084
+    const v1, 0x7f0c0084
 
     invoke-interface {p1, v2, v0, v2, v1}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
@@ -2603,12 +2603,12 @@
     invoke-interface {p1, v2, v4, v2, v5}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
     .line 301
-    const v0, 0x7f080082
+    const v0, 0x7f0c0082
 
     invoke-interface {p1, v3, v2, v2, v0}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
     .line 303
-    const v0, 0x7f080083
+    const v0, 0x7f0c0083
 
     invoke-interface {p1, v3, v3, v2, v0}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
@@ -2874,7 +2874,7 @@
     .line 352
     iget-object v2, p0, Lcom/android/settings/CustomScreenColor;->mHTv:Landroid/widget/TextView;
 
-    const v3, 0x7f080086
+    const v3, 0x7f0c0086
 
     new-array v4, v4, [Ljava/lang/Object;
 
@@ -2901,7 +2901,7 @@
     .line 357
     iget-object v2, p0, Lcom/android/settings/CustomScreenColor;->mSTv:Landroid/widget/TextView;
 
-    const v3, 0x7f080087
+    const v3, 0x7f0c0087
 
     new-array v4, v4, [Ljava/lang/Object;
 
@@ -2940,7 +2940,7 @@
     .line 363
     iget-object v2, p0, Lcom/android/settings/CustomScreenColor;->mCTv:Landroid/widget/TextView;
 
-    const v3, 0x7f080088
+    const v3, 0x7f0c0088
 
     new-array v4, v4, [Ljava/lang/Object;
 
@@ -2979,7 +2979,7 @@
     .line 369
     iget-object v2, p0, Lcom/android/settings/CustomScreenColor;->mITv:Landroid/widget/TextView;
 
-    const v3, 0x7f080089
+    const v3, 0x7f0c0089
 
     new-array v4, v4, [Ljava/lang/Object;
 

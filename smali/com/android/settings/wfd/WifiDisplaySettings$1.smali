@@ -61,7 +61,7 @@
 
     .line 355
     .local v1, li:Landroid/view/LayoutInflater;
-    const v3, 0x7f0400dc
+    const v3, 0x7f0400dd
 
     const/4 v4, 0x0
 
@@ -73,7 +73,7 @@
     .end local v1           #li:Landroid/view/LayoutInflater;
     .local v2, v:Landroid/view/View;
     :goto_0
-    const v3, 0x7f0d0230
+    const v3, 0x7f0d022e
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -83,7 +83,7 @@
 
     .line 361
     .local v0, b:Landroid/widget/Button;
-    const v3, 0x7f08009b
+    const v3, 0x7f0c009b
 
     invoke-virtual {v0, v3}, Landroid/widget/Button;->setText(I)V
 
@@ -95,7 +95,7 @@
     invoke-virtual {v0, v3}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 369
-    const v3, 0x7f0d0231
+    const v3, 0x7f0d022f
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -106,7 +106,7 @@
 
     .line 370
     .restart local v0       #b:Landroid/widget/Button;
-    const v3, 0x7f08009c
+    const v3, 0x7f0c009c
 
     invoke-virtual {v0, v3}, Landroid/widget/Button;->setText(I)V
 

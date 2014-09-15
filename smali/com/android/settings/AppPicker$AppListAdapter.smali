@@ -187,7 +187,7 @@
 
     .line 109
     .restart local v2       #info:Lcom/android/settings/AppPicker$MyApplicationInfo;
-    const v4, 0x7f080ac3
+    const v4, 0x7f0c0abe
 
     invoke-virtual {p2, v4}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 

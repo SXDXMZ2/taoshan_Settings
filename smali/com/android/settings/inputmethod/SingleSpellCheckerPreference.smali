@@ -94,7 +94,7 @@
     iput-object p4, p0, Lcom/android/settings/inputmethod/SingleSpellCheckerPreference;->mTsm:Landroid/view/textservice/TextServicesManager;
 
     .line 66
-    const v1, 0x7f0400a4
+    const v1, 0x7f0400a6
 
     invoke-virtual {p0, v1}, Lcom/android/settings/inputmethod/SingleSpellCheckerPreference;->setLayoutResource(I)V
 
@@ -364,7 +364,7 @@
     .local v0, e:Landroid/content/ActivityNotFoundException;
     iget-object v2, p0, Lcom/android/settings/inputmethod/SingleSpellCheckerPreference;->mFragment:Lcom/android/settings/inputmethod/SpellCheckersSettings;
 
-    const v3, 0x7f0808c6
+    const v3, 0x7f0c08c1
 
     new-array v4, v8, [Ljava/lang/Object;
 
@@ -448,7 +448,7 @@
 
     .line 137
     .local v0, builder:Landroid/app/AlertDialog$Builder;
-    const v8, 0x7f0808b8
+    const v8, 0x7f0c08b3
 
     invoke-virtual {v0, v8}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -469,7 +469,7 @@
     .local v4, items:[Ljava/lang/CharSequence;
     iget-object v8, p0, Lcom/android/settings/inputmethod/SingleSpellCheckerPreference;->mRes:Landroid/content/res/Resources;
 
-    const v9, 0x7f0808fe
+    const v9, 0x7f0c08f9
 
     invoke-virtual {v8, v9}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

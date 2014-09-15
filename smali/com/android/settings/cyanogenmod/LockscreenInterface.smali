@@ -53,7 +53,7 @@
     if-eqz v0, :cond_0
 
     .line 249
-    const v1, 0x7f080545
+    const v1, 0x7f0c0540
 
     invoke-virtual {p1, v1}, Landroid/preference/Preference;->setSummary(I)V
 
@@ -429,7 +429,7 @@
 
     move-result-object v5
 
-    const v6, 0x10400d3
+    const v6, 0x10400d2
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

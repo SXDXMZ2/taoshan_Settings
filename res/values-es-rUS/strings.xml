@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="allow">Permitir</string>
+    <string name="deny">Rechazar</string>
     <string name="delete">Eliminar</string>
     <string name="battery_info_status_full">Cargado</string>
     <string name="yes">Sí</string>
     <string name="no">No</string>
     <string name="create">Crear</string>
-    <string name="allow">Permitir</string>
-    <string name="deny">Rechazar</string>
     <string name="device_info_default">Desconocido</string>
     <string name="show_dev_on">¡Ya eres programador!</string>
     <string name="show_dev_already">No es necesario, ya eres programador.</string>
@@ -647,6 +647,8 @@ La configuración del dispositivo puede requerir una significativa actividad de 
     <string name="volume_notification_mute">Silenciar notificaciones</string>
     <string name="volume_alarm_mute">Silenciar alarmas</string>
     <string name="vibrate_when_ringing_title">Vibrar al sonar</string>
+    <string name="system_update_settings_list_item_title">Actualiz. del sistema</string>
+    <string name="system_update_settings_list_item_summary" />
     <string name="dock_settings">Base</string>
     <string name="dock_settings_title">Configuración de la base</string>
     <string name="dock_audio_settings_title">Audio</string>
@@ -711,8 +713,6 @@ PIN posiblemente incorrecto."</string>
     <string name="wrong_pin_code_pukked">El código PIN de la tarjeta SIM es incorrecto. Debes comunicarte con el proveedor para desbloquear el dispositivo.</string>
     <string name="pin_failed">Error al desbloquear la tarjeta SIM con el PIN</string>
     <string name="device_info_settings">Estado del dispositivo</string>
-    <string name="system_update_settings_list_item_title">Actualiz. del sistema</string>
-    <string name="system_update_settings_list_item_summary" />
     <string name="firmware_version">Versión de Android</string>
     <string name="model_number">Número de modelo</string>
     <string name="fcc_equipment_id">ID del equipo</string>
@@ -1952,4 +1952,6 @@ Cualquier usuario puede aceptar permisos de aplicaciones actualizados en nombre 
     <string name="user_image_take_photo">Tomar una foto</string>
     <string name="user_image_choose_photo">Elegir una foto de la galería</string>
     <string name="regulatory_info_text" />
+    <string name="display_category_personalisation_title">Personalización</string>
+    <string name="xperia_connectivity">Conectividad Xperia™</string>
 </resources>

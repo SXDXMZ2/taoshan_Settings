@@ -51,7 +51,7 @@
     iput-object p3, p0, Lcom/android/settings/accounts/SyncStateCheckBoxPreference;->mAuthority:Ljava/lang/String;
 
     .line 56
-    const v0, 0x7f0400ab
+    const v0, 0x7f0400ad
 
     invoke-virtual {p0, v0}, Lcom/android/settings/accounts/SyncStateCheckBoxPreference;->setWidgetLayoutResource(I)V
 
@@ -85,7 +85,7 @@
     iput-boolean v0, p0, Lcom/android/settings/accounts/SyncStateCheckBoxPreference;->mOneTimeSyncMode:Z
 
     .line 47
-    const v0, 0x7f0400ab
+    const v0, 0x7f0400ad
 
     invoke-virtual {p0, v0}, Lcom/android/settings/accounts/SyncStateCheckBoxPreference;->setWidgetLayoutResource(I)V
 
@@ -240,7 +240,7 @@
 
     move-result-object v6
 
-    const v8, 0x7f080aa1
+    const v8, 0x7f0c0a9c
 
     new-array v9, v9, [Ljava/lang/Object;
 

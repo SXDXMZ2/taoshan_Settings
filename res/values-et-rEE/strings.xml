@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="allow">Luba</string>
+    <string name="deny">Keela</string>
     <string name="delete">Kustuta</string>
     <string name="battery_info_status_full">Täis</string>
     <string name="yes">Jah</string>
     <string name="no">Ei</string>
     <string name="create">Loo</string>
-    <string name="allow">Luba</string>
-    <string name="deny">Keela</string>
     <string name="device_info_default">Tundmatu</string>
     <string name="show_dev_on">Olete nüüd arendaja!</string>
     <string name="show_dev_already">Ei ole vaja, olete juba arendaja.</string>
@@ -647,6 +647,8 @@ Telefoni seadistamiseks võib olla vajalik suur võrguaktiivsus."</string>
     <string name="volume_notification_mute">Teatiste summutamine</string>
     <string name="volume_alarm_mute">Äratuste summutamine</string>
     <string name="vibrate_when_ringing_title">Vibreerimine helina ajal</string>
+    <string name="system_update_settings_list_item_title">Süsteemivärskendused</string>
+    <string name="system_update_settings_list_item_summary" />
     <string name="dock_settings">Dokk</string>
     <string name="dock_settings_title">Doki seaded</string>
     <string name="dock_audio_settings_title">Heli</string>
@@ -711,8 +713,6 @@ Võimalik, et PIN-kood on vale."</string>
     <string name="wrong_pin_code_pukked">Vale SIM-i PIN-kood, seadme avamiseks peate nüüd ühendust võtma oma operaatoriga.</string>
     <string name="pin_failed">SIM-i PIN-koodi toiming ebaõnnestus.</string>
     <string name="device_info_settings">Telefoni olek</string>
-    <string name="system_update_settings_list_item_title">Süsteemivärskendused</string>
-    <string name="system_update_settings_list_item_summary" />
     <string name="firmware_version">Androidi versioon</string>
     <string name="model_number">Mudeli number</string>
     <string name="fcc_equipment_id">Seadme ID</string>
@@ -1952,4 +1952,5 @@ Iga kasutaja saab teiste kasutajate nimel võtta vastu värskendatud rakenduste 
     <string name="user_image_take_photo">Jäädvusta foto</string>
     <string name="user_image_choose_photo">Vali foto galeriist</string>
     <string name="regulatory_info_text" />
+    <string name="display_category_personalisation_title">Isikupärastamine</string>
 </resources>

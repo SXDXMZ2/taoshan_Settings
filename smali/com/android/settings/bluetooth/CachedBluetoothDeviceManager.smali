@@ -225,14 +225,14 @@
     .parameter "bluetoothState"
 
     .prologue
-    .line 154
+    .line 141
     monitor-enter p0
 
     const/16 v2, 0xd
 
     if-ne p1, v2, :cond_1
 
-    .line 155
+    .line 142
     :try_start_0
     iget-object v2, p0, Lcom/android/settings/bluetooth/CachedBluetoothDeviceManager;->mCachedDevices:Ljava/util/List;
 
@@ -246,7 +246,7 @@
     :goto_0
     if-ltz v1, :cond_1
 
-    .line 156
+    .line 143
     iget-object v2, p0, Lcom/android/settings/bluetooth/CachedBluetoothDeviceManager;->mCachedDevices:Ljava/util/List;
 
     invoke-interface {v2, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -255,7 +255,7 @@
 
     check-cast v0, Lcom/android/settings/bluetooth/CachedBluetoothDevice;
 
-    .line 157
+    .line 144
     .local v0, cachedDevice:Lcom/android/settings/bluetooth/CachedBluetoothDevice;
     invoke-virtual {v0}, Lcom/android/settings/bluetooth/CachedBluetoothDevice;->getBondState()I
 
@@ -265,23 +265,23 @@
 
     if-eq v2, v3, :cond_0
 
-    .line 158
+    .line 145
     const/4 v2, 0x0
 
     invoke-virtual {v0, v2}, Lcom/android/settings/bluetooth/CachedBluetoothDevice;->setVisible(Z)V
 
-    .line 159
+    .line 146
     iget-object v2, p0, Lcom/android/settings/bluetooth/CachedBluetoothDeviceManager;->mCachedDevices:Ljava/util/List;
 
     invoke-interface {v2, v1}, Ljava/util/List;->remove(I)Ljava/lang/Object;
 
-    .line 155
+    .line 142
     :goto_1
     add-int/lit8 v1, v1, -0x1
 
     goto :goto_0
 
-    .line 164
+    .line 151
     :cond_0
     invoke-virtual {v0}, Lcom/android/settings/bluetooth/CachedBluetoothDevice;->clearProfileConnectionState()V
     :try_end_0
@@ -289,7 +289,7 @@
 
     goto :goto_1
 
-    .line 154
+    .line 141
     .end local v0           #cachedDevice:Lcom/android/settings/bluetooth/CachedBluetoothDevice;
     .end local v1           #i:I
     :catchall_0
@@ -299,7 +299,7 @@
 
     throw v2
 
-    .line 168
+    .line 155
     :cond_1
     monitor-exit p0
 
@@ -311,7 +311,7 @@
     .parameter "device"
 
     .prologue
-    .line 129
+    .line 125
     monitor-enter p0
 
     :try_start_0
@@ -319,22 +319,22 @@
 
     move-result-object v0
 
-    .line 130
+    .line 126
     .local v0, cachedDevice:Lcom/android/settings/bluetooth/CachedBluetoothDevice;
     if-eqz v0, :cond_0
 
-    .line 131
+    .line 127
     invoke-virtual {v0}, Lcom/android/settings/bluetooth/CachedBluetoothDevice;->refreshBtClass()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 133
+    .line 129
     :cond_0
     monitor-exit p0
 
     return-void
 
-    .line 129
+    .line 125
     .end local v0           #cachedDevice:Lcom/android/settings/bluetooth/CachedBluetoothDevice;
     :catchall_0
     move-exception v1
@@ -342,60 +342,6 @@
     monitor-exit p0
 
     throw v1
-.end method
-
-.method public declared-synchronized onDeviceDeleted(Lcom/android/settings/bluetooth/CachedBluetoothDevice;)V
-    .locals 2
-    .parameter "cachedDevice"
-
-    .prologue
-    .line 143
-    monitor-enter p0
-
-    :try_start_0
-    const-string v0, "CachedBluetoothDeviceManager"
-
-    const-string v1, "onDeviceDeleted"
-
-    invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 144
-    if-eqz p1, :cond_0
-
-    invoke-virtual {p1}, Lcom/android/settings/bluetooth/CachedBluetoothDevice;->getBondState()I
-
-    move-result v0
-
-    const/16 v1, 0xa
-
-    if-ne v0, v1, :cond_0
-
-    invoke-virtual {p1}, Lcom/android/settings/bluetooth/CachedBluetoothDevice;->isRemovable()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    .line 147
-    iget-object v0, p0, Lcom/android/settings/bluetooth/CachedBluetoothDeviceManager;->mCachedDevices:Ljava/util/List;
-
-    invoke-interface {v0, p1}, Ljava/util/List;->remove(Ljava/lang/Object;)Z
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    .line 149
-    :cond_0
-    monitor-exit p0
-
-    return-void
-
-    .line 143
-    :catchall_0
-    move-exception v0
-
-    monitor-exit p0
-
-    throw v0
 .end method
 
 .method public onDeviceNameUpdated(Landroid/bluetooth/BluetoothDevice;)V
@@ -421,13 +367,23 @@
 .end method
 
 .method public declared-synchronized onScanningStateChanged(Z)V
-    .locals 4
+    .locals 3
     .parameter "started"
 
     .prologue
-    .line 116
+    .line 114
     monitor-enter p0
 
+    if-nez p1, :cond_1
+
+    .line 122
+    :cond_0
+    monitor-exit p0
+
+    return-void
+
+    .line 118
+    :cond_1
     :try_start_0
     iget-object v2, p0, Lcom/android/settings/bluetooth/CachedBluetoothDeviceManager;->mCachedDevices:Ljava/util/List;
 
@@ -439,9 +395,9 @@
 
     .local v1, i:I
     :goto_0
-    if-ltz v1, :cond_2
+    if-ltz v1, :cond_0
 
-    .line 117
+    .line 119
     iget-object v2, p0, Lcom/android/settings/bluetooth/CachedBluetoothDeviceManager;->mCachedDevices:Ljava/util/List;
 
     invoke-interface {v2, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -450,50 +406,20 @@
 
     check-cast v0, Lcom/android/settings/bluetooth/CachedBluetoothDevice;
 
-    .line 118
+    .line 120
     .local v0, cachedDevice:Lcom/android/settings/bluetooth/CachedBluetoothDevice;
-    if-eqz p1, :cond_1
-
-    .line 119
     const/4 v2, 0x0
 
     invoke-virtual {v0, v2}, Lcom/android/settings/bluetooth/CachedBluetoothDevice;->setVisible(Z)V
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 116
-    :cond_0
-    :goto_1
+    .line 118
     add-int/lit8 v1, v1, -0x1
 
     goto :goto_0
 
-    .line 120
-    :cond_1
-    if-nez p1, :cond_0
-
-    invoke-virtual {v0}, Lcom/android/settings/bluetooth/CachedBluetoothDevice;->getBondState()I
-
-    move-result v2
-
-    const/16 v3, 0xa
-
-    if-ne v2, v3, :cond_0
-
-    invoke-virtual {v0}, Lcom/android/settings/bluetooth/CachedBluetoothDevice;->isRemovable()Z
-
-    move-result v2
-
-    if-eqz v2, :cond_0
-
-    .line 123
-    iget-object v2, p0, Lcom/android/settings/bluetooth/CachedBluetoothDeviceManager;->mCachedDevices:Ljava/util/List;
-
-    invoke-interface {v2, v0}, Ljava/util/List;->remove(Ljava/lang/Object;)Z
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    goto :goto_1
-
-    .line 116
+    .line 114
     .end local v0           #cachedDevice:Lcom/android/settings/bluetooth/CachedBluetoothDevice;
     .end local v1           #i:I
     :catchall_0
@@ -502,13 +428,6 @@
     monitor-exit p0
 
     throw v2
-
-    .line 126
-    .restart local v1       #i:I
-    :cond_2
-    monitor-exit p0
-
-    return-void
 .end method
 
 .method public declared-synchronized onUuidChanged(Landroid/bluetooth/BluetoothDevice;)V
@@ -516,7 +435,7 @@
     .parameter "device"
 
     .prologue
-    .line 136
+    .line 132
     monitor-enter p0
 
     :try_start_0
@@ -524,22 +443,22 @@
 
     move-result-object v0
 
-    .line 137
+    .line 133
     .local v0, cachedDevice:Lcom/android/settings/bluetooth/CachedBluetoothDevice;
     if-eqz v0, :cond_0
 
-    .line 138
+    .line 134
     invoke-virtual {v0}, Lcom/android/settings/bluetooth/CachedBluetoothDevice;->onUuidChanged()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 140
+    .line 136
     :cond_0
     monitor-exit p0
 
     return-void
 
-    .line 136
+    .line 132
     .end local v0           #cachedDevice:Lcom/android/settings/bluetooth/CachedBluetoothDevice;
     :catchall_0
     move-exception v1

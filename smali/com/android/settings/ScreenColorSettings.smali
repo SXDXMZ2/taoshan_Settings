@@ -352,7 +352,7 @@
     invoke-virtual {v3, v4}, Landroid/view/Window;->requestFeature(I)Z
 
     .line 102
-    const v3, 0x7f0400c8
+    const v3, 0x7f0400ca
 
     invoke-virtual {p0, v3}, Lcom/android/settings/ScreenColorSettings;->setContentView(I)V
 
@@ -367,7 +367,7 @@
 
     .line 105
     .local v2, listView:Landroid/widget/ListView;
-    const v3, 0x7f0a0031
+    const v3, 0x7f090031
 
     invoke-virtual {v2, v3}, Landroid/widget/ListView;->setBackgroundColor(I)V
 
@@ -401,7 +401,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0c0063
+    const v4, 0x7f0b0063
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -411,7 +411,7 @@
     .local v1, list:[Ljava/lang/String;
     new-instance v0, Lcom/android/settings/ScreenColorSettings$ColorModeAdaper;
 
-    const v3, 0x7f0400c7
+    const v3, 0x7f0400c9
 
     invoke-direct {v0, p0, p0, v3, v1}, Lcom/android/settings/ScreenColorSettings$ColorModeAdaper;-><init>(Lcom/android/settings/ScreenColorSettings;Landroid/content/Context;I[Ljava/lang/String;)V
 

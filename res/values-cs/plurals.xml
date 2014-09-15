@@ -10,11 +10,6 @@
         <item quantity="one">jednou</item>
         <item quantity="few">%d krát</item>
     </plurals>
-    <plurals name="show_dev_countdown_cm">
-        <item quantity="other">Jste %1$d kroků od povolení vývojářských nástrojů.</item>
-        <item quantity="one">Jste %1$d krok od povolení vývojářských nástrojů.</item>
-        <item quantity="few">Jste %1$d kroky od povolení vývojářských nástrojů.</item>
-    </plurals>
     <plurals name="show_dev_countdown">
         <item quantity="other">Ještě %1$d klepnutí a bude z vás vývojář.</item>
         <item quantity="one">Ještě %1$d klepnutí a bude z vás vývojář.</item>

@@ -268,8 +268,8 @@
     <item type="id" name="resource">false</item>
     <item type="id" name="sendbroadcast">false</item>
     <item type="id" name="startactivity">false</item>
-    <item type="id" name="titleDivider">false</item>
     <item type="id" name="label">false</item>
+    <item type="id" name="titleDivider">false</item>
     <item type="id" name="widget_list">false</item>
     <item type="id" name="list_content_container">false</item>
     <item type="id" name="watermark">false</item>
@@ -533,8 +533,6 @@
     <item type="id" name="skip_button">false</item>
     <item type="id" name="sms_image">false</item>
     <item type="id" name="sms_text">false</item>
-    <item type="id" name="date_and_count">false</item>
-    <item type="id" name="spam_item_remove">false</item>
     <item type="id" name="provider_icon">false</item>
     <item type="id" name="user_id">false</item>
     <item type="id" name="provider_id">false</item>
@@ -780,4 +778,35 @@
     <item type="id" name="vpn_create">false</item>
     <item type="id" name="vpn_lockdown">false</item>
     <item type="id" name="wifi_wps">false</item>
+    <item type="id" name="autostarts_settings">false</item>
+    <item type="id" name="appName">false</item>
+    <item type="id" name="personalization_settings">false</item>
+    <item type="id" name="auto_sync_settings">false</item>
+    <item type="id" name="volkan_settings">false</item>
+    <item type="id" name="notificationvolkan">false</item>
+    <item type="id" name="buttonvolkan">false</item>
+    <item type="id" name="pencere">false</item>
+    <item type="id" name="amkgazetesi">false</item>
+    <item type="id" name="lockscreenxperia">false</item>
+    <item type="id" name="quick_settings">false</item>
+    <item type="id" name="clearViewedNotifications">false</item>
+    <item type="id" name="xperia_connectivity_settings">false</item>
+    <item type="id" name="xperialink">false</item>
+    <item type="id" name="one-touch_setup">false</item>
+    <item type="id" name="smart_connect">false</item>
+    <item type="id" name="throw_settings">false</item>
+    <item type="id" name="screen_mirroring_settings">false</item>
+    <item type="id" name="media_server_settingsrxs">false</item>
+    <item type="id" name="seamless_tethering">false</item>
+    <item type="id" name="playstation_connectivity">false</item>
+    <item type="id" name="start_mirrorlink">false</item>
+    <item type="id" name="usb_settings">false</item>
+    <item type="id" name="my_xperia">false</item>
+    <item type="id" name="repexpersis_katalog">false</item>
+    <item type="id" name="volkan3_settings">false</item>
+    <item type="id" name="lights_prefs">false</item>
+    <item type="id" name="light_effects">false</item>
+    <item type="id" name="media_server_settings">false</item>
+    <item type="id" name="xperialockscreen">false</item>
+    <item type="id" name="my_xperia_settings_catagory">false</item>
 </resources>

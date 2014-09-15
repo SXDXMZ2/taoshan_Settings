@@ -107,7 +107,7 @@
     iput-object v0, p0, Lcom/android/settings/SettingsLicenseActivity;->mSpinnerDlg:Landroid/app/ProgressDialog;
 
     .line 218
-    const v0, 0x7f0807f2
+    const v0, 0x7f0c07ed
 
     const/4 v1, 0x1
 
@@ -150,7 +150,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0807f1
+    const v2, 0x7f0c07ec
 
     invoke-virtual {v0, v2}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -261,7 +261,7 @@
     iput-object v5, p0, Lcom/android/settings/SettingsLicenseActivity;->mHandler:Landroid/os/Handler;
 
     .line 162
-    const v5, 0x7f0807f1
+    const v5, 0x7f0c07ec
 
     invoke-virtual {p0, v5}, Lcom/android/settings/SettingsLicenseActivity;->getText(I)Ljava/lang/CharSequence;
 
@@ -269,7 +269,7 @@
 
     .line 163
     .local v4, title:Ljava/lang/CharSequence;
-    const v5, 0x7f0807f3
+    const v5, 0x7f0c07ee
 
     invoke-virtual {p0, v5}, Lcom/android/settings/SettingsLicenseActivity;->getText(I)Ljava/lang/CharSequence;
 

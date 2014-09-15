@@ -141,7 +141,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0800ae
+    const v3, 0x7f0c00ae
 
     const/4 v4, 0x0
 
@@ -1034,7 +1034,7 @@
     .line 313
     iget-object v3, p0, Lcom/android/settings/wifi/p2p/WifiP2pSettings;->mPeersGroup:Landroid/preference/PreferenceGroup;
 
-    const v4, 0x7f08068d
+    const v4, 0x7f0c0688
 
     invoke-virtual {v3, v4}, Landroid/preference/PreferenceGroup;->setTitle(I)V
 
@@ -1052,7 +1052,7 @@
     .line 316
     iget-object v3, p0, Lcom/android/settings/wifi/p2p/WifiP2pSettings;->mPersistentGroup:Landroid/preference/PreferenceGroup;
 
-    const v4, 0x7f08068e
+    const v4, 0x7f0c0689
 
     invoke-virtual {v3, v4}, Landroid/preference/PreferenceGroup;->setTitle(I)V
 
@@ -1079,9 +1079,9 @@
     .parameter "id"
 
     .prologue
-    const v11, 0x7f080866
+    const v11, 0x7f0c0861
 
-    const v10, 0x7f080865
+    const v10, 0x7f0c0860
 
     const/4 v1, 0x0
 
@@ -1123,7 +1123,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f080693
+    const v5, 0x7f0c068e
 
     const/4 v6, 0x2
 
@@ -1156,7 +1156,7 @@
 
     invoke-direct {v4, v5}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v5, 0x7f080691
+    const v5, 0x7f0c068c
 
     invoke-virtual {v4, v5}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -1220,7 +1220,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f080692
+    const v5, 0x7f0c068d
 
     new-array v6, v8, [Ljava/lang/Object;
 
@@ -1242,7 +1242,7 @@
     if-ne p1, v4, :cond_5
 
     .line 446
-    const v3, 0x7f080695
+    const v3, 0x7f0c0690
 
     .line 447
     .local v3, stringId:I
@@ -1275,7 +1275,7 @@
 
     invoke-direct {v4, v5}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v5, 0x7f080694
+    const v5, 0x7f0c068f
 
     invoke-virtual {v4, v5}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -1418,7 +1418,7 @@
 
     invoke-direct {v4, v5}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v5, 0x7f08068c
+    const v5, 0x7f0c0687
 
     invoke-virtual {v4, v5}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -1512,7 +1512,7 @@
     if-ne p1, v4, :cond_0
 
     .line 478
-    const v3, 0x7f080696
+    const v3, 0x7f0c0691
 
     .line 480
     .restart local v3       #stringId:I
@@ -1588,7 +1588,7 @@
 
     if-eqz v1, :cond_0
 
-    const v0, 0x7f08068b
+    const v0, 0x7f0c0686
 
     .line 338
     .local v0, textId:I
@@ -1608,7 +1608,7 @@
     .line 341
     const/4 v1, 0x2
 
-    const v2, 0x7f08068c
+    const v2, 0x7f0c0687
 
     invoke-interface {p1, v3, v1, v3, v2}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
@@ -1631,7 +1631,7 @@
     .line 336
     .end local v0           #textId:I
     :cond_0
-    const v0, 0x7f08068a
+    const v0, 0x7f0c0685
 
     goto :goto_0
 .end method
@@ -2166,7 +2166,7 @@
     if-eqz v2, :cond_1
 
     .line 360
-    const v2, 0x7f08068b
+    const v2, 0x7f0c0686
 
     invoke-interface {v1, v2}, Landroid/view/MenuItem;->setTitle(I)Landroid/view/MenuItem;
 
@@ -2185,7 +2185,7 @@
 
     .line 362
     :cond_1
-    const v2, 0x7f08068a
+    const v2, 0x7f0c0685
 
     invoke-interface {v1, v2}, Landroid/view/MenuItem;->setTitle(I)Landroid/view/MenuItem;
 

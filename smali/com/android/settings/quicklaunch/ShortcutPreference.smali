@@ -78,7 +78,7 @@
     if-nez v1, :cond_0
 
     .line 56
-    const v1, 0x7f0808ea
+    const v1, 0x7f0c08e5
 
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -87,7 +87,7 @@
     sput-object v1, Lcom/android/settings/quicklaunch/ShortcutPreference;->STRING_ASSIGN_APPLICATION:Ljava/lang/String;
 
     .line 57
-    const v1, 0x7f0808eb
+    const v1, 0x7f0c08e6
 
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -136,7 +136,7 @@
     iput-char p2, p0, Lcom/android/settings/quicklaunch/ShortcutPreference;->mShortcut:C
 
     .line 67
-    const v1, 0x7f0400aa
+    const v1, 0x7f0400ac
 
     invoke-virtual {p0, v1}, Lcom/android/settings/quicklaunch/ShortcutPreference;->setWidgetLayoutResource(I)V
 

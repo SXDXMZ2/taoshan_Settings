@@ -63,7 +63,7 @@
 
     iget-object v1, p0, Lcom/android/settings/profiles/ProfilesSettings$ProfilesPagerAdapter;->this$0:Lcom/android/settings/profiles/ProfilesSettings;
 
-    const v2, 0x7f0800eb
+    const v2, 0x7f0c00eb
 
     invoke-virtual {v1, v2}, Lcom/android/settings/profiles/ProfilesSettings;->getString(I)Ljava/lang/String;
 
@@ -73,7 +73,7 @@
 
     iget-object v1, p0, Lcom/android/settings/profiles/ProfilesSettings$ProfilesPagerAdapter;->this$0:Lcom/android/settings/profiles/ProfilesSettings;
 
-    const v2, 0x7f0800ed
+    const v2, 0x7f0c00ed
 
     invoke-virtual {v1, v2}, Lcom/android/settings/profiles/ProfilesSettings;->getString(I)Ljava/lang/String;
 

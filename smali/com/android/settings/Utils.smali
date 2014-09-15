@@ -47,7 +47,7 @@
     invoke-virtual {v0, p1}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
     .line 680
-    const v1, 0x7f080b99
+    const v1, 0x7f0c0b94
 
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
@@ -561,10 +561,10 @@
     .prologue
     const/4 v2, 0x0
 
-    .line 791
+    .line 786
     if-eqz p1, :cond_0
 
-    .line 793
+    .line 788
     :try_start_0
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
@@ -576,23 +576,23 @@
 
     move-result-object v0
 
-    .line 795
+    .line 790
     .local v0, ai:Landroid/content/pm/ApplicationInfo;
     iget-object v2, v0, Landroid/content/pm/ApplicationInfo;->metaData:Landroid/os/Bundle;
     :try_end_0
     .catch Landroid/content/pm/PackageManager$NameNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 801
+    .line 796
     .end local v0           #ai:Landroid/content/pm/ApplicationInfo;
     :cond_0
     :goto_0
     return-object v2
 
-    .line 796
+    .line 791
     :catch_0
     move-exception v1
 
-    .line 797
+    .line 792
     .local v1, e:Landroid/content/pm/PackageManager$NameNotFoundException;
     goto :goto_0
 .end method
@@ -696,7 +696,7 @@
     if-ne v4, v9, :cond_5
 
     .line 442
-    const v6, 0x7f080476
+    const v6, 0x7f0c0471
 
     invoke-virtual {p0, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -722,7 +722,7 @@
     if-ne v0, v7, :cond_1
 
     .line 447
-    const v3, 0x7f080371
+    const v3, 0x7f0c036c
 
     .line 451
     .local v3, resId:I
@@ -761,7 +761,7 @@
 
     .line 449
     :cond_1
-    const v3, 0x7f080372
+    const v3, 0x7f0c036d
 
     .restart local v3       #resId:I
     goto :goto_0
@@ -775,7 +775,7 @@
     if-ne v2, v7, :cond_3
 
     .line 455
-    const v3, 0x7f080477
+    const v3, 0x7f0c0472
 
     .line 461
     .restart local v3       #resId:I
@@ -815,7 +815,7 @@
     if-ne v2, v9, :cond_4
 
     .line 457
-    const v3, 0x7f080478
+    const v3, 0x7f0c0473
 
     .restart local v3       #resId:I
     goto :goto_2
@@ -823,7 +823,7 @@
     .line 459
     .end local v3           #resId:I
     :cond_4
-    const v3, 0x7f080479
+    const v3, 0x7f0c0474
 
     .restart local v3       #resId:I
     goto :goto_2
@@ -837,7 +837,7 @@
     if-ne v4, v6, :cond_6
 
     .line 464
-    const v6, 0x7f08047a
+    const v6, 0x7f0c0475
 
     invoke-virtual {p0, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -854,7 +854,7 @@
     if-ne v4, v6, :cond_7
 
     .line 466
-    const v6, 0x7f08047b
+    const v6, 0x7f0c0476
 
     invoke-virtual {p0, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -871,7 +871,7 @@
     if-ne v4, v6, :cond_8
 
     .line 468
-    const v6, 0x7f08005f
+    const v6, 0x7f0c005f
 
     invoke-virtual {p0, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -883,7 +883,7 @@
     .line 470
     .end local v5           #statusString:Ljava/lang/String;
     :cond_8
-    const v6, 0x7f080475
+    const v6, 0x7f0c0470
 
     invoke-virtual {p0, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1236,14 +1236,14 @@
     .parameter "context"
 
     .prologue
-    .line 703
+    .line 698
     sget v4, Lcom/android/settings/Utils;->sDeviceType:I
 
     const/4 v5, -0x1
 
     if-ne v4, v5, :cond_0
 
-    .line 704
+    .line 699
     const-string v4, "window"
 
     invoke-virtual {p0, v4}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
@@ -1252,13 +1252,13 @@
 
     check-cast v3, Landroid/view/WindowManager;
 
-    .line 705
+    .line 700
     .local v3, wm:Landroid/view/WindowManager;
     new-instance v0, Landroid/view/DisplayInfo;
 
     invoke-direct {v0}, Landroid/view/DisplayInfo;-><init>()V
 
-    .line 706
+    .line 701
     .local v0, outDisplayInfo:Landroid/view/DisplayInfo;
     invoke-interface {v3}, Landroid/view/WindowManager;->getDefaultDisplay()Landroid/view/Display;
 
@@ -1266,7 +1266,7 @@
 
     invoke-virtual {v4, v0}, Landroid/view/Display;->getDisplayInfo(Landroid/view/DisplayInfo;)Z
 
-    .line 707
+    .line 702
     iget v4, v0, Landroid/view/DisplayInfo;->logicalHeight:I
 
     iget v5, v0, Landroid/view/DisplayInfo;->logicalWidth:I
@@ -1275,7 +1275,7 @@
 
     move-result v1
 
-    .line 708
+    .line 703
     .local v1, shortSize:I
     mul-int/lit16 v4, v1, 0xa0
 
@@ -1283,18 +1283,18 @@
 
     div-int v2, v4, v5
 
-    .line 710
+    .line 705
     .local v2, shortSizeDp:I
     const/16 v4, 0x258
 
     if-ge v2, v4, :cond_1
 
-    .line 712
+    .line 707
     const/4 v4, 0x0
 
     sput v4, Lcom/android/settings/Utils;->sDeviceType:I
 
-    .line 721
+    .line 716
     .end local v0           #outDisplayInfo:Landroid/view/DisplayInfo;
     .end local v1           #shortSize:I
     .end local v2           #shortSizeDp:I
@@ -1305,7 +1305,7 @@
 
     return v4
 
-    .line 713
+    .line 708
     .restart local v0       #outDisplayInfo:Landroid/view/DisplayInfo;
     .restart local v1       #shortSize:I
     .restart local v2       #shortSizeDp:I
@@ -1315,14 +1315,14 @@
 
     if-ge v2, v4, :cond_2
 
-    .line 715
+    .line 710
     const/4 v4, 0x1
 
     sput v4, Lcom/android/settings/Utils;->sDeviceType:I
 
     goto :goto_0
 
-    .line 718
+    .line 713
     :cond_2
     const/4 v4, 0x2
 
@@ -1367,7 +1367,7 @@
     .parameter "cm"
 
     .prologue
-    const v8, 0x7f0807b1
+    const v8, 0x7f0c07ac
 
     const/4 v6, 0x1
 
@@ -1482,7 +1482,7 @@
     if-eqz v4, :cond_6
 
     .line 525
-    const v6, 0x7f0807ae
+    const v6, 0x7f0c07a9
 
     goto :goto_3
 
@@ -1493,7 +1493,7 @@
     if-eqz v0, :cond_7
 
     .line 527
-    const v6, 0x7f0807b0
+    const v6, 0x7f0c07ab
 
     goto :goto_3
 
@@ -1502,13 +1502,13 @@
     if-eqz v2, :cond_8
 
     .line 529
-    const v6, 0x7f0807ad
+    const v6, 0x7f0c07a8
 
     goto :goto_3
 
     .line 531
     :cond_8
-    const v6, 0x7f0807af
+    const v6, 0x7f0c07aa
 
     goto :goto_3
 .end method
@@ -1586,12 +1586,12 @@
     .parameter "context"
 
     .prologue
-    .line 771
+    .line 766
     invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
-    const v1, 0x7f0b000b
+    const v1, 0x7f0a000b
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getBoolean(I)Z
 
@@ -1687,15 +1687,15 @@
     .prologue
     const/4 v2, 0x0
 
-    .line 775
+    .line 770
     if-nez p1, :cond_1
 
-    .line 786
+    .line 781
     :cond_0
     :goto_0
     return v2
 
-    .line 779
+    .line 774
     :cond_1
     :try_start_0
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
@@ -1708,7 +1708,7 @@
 
     move-result-object v1
 
-    .line 780
+    .line 775
     .local v1, pi:Landroid/content/pm/PackageInfo;
     iget-object v3, v1, Landroid/content/pm/PackageInfo;->applicationInfo:Landroid/content/pm/ApplicationInfo;
 
@@ -1718,17 +1718,17 @@
 
     if-eqz v3, :cond_0
 
-    .line 783
+    .line 778
     const/4 v2, 0x1
 
     goto :goto_0
 
-    .line 785
+    .line 780
     .end local v1           #pi:Landroid/content/pm/PackageInfo;
     :catch_0
     move-exception v0
 
-    .line 786
+    .line 781
     .local v0, e:Landroid/content/pm/PackageManager$NameNotFoundException;
     goto :goto_0
 .end method
@@ -1738,7 +1738,7 @@
     .parameter "context"
 
     .prologue
-    .line 725
+    .line 720
     invoke-static {p0}, Lcom/android/settings/Utils;->getScreenType(Landroid/content/Context;)I
 
     move-result v0
@@ -1756,43 +1756,12 @@
     goto :goto_0
 .end method
 
-.method public static isRestrictedProfile(Landroid/content/Context;)Z
-    .locals 2
-    .parameter "context"
-
-    .prologue
-    .line 698
-    const-string v1, "user"
-
-    invoke-virtual {p0, v1}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Landroid/os/UserManager;
-
-    .line 699
-    .local v0, um:Landroid/os/UserManager;
-    invoke-virtual {v0}, Landroid/os/UserManager;->getUserHandle()I
-
-    move-result v1
-
-    invoke-virtual {v0, v1}, Landroid/os/UserManager;->getUserInfo(I)Landroid/content/pm/UserInfo;
-
-    move-result-object v1
-
-    invoke-virtual {v1}, Landroid/content/pm/UserInfo;->isRestricted()Z
-
-    move-result v1
-
-    return v1
-.end method
-
 .method public static isTablet(Landroid/content/Context;)Z
     .locals 2
     .parameter "context"
 
     .prologue
-    .line 733
+    .line 728
     invoke-static {p0}, Lcom/android/settings/Utils;->getScreenType(Landroid/content/Context;)I
 
     move-result v0
@@ -1892,7 +1861,7 @@
 
     const/4 v4, 0x1
 
-    .line 741
+    .line 736
     invoke-virtual {p0}, Landroid/app/Activity;->getWindowManager()Landroid/view/WindowManager;
 
     move-result-object v7
@@ -1905,7 +1874,7 @@
 
     move-result v0
 
-    .line 742
+    .line 737
     .local v0, currentRotation:I
     invoke-virtual {p0}, Landroid/app/Activity;->getResources()Landroid/content/res/Resources;
 
@@ -1917,70 +1886,70 @@
 
     iget v2, v7, Landroid/content/res/Configuration;->orientation:I
 
-    .line 743
+    .line 738
     .local v2, orientation:I
     const/4 v1, 0x0
 
-    .line 744
+    .line 739
     .local v1, frozenRotation:I
     packed-switch v0, :pswitch_data_0
 
-    .line 766
+    .line 761
     :goto_0
     invoke-virtual {p0, v1}, Landroid/app/Activity;->setRequestedOrientation(I)V
 
-    .line 767
+    .line 762
     return-void
 
-    .line 746
+    .line 741
     :pswitch_0
     if-ne v2, v8, :cond_0
 
     move v1, v3
 
-    .line 749
+    .line 744
     :goto_1
     goto :goto_0
 
     :cond_0
     move v1, v4
 
-    .line 746
+    .line 741
     goto :goto_1
 
-    .line 751
+    .line 746
     :pswitch_1
     if-ne v2, v4, :cond_1
 
     move v1, v5
 
-    .line 754
+    .line 749
     :goto_2
     goto :goto_0
 
     :cond_1
     move v1, v3
 
-    .line 751
+    .line 746
     goto :goto_2
 
-    .line 756
+    .line 751
     :pswitch_2
     if-ne v2, v8, :cond_2
 
     move v1, v6
 
-    .line 759
+    .line 754
     :goto_3
     goto :goto_0
 
     :cond_2
     move v1, v5
 
-    .line 756
+    .line 751
     goto :goto_3
 
-    .line 761
+    .line 756
     :pswitch_3
     if-ne v2, v4, :cond_3
 
@@ -1994,7 +1963,7 @@
 
     goto :goto_4
 
-    .line 744
+    .line 739
     nop
 
     :pswitch_data_0

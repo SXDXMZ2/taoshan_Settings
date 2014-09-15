@@ -44,7 +44,7 @@
 
     if-nez p1, :cond_1
 
-    const v2, 0x7f0c0010
+    const v2, 0x7f0b0010
 
     :goto_0
     invoke-virtual {v3, v2}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
@@ -83,7 +83,7 @@
     .end local v0           #formats:[Ljava/lang/String;
     .end local v1           #index:I
     :cond_1
-    const v2, 0x7f0c0011
+    const v2, 0x7f0b0011
 
     goto :goto_0
 

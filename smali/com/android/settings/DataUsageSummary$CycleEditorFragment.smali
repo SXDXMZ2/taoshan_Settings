@@ -313,7 +313,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0c00a8
+    const v3, 0x7f0b00a8
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -339,7 +339,7 @@
 
     .line 1865
     .local v21, cycleLengthSpinner:Landroid/widget/Spinner;
-    const v2, 0x7f0c00a7
+    const v2, 0x7f0b00a7
 
     const v3, 0x1090008
 
@@ -396,7 +396,7 @@
     invoke-direct/range {v11 .. v16}, Lcom/android/settings/DataUsageSummary$CycleEditorFragment;->updatePicker(IILandroid/widget/NumberPicker;Landroid/widget/NumberPicker;Landroid/view/View;)V
 
     .line 1895
-    const v2, 0x7f080b19
+    const v2, 0x7f0c0b14
 
     move-object/from16 v0, v18
 
@@ -410,7 +410,7 @@
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setView(Landroid/view/View;)Landroid/app/AlertDialog$Builder;
 
     .line 1898
-    const v2, 0x7f080b1b
+    const v2, 0x7f0c0b16
 
     new-instance v11, Lcom/android/settings/DataUsageSummary$CycleEditorFragment$2;
 

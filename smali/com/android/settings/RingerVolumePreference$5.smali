@@ -84,17 +84,17 @@
 
     .line 317
     .local v0, builder:Landroid/app/AlertDialog$Builder;
-    const v1, 0x7f080179
+    const v1, 0x7f0c0175
 
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
     .line 318
-    const v1, 0x7f080178
+    const v1, 0x7f0c0174
 
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
     .line 319
-    const v1, 0x7f080519
+    const v1, 0x7f0c0514
 
     new-instance v2, Lcom/android/settings/RingerVolumePreference$5$1;
 
@@ -103,7 +103,7 @@
     invoke-virtual {v0, v1, v2}, Landroid/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
     .line 332
-    const v1, 0x7f0801f9
+    const v1, 0x7f0c01f5
 
     new-instance v2, Lcom/android/settings/RingerVolumePreference$5$2;
 

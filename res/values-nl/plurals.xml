@@ -8,10 +8,6 @@
         <item quantity="other">%d keer</item>
         <item quantity="one">1 keer</item>
     </plurals>
-    <plurals name="show_dev_countdown_cm">
-        <item quantity="other">U bent nog %1$d stappen verwijderd van de opties voor ontwikkelaars.</item>
-        <item quantity="one">U bent nog %1$d stap verwijderd van de opties voor ontwikkelaars.</item>
-    </plurals>
     <plurals name="show_dev_countdown">
         <item quantity="other">U moet nog %1$d stappen uitvoeren om ontwikkelaar te worden.</item>
         <item quantity="one">U moet nog %1$d stap uitvoeren om ontwikkelaar te worden.</item>

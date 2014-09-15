@@ -202,7 +202,7 @@
     .line 299
     iget-object v2, p0, Lcom/android/settings/NotificationAccessSettings$ListenerListAdapter;->mInflater:Landroid/view/LayoutInflater;
 
-    const v3, 0x7f040079
+    const v3, 0x7f04007b
 
     const/4 v4, 0x0
 

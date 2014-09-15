@@ -40,15 +40,15 @@
     .parameter "context"
 
     .prologue
-    .line 265
+    .line 247
     iput-object p1, p0, Lcom/android/settings/applications/ProtectedAppsActivity$StoreComponentProtectedStatus;->this$0:Lcom/android/settings/applications/ProtectedAppsActivity;
 
     invoke-direct {p0}, Landroid/os/AsyncTask;-><init>()V
 
-    .line 266
+    .line 248
     iput-object p2, p0, Lcom/android/settings/applications/ProtectedAppsActivity$StoreComponentProtectedStatus;->mContext:Landroid/content/Context;
 
-    .line 267
+    .line 249
     new-instance v0, Landroid/app/ProgressDialog;
 
     iget-object v1, p0, Lcom/android/settings/applications/ProtectedAppsActivity$StoreComponentProtectedStatus;->mContext:Landroid/content/Context;
@@ -57,7 +57,7 @@
 
     iput-object v0, p0, Lcom/android/settings/applications/ProtectedAppsActivity$StoreComponentProtectedStatus;->mDialog:Landroid/app/ProgressDialog;
 
-    .line 268
+    .line 250
     return-void
 .end method
 
@@ -68,7 +68,7 @@
     .parameter "x0"
 
     .prologue
-    .line 261
+    .line 243
     check-cast p1, [Lcom/android/settings/applications/ProtectedAppsActivity$AppProtectList;
 
     .end local p1
@@ -84,7 +84,7 @@
     .parameter "args"
 
     .prologue
-    .line 289
+    .line 271
     move-object v1, p1
 
     .local v1, arr$:[Lcom/android/settings/applications/ProtectedAppsActivity$AppProtectList;
@@ -99,7 +99,7 @@
 
     aget-object v0, v1, v2
 
-    .line 290
+    .line 272
     .local v0, appList:Lcom/android/settings/applications/ProtectedAppsActivity$AppProtectList;
     iget-object v4, p0, Lcom/android/settings/applications/ProtectedAppsActivity$StoreComponentProtectedStatus;->mContext:Landroid/content/Context;
 
@@ -109,12 +109,12 @@
 
     invoke-static {v4, v5, v6}, Lcom/android/settings/cyanogenmod/ProtectedAppsReceiver;->updateProtectedAppComponentsAndNotify(Landroid/content/Context;Ljava/util/ArrayList;Z)V
 
-    .line 289
+    .line 271
     add-int/lit8 v2, v2, 0x1
 
     goto :goto_0
 
-    .line 294
+    .line 276
     .end local v0           #appList:Lcom/android/settings/applications/ProtectedAppsActivity$AppProtectList;
     :cond_0
     const/4 v4, 0x0
@@ -127,7 +127,7 @@
     .parameter "x0"
 
     .prologue
-    .line 261
+    .line 243
     check-cast p1, Ljava/lang/Void;
 
     .end local p1
@@ -141,7 +141,7 @@
     .parameter "aVoid"
 
     .prologue
-    .line 280
+    .line 262
     iget-object v0, p0, Lcom/android/settings/applications/ProtectedAppsActivity$StoreComponentProtectedStatus;->mDialog:Landroid/app/ProgressDialog;
 
     invoke-virtual {v0}, Landroid/app/ProgressDialog;->isShowing()Z
@@ -150,12 +150,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 281
+    .line 263
     iget-object v0, p0, Lcom/android/settings/applications/ProtectedAppsActivity$StoreComponentProtectedStatus;->mDialog:Landroid/app/ProgressDialog;
 
     invoke-virtual {v0}, Landroid/app/ProgressDialog;->dismiss()V
 
-    .line 284
+    .line 266
     :cond_0
     iget-object v0, p0, Lcom/android/settings/applications/ProtectedAppsActivity$StoreComponentProtectedStatus;->this$0:Lcom/android/settings/applications/ProtectedAppsActivity;
 
@@ -166,7 +166,7 @@
 
     invoke-virtual {v0}, Lcom/android/settings/applications/ProtectedAppsActivity$AppsAdapter;->notifyDataSetChanged()V
 
-    .line 285
+    .line 267
     return-void
 .end method
 
@@ -176,7 +176,7 @@
     .prologue
     const/4 v3, 0x0
 
-    .line 272
+    .line 254
     iget-object v0, p0, Lcom/android/settings/applications/ProtectedAppsActivity$StoreComponentProtectedStatus;->mDialog:Landroid/app/ProgressDialog;
 
     iget-object v1, p0, Lcom/android/settings/applications/ProtectedAppsActivity$StoreComponentProtectedStatus;->this$0:Lcom/android/settings/applications/ProtectedAppsActivity;
@@ -185,7 +185,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f08041c
+    const v2, 0x7f0c0417
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -193,21 +193,21 @@
 
     invoke-virtual {v0, v1}, Landroid/app/ProgressDialog;->setMessage(Ljava/lang/CharSequence;)V
 
-    .line 273
+    .line 255
     iget-object v0, p0, Lcom/android/settings/applications/ProtectedAppsActivity$StoreComponentProtectedStatus;->mDialog:Landroid/app/ProgressDialog;
 
     invoke-virtual {v0, v3}, Landroid/app/ProgressDialog;->setCancelable(Z)V
 
-    .line 274
+    .line 256
     iget-object v0, p0, Lcom/android/settings/applications/ProtectedAppsActivity$StoreComponentProtectedStatus;->mDialog:Landroid/app/ProgressDialog;
 
     invoke-virtual {v0, v3}, Landroid/app/ProgressDialog;->setCanceledOnTouchOutside(Z)V
 
-    .line 275
+    .line 257
     iget-object v0, p0, Lcom/android/settings/applications/ProtectedAppsActivity$StoreComponentProtectedStatus;->mDialog:Landroid/app/ProgressDialog;
 
     invoke-virtual {v0}, Landroid/app/ProgressDialog;->show()V
 
-    .line 276
+    .line 258
     return-void
 .end method

@@ -314,7 +314,7 @@
     if-eqz v9, :cond_3
 
     .line 210
-    const v10, 0x7f080979
+    const v10, 0x7f0c0974
 
     invoke-virtual {p0, v10}, Lcom/android/settings/print/PrintSettingsFragment;->getString(I)Ljava/lang/String;
 
@@ -368,7 +368,7 @@
     .line 225
     const-string v11, "EXTRA_ENABLE_WARNING_TITLE"
 
-    const v12, 0x7f080973
+    const v12, 0x7f0c096e
 
     new-array v13, v14, [Ljava/lang/Object;
 
@@ -383,7 +383,7 @@
     .line 227
     const-string v11, "EXTRA_ENABLE_WARNING_MESSAGE"
 
-    const v12, 0x7f080974
+    const v12, 0x7f0c096f
 
     new-array v13, v14, [Ljava/lang/Object;
 
@@ -410,7 +410,7 @@
     .line 232
     const-string v11, "EXTRA_SETTINGS_TITLE"
 
-    const v12, 0x7f080977
+    const v12, 0x7f0c0972
 
     invoke-virtual {p0, v12}, Lcom/android/settings/print/PrintSettingsFragment;->getString(I)Ljava/lang/String;
 
@@ -451,7 +451,7 @@
     .line 241
     const-string v9, "EXTRA_ADD_PRINTERS_TITLE"
 
-    const v11, 0x7f080978
+    const v11, 0x7f0c0973
 
     invoke-virtual {p0, v11}, Lcom/android/settings/print/PrintSettingsFragment;->getString(I)Ljava/lang/String;
 
@@ -508,7 +508,7 @@
 
     .line 212
     :cond_3
-    const v10, 0x7f08097a
+    const v10, 0x7f0c0975
 
     invoke-virtual {p0, v10}, Lcom/android/settings/print/PrintSettingsFragment;->getString(I)Ljava/lang/String;
 
@@ -645,7 +645,7 @@
     if-nez v2, :cond_0
 
     .line 154
-    const v2, 0x7f08097b
+    const v2, 0x7f0c0976
 
     invoke-interface {p1, v2}, Landroid/view/Menu;->add(I)Landroid/view/MenuItem;
 
@@ -801,7 +801,7 @@
 
     .line 167
     .local v2, textView:Landroid/widget/TextView;
-    const v3, 0x7f080975
+    const v3, 0x7f0c0970
 
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setText(I)V
 

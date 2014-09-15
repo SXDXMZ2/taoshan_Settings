@@ -585,7 +585,7 @@
 
     invoke-direct {v1, v2}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v2, 0x7f0801dc
+    const v2, 0x7f0c01d8
 
     invoke-virtual {v1, v2}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -601,7 +601,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0801cd
+    const v2, 0x7f0c01c9
 
     invoke-virtual {v1, v2, v3}, Landroid/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
@@ -746,7 +746,7 @@
 
     invoke-direct {v7, v8}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v8, 0x7f0801db
+    const v8, 0x7f0c01d7
 
     invoke-virtual {v7, v8}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -762,7 +762,7 @@
 
     move-result-object v7
 
-    const v8, 0x7f0801cd
+    const v8, 0x7f0c01c9
 
     invoke-virtual {v7, v8, v9}, Landroid/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
@@ -800,7 +800,7 @@
 
     invoke-direct {v1, v2}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v2, 0x7f0801d3
+    const v2, 0x7f0c01cf
 
     invoke-virtual {v1, v2}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -812,13 +812,13 @@
 
     move-result-object v1
 
-    const v2, 0x7f0801d4
+    const v2, 0x7f0c01d0
 
     invoke-virtual {v1, v2}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
     move-result-object v1
 
-    const v2, 0x7f0801f9
+    const v2, 0x7f0c01f5
 
     new-instance v3, Lcom/android/settings/cyanogenmod/AutoBrightnessCustomizeDialog$4;
 
@@ -828,7 +828,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080519
+    const v2, 0x7f0c0514
 
     const/4 v3, 0x0
 
@@ -1138,7 +1138,7 @@
     invoke-virtual {p0, v3}, Lcom/android/settings/cyanogenmod/AutoBrightnessCustomizeDialog;->setView(Landroid/view/View;)V
 
     .line 108
-    const v4, 0x7f0801c8
+    const v4, 0x7f0c01c4
 
     invoke-virtual {p0, v4}, Lcom/android/settings/cyanogenmod/AutoBrightnessCustomizeDialog;->setTitle(I)V
 
@@ -1161,7 +1161,7 @@
     .line 112
     const/4 v4, -0x3
 
-    const v5, 0x7f0801ce
+    const v5, 0x7f0c01ca
 
     invoke-virtual {v0, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1308,12 +1308,12 @@
 
     .line 198
     .local v0, info:Landroid/widget/AdapterView$AdapterContextMenuInfo;
-    const v1, 0x7f0801d6
+    const v1, 0x7f0c01d2
 
     invoke-interface {p1, v1}, Landroid/view/ContextMenu;->setHeaderTitle(I)Landroid/view/ContextMenu;
 
     .line 200
-    const v1, 0x7f0801d7
+    const v1, 0x7f0c01d3
 
     invoke-interface {p1, v3, v2, v3, v1}, Landroid/view/ContextMenu;->add(IIII)Landroid/view/MenuItem;
 
@@ -1336,7 +1336,7 @@
     invoke-interface {v4, v1}, Landroid/view/MenuItem;->setEnabled(Z)Landroid/view/MenuItem;
 
     .line 202
-    const v1, 0x7f0801d8
+    const v1, 0x7f0c01d4
 
     invoke-interface {p1, v3, v6, v2, v1}, Landroid/view/ContextMenu;->add(IIII)Landroid/view/MenuItem;
 
@@ -1355,7 +1355,7 @@
     .line 204
     const/4 v1, 0x3
 
-    const v4, 0x7f0801d9
+    const v4, 0x7f0c01d5
 
     invoke-interface {p1, v3, v1, v6, v4}, Landroid/view/ContextMenu;->add(IIII)Landroid/view/MenuItem;
 

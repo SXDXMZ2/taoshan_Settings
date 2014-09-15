@@ -54,10 +54,10 @@
     .parameter "reason"
 
     .prologue
-    .line 315
+    .line 307
     packed-switch p3, :pswitch_data_0
 
-    .line 333
+    .line 325
     :pswitch_0
     const-string v1, "BluetoothEventManager"
 
@@ -81,49 +81,49 @@
 
     invoke-static {v1, v2}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 337
+    .line 329
     :goto_0
     return-void
 
-    .line 318
+    .line 310
     :pswitch_1
-    const v0, 0x7f0805b2
+    const v0, 0x7f0c05ad
 
-    .line 336
+    .line 328
     .local v0, errorMsg:I
     :goto_1
     invoke-static {p1, p2, v0}, Lcom/android/settings/bluetooth/Utils;->showError(Landroid/content/Context;Ljava/lang/String;I)V
 
     goto :goto_0
 
-    .line 321
+    .line 313
     .end local v0           #errorMsg:I
     :pswitch_2
-    const v0, 0x7f0805b4
+    const v0, 0x7f0c05af
 
-    .line 322
+    .line 314
     .restart local v0       #errorMsg:I
     goto :goto_1
 
-    .line 324
+    .line 316
     .end local v0           #errorMsg:I
     :pswitch_3
-    const v0, 0x7f0805b3
+    const v0, 0x7f0c05ae
 
-    .line 325
+    .line 317
     .restart local v0       #errorMsg:I
     goto :goto_1
 
-    .line 330
+    .line 322
     .end local v0           #errorMsg:I
     :pswitch_4
-    const v0, 0x7f0805b1
+    const v0, 0x7f0c05ac
 
-    .line 331
+    .line 323
     .restart local v0       #errorMsg:I
     goto :goto_1
 
-    .line 315
+    .line 307
     nop
 
     :pswitch_data_0
@@ -161,7 +161,7 @@
 
     invoke-static {v5, v6}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 304
+    .line 296
     :cond_0
     :goto_0
     return-void
@@ -415,90 +415,13 @@
 
     .line 291
     :cond_5
-    invoke-virtual {v1}, Lcom/android/settings/bluetooth/CachedBluetoothDevice;->isRemovable()Z
-
-    move-result v5
-
-    if-eqz v5, :cond_7
-
-    .line 292
-    iget-object v5, p0, Lcom/android/settings/bluetooth/BluetoothEventManager$BondStateChangedHandler;->this$0:Lcom/android/settings/bluetooth/BluetoothEventManager;
-
-    #getter for: Lcom/android/settings/bluetooth/BluetoothEventManager;->mCallbacks:Ljava/util/Collection;
-    invoke-static {v5}, Lcom/android/settings/bluetooth/BluetoothEventManager;->access$1100(Lcom/android/settings/bluetooth/BluetoothEventManager;)Ljava/util/Collection;
-
-    move-result-object v6
-
-    monitor-enter v6
-
-    .line 293
-    :try_start_2
-    iget-object v5, p0, Lcom/android/settings/bluetooth/BluetoothEventManager$BondStateChangedHandler;->this$0:Lcom/android/settings/bluetooth/BluetoothEventManager;
-
-    #getter for: Lcom/android/settings/bluetooth/BluetoothEventManager;->mCallbacks:Ljava/util/Collection;
-    invoke-static {v5}, Lcom/android/settings/bluetooth/BluetoothEventManager;->access$1100(Lcom/android/settings/bluetooth/BluetoothEventManager;)Ljava/util/Collection;
-
-    move-result-object v5
-
-    invoke-interface {v5}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
-
-    move-result-object v3
-
-    :goto_2
-    invoke-interface {v3}, Ljava/util/Iterator;->hasNext()Z
-
-    move-result v5
-
-    if-eqz v5, :cond_6
-
-    invoke-interface {v3}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-
-    move-result-object v2
-
-    check-cast v2, Lcom/android/settings/bluetooth/BluetoothCallback;
-
-    .line 294
-    .restart local v2       #callback:Lcom/android/settings/bluetooth/BluetoothCallback;
-    invoke-interface {v2, v1}, Lcom/android/settings/bluetooth/BluetoothCallback;->onDeviceDeleted(Lcom/android/settings/bluetooth/CachedBluetoothDevice;)V
-
-    goto :goto_2
-
-    .line 296
-    .end local v2           #callback:Lcom/android/settings/bluetooth/BluetoothCallback;
-    :catchall_1
-    move-exception v5
-
-    monitor-exit v6
-    :try_end_2
-    .catchall {:try_start_2 .. :try_end_2} :catchall_1
-
-    throw v5
-
-    :cond_6
-    :try_start_3
-    monitor-exit v6
-    :try_end_3
-    .catchall {:try_start_3 .. :try_end_3} :catchall_1
-
-    .line 297
-    iget-object v5, p0, Lcom/android/settings/bluetooth/BluetoothEventManager$BondStateChangedHandler;->this$0:Lcom/android/settings/bluetooth/BluetoothEventManager;
-
-    #getter for: Lcom/android/settings/bluetooth/BluetoothEventManager;->mDeviceManager:Lcom/android/settings/bluetooth/CachedBluetoothDeviceManager;
-    invoke-static {v5}, Lcom/android/settings/bluetooth/BluetoothEventManager;->access$1200(Lcom/android/settings/bluetooth/BluetoothEventManager;)Lcom/android/settings/bluetooth/CachedBluetoothDeviceManager;
-
-    move-result-object v5
-
-    invoke-virtual {v5, v1}, Lcom/android/settings/bluetooth/CachedBluetoothDeviceManager;->onDeviceDeleted(Lcom/android/settings/bluetooth/CachedBluetoothDevice;)V
-
-    .line 299
-    :cond_7
     const-string v5, "android.bluetooth.device.extra.REASON"
 
     invoke-virtual {p2, v5, v8}, Landroid/content/Intent;->getIntExtra(Ljava/lang/String;I)I
 
     move-result v4
 
-    .line 302
+    .line 294
     .local v4, reason:I
     invoke-virtual {v1}, Lcom/android/settings/bluetooth/CachedBluetoothDevice;->getName()Ljava/lang/String;
 

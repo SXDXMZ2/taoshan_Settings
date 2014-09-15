@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="allow">Benarkan</string>
+    <string name="deny">Nafikan</string>
     <string name="delete">Padam</string>
     <string name="battery_info_status_full">Penuh</string>
     <string name="yes">Ya</string>
     <string name="no">Tidak</string>
     <string name="create">Buat</string>
-    <string name="allow">Benarkan</string>
-    <string name="deny">Nafikan</string>
     <string name="device_info_default">Tidak diketahui</string>
     <string name="show_dev_on">Anda kini pemaju!</string>
     <string name="show_dev_already">Tidak perlu, anda sudah pun menjadi pemaju.</string>
@@ -647,6 +647,8 @@ Persediaan telefon berpotensi menggunakan aktiviti rangkaian yang banyak."</stri
     <string name="volume_notification_mute">Redam pemberitahuan</string>
     <string name="volume_alarm_mute">Redam penggera</string>
     <string name="vibrate_when_ringing_title">Bergetar apabila berdering</string>
+    <string name="system_update_settings_list_item_title">Kemas kini sistem</string>
+    <string name="system_update_settings_list_item_summary" />
     <string name="dock_settings">Dok</string>
     <string name="dock_settings_title">Tetapan dok</string>
     <string name="dock_audio_settings_title">Audio</string>
@@ -711,8 +713,6 @@ Mungkin PIN salah."</string>
     <string name="wrong_pin_code_pukked">Kod PIN SIM tidak betul, jadi anda harus menghubungi pembawa anda untuk membuka kunci peranti.</string>
     <string name="pin_failed">Operasi PIN SIM gagal!</string>
     <string name="device_info_settings">Status telefon</string>
-    <string name="system_update_settings_list_item_title">Kemas kini sistem</string>
-    <string name="system_update_settings_list_item_summary" />
     <string name="firmware_version">Versi Android</string>
     <string name="model_number">Nombor model</string>
     <string name="fcc_equipment_id">ID Peralatan</string>

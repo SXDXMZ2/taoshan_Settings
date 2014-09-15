@@ -264,7 +264,7 @@
 
     .line 107
     .local v1, ap:Lcom/android/internal/app/AlertController$AlertParams;
-    const v7, 0x7f080926
+    const v7, 0x7f0c0921
 
     invoke-virtual {p0, v7}, Lcom/android/settings/AllowBindAppWidgetActivity;->getString(I)Ljava/lang/String;
 
@@ -273,7 +273,7 @@
     iput-object v7, v1, Lcom/android/internal/app/AlertController$AlertParams;->mTitle:Ljava/lang/CharSequence;
 
     .line 108
-    const v7, 0x7f080927
+    const v7, 0x7f0c0922
 
     new-array v8, v12, [Ljava/lang/Object;
 
@@ -286,7 +286,7 @@
     iput-object v7, v1, Lcom/android/internal/app/AlertController$AlertParams;->mMessage:Ljava/lang/CharSequence;
 
     .line 109
-    const v7, 0x7f080436
+    const v7, 0x7f0c0433
 
     invoke-virtual {p0, v7}, Lcom/android/settings/AllowBindAppWidgetActivity;->getString(I)Ljava/lang/String;
 
@@ -344,7 +344,7 @@
     .line 117
     iget-object v7, p0, Lcom/android/settings/AllowBindAppWidgetActivity;->mAlwaysUse:Landroid/widget/CheckBox;
 
-    const v8, 0x7f080928
+    const v8, 0x7f0c0923
 
     new-array v9, v12, [Ljava/lang/Object;
 

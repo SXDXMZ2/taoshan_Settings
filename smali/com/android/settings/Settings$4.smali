@@ -27,7 +27,7 @@
     .parameter
 
     .prologue
-    .line 361
+    .line 364
     iput-object p1, p0, Lcom/android/settings/Settings$4;->this$0:Lcom/android/settings/Settings;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -43,11 +43,11 @@
     .parameter "key"
 
     .prologue
-    .line 364
+    .line 367
     iget-object v0, p0, Lcom/android/settings/Settings$4;->this$0:Lcom/android/settings/Settings;
 
     invoke-virtual {v0}, Lcom/android/settings/Settings;->invalidateHeaders()V
 
-    .line 365
+    .line 368
     return-void
 .end method

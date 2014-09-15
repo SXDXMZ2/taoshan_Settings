@@ -366,7 +366,7 @@
     :cond_2
     iget-object v2, p0, Lcom/android/settings/inputmethod/StylusGestures;->mContext:Landroid/content/Context;
 
-    const v3, 0x7f08038c
+    const v3, 0x7f0c0387
 
     const/4 v4, 0x1
 
@@ -455,7 +455,7 @@
 
     .line 72
     .local v0, resources:Landroid/content/res/Resources;
-    const v1, 0x7f0c00a5
+    const v1, 0x7f0b00a5
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -464,7 +464,7 @@
     iput-object v1, p0, Lcom/android/settings/inputmethod/StylusGestures;->mActionNames:[Ljava/lang/String;
 
     .line 73
-    const v1, 0x7f0c00a6
+    const v1, 0x7f0b00a6
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 

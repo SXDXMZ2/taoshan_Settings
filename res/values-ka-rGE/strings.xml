@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="allow">ნების დართვა</string>
+    <string name="deny">უარყოფა</string>
     <string name="delete">წაშლა</string>
     <string name="battery_info_status_full">ბატარეა დატენილია</string>
     <string name="yes">დიახ</string>
     <string name="no">არა</string>
     <string name="create">შექმნა</string>
-    <string name="allow">ნების დართვა</string>
-    <string name="deny">უარყოფა</string>
     <string name="device_info_default">უცნობი</string>
     <string name="show_dev_on">ახლა დეველოპერი ხართ!</string>
     <string name="show_dev_already">არ არის საჭირო, თქვენ უკვე დეველოპერი ხართ.</string>
@@ -647,6 +647,8 @@
     <string name="volume_notification_mute">შეტყობინებების დადუმება</string>
     <string name="volume_alarm_mute">მაღვიძარების გაჩუმება</string>
     <string name="vibrate_when_ringing_title">დარეკვის დროს ვიბრაცია</string>
+    <string name="system_update_settings_list_item_title">სისტემური განახლებები</string>
+    <string name="system_update_settings_list_item_summary" />
     <string name="dock_settings">სამაგრი</string>
     <string name="dock_settings_title">სამაგრის პარამეტრები</string>
     <string name="dock_audio_settings_title">აუდიო</string>
@@ -711,8 +713,6 @@
     <string name="wrong_pin_code_pukked">SIM-ის არასწორი PIN კოდი. თქვენ ახლა მოგიწევთ მოწყობილობის განსაბლოკად მიმართოთ ოპერატორს.</string>
     <string name="pin_failed">SIM PIN ოპერაცია ჩაიშალა!</string>
     <string name="device_info_settings">ტელეფონის სტატუსი</string>
-    <string name="system_update_settings_list_item_title">სისტემური განახლებები</string>
-    <string name="system_update_settings_list_item_summary" />
     <string name="firmware_version">Android-ის ვერსია</string>
     <string name="model_number">მოდელის ნომერი</string>
     <string name="fcc_equipment_id">მოწყობილობის ID</string>

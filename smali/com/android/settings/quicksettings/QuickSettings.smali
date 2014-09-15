@@ -92,7 +92,7 @@
     .line 238
     iget-object v2, p0, Lcom/android/settings/quicksettings/QuickSettings;->mQuickPulldown:Landroid/preference/ListPreference;
 
-    const v3, 0x7f0801b6
+    const v3, 0x7f0c01b2
 
     invoke-virtual {v1, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -110,7 +110,7 @@
 
     if-ne p1, v2, :cond_1
 
-    const v2, 0x7f0801b4
+    const v2, 0x7f0c01b0
 
     :goto_1
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
@@ -121,7 +121,7 @@
     .local v0, direction:Ljava/lang/String;
     iget-object v2, p0, Lcom/android/settings/quicksettings/QuickSettings;->mQuickPulldown:Landroid/preference/ListPreference;
 
-    const v3, 0x7f0801b3
+    const v3, 0x7f0c01af
 
     const/4 v4, 0x1
 
@@ -142,7 +142,7 @@
     .line 240
     .end local v0           #direction:Ljava/lang/String;
     :cond_1
-    const v2, 0x7f0801b5
+    const v2, 0x7f0c01b1
 
     goto :goto_1
 .end method
@@ -396,7 +396,7 @@
     .line 107
     iget-object v7, p0, Lcom/android/settings/quicksettings/QuickSettings;->mRingMode:Landroid/preference/MultiSelectListPreference;
 
-    const v8, 0x7f0801be
+    const v8, 0x7f0c01ba
 
     invoke-direct {p0, v5, v7, v8}, Lcom/android/settings/quicksettings/QuickSettings;->updateSummary(Ljava/lang/String;Landroid/preference/MultiSelectListPreference;I)V
 
@@ -703,7 +703,7 @@
     .line 189
     iget-object v5, p0, Lcom/android/settings/quicksettings/QuickSettings;->mRingMode:Landroid/preference/MultiSelectListPreference;
 
-    const v7, 0x7f0801be
+    const v7, 0x7f0c01ba
 
     invoke-direct {p0, v4, v5, v7}, Lcom/android/settings/quicksettings/QuickSettings;->updateSummary(Ljava/lang/String;Landroid/preference/MultiSelectListPreference;I)V
 

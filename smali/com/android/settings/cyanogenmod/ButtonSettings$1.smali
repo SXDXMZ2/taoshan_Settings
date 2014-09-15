@@ -27,7 +27,7 @@
     .parameter
 
     .prologue
-    .line 535
+    .line 531
     iput-object p1, p0, Lcom/android/settings/cyanogenmod/ButtonSettings$1;->this$0:Lcom/android/settings/cyanogenmod/ButtonSettings;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -41,7 +41,7 @@
     .locals 2
 
     .prologue
-    .line 538
+    .line 534
     iget-object v0, p0, Lcom/android/settings/cyanogenmod/ButtonSettings$1;->this$0:Lcom/android/settings/cyanogenmod/ButtonSettings;
 
     #getter for: Lcom/android/settings/cyanogenmod/ButtonSettings;->mDisableNavigationKeys:Landroid/preference/CheckBoxPreference;
@@ -53,6 +53,6 @@
 
     invoke-virtual {v0, v1}, Landroid/preference/CheckBoxPreference;->setEnabled(Z)V
 
-    .line 539
+    .line 535
     return-void
 .end method

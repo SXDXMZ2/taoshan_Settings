@@ -155,10 +155,10 @@
         <item name="android:gravity">center</item>
         <item name="android:textAllCaps">true</item>
     </style>
-    <style name="TallTitleBarTheme" parent="@*android:style/Theme.NoTitleBar">
+    <style name="TallTitleBarTheme" parent="@*android:style/Theme.Light.NoTitleBar">
         <item name="android:windowContentOverlay">@null</item>
     </style>
-    <style name="Theme.CreateShortCut" parent="@*android:style/Theme.Holo.DialogWhenLarge" />
+    <style name="Theme.CreateShortCut" parent="@*android:style/Theme.DeviceDefault.DialogWhenLarge" />
     <style name="VertDivider">
         <item name="android:background">@color/divider_color</item>
         <item name="android:focusable">false</item>
@@ -222,7 +222,7 @@
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowIsFloating">true</item>
     </style>
-    <style name="CryptKeeperBlankTheme" parent="@*android:style/Theme.Holo.NoActionBar">
+    <style name="CryptKeeperBlankTheme" parent="@*android:style/Theme.DeviceDefault.Light.NoActionBar">
         <item name="android:background">#ff000000</item>
     </style>
     <style name="SecurityPreferenceButtonContainer" parent="@*android:style/Holo.SegmentedButton">
@@ -231,7 +231,7 @@
         <item name="android:weightSum">2.0</item>
         <item name="android:dividerPadding">8.0dip</item>
     </style>
-    <style name="SecurityPreferenceButton" parent="@*android:style/Widget.Holo.Button.Borderless">
+    <style name="SecurityPreferenceButton" parent="@*android:style/Widget.Holo.CompoundButton.Switch">
         <item name="android:ellipsize">marquee</item>
         <item name="android:layout_width">0.0dip</item>
         <item name="android:layout_height">wrap_content</item>
@@ -253,7 +253,7 @@
         <item name="android:layout">@layout/preference_inputmethod</item>
         <item name="android:widgetLayout">@layout/preference_inputmethod_widget</item>
     </style>
-    <style name="TextAppearance.Switch" parent="@*android:style/TextAppearance.Holo.Widget.Switch">
+    <style name="TextAppearance.Switch" parent="@*android:style/TextAppearance.Holo.Widget.ActionMode">
         <item name="android:textAllCaps">true</item>
     </style>
     <style name="TextAppearance.PagerTabs" parent="@*android:style/TextAppearance.DeviceDefault.Small">
@@ -270,43 +270,47 @@
         <item name="android:layout">@layout/preference_profiles</item>
         <item name="android:widgetLayout">@layout/preference_profiles_widget</item>
     </style>
-    <style name="SetupWizardWifiTheme" parent="@*android:style/Theme.Holo.NoActionBar">
+    <style name="SetupWizardWifiTheme" parent="@*android:style/Theme.DeviceDefault.Light.NoActionBar">
         <item name="android:windowSoftInputMode">adjustPan</item>
         <item name="android:alertDialogTheme">@style/Theme.WifiDialog</item>
-        <item name="android:preferencePanelStyle">@*android:style/PreferencePanel.Dialog</item>
+        <item name="android:preferenceHeaderPanelStyle">@*android:style/PreferencePanel</item>
         <item name="ic_menu_add">@drawable/ic_menu_add_dark</item>
-        <item name="ic_menu_moreoverflow">@*android:drawable/ic_menu_moreoverflow_holo_dark</item>
+        <item name="ic_menu_moreoverflow">@*android:drawable/ic_menu_refresh</item>
         <item name="ic_wps">@drawable/ic_wps_dark</item>
         <item name="setup_divider_color">@color/setup_divider_color_dark</item>
         <item name="wifi_signal">@drawable/wifi_signal_dark</item>
     </style>
-    <style name="SetupWizardWifiTheme.Light" parent="@*android:style/Theme.Holo.Light.NoActionBar">
+    <style name="SetupWizardWifiTheme.Light" parent="@*android:style/Theme.DeviceDefault.Light.NoActionBar">
         <item name="android:windowSoftInputMode">adjustPan</item>
         <item name="android:alertDialogTheme">@style/Theme.Light.WifiDialog</item>
-        <item name="android:preferencePanelStyle">@*android:style/PreferencePanel.Dialog</item>
+        <item name="android:preferenceHeaderPanelStyle">@*android:style/PreferencePanel</item>
         <item name="ic_menu_add">@drawable/ic_menu_add_light</item>
-        <item name="ic_menu_moreoverflow">@*android:drawable/ic_menu_moreoverflow_holo_light</item>
+        <item name="ic_menu_moreoverflow">@*android:drawable/ic_menu_search_holo_dark</item>
         <item name="ic_wps">@drawable/ic_wps_light</item>
         <item name="setup_divider_color">@color/setup_divider_color_light</item>
         <item name="wifi_signal">@drawable/wifi_signal_light</item>
     </style>
-    <style name="Theme.WifiDialog" parent="@*android:style/Theme.Holo.Dialog.Alert">
+    <style name="Theme.WifiDialog" parent="@*android:style/Theme.DeviceDefault.Dialog.Alert">
         <item name="android:windowSoftInputMode">adjustResize</item>
         <item name="ic_menu_add">@drawable/ic_menu_add_dark</item>
-        <item name="ic_menu_moreoverflow">@*android:drawable/ic_menu_moreoverflow_holo_dark</item>
+        <item name="ic_menu_moreoverflow">@*android:drawable/ic_menu_refresh</item>
         <item name="ic_wps">@drawable/ic_wps_dark</item>
         <item name="wifi_signal">@drawable/wifi_signal_dark</item>
     </style>
-    <style name="Theme.Light.WifiDialog" parent="@*android:style/Theme.Holo.Light.Dialog.Alert">
+    <style name="Theme.Light.WifiDialog" parent="@*android:style/Theme.DeviceDefault.Dialog.Alert">
         <item name="android:windowSoftInputMode">adjustResize</item>
         <item name="ic_menu_add">@drawable/ic_menu_add_light</item>
-        <item name="ic_menu_moreoverflow">@*android:drawable/ic_menu_moreoverflow_holo_light</item>
+        <item name="ic_menu_moreoverflow">@*android:drawable/ic_menu_search_holo_dark</item>
         <item name="ic_wps">@drawable/ic_wps_light</item>
         <item name="wifi_signal">@drawable/wifi_signal_light</item>
     </style>
-    <style name="Theme.Settings" parent="@*android:style/Theme.Holo">
-        <item name="android:actionBarStyle">@*android:style/Widget.Holo.ActionBar.Solid</item>
-        <item name="ic_menu_moreoverflow">@*android:drawable/ic_menu_moreoverflow_holo_dark</item>
+    <style name="Theme.Settings" parent="@*android:style/Theme.DeviceDefault.Light">
+        <item name="android:actionBarStyle">@*android:style/Widget.DeviceDefault.Light.ActionBar.Solid</item>
+        <item name="apnPreferenceStyle">@style/ApnPreference</item>
+        <item name="ic_menu_add">@drawable/ic_menu_add_dark</item>
+        <item name="ic_menu_moreoverflow">@*android:drawable/ic_menu_refresh</item>
+        <item name="ic_wps">@drawable/ic_wps_dark</item>
+        <item name="wifi_signal">@drawable/wifi_signal_dark</item>
     </style>
     <style name="Theme.Settings.Holo" parent="@style/Theme.Settings">
         <item name="apnPreferenceStyle">@style/ApnPreference</item>
@@ -314,7 +318,7 @@
         <item name="ic_wps">@drawable/ic_wps_dark</item>
         <item name="wifi_signal">@drawable/wifi_signal_dark</item>
     </style>
-    <style name="Theme.DialogWhenLarge" parent="@*android:style/Theme.Holo.DialogWhenLarge">
-        <item name="android:actionBarStyle">@*android:style/Widget.Holo.ActionBar.Solid</item>
+    <style name="Theme.DialogWhenLarge" parent="@*android:style/Theme.Holo.Light.DialogWhenLarge">
+        <item name="android:actionBarStyle">@*android:style/Widget.DeviceDefault.Light.ActionBar.Solid</item>
     </style>
 </resources>

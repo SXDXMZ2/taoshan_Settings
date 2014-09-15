@@ -53,7 +53,7 @@
     .parameter
 
     .prologue
-    .line 1143
+    .line 1137
     iput-object p1, p0, Lcom/android/settings/applications/ManageApplications$1;->this$0:Lcom/android/settings/applications/ManageApplications;
 
     iput-object p2, p0, Lcom/android/settings/applications/ManageApplications$1;->val$pm:Landroid/content/pm/PackageManager;
@@ -80,7 +80,7 @@
     .parameter "x0"
 
     .prologue
-    .line 1143
+    .line 1137
     check-cast p1, [Ljava/lang/Void;
 
     .end local p1
@@ -96,7 +96,7 @@
     .parameter "params"
 
     .prologue
-    .line 1145
+    .line 1139
     iget-object v9, p0, Lcom/android/settings/applications/ManageApplications$1;->val$pm:Landroid/content/pm/PackageManager;
 
     const/16 v10, 0x200
@@ -105,7 +105,7 @@
 
     move-result-object v1
 
-    .line 1147
+    .line 1141
     .local v1, apps:Ljava/util/List;,"Ljava/util/List<Landroid/content/pm/ApplicationInfo;>;"
     const/4 v4, 0x0
 
@@ -117,14 +117,14 @@
 
     if-ge v4, v9, :cond_1
 
-    .line 1148
+    .line 1142
     invoke-interface {v1, v4}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Landroid/content/pm/ApplicationInfo;
 
-    .line 1151
+    .line 1145
     .local v0, app:Landroid/content/pm/ApplicationInfo;
     :try_start_0
     iget-object v9, p0, Lcom/android/settings/applications/ManageApplications$1;->val$nm:Landroid/app/INotificationManager;
@@ -139,13 +139,13 @@
     :try_end_0
     .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_1
 
-    .line 1154
+    .line 1148
     :goto_1
     iget-boolean v9, v0, Landroid/content/pm/ApplicationInfo;->enabled:Z
 
     if-nez v9, :cond_0
 
-    .line 1156
+    .line 1150
     iget-object v9, p0, Lcom/android/settings/applications/ManageApplications$1;->val$pm:Landroid/content/pm/PackageManager;
 
     iget-object v10, v0, Landroid/content/pm/ApplicationInfo;->packageName:Ljava/lang/String;
@@ -158,7 +158,7 @@
 
     if-ne v9, v10, :cond_0
 
-    .line 1158
+    .line 1152
     iget-object v9, p0, Lcom/android/settings/applications/ManageApplications$1;->val$pm:Landroid/content/pm/PackageManager;
 
     iget-object v10, v0, Landroid/content/pm/ApplicationInfo;->packageName:Ljava/lang/String;
@@ -169,13 +169,13 @@
 
     invoke-virtual {v9, v10, v11, v12}, Landroid/content/pm/PackageManager;->setApplicationEnabledSetting(Ljava/lang/String;II)V
 
-    .line 1147
+    .line 1141
     :cond_0
     add-int/lit8 v4, v4, 0x1
 
     goto :goto_0
 
-    .line 1165
+    .line 1159
     .end local v0           #app:Landroid/content/pm/ApplicationInfo;
     :cond_1
     :try_start_1
@@ -189,13 +189,13 @@
     :try_end_1
     .catch Landroid/os/RemoteException; {:try_start_1 .. :try_end_1} :catch_0
 
-    .line 1168
+    .line 1162
     :goto_2
     iget-object v9, p0, Lcom/android/settings/applications/ManageApplications$1;->val$aom:Landroid/app/AppOpsManager;
 
     invoke-virtual {v9}, Landroid/app/AppOpsManager;->resetAllModes()V
 
-    .line 1169
+    .line 1163
     iget-object v9, p0, Lcom/android/settings/applications/ManageApplications$1;->val$npm:Landroid/net/NetworkPolicyManager;
 
     const/4 v10, 0x1
@@ -204,13 +204,13 @@
 
     move-result-object v7
 
-    .line 1171
+    .line 1165
     .local v7, restrictedUids:[I
     invoke-static {}, Landroid/app/ActivityManager;->getCurrentUser()I
 
     move-result v3
 
-    .line 1172
+    .line 1166
     .local v3, currentUserId:I
     move-object v2, v7
 
@@ -226,7 +226,7 @@
 
     aget v8, v2, v5
 
-    .line 1174
+    .line 1168
     .local v8, uid:I
     invoke-static {v8}, Landroid/os/UserHandle;->getUserId(I)I
 
@@ -234,20 +234,20 @@
 
     if-ne v9, v3, :cond_2
 
-    .line 1176
+    .line 1170
     iget-object v9, p0, Lcom/android/settings/applications/ManageApplications$1;->val$npm:Landroid/net/NetworkPolicyManager;
 
     const/4 v10, 0x0
 
     invoke-virtual {v9, v8, v10}, Landroid/net/NetworkPolicyManager;->setUidPolicy(II)V
 
-    .line 1172
+    .line 1166
     :cond_2
     add-int/lit8 v5, v5, 0x1
 
     goto :goto_3
 
-    .line 1179
+    .line 1173
     .end local v8           #uid:I
     :cond_3
     iget-object v9, p0, Lcom/android/settings/applications/ManageApplications$1;->val$handler:Landroid/os/Handler;
@@ -258,12 +258,12 @@
 
     invoke-virtual {v9, v10}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 1196
+    .line 1190
     const/4 v9, 0x0
 
     return-object v9
 
-    .line 1166
+    .line 1160
     .end local v2           #arr$:[I
     .end local v3           #currentUserId:I
     .end local v5           #i$:I
@@ -274,7 +274,7 @@
 
     goto :goto_2
 
-    .line 1152
+    .line 1146
     .restart local v0       #app:Landroid/content/pm/ApplicationInfo;
     :catch_1
     move-exception v9

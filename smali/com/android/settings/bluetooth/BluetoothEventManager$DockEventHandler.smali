@@ -27,7 +27,7 @@
     .parameter
 
     .prologue
-    .line 368
+    .line 358
     iput-object p1, p0, Lcom/android/settings/bluetooth/BluetoothEventManager$DockEventHandler;->this$0:Lcom/android/settings/bluetooth/BluetoothEventManager;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -41,7 +41,7 @@
     .parameter "x1"
 
     .prologue
-    .line 368
+    .line 358
     invoke-direct {p0, p1}, Lcom/android/settings/bluetooth/BluetoothEventManager$DockEventHandler;-><init>(Lcom/android/settings/bluetooth/BluetoothEventManager;)V
 
     return-void
@@ -56,10 +56,10 @@
     .parameter "device"
 
     .prologue
-    .line 371
+    .line 361
     const/4 v0, 0x1
 
-    .line 372
+    .line 362
     .local v0, anythingButUnDocked:I
     const-string v3, "android.intent.extra.DOCK_STATE"
 
@@ -67,11 +67,11 @@
 
     move-result v2
 
-    .line 373
+    .line 363
     .local v2, state:I
     if-nez v2, :cond_0
 
-    .line 374
+    .line 364
     if-eqz p3, :cond_0
 
     invoke-virtual {p3}, Landroid/bluetooth/BluetoothDevice;->getBondState()I
@@ -82,7 +82,7 @@
 
     if-ne v3, v4, :cond_0
 
-    .line 375
+    .line 365
     iget-object v3, p0, Lcom/android/settings/bluetooth/BluetoothEventManager$DockEventHandler;->this$0:Lcom/android/settings/bluetooth/BluetoothEventManager;
 
     #getter for: Lcom/android/settings/bluetooth/BluetoothEventManager;->mDeviceManager:Lcom/android/settings/bluetooth/CachedBluetoothDeviceManager;
@@ -94,16 +94,16 @@
 
     move-result-object v1
 
-    .line 376
+    .line 366
     .local v1, cachedDevice:Lcom/android/settings/bluetooth/CachedBluetoothDevice;
     if-eqz v1, :cond_0
 
-    .line 377
+    .line 367
     const/4 v3, 0x0
 
     invoke-virtual {v1, v3}, Lcom/android/settings/bluetooth/CachedBluetoothDevice;->setVisible(Z)V
 
-    .line 381
+    .line 371
     .end local v1           #cachedDevice:Lcom/android/settings/bluetooth/CachedBluetoothDevice;
     :cond_0
     return-void

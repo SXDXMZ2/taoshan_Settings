@@ -479,11 +479,6 @@
         <item>15δ | 1λ | 5λ</item>
         <item>30δ | 2λ | 5λ</item>
     </string-array>
-    <string-array name="data_usage_cycle_length">
-        <item>Ημερήσια</item>
-        <item>Εβδομαδιαία</item>
-        <item>Μηνιαία</item>
-    </string-array>
     <string-array name="data_usage_cycle_weekdays">
         <item>Κυριακή</item>
         <item>Δευτέρα</item>
@@ -497,11 +492,5 @@
         <item>Επιτρέπεται</item>
         <item>Δεν επιτρέπεται</item>
         <item>Ερώτηση πάντα</item>
-    </string-array>
-    <string-array name="qs_quick_access_size_entries">
-        <item>Αυτόματο</item>
-        <item>Αυτόματο (στενό)</item>
-        <item>Μεγάλο</item>
-        <item>Στενό</item>
     </string-array>
 </resources>

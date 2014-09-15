@@ -486,7 +486,7 @@
     .line 796
     iget-object v3, v1, Lcom/android/settings/applications/AppViewHolder;->disabled:Landroid/widget/TextView;
 
-    const v4, 0x7f08085e
+    const v4, 0x7f0c0859
 
     invoke-virtual {v3, v4}, Landroid/widget/TextView;->setText(I)V
 
@@ -561,7 +561,7 @@
     .line 799
     iget-object v3, v1, Lcom/android/settings/applications/AppViewHolder;->disabled:Landroid/widget/TextView;
 
-    const v4, 0x7f08085d
+    const v4, 0x7f0c0858
 
     invoke-virtual {v3, v4}, Landroid/widget/TextView;->setText(I)V
 

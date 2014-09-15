@@ -135,7 +135,7 @@
     .line 155
     iget-object v0, p0, Lcom/android/settings/search/SettingsSearchFilterAdapter;->mResources:Landroid/content/res/Resources;
 
-    const v1, 0x7f0a0021
+    const v1, 0x7f090021
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -736,7 +736,7 @@
     .line 199
     iget-object v8, p0, Lcom/android/settings/search/SettingsSearchFilterAdapter;->mInflater:Landroid/view/LayoutInflater;
 
-    const v9, 0x7f0400cd
+    const v9, 0x7f0400cf
 
     invoke-virtual {v8, v9, v10}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -760,7 +760,7 @@
     .line 205
     iget-object v8, p0, Lcom/android/settings/search/SettingsSearchFilterAdapter;->mInflater:Landroid/view/LayoutInflater;
 
-    const v9, 0x7f0400ce
+    const v9, 0x7f0400d0
 
     invoke-virtual {v8, v9, v10}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 

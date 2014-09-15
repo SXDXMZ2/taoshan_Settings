@@ -177,7 +177,7 @@
     .line 85
     iget-object v3, p0, Lcom/android/settings/OwnerInfoSettings;->mCheckbox:Landroid/widget/CheckBox;
 
-    const v4, 0x7f08054a
+    const v4, 0x7f0c0545
 
     invoke-virtual {v3, v4}, Landroid/widget/CheckBox;->setText(I)V
 
@@ -226,7 +226,7 @@
     :cond_2
     iget-object v3, p0, Lcom/android/settings/OwnerInfoSettings;->mCheckbox:Landroid/widget/CheckBox;
 
-    const v4, 0x7f080548
+    const v4, 0x7f0c0543
 
     invoke-virtual {v3, v4}, Landroid/widget/CheckBox;->setText(I)V
 
@@ -282,7 +282,7 @@
 
     .prologue
     .line 60
-    const v0, 0x7f04007d
+    const v0, 0x7f04007f
 
     const/4 v1, 0x0
 

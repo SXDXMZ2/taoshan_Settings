@@ -1413,18 +1413,6 @@
         <item>0</item>
         <item>1</item>
     </string-array>
-    <string-array name="qs_quick_access_size_entries">
-        <item>Automatic</item>
-        <item>Automatic (narrow)</item>
-        <item>Big</item>
-        <item>Narrow</item>
-    </string-array>
-    <string-array name="qs_quick_access_size_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-    </string-array>
     <string-array name="input_method_selector_titles">
         <item>@string/input_method_selector_show_automatically_title</item>
         <item>@string/input_method_selector_always_show_title</item>

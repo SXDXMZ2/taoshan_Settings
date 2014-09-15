@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="allow">Ruhusu</string>
+    <string name="deny">Kana</string>
     <string name="delete">Futa</string>
     <string name="battery_info_status_full">Imejaa</string>
     <string name="yes">Ndiyo</string>
     <string name="no">Hapana</string>
     <string name="create">Unda</string>
-    <string name="allow">Ruhusu</string>
-    <string name="deny">Kana</string>
     <string name="device_info_default">Haijulikani</string>
     <string name="show_dev_on">Sasa wewe ni msanidi programu!</string>
     <string name="show_dev_already">Hakuna haja, tayari wewe ni msanidi programu.</string>
@@ -645,6 +645,8 @@ Usanidi wa simu unaweza kuhitaji huduma muhimu ya mtandao."</string>
     <string name="volume_notification_mute">Puuza arifa</string>
     <string name="volume_alarm_mute">Zima kengele</string>
     <string name="vibrate_when_ringing_title">Tetema wakati wa kutoa mlio</string>
+    <string name="system_update_settings_list_item_title">Masasisho ya mfumo</string>
+    <string name="system_update_settings_list_item_summary" />
     <string name="dock_settings">Gati</string>
     <string name="dock_settings_title">Mipangilio ya gati</string>
     <string name="dock_audio_settings_title">Faili ya kusikika</string>
@@ -709,8 +711,6 @@ Usanidi wa simu unaweza kuhitaji huduma muhimu ya mtandao."</string>
     <string name="wrong_pin_code_pukked">Msimbo wa PIN ya SIM usio sahihi sasa lazima uwasiliane na mtoa huduma wako ili ufungue kifaa chako.</string>
     <string name="pin_failed">Utendakazi wa PIN ya SIM umeshindwa!</string>
     <string name="device_info_settings">Hali ya simu</string>
-    <string name="system_update_settings_list_item_title">Masasisho ya mfumo</string>
-    <string name="system_update_settings_list_item_summary" />
     <string name="firmware_version">Toleo la Android</string>
     <string name="model_number">Nambari ya mtindo</string>
     <string name="fcc_equipment_id">Kitambulisho cha Kifaa</string>

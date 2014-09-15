@@ -498,10 +498,4 @@
         <item>Denegar</item>
         <item>Preguntar</item>
     </string-array>
-    <string-array name="qs_quick_access_size_entries">
-        <item>Automático</item>
-        <item>Automático (reducido)</item>
-        <item>Normal</item>
-        <item>Reducido</item>
-    </string-array>
 </resources>

@@ -447,7 +447,7 @@
     invoke-interface {v1, v2}, Lcom/koushikdutta/widgets/FragmentInterfaceWrapper;->setHasOptionsMenu(Z)V
 
     .line 111
-    const v1, 0x7f080015
+    const v1, 0x7f0c0015
 
     invoke-virtual {p0, v1}, Lcom/koushikdutta/superuser/PolicyFragmentInternal;->setEmpty(I)V
 
@@ -534,7 +534,7 @@
     invoke-virtual {v1, v3, p1}, Landroid/view/MenuInflater;->inflate(ILandroid/view/Menu;)V
 
     .line 284
-    const v3, 0x7f0d02fa
+    const v3, 0x7f0d02f8
 
     invoke-interface {p1, v3}, Landroid/view/Menu;->findItem(I)Landroid/view/MenuItem;
 
@@ -549,7 +549,7 @@
     invoke-interface {v0, v3}, Landroid/view/MenuItem;->setOnMenuItemClickListener(Landroid/view/MenuItem$OnMenuItemClickListener;)Landroid/view/MenuItem;
 
     .line 293
-    const v3, 0x7f0d02fb
+    const v3, 0x7f0d02f9
 
     invoke-interface {p1, v3}, Landroid/view/Menu;->findItem(I)Landroid/view/MenuItem;
 
@@ -645,7 +645,7 @@
     :goto_1
     if-nez p2, :cond_2
 
-    const v1, 0x7f080011
+    const v1, 0x7f0c0011
 
     invoke-virtual {p0, v1}, Lcom/koushikdutta/superuser/PolicyFragmentInternal;->getString(I)Ljava/lang/String;
 
@@ -829,7 +829,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f080003
+    const v5, 0x7f0c0003
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -852,7 +852,7 @@
 
     const/4 v4, 0x1
 
-    const v5, 0x7f080057
+    const v5, 0x7f0c0057
 
     invoke-virtual {p0, v5}, Lcom/koushikdutta/superuser/PolicyFragmentInternal;->getString(I)Ljava/lang/String;
 
@@ -862,7 +862,7 @@
 
     const/4 v4, 0x2
 
-    const v5, 0x7f080058
+    const v5, 0x7f0c0058
 
     invoke-virtual {p0, v5}, Lcom/koushikdutta/superuser/PolicyFragmentInternal;->getString(I)Ljava/lang/String;
 
@@ -899,7 +899,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f080001
+    const v5, 0x7f0c0001
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 

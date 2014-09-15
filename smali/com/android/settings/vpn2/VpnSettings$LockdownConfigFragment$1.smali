@@ -137,7 +137,7 @@
     .line 530
     iget-object v2, p0, Lcom/android/settings/vpn2/VpnSettings$LockdownConfigFragment$1;->val$context:Landroid/content/Context;
 
-    const v3, 0x7f080b51
+    const v3, 0x7f0c0b4c
 
     invoke-static {v2, v3, v6}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 

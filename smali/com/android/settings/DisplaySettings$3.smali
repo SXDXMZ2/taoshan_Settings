@@ -27,7 +27,7 @@
     .parameter
 
     .prologue
-    .line 512
+    .line 489
     iput-object p1, p0, Lcom/android/settings/DisplaySettings$3;->this$0:Lcom/android/settings/DisplaySettings;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -41,7 +41,7 @@
     .locals 1
 
     .prologue
-    .line 514
+    .line 491
     iget-object v0, p0, Lcom/android/settings/DisplaySettings$3;->this$0:Lcom/android/settings/DisplaySettings;
 
     #getter for: Lcom/android/settings/DisplaySettings;->mFontSizePref:Lcom/android/settings/FontDialogPreference;
@@ -51,6 +51,6 @@
 
     invoke-virtual {v0}, Lcom/android/settings/FontDialogPreference;->click()V
 
-    .line 515
+    .line 492
     return-void
 .end method

@@ -87,7 +87,7 @@
 
     .prologue
     .line 211
-    const v0, 0x7f040057
+    const v0, 0x7f040058
 
     return v0
 .end method
@@ -97,7 +97,7 @@
 
     .prologue
     .line 47
-    const v0, 0x7f040058
+    const v0, 0x7f040059
 
     return v0
 .end method
@@ -107,7 +107,7 @@
 
     .prologue
     .line 206
-    const v0, 0x7f04005f
+    const v0, 0x7f040060
 
     return v0
 .end method

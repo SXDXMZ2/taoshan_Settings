@@ -135,7 +135,7 @@
     .line 165
     iget-object v1, p0, Lcom/android/settings/bluetooth/BluetoothPermissionActivity;->messageView:Landroid/widget/TextView;
 
-    const v2, 0x7f0804ba
+    const v2, 0x7f0c04b5
 
     const/4 v3, 0x1
 
@@ -198,7 +198,7 @@
     .line 183
     iget-object v1, p0, Lcom/android/settings/bluetooth/BluetoothPermissionActivity;->messageView:Landroid/widget/TextView;
 
-    const v2, 0x7f0804c0
+    const v2, 0x7f0c04bb
 
     const/4 v3, 0x2
 
@@ -265,7 +265,7 @@
     .line 174
     iget-object v1, p0, Lcom/android/settings/bluetooth/BluetoothPermissionActivity;->messageView:Landroid/widget/TextView;
 
-    const v2, 0x7f0804bc
+    const v2, 0x7f0c04b7
 
     const/4 v3, 0x2
 
@@ -311,7 +311,7 @@
     :goto_0
     if-nez v0, :cond_0
 
-    const v1, 0x7f08084c
+    const v1, 0x7f0c0847
 
     invoke-virtual {p0, v1}, Lcom/android/settings/bluetooth/BluetoothPermissionActivity;->getString(I)Ljava/lang/String;
 
@@ -683,7 +683,7 @@
 
     .line 135
     :goto_0
-    const v1, 0x7f080434
+    const v1, 0x7f0c0431
 
     invoke-virtual {p0, v1}, Lcom/android/settings/bluetooth/BluetoothPermissionActivity;->getString(I)Ljava/lang/String;
 
@@ -695,7 +695,7 @@
     iput-object p0, v0, Lcom/android/internal/app/AlertController$AlertParams;->mPositiveButtonListener:Landroid/content/DialogInterface$OnClickListener;
 
     .line 137
-    const v1, 0x7f080435
+    const v1, 0x7f0c0432
 
     invoke-virtual {p0, v1}, Lcom/android/settings/bluetooth/BluetoothPermissionActivity;->getString(I)Ljava/lang/String;
 
@@ -929,7 +929,7 @@
     if-ne v2, v5, :cond_1
 
     .line 100
-    const v2, 0x7f0804b8
+    const v2, 0x7f0c04b3
 
     invoke-virtual {p0, v2}, Lcom/android/settings/bluetooth/BluetoothPermissionActivity;->getString(I)Ljava/lang/String;
 
@@ -963,7 +963,7 @@
     if-ne v2, v6, :cond_2
 
     .line 102
-    const v2, 0x7f0804bb
+    const v2, 0x7f0c04b6
 
     invoke-virtual {p0, v2}, Lcom/android/settings/bluetooth/BluetoothPermissionActivity;->getString(I)Ljava/lang/String;
 
@@ -984,7 +984,7 @@
     if-ne v2, v3, :cond_3
 
     .line 104
-    const v2, 0x7f0804bf
+    const v2, 0x7f0c04ba
 
     invoke-virtual {p0, v2}, Lcom/android/settings/bluetooth/BluetoothPermissionActivity;->getString(I)Ljava/lang/String;
 

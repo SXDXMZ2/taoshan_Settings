@@ -25,7 +25,7 @@
     .parameter "x0"
 
     .prologue
-    .line 125
+    .line 121
     iput-object p1, p0, Lcom/android/settings/DisplaySettings$1;->this$0:Lcom/android/settings/DisplaySettings;
 
     invoke-direct {p0, p2}, Landroid/database/ContentObserver;-><init>(Landroid/os/Handler;)V
@@ -40,12 +40,12 @@
     .parameter "selfChange"
 
     .prologue
-    .line 128
+    .line 124
     iget-object v0, p0, Lcom/android/settings/DisplaySettings$1;->this$0:Lcom/android/settings/DisplaySettings;
 
     #calls: Lcom/android/settings/DisplaySettings;->updateDisplayRotationPreferenceDescription()V
     invoke-static {v0}, Lcom/android/settings/DisplaySettings;->access$000(Lcom/android/settings/DisplaySettings;)V
 
-    .line 129
+    .line 125
     return-void
 .end method

@@ -124,7 +124,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f080b9a
+    const v1, 0x7f0c0b95
 
     new-instance v2, Lcom/android/settings/LocalePicker$1;
 

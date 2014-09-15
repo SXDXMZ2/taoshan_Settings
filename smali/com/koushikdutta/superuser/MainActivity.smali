@@ -118,7 +118,7 @@
     .locals 4
 
     .prologue
-    const v3, 0x7f080047
+    const v3, 0x7f0c0047
 
     .line 230
     new-instance v0, Landroid/app/AlertDialog$Builder;
@@ -130,7 +130,7 @@
     invoke-virtual {v0, v3}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
     .line 232
-    const v1, 0x7f080045
+    const v1, 0x7f0c0045
 
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
@@ -157,7 +157,7 @@
     invoke-virtual {v0, v1, v2}, Landroid/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
     .line 242
-    const v1, 0x7f080046
+    const v1, 0x7f0c0046
 
     new-instance v2, Lcom/koushikdutta/superuser/MainActivity$5;
 
@@ -187,12 +187,12 @@
 
     .line 97
     .local v0, dlg:Landroid/app/ProgressDialog;
-    const v1, 0x7f080042
+    const v1, 0x7f0c0042
 
     invoke-virtual {v0, v1}, Landroid/app/ProgressDialog;->setTitle(I)V
 
     .line 98
-    const v1, 0x7f080043
+    const v1, 0x7f0c0043
 
     invoke-virtual {p0, v1}, Lcom/koushikdutta/superuser/MainActivity;->getString(I)Ljava/lang/String;
 
@@ -230,12 +230,12 @@
 
     .line 173
     .local v0, dlg:Landroid/app/ProgressDialog;
-    const v1, 0x7f080042
+    const v1, 0x7f0c0042
 
     invoke-virtual {v0, v1}, Landroid/app/ProgressDialog;->setTitle(I)V
 
     .line 174
-    const v1, 0x7f080043
+    const v1, 0x7f0c0043
 
     invoke-virtual {p0, v1}, Lcom/koushikdutta/superuser/MainActivity;->getString(I)Ljava/lang/String;
 
@@ -296,7 +296,7 @@
 
     .line 262
     .local v0, builder:Landroid/app/AlertDialog$Builder;
-    const v1, 0x7f080051
+    const v1, 0x7f0c0051
 
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -311,7 +311,7 @@
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setMessage(Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;
 
     .line 265
-    const v1, 0x7f080052
+    const v1, 0x7f0c0052
 
     new-instance v2, Lcom/koushikdutta/superuser/MainActivity$6;
 
@@ -460,7 +460,7 @@
     const/4 v3, 0x1
 
     .line 279
-    const v1, 0x7f09000a
+    const v1, 0x7f08000a
 
     invoke-static {p0, v1}, Lcom/koushikdutta/superuser/util/Settings;->applyDarkThemeSetting(Landroid/app/Activity;I)V
 
@@ -494,12 +494,12 @@
 
     .line 288
     .local v0, dlg:Landroid/app/ProgressDialog;
-    const/high16 v1, 0x7f08
+    const/high16 v1, 0x7f0c
 
     invoke-virtual {v0, v1}, Landroid/app/ProgressDialog;->setTitle(I)V
 
     .line 289
-    const v1, 0x7f080048
+    const v1, 0x7f0c0048
 
     invoke-virtual {p0, v1}, Lcom/koushikdutta/superuser/MainActivity;->getString(I)Ljava/lang/String;
 
@@ -541,7 +541,7 @@
     invoke-virtual {v1, v2, p1}, Landroid/view/MenuInflater;->inflate(ILandroid/view/Menu;)V
 
     .line 59
-    const v2, 0x7f0d02ea
+    const v2, 0x7f0d02e8
 
     invoke-interface {p1, v2}, Landroid/view/Menu;->findItem(I)Landroid/view/MenuItem;
 

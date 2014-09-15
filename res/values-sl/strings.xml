@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="allow">Dovoli</string>
+    <string name="deny">Zavrni</string>
     <string name="delete">Izbriši</string>
     <string name="battery_info_status_full">Polna</string>
     <string name="yes">Da</string>
     <string name="no">Ne</string>
     <string name="create">Ustvari</string>
-    <string name="allow">Dovoli</string>
-    <string name="deny">Zavrni</string>
     <string name="device_info_default">Neznano</string>
     <string name="show_dev_on">Zdaj ste razvijalec.</string>
     <string name="show_dev_already">Ni treba, ker ste že razvijalec.</string>
@@ -647,6 +647,8 @@ Nastavitev telefona lahko zahteva znatno omrežno dejavnost."</string>
     <string name="volume_notification_mute">Izklop zvoka obvestil</string>
     <string name="volume_alarm_mute">Izklop alarmov</string>
     <string name="vibrate_when_ringing_title">Vibriranje ob zvonjenju</string>
+    <string name="system_update_settings_list_item_title">Sistemske posodobitve</string>
+    <string name="system_update_settings_list_item_summary" />
     <string name="dock_settings">Stojalo</string>
     <string name="dock_settings_title">Nastavitvebn stojala</string>
     <string name="dock_audio_settings_title">Zvok</string>
@@ -711,8 +713,6 @@ Morda je koda PIN napačna."</string>
     <string name="wrong_pin_code_pukked">Napačna koda PIN kartice SIM. Zdaj se boste morali za odklenitev naprave obrniti na operaterja.</string>
     <string name="pin_failed">Postopek za odklepanje s kodo PIN kartice SIM ni uspel.</string>
     <string name="device_info_settings">Stanje telefona</string>
-    <string name="system_update_settings_list_item_title">Sistemske posodobitve</string>
-    <string name="system_update_settings_list_item_summary" />
     <string name="firmware_version">Različica sistema Android</string>
     <string name="model_number">Številka modela</string>
     <string name="fcc_equipment_id">ID opreme</string>
@@ -1952,4 +1952,36 @@ Vsak uporabnik lahko sprejme nova dovoljenja za aplikacije v imenu vseh ostalih 
     <string name="user_image_take_photo">Posnemi fotografijo</string>
     <string name="user_image_choose_photo">Izberite fotografijo iz galerije</string>
     <string name="regulatory_info_text" />
+    <string name="quick_settings_description">Izberite število hitrih nastavitev v podoknu z obvestili in uredite njihov vrstni red</string>
+    <string name="swiqi_strings_swiqi_desc_txt">Izboljša kakovost fotografij in videov</string>
+    <string name="theme_label_summary">Spremeni ali prenesi teme</string>
+    <string name="find_my_device">Poišči mojo napravo</string>
+    <string name="display_category_personalisation_title">Prilagoditev</string>
+    <string name="xperia_connectivity">Povezljivost naprave Xperia™</string>
+    <string name="preference_summary">Če napravo slučajno izgubite, poiščite, zaklenite in/ali izbrišite svoje podatke s programom my Xperia</string>
+    <string name="playanywhere_strings_throw_settings_title_txt">Nastavitve za Throw</string>
+    <string name="playanywhere_strings_throw_setting_summary_txt">Vsebino svoje naprave Xperia™ lahko brezžično predvajate tudi v drugih napravah</string>
+    <string name="usbux_strings_local_connectivity_settings_summary_txt">Priključite napravo na druge naprave ali računalnike prek vrat USB ali omrežja Wi-Fi</string>
+    <string name="mil_strings_app_name_mirrorlink_settings_txt">Nastavitve za MirrorLink™</string>
+    <string name="mil_strings_mirrorlink_activator_txt">Zaženi MirrorLink™</string>
+    <string name="mil_strings_dialog_usb_not_connected_txt">Zaznana ni bila nobena naprava. Preverite, ali je priključena združljiva naprava.</string>
+    <string name="mil_strings_dialog_mirrorlink_start_txt">Program MirrorLink™ se bo kmalu zagnal. Če naprava ni potrjena za MirrorLink™, program morda ne bo pravilno deloval.</string>
+    <string name="mil_strings_mirrorlink_activator_sub_txt">Če imate vzpostavljeno povezavo z napravo, ki podpira MirrorLink™, prek USB, lahko s to napravo upravljate napravo Xperia™</string>
+    <string name="setupguide_settings_title">Vodnik za namestitev</string>
+    <string name="lockscreen_app_name">Zaklenjeni zaslon</string>
+    <string name="lockscreen_settings_title">Zaklenjeni zaslon</string>
+    <string name="lockscreen_settings_title_txt">Zaklenjeni zaslon</string>
+    <string name="lockscreen_settings_wallpaper_summary_txt">Spremeni ozadje pri zaklenjenem zaslonu</string>
+    <string name="lockscreen_setting_wallpaper_wait_txt">Nastavljanje slike za ozadje</string>
+    <string name="lockscreen_could_not_load_wallpaper_txt">Ni mogoče nastaviti slike za ozadje</string>
+    <string name="lockscreen_dialog_title_pick_wallpaper">Izbor ozadja</string>
+    <string name="lockscreen_wallpaper_picker_semc_name">Xperia™ – ozadja</string>
+    <string name="lockscreen_wallpaper_picker_semc_set_wallpaper">Nastavi ozadje</string>
+    <string name="lockscreen_wallpaper_picker_album_name">Album</string>
+    <string name="lockscreen_unlock_hint">Če želite odkleniti zaslon, podrsajte navzgor ali navzdol</string>
+    <string name="lockscreen_short_unlock_hint">Podrsnite in odklenite napravo</string>
+    <string name="lockscreen_accessibility_unlock_hint">Če želite odkleniti zaslon, s središča podrsajte navzgor oz. navzdol</string>
+    <string name="lockscreen_set_as_wallpaper_txt">Ozadje zaklenjenega zaslona</string>
+    <string name="status_bar_tab_quick_settings_title">Hitre nastavitve</string>
+    <string name="power_settings_title">Upravljanje energije</string>
 </resources>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="allow">Дазволіць</string>
+    <string name="deny">Забараніць</string>
     <string name="delete">Выдаліць</string>
     <string name="battery_info_status_full">Поўная</string>
     <string name="yes">Так</string>
     <string name="no">Не</string>
     <string name="create">Стварыць</string>
-    <string name="allow">Дазволіць</string>
-    <string name="deny">Забараніць</string>
     <string name="device_info_default">Невядома</string>
     <string name="show_dev_on">Цяпер вы - распрацоўшчык!</string>
     <string name="show_dev_already">"Не трэба, вы ўжо з'яўляецеся распрацоўшчыкам."</string>
@@ -629,6 +629,8 @@
     <string name="volume_notification_mute">Заглушыць паведамленні</string>
     <string name="volume_alarm_mute">Заглушыць сігналы</string>
     <string name="vibrate_when_ringing_title">Вібрацыя падчас выкліка</string>
+    <string name="system_update_settings_list_item_title">Абнаўленні сiстэмы</string>
+    <string name="system_update_settings_list_item_summary" />
     <string name="dock_settings">Вобласць паведамлення</string>
     <string name="dock_settings_title">Налады док-станцыі</string>
     <string name="dock_audio_settings_title">Аўдыё</string>
@@ -691,8 +693,6 @@
     <string name="sim_enter_ok">ОК</string>
     <string name="sim_enter_cancel">Адмяніць</string>
     <string name="device_info_settings">Стан тэлефону</string>
-    <string name="system_update_settings_list_item_title">Абнаўленні сiстэмы</string>
-    <string name="system_update_settings_list_item_summary" />
     <string name="firmware_version">Версія Android</string>
     <string name="model_number">Нумар мадэлі</string>
     <string name="fcc_equipment_id">Iдэнтыфiкатар абсталявання</string>
@@ -1769,4 +1769,18 @@
     <string name="user_image_take_photo">Зрабіць фота</string>
     <string name="user_image_choose_photo">Выберыце фатаграфію з галерэі</string>
     <string name="regulatory_info_text" />
+    <string name="lockscreen_app_name">Блакіроўка экрана</string>
+    <string name="lockscreen_settings_title">Блакіроўка экрана</string>
+    <string name="lockscreen_settings_title_txt">Блакіроўка экрана</string>
+    <string name="lockscreen_settings_wallpaper_summary_txt">Змян фон малюн заблак экрана</string>
+    <string name="lockscreen_setting_wallpaper_wait_txt">Усталёўка фонавага малюнка</string>
+    <string name="lockscreen_could_not_load_wallpaper_txt">Не атрымалася задаць фонавы малюнак</string>
+    <string name="lockscreen_dialog_title_pick_wallpaper">Выбраць фонавы малюнак</string>
+    <string name="lockscreen_wallpaper_picker_semc_name">Фонавыя малюнкі Xperia™</string>
+    <string name="lockscreen_wallpaper_picker_semc_set_wallpaper">Устанавіць фонавы малюнак</string>
+    <string name="lockscreen_wallpaper_picker_album_name">Альбом</string>
+    <string name="lockscreen_unlock_hint">Правядзіце пальцам уверх ці ўніз, каб разблакаваць</string>
+    <string name="lockscreen_short_unlock_hint">Прагарніце, каб разблакаваць</string>
+    <string name="lockscreen_accessibility_unlock_hint">Правядзіце пальцам уверх ці ўніз ад цэнтра экрана, каб разблакаваць</string>
+    <string name="lockscreen_set_as_wallpaper_txt">Фонавы малюнак пры блакіроўцы экрана</string>
 </resources>

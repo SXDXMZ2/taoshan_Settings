@@ -451,7 +451,7 @@
 
     iget-object v1, p0, Lcom/android/settings/cyanogenmod/ProtectedAccountView;->mContext:Landroid/content/Context;
 
-    const v2, 0x7f080420
+    const v2, 0x7f0c041b
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

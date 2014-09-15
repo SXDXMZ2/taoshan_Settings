@@ -125,7 +125,7 @@
     .line 42
     .end local v11           #info:Landroid/content/pm/PackageInfo;
     :goto_0
-    const v6, 0x7f080040
+    const v6, 0x7f0c0040
 
     new-instance v0, Lcom/koushikdutta/superuser/AboutFragment$1;
 
@@ -135,7 +135,7 @@
 
     check-cast v2, Lcom/koushikdutta/widgets/BetterListFragmentInternal;
 
-    const/high16 v1, 0x7f08
+    const/high16 v1, 0x7f0c
 
     invoke-virtual {p0, v1}, Lcom/koushikdutta/superuser/AboutFragment;->getString(I)Ljava/lang/String;
 
@@ -150,7 +150,7 @@
     invoke-virtual {p0, v6, v0}, Lcom/koushikdutta/superuser/AboutFragment;->addItem(ILcom/koushikdutta/widgets/ListItem;)Lcom/koushikdutta/widgets/ListItem;
 
     .line 52
-    const v0, 0x7f080040
+    const v0, 0x7f0c0040
 
     new-instance v5, Lcom/koushikdutta/superuser/AboutFragment$2;
 
@@ -177,7 +177,7 @@
 
     .line 70
     .local v13, uri:Ljava/lang/String;
-    const v0, 0x7f080040
+    const v0, 0x7f0c0040
 
     new-instance v5, Lcom/koushikdutta/superuser/AboutFragment$3;
 
@@ -200,7 +200,7 @@
     invoke-virtual {p0, v0, v5}, Lcom/koushikdutta/superuser/AboutFragment;->addItem(ILcom/koushikdutta/widgets/ListItem;)Lcom/koushikdutta/widgets/ListItem;
 
     .line 81
-    const v0, 0x7f080041
+    const v0, 0x7f0c0041
 
     new-instance v5, Lcom/koushikdutta/superuser/AboutFragment$4;
 
@@ -223,7 +223,7 @@
     invoke-virtual {p0, v0, v5}, Lcom/koushikdutta/superuser/AboutFragment;->addItem(ILcom/koushikdutta/widgets/ListItem;)Lcom/koushikdutta/widgets/ListItem;
 
     .line 90
-    const v0, 0x7f080041
+    const v0, 0x7f0c0041
 
     new-instance v5, Lcom/koushikdutta/superuser/AboutFragment$5;
 
@@ -246,7 +246,7 @@
     invoke-virtual {p0, v0, v5}, Lcom/koushikdutta/superuser/AboutFragment;->addItem(ILcom/koushikdutta/widgets/ListItem;)Lcom/koushikdutta/widgets/ListItem;
 
     .line 99
-    const v0, 0x7f080041
+    const v0, 0x7f0c0041
 
     new-instance v5, Lcom/koushikdutta/superuser/AboutFragment$6;
 
@@ -269,7 +269,7 @@
     invoke-virtual {p0, v0, v5}, Lcom/koushikdutta/superuser/AboutFragment;->addItem(ILcom/koushikdutta/widgets/ListItem;)Lcom/koushikdutta/widgets/ListItem;
 
     .line 108
-    const v0, 0x7f080041
+    const v0, 0x7f0c0041
 
     new-instance v5, Lcom/koushikdutta/superuser/AboutFragment$7;
 
@@ -283,7 +283,7 @@
 
     const-string v9, "Use your phone\'s web connection on a laptop or PC"
 
-    const v10, 0x7f020138
+    const v10, 0x7f020139
 
     move-object v6, p0
 

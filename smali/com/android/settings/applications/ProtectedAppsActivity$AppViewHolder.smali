@@ -26,10 +26,10 @@
     .parameter "parentView"
 
     .prologue
-    .line 305
+    .line 287
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 306
+    .line 288
     const v0, 0x7f0d0038
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -40,7 +40,7 @@
 
     iput-object v0, p0, Lcom/android/settings/applications/ProtectedAppsActivity$AppViewHolder;->icon:Landroid/widget/ImageView;
 
-    .line 307
+    .line 289
     const v0, 0x7f0d0039
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -51,6 +51,6 @@
 
     iput-object v0, p0, Lcom/android/settings/applications/ProtectedAppsActivity$AppViewHolder;->title:Landroid/widget/TextView;
 
-    .line 308
+    .line 290
     return-void
 .end method

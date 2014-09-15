@@ -524,7 +524,7 @@
     if-gtz v5, :cond_2
 
     .line 1674
-    const v5, 0x7f080afe
+    const v5, 0x7f0c0af9
 
     invoke-virtual {v4, v5}, Landroid/widget/TextView;->setText(I)V
 

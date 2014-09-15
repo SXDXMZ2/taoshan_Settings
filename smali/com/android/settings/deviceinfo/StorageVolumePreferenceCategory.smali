@@ -189,7 +189,7 @@
 
     .line 148
     :cond_2
-    const v0, 0x7f080860
+    const v0, 0x7f0c085b
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
@@ -492,9 +492,9 @@
     .locals 7
 
     .prologue
-    const v6, 0x7f080756
+    const v6, 0x7f0c0751
 
-    const v5, 0x7f080750
+    const v5, 0x7f0c074b
 
     const/4 v3, 0x1
 
@@ -542,7 +542,7 @@
     .line 282
     iget-object v1, p0, Lcom/android/settings/deviceinfo/StorageVolumePreferenceCategory;->mItemAvailable:Lcom/android/settings/deviceinfo/StorageItemPreference;
 
-    const v2, 0x7f080743
+    const v2, 0x7f0c073e
 
     invoke-virtual {v1, v2}, Lcom/android/settings/deviceinfo/StorageItemPreference;->setTitle(I)V
 
@@ -575,7 +575,7 @@
 
     iget-object v2, p0, Lcom/android/settings/deviceinfo/StorageVolumePreferenceCategory;->mResources:Landroid/content/res/Resources;
 
-    const v3, 0x7f08074d
+    const v3, 0x7f0c0748
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -588,7 +588,7 @@
 
     iget-object v2, p0, Lcom/android/settings/deviceinfo/StorageVolumePreferenceCategory;->mResources:Landroid/content/res/Resources;
 
-    const v3, 0x7f08074e
+    const v3, 0x7f0c0749
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -700,7 +700,7 @@
     :cond_6
     iget-object v1, p0, Lcom/android/settings/deviceinfo/StorageVolumePreferenceCategory;->mItemAvailable:Lcom/android/settings/deviceinfo/StorageItemPreference;
 
-    const v2, 0x7f080742
+    const v2, 0x7f0c073d
 
     invoke-virtual {v1, v2}, Lcom/android/settings/deviceinfo/StorageItemPreference;->setTitle(I)V
 
@@ -754,7 +754,7 @@
 
     iget-object v2, p0, Lcom/android/settings/deviceinfo/StorageVolumePreferenceCategory;->mResources:Landroid/content/res/Resources;
 
-    const v3, 0x7f080751
+    const v3, 0x7f0c074c
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -802,7 +802,7 @@
 
     iget-object v2, p0, Lcom/android/settings/deviceinfo/StorageVolumePreferenceCategory;->mResources:Landroid/content/res/Resources;
 
-    const v3, 0x7f08074f
+    const v3, 0x7f0c074a
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -834,7 +834,7 @@
 
     iget-object v2, p0, Lcom/android/settings/deviceinfo/StorageVolumePreferenceCategory;->mResources:Landroid/content/res/Resources;
 
-    const v3, 0x7f080753
+    const v3, 0x7f0c074e
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1006,7 +1006,7 @@
     invoke-virtual {v0, v1}, Lcom/android/settings/deviceinfo/StorageVolumePreferenceCategory;->addPreference(Landroid/preference/Preference;)Z
 
     .line 184
-    const v23, 0x7f080744
+    const v23, 0x7f0c073f
 
     const/16 v24, 0x0
 
@@ -1027,9 +1027,9 @@
     iput-object v0, v1, Lcom/android/settings/deviceinfo/StorageVolumePreferenceCategory;->mItemTotal:Lcom/android/settings/deviceinfo/StorageItemPreference;
 
     .line 185
-    const v23, 0x7f080742
+    const v23, 0x7f0c073d
 
-    const v24, 0x7f0a0017
+    const v24, 0x7f090017
 
     move-object/from16 v0, p0
 
@@ -1074,9 +1074,9 @@
     invoke-virtual {v0, v1}, Lcom/android/settings/deviceinfo/StorageVolumePreferenceCategory;->addPreference(Landroid/preference/Preference;)Z
 
     .line 189
-    const v23, 0x7f080746
+    const v23, 0x7f0c0741
 
-    const v24, 0x7f0a0018
+    const v24, 0x7f090018
 
     move-object/from16 v0, p0
 
@@ -1095,9 +1095,9 @@
     iput-object v0, v1, Lcom/android/settings/deviceinfo/StorageVolumePreferenceCategory;->mItemApps:Lcom/android/settings/deviceinfo/StorageItemPreference;
 
     .line 190
-    const v23, 0x7f080749
+    const v23, 0x7f0c0744
 
-    const v24, 0x7f0a001a
+    const v24, 0x7f09001a
 
     move-object/from16 v0, p0
 
@@ -1116,9 +1116,9 @@
     iput-object v0, v1, Lcom/android/settings/deviceinfo/StorageVolumePreferenceCategory;->mItemDcim:Lcom/android/settings/deviceinfo/StorageItemPreference;
 
     .line 191
-    const v23, 0x7f08074a
+    const v23, 0x7f0c0745
 
-    const v24, 0x7f0a001b
+    const v24, 0x7f09001b
 
     move-object/from16 v0, p0
 
@@ -1137,9 +1137,9 @@
     iput-object v0, v1, Lcom/android/settings/deviceinfo/StorageVolumePreferenceCategory;->mItemMusic:Lcom/android/settings/deviceinfo/StorageItemPreference;
 
     .line 192
-    const v23, 0x7f080748
+    const v23, 0x7f0c0743
 
-    const v24, 0x7f0a0019
+    const v24, 0x7f090019
 
     move-object/from16 v0, p0
 
@@ -1158,9 +1158,9 @@
     iput-object v0, v1, Lcom/android/settings/deviceinfo/StorageVolumePreferenceCategory;->mItemDownloads:Lcom/android/settings/deviceinfo/StorageItemPreference;
 
     .line 193
-    const v23, 0x7f08074c
+    const v23, 0x7f0c0747
 
-    const v24, 0x7f0a001c
+    const v24, 0x7f09001c
 
     move-object/from16 v0, p0
 
@@ -1179,9 +1179,9 @@
     iput-object v0, v1, Lcom/android/settings/deviceinfo/StorageVolumePreferenceCategory;->mItemCache:Lcom/android/settings/deviceinfo/StorageItemPreference;
 
     .line 194
-    const v23, 0x7f08074b
+    const v23, 0x7f0c0746
 
-    const v24, 0x7f0a001d
+    const v24, 0x7f09001d
 
     move-object/from16 v0, p0
 
@@ -1346,7 +1346,7 @@
     .line 212
     new-instance v23, Lcom/android/settings/deviceinfo/StorageVolumePreferenceCategory$PreferenceHeader;
 
-    const v24, 0x7f080768
+    const v24, 0x7f0c0763
 
     move-object/from16 v0, v23
 
@@ -1393,7 +1393,7 @@
 
     if-nez v23, :cond_8
 
-    const v6, 0x7f0a001e
+    const v6, 0x7f09001e
 
     .line 218
     .local v6, colorRes:I
@@ -1524,7 +1524,7 @@
     .restart local v13       #info:Landroid/content/pm/UserInfo;
     .restart local v19       #showDetails:Z
     :cond_8
-    const v6, 0x7f0a001f
+    const v6, 0x7f09001f
 
     goto :goto_4
 
@@ -1648,7 +1648,7 @@
 
     move-object/from16 v23, v0
 
-    const v24, 0x7f08074d
+    const v24, 0x7f0c0748
 
     invoke-virtual/range {v23 .. v24}, Landroid/preference/Preference;->setTitle(I)V
 
@@ -1659,7 +1659,7 @@
 
     move-object/from16 v23, v0
 
-    const v24, 0x7f08074e
+    const v24, 0x7f0c0749
 
     invoke-virtual/range {v23 .. v24}, Landroid/preference/Preference;->setSummary(I)V
 
@@ -1713,7 +1713,7 @@
 
     move-object/from16 v23, v0
 
-    const v24, 0x7f080752
+    const v24, 0x7f0c074d
 
     invoke-virtual/range {v23 .. v24}, Landroid/preference/Preference;->setTitle(I)V
 
@@ -1724,7 +1724,7 @@
 
     move-object/from16 v23, v0
 
-    const v24, 0x7f080753
+    const v24, 0x7f0c074e
 
     invoke-virtual/range {v23 .. v24}, Landroid/preference/Preference;->setSummary(I)V
 
@@ -1816,7 +1816,7 @@
 
     move-object/from16 v23, v0
 
-    const v24, 0x7f08075e
+    const v24, 0x7f0c0759
 
     invoke-virtual/range {v23 .. v24}, Landroid/preference/Preference;->setTitle(I)V
 
@@ -1827,7 +1827,7 @@
 
     move-object/from16 v23, v0
 
-    const v24, 0x7f08075f
+    const v24, 0x7f0c075a
 
     invoke-virtual/range {v23 .. v24}, Landroid/preference/Preference;->setSummary(I)V
 

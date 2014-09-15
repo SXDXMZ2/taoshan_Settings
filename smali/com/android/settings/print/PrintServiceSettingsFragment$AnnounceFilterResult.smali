@@ -114,7 +114,7 @@
     .line 499
     iget-object v2, p0, Lcom/android/settings/print/PrintServiceSettingsFragment$AnnounceFilterResult;->this$0:Lcom/android/settings/print/PrintServiceSettingsFragment;
 
-    const v3, 0x7f080976
+    const v3, 0x7f0c0971
 
     invoke-virtual {v2, v3}, Lcom/android/settings/print/PrintServiceSettingsFragment;->getString(I)Ljava/lang/String;
 

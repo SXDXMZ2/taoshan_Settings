@@ -10,10 +10,10 @@
     .parameter "attrs"
 
     .prologue
-    .line 31
+    .line 30
     invoke-direct {p0, p1, p2}, Landroid/preference/DialogPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
-    .line 32
+    .line 31
     return-void
 .end method
 
@@ -24,44 +24,34 @@
     .parameter "view"
 
     .prologue
-    .line 48
+    .line 47
     invoke-super {p0, p1}, Landroid/preference/DialogPreference;->onBindDialogView(Landroid/view/View;)V
 
-    .line 49
+    .line 48
     return-void
 .end method
 
 .method public onClick(Landroid/content/DialogInterface;I)V
-    .locals 1
+    .locals 2
     .parameter "dialog"
     .parameter "which"
 
     .prologue
-    .line 58
+    .line 57
     const/4 v0, -0x1
 
     if-ne p2, v0, :cond_0
 
+    .line 58
+    const-string v0, "ctl.start"
+
+    const-string v1, "bugreport"
+
+    invoke-static {v0, v1}, Landroid/os/SystemProperties;->set(Ljava/lang/String;Ljava/lang/String;)V
+
     .line 60
-    :try_start_0
-    invoke-static {}, Landroid/app/ActivityManagerNative;->getDefault()Landroid/app/IActivityManager;
-
-    move-result-object v0
-
-    invoke-interface {v0}, Landroid/app/IActivityManager;->requestBugReport()V
-    :try_end_0
-    .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
-
-    .line 65
     :cond_0
-    :goto_0
     return-void
-
-    .line 61
-    :catch_0
-    move-exception v0
-
-    goto :goto_0
 .end method
 
 .method protected onDialogClosed(Z)V
@@ -69,10 +59,10 @@
     .parameter "positiveResult"
 
     .prologue
-    .line 53
+    .line 52
     invoke-super {p0, p1}, Landroid/preference/DialogPreference;->onDialogClosed(Z)V
 
-    .line 54
+    .line 53
     return-void
 .end method
 
@@ -81,20 +71,20 @@
     .parameter "builder"
 
     .prologue
-    .line 36
+    .line 35
     invoke-super {p0, p1}, Landroid/preference/DialogPreference;->onPrepareDialogBuilder(Landroid/app/AlertDialog$Builder;)V
 
-    .line 37
-    const v0, 0x10404c6
+    .line 36
+    const v0, 0x10404c5
 
     invoke-virtual {p1, v0, p0}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
-    .line 38
-    const v0, 0x1040189
+    .line 37
+    const v0, 0x1040188
 
     invoke-virtual {p1, v0}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
-    .line 39
+    .line 38
     return-void
 .end method
 
@@ -103,9 +93,9 @@
     .parameter "state"
 
     .prologue
-    .line 43
+    .line 42
     invoke-super {p0, p1}, Landroid/preference/DialogPreference;->showDialog(Landroid/os/Bundle;)V
 
-    .line 44
+    .line 43
     return-void
 .end method

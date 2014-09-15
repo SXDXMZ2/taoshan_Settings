@@ -10,11 +10,6 @@
         <item quantity="one">raz</item>
         <item quantity="few">%d razy</item>
     </plurals>
-    <plurals name="show_dev_countdown_cm">
-        <item quantity="other">Teraz ste %1$d krokov od povolenia možnosti pre vývojárov.</item>
-        <item quantity="one">Teraz ste %1$d krok od povolenia možnosti pre vývojárov.</item>
-        <item quantity="few">Teraz ste %1$d kroky od povolenia možnosti pre vývojárov.</item>
-    </plurals>
     <plurals name="show_dev_countdown">
         <item quantity="other">Počet krokov do získania stavu vývojára: %1$d.</item>
         <item quantity="one">Počet krokov do získania stavu vývojára: %1$d.</item>

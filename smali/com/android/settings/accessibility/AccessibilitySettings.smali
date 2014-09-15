@@ -219,7 +219,7 @@
     .local v0, extras:Landroid/os/Bundle;
     const-string v3, "title"
 
-    const v4, 0x7f08093b
+    const v4, 0x7f0c0936
 
     invoke-virtual {p0, v4}, Lcom/android/settings/accessibility/AccessibilitySettings;->getString(I)Ljava/lang/String;
 
@@ -238,7 +238,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f08093c
+    const v5, 0x7f0c0937
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -300,7 +300,7 @@
     .local v0, extras:Landroid/os/Bundle;
     const-string v3, "title"
 
-    const v4, 0x7f08093d
+    const v4, 0x7f0c0938
 
     invoke-virtual {p0, v4}, Lcom/android/settings/accessibility/AccessibilitySettings;->getString(I)Ljava/lang/String;
 
@@ -311,7 +311,7 @@
     .line 265
     const-string v3, "summary"
 
-    const v4, 0x7f080940
+    const v4, 0x7f0c093b
 
     invoke-virtual {p0, v4}, Lcom/android/settings/accessibility/AccessibilitySettings;->getString(I)Ljava/lang/String;
 
@@ -515,7 +515,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f0c0037
+    const v7, 0x7f0b0037
 
     invoke-virtual {v6, v7}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -538,7 +538,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f0c0036
+    const v7, 0x7f0b0036
 
     invoke-virtual {v6, v7}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -1005,7 +1005,7 @@
     if-eqz v4, :cond_4
 
     .line 375
-    const v12, 0x7f080949
+    const v12, 0x7f0c0944
 
     invoke-virtual {p0, v12}, Lcom/android/settings/accessibility/AccessibilitySettings;->getString(I)Ljava/lang/String;
 
@@ -1070,7 +1070,7 @@
     if-eqz v10, :cond_0
 
     .line 391
-    const v4, 0x7f08096f
+    const v4, 0x7f0c096a
 
     invoke-virtual {p0, v4}, Lcom/android/settings/accessibility/AccessibilitySettings;->getString(I)Ljava/lang/String;
 
@@ -1097,7 +1097,7 @@
     .line 397
     const-string v10, "settings_title"
 
-    const v13, 0x7f080948
+    const v13, 0x7f0c0943
 
     invoke-virtual {p0, v13}, Lcom/android/settings/accessibility/AccessibilitySettings;->getString(I)Ljava/lang/String;
 
@@ -1158,7 +1158,7 @@
 
     .line 377
     :cond_4
-    const v12, 0x7f08094a
+    const v12, 0x7f0c0945
 
     invoke-virtual {p0, v12}, Lcom/android/settings/accessibility/AccessibilitySettings;->getString(I)Ljava/lang/String;
 
@@ -1202,7 +1202,7 @@
     .line 421
     iget-object v0, p0, Lcom/android/settings/accessibility/AccessibilitySettings;->mNoServicesMessagePreference:Landroid/preference/Preference;
 
-    const v1, 0x7f0400d6
+    const v1, 0x7f0400d7
 
     invoke-virtual {v0, v1}, Landroid/preference/Preference;->setLayoutResource(I)V
 
@@ -1228,9 +1228,9 @@
     .locals 13
 
     .prologue
-    const v12, 0x7f08094a
+    const v12, 0x7f0c0945
 
-    const v11, 0x7f080949
+    const v11, 0x7f0c0944
 
     const/4 v7, 0x1
 
@@ -1406,7 +1406,7 @@
     .line 474
     iget-object v6, p0, Lcom/android/settings/accessibility/AccessibilitySettings;->mGlobalGesturePreferenceScreen:Landroid/preference/PreferenceScreen;
 
-    const v7, 0x7f08093e
+    const v7, 0x7f0c0939
 
     invoke-virtual {v6, v7}, Landroid/preference/PreferenceScreen;->setSummary(I)V
 
@@ -1476,7 +1476,7 @@
     :cond_7
     iget-object v6, p0, Lcom/android/settings/accessibility/AccessibilitySettings;->mGlobalGesturePreferenceScreen:Landroid/preference/PreferenceScreen;
 
-    const v7, 0x7f08093f
+    const v7, 0x7f0c093a
 
     invoke-virtual {v6, v7}, Landroid/preference/PreferenceScreen;->setSummary(I)V
 
@@ -1541,13 +1541,13 @@
 
     invoke-direct {v1, v2}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v2, 0x7f08096d
+    const v2, 0x7f0c0968
 
     invoke-virtual {v1, v2}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
     move-result-object v1
 
-    const v2, 0x7f08096e
+    const v2, 0x7f0c0969
 
     invoke-virtual {v1, v2}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 

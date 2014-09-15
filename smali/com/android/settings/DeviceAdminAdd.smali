@@ -950,7 +950,7 @@
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setMessage(Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;
 
     .line 282
-    const v2, 0x7f080865
+    const v2, 0x7f0c0860
 
     new-instance v3, Lcom/android/settings/DeviceAdminAdd$4;
 
@@ -959,7 +959,7 @@
     invoke-virtual {v0, v2, v3}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
     .line 289
-    const v2, 0x7f080866
+    const v2, 0x7f0c0861
 
     const/4 v3, 0x0
 
@@ -1290,7 +1290,7 @@
     .line 335
     iget-object v5, p0, Lcom/android/settings/DeviceAdminAdd;->mAdminWarning:Landroid/widget/TextView;
 
-    const v6, 0x7f080a68
+    const v6, 0x7f0c0a63
 
     new-array v7, v11, [Ljava/lang/Object;
 
@@ -1319,7 +1319,7 @@
     invoke-virtual {v5, v6}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 337
-    const v5, 0x7f080a60
+    const v5, 0x7f0c0a5b
 
     invoke-virtual {p0, v5}, Lcom/android/settings/DeviceAdminAdd;->getText(I)Ljava/lang/CharSequence;
 
@@ -1330,7 +1330,7 @@
     .line 338
     iget-object v5, p0, Lcom/android/settings/DeviceAdminAdd;->mActionButton:Landroid/widget/Button;
 
-    const v6, 0x7f080a61
+    const v6, 0x7f0c0a5c
 
     invoke-virtual {p0, v6}, Lcom/android/settings/DeviceAdminAdd;->getText(I)Ljava/lang/CharSequence;
 
@@ -1433,7 +1433,7 @@
     .line 353
     iget-object v5, p0, Lcom/android/settings/DeviceAdminAdd;->mAdminWarning:Landroid/widget/TextView;
 
-    const v6, 0x7f080a67
+    const v6, 0x7f0c0a62
 
     new-array v7, v11, [Ljava/lang/Object;
 
@@ -1462,7 +1462,7 @@
     invoke-virtual {v5, v6}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 355
-    const v5, 0x7f080a64
+    const v5, 0x7f0c0a5f
 
     invoke-virtual {p0, v5}, Lcom/android/settings/DeviceAdminAdd;->getText(I)Ljava/lang/CharSequence;
 
@@ -1473,7 +1473,7 @@
     .line 356
     iget-object v5, p0, Lcom/android/settings/DeviceAdminAdd;->mActionButton:Landroid/widget/Button;
 
-    const v6, 0x7f080a65
+    const v6, 0x7f0c0a60
 
     invoke-virtual {p0, v6}, Lcom/android/settings/DeviceAdminAdd;->getText(I)Ljava/lang/CharSequence;
 

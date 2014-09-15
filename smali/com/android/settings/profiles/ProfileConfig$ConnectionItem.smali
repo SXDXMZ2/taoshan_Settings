@@ -40,7 +40,7 @@
     iput p1, p0, Lcom/android/settings/profiles/ProfileConfig$ConnectionItem;->mConnectionId:I
 
     .line 473
-    const v0, 0x7f0c0072
+    const v0, 0x7f0b0072
 
     iput v0, p0, Lcom/android/settings/profiles/ProfileConfig$ConnectionItem;->mChoices:I
 

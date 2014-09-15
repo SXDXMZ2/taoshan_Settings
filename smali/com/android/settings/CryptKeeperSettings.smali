@@ -161,13 +161,13 @@
 
     invoke-direct {v3, v4, p0}, Lcom/android/settings/ChooseLockSettingsHelper;-><init>(Landroid/app/Activity;Landroid/app/Fragment;)V
 
-    const v4, 0x7f08079f
+    const v4, 0x7f0c079a
 
     invoke-virtual {v2, v4}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
     move-result-object v4
 
-    const v5, 0x7f0807a0
+    const v5, 0x7f0c079b
 
     invoke-virtual {v2, v5}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -204,7 +204,7 @@
     invoke-virtual {v1, v0}, Landroid/preference/Preference;->setFragment(Ljava/lang/String;)V
 
     .line 202
-    const v0, 0x7f08055b
+    const v0, 0x7f0c0556
 
     invoke-virtual {v1, v0}, Landroid/preference/Preference;->setTitle(I)V
 

@@ -19,7 +19,7 @@
     .locals 0
 
     .prologue
-    .line 1342
+    .line 1360
     invoke-direct {p0}, Lcom/android/settings/Settings;-><init>()V
 
     return-void
@@ -32,7 +32,7 @@
     .parameter
 
     .prologue
-    .line 1345
+    .line 1363
     const-class v0, Lcom/android/settings/applications/AppOpsSummary;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -45,10 +45,10 @@
 
     if-eqz v0, :cond_0
 
-    .line 1346
+    .line 1364
     const/4 v0, 0x1
 
-    .line 1348
+    .line 1366
     :goto_0
     return v0
 

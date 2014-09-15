@@ -75,7 +75,7 @@
     .line 261
     iget-object v1, p0, Lcom/android/settings/RingerVolumePreference$3;->val$ringerDesc:Landroid/widget/TextView;
 
-    const v2, 0x7f0806d4
+    const v2, 0x7f0c06cf
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 
@@ -144,7 +144,7 @@
     .line 269
     iget-object v1, p0, Lcom/android/settings/RingerVolumePreference$3;->val$ringerDesc:Landroid/widget/TextView;
 
-    const v2, 0x7f080116
+    const v2, 0x7f0c0116
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 

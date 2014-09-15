@@ -88,7 +88,7 @@
     .locals 12
 
     .prologue
-    const v3, 0x7f080986
+    const v3, 0x7f0c0981
 
     const/4 v4, 0x3
 
@@ -164,7 +164,7 @@
     :pswitch_0
     iget-object v8, p0, Lcom/android/settings/print/PrintJobSettingsFragment;->mPrintJobPreference:Landroid/preference/Preference;
 
-    const v9, 0x7f080984
+    const v9, 0x7f0c097f
 
     const/4 v0, 0x2
 
@@ -285,7 +285,7 @@
     .line 174
     iget-object v0, p0, Lcom/android/settings/print/PrintJobSettingsFragment;->mPrintJobPreference:Landroid/preference/Preference;
 
-    const v1, 0x7f080985
+    const v1, 0x7f0c0980
 
     new-array v2, v11, [Ljava/lang/Object;
 
@@ -327,7 +327,7 @@
     :pswitch_3
     iget-object v0, p0, Lcom/android/settings/print/PrintJobSettingsFragment;->mPrintJobPreference:Landroid/preference/Preference;
 
-    const v1, 0x7f080987
+    const v1, 0x7f0c0982
 
     new-array v2, v11, [Ljava/lang/Object;
 
@@ -362,7 +362,7 @@
     .line 189
     iget-object v0, p0, Lcom/android/settings/print/PrintJobSettingsFragment;->mPrintJobPreference:Landroid/preference/Preference;
 
-    const v1, 0x7f080988
+    const v1, 0x7f0c0983
 
     new-array v2, v11, [Ljava/lang/Object;
 
@@ -526,7 +526,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f080981
+    const v1, 0x7f0c097c
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->setTitle(I)V
 
@@ -569,7 +569,7 @@
     if-nez v2, :cond_0
 
     .line 116
-    const v2, 0x7f080983
+    const v2, 0x7f0c097e
 
     invoke-virtual {p0, v2}, Lcom/android/settings/print/PrintJobSettingsFragment;->getString(I)Ljava/lang/String;
 
@@ -597,7 +597,7 @@
     .line 122
     const/4 v2, 0x2
 
-    const v3, 0x7f080982
+    const v3, 0x7f0c097d
 
     invoke-virtual {p0, v3}, Lcom/android/settings/print/PrintJobSettingsFragment;->getString(I)Ljava/lang/String;
 

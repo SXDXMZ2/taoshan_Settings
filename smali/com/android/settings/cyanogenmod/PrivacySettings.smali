@@ -41,7 +41,7 @@
     .line 74
     iget-object v0, p0, Lcom/android/settings/cyanogenmod/PrivacySettings;->mBlacklist:Landroid/preference/PreferenceScreen;
 
-    const v1, 0x7f080271
+    const v1, 0x7f0c026d
 
     invoke-virtual {v0, v1}, Landroid/preference/PreferenceScreen;->setSummary(I)V
 
@@ -54,7 +54,7 @@
     :cond_1
     iget-object v0, p0, Lcom/android/settings/cyanogenmod/PrivacySettings;->mBlacklist:Landroid/preference/PreferenceScreen;
 
-    const v1, 0x7f080270
+    const v1, 0x7f0c026c
 
     invoke-virtual {v0, v1}, Landroid/preference/PreferenceScreen;->setSummary(I)V
 

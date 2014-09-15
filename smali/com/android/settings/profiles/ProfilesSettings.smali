@@ -116,7 +116,7 @@
 
     .line 264
     .local v4, inflater:Landroid/view/LayoutInflater;
-    const v6, 0x7f0400b4
+    const v6, 0x7f0400b6
 
     invoke-virtual {v4, v6, v8}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -144,7 +144,7 @@
 
     .line 268
     .local v3, entry:Landroid/widget/EditText;
-    const v6, 0x7f080101
+    const v6, 0x7f0c0101
 
     invoke-virtual {v5, v6}, Landroid/widget/TextView;->setText(I)V
 
@@ -159,7 +159,7 @@
 
     .line 271
     .local v0, builder:Landroid/app/AlertDialog$Builder;
-    const v6, 0x7f0800ff
+    const v6, 0x7f0c00ff
 
     invoke-virtual {v0, v6}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -210,7 +210,7 @@
 
     .line 216
     .local v4, inflater:Landroid/view/LayoutInflater;
-    const v6, 0x7f0400b4
+    const v6, 0x7f0400b6
 
     invoke-virtual {v4, v6, v8}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -238,7 +238,7 @@
 
     .line 220
     .local v3, entry:Landroid/widget/EditText;
-    const v6, 0x7f0800d4
+    const v6, 0x7f0c00d4
 
     invoke-virtual {v5, v6}, Landroid/widget/TextView;->setText(I)V
 
@@ -253,7 +253,7 @@
 
     .line 223
     .local v0, builder:Landroid/app/AlertDialog$Builder;
-    const v6, 0x7f0800d5
+    const v6, 0x7f0c00d5
 
     invoke-virtual {v0, v6}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -302,7 +302,7 @@
 
     .line 248
     .local v0, alert:Landroid/app/AlertDialog$Builder;
-    const v1, 0x7f0800db
+    const v1, 0x7f0c00db
 
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -312,12 +312,12 @@
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setIconAttribute(I)Landroid/app/AlertDialog$Builder;
 
     .line 250
-    const v1, 0x7f0800dc
+    const v1, 0x7f0c00dc
 
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
     .line 251
-    const v1, 0x7f0801f9
+    const v1, 0x7f0c01f5
 
     new-instance v2, Lcom/android/settings/profiles/ProfilesSettings$3;
 
@@ -326,7 +326,7 @@
     invoke-virtual {v0, v1, v2}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
     .line 258
-    const v1, 0x7f080519
+    const v1, 0x7f0c0514
 
     const/4 v2, 0x0
 
@@ -540,7 +540,7 @@
     .line 178
     const/4 v0, 0x1
 
-    const v1, 0x7f0800db
+    const v1, 0x7f0c00db
 
     invoke-interface {p1, v2, v0, v2, v1}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
@@ -569,7 +569,7 @@
     .line 185
     const/4 v0, 0x2
 
-    const v1, 0x7f0800c0
+    const v1, 0x7f0c00c0
 
     invoke-interface {p1, v2, v0, v2, v1}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
@@ -610,7 +610,7 @@
     iput-object p2, p0, Lcom/android/settings/profiles/ProfilesSettings;->mContainer:Landroid/view/ViewGroup;
 
     .line 102
-    const v2, 0x7f0400b5
+    const v2, 0x7f0400b7
 
     const/4 v3, 0x0
 

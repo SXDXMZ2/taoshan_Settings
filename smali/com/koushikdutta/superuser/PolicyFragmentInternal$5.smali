@@ -64,7 +64,7 @@
 
     iget-object v2, p0, Lcom/koushikdutta/superuser/PolicyFragmentInternal$5;->this$0:Lcom/koushikdutta/superuser/PolicyFragmentInternal;
 
-    const v3, 0x7f080012
+    const v3, 0x7f0c0012
 
     invoke-virtual {v2, v3}, Lcom/koushikdutta/superuser/PolicyFragmentInternal;->getString(I)Ljava/lang/String;
 
@@ -101,7 +101,7 @@
 
     iget-object v3, p0, Lcom/koushikdutta/superuser/PolicyFragmentInternal$5;->this$0:Lcom/koushikdutta/superuser/PolicyFragmentInternal;
 
-    const v4, 0x7f080012
+    const v4, 0x7f0c0012
 
     invoke-virtual {v3, v4}, Lcom/koushikdutta/superuser/PolicyFragmentInternal;->getString(I)Ljava/lang/String;
 

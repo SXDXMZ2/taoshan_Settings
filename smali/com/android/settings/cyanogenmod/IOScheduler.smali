@@ -36,7 +36,7 @@
     invoke-super {p0, p1}, Lcom/android/settings/SettingsPreferenceFragment;->onCreate(Landroid/os/Bundle;)V
 
     .line 51
-    const v6, 0x7f08023e
+    const v6, 0x7f0c023a
 
     invoke-virtual {p0, v6}, Lcom/android/settings/cyanogenmod/IOScheduler;->getString(I)Ljava/lang/String;
 

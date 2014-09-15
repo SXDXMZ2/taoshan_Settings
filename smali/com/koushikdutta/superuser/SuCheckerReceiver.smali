@@ -19,7 +19,7 @@
     .parameter
 
     .prologue
-    const v2, 0x7f080044
+    const v2, 0x7f0c0044
 
     const/4 v4, 0x0
 
@@ -53,7 +53,7 @@
     invoke-virtual {v1, v2, v3}, Landroid/support/v4/app/NotificationCompat$Builder;->setWhen(J)Landroid/support/v4/app/NotificationCompat$Builder;
 
     .line 22
-    const v0, 0x7f08004b
+    const v0, 0x7f0c004b
 
     invoke-virtual {p0, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

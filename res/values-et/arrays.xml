@@ -440,49 +440,4 @@
         <item>madal</item>
         <item>kriitiline</item>
     </string-array>
-    <string-array name="screen_color_setting">
-        <item>Standard</item>
-        <item>Ergas</item>
-        <item>Kohandatud</item>
-    </string-array>
-    <string-array name="wifi_countrycode_entries">
-        <item>Ameerika Ühendriigid</item>
-        <item>Kanada, Taiwan</item>
-        <item>Saksamaa</item>
-        <item>Euroopa</item>
-        <item>Jaapan, Venemaa</item>
-        <item>Austraalia</item>
-        <item>Hiina</item>
-        <item>Korea</item>
-        <item>Türgi</item>
-        <item>Singapur</item>
-        <item>Brasiilia</item>
-    </string-array>
-    <string-array name="profile_entries">
-        <item>Sees</item>
-        <item>Väljas</item>
-        <item>No override</item>
-    </string-array>
-    <string-array name="profile_connection_entries">
-        <item>Keela</item>
-        <item>Luba</item>
-    </string-array>
-    <string-array name="entries_screentimeout_widget">
-        <item>15s | 1m | 5m</item>
-        <item>30s | 2m | 5m</item>
-    </string-array>
-    <string-array name="data_usage_cycle_weekdays">
-        <item>Pühapäev</item>
-        <item>Esmaspäev</item>
-        <item>Teisipäev</item>
-        <item>Kolmapäev</item>
-        <item>Neljapäev</item>
-        <item>Reede</item>
-        <item>Laupäev</item>
-    </string-array>
-    <string-array name="app_ops_permissions">
-        <item>Lubatud</item>
-        <item>Keelatud</item>
-        <item>Alati küsi</item>
-    </string-array>
 </resources>

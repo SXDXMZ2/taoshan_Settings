@@ -394,7 +394,7 @@
 
     if-eqz v4, :cond_0
 
-    const v4, 0x7f080585
+    const v4, 0x7f0c0580
 
     :goto_0
     new-array v5, v5, [Ljava/lang/Object;
@@ -438,7 +438,7 @@
 
     .line 462
     :cond_0
-    const v4, 0x7f080586
+    const v4, 0x7f0c0581
 
     goto :goto_0
 
@@ -468,7 +468,7 @@
     :cond_2
     iget-object v4, p0, Lcom/android/settings/ChooseLockPassword$ChooseLockPasswordFragment;->mHeaderText:Landroid/widget/TextView;
 
-    const v6, 0x7f080587
+    const v6, 0x7f0c0582
 
     invoke-virtual {v4, v6}, Landroid/widget/TextView;->setText(I)V
 
@@ -541,7 +541,7 @@
 
     if-eqz v10, :cond_0
 
-    const v10, 0x7f080585
+    const v10, 0x7f0c0580
 
     :goto_0
     const/4 v11, 0x1
@@ -568,7 +568,7 @@
 
     .line 304
     :cond_0
-    const v10, 0x7f080586
+    const v10, 0x7f0c0581
 
     goto :goto_0
 
@@ -587,7 +587,7 @@
 
     if-eqz v10, :cond_2
 
-    const v10, 0x7f080589
+    const v10, 0x7f0c0584
 
     :goto_2
     const/4 v11, 0x1
@@ -613,7 +613,7 @@
     goto :goto_1
 
     :cond_2
-    const v10, 0x7f08058a
+    const v10, 0x7f0c0585
 
     goto :goto_2
 
@@ -670,7 +670,7 @@
 
     .line 323
     :cond_4
-    const v10, 0x7f08058d
+    const v10, 0x7f0c0588
 
     invoke-virtual {p0, v10}, Lcom/android/settings/ChooseLockPassword$ChooseLockPasswordFragment;->getString(I)Ljava/lang/String;
 
@@ -760,7 +760,7 @@
 
     .line 343
     :cond_a
-    const v10, 0x7f08058b
+    const v10, 0x7f0c0586
 
     invoke-virtual {p0, v10}, Lcom/android/settings/ChooseLockPassword$ChooseLockPasswordFragment;->getString(I)Ljava/lang/String;
 
@@ -1041,7 +1041,7 @@
     if-nez v4, :cond_15
 
     .line 376
-    const v10, 0x7f08058e
+    const v10, 0x7f0c0589
 
     invoke-virtual {p0, v10}, Lcom/android/settings/ChooseLockPassword$ChooseLockPasswordFragment;->getString(I)Ljava/lang/String;
 
@@ -1072,7 +1072,7 @@
     if-nez v7, :cond_16
 
     .line 379
-    const v10, 0x7f08058f
+    const v10, 0x7f0c058a
 
     invoke-virtual {p0, v10}, Lcom/android/settings/ChooseLockPassword$ChooseLockPasswordFragment;->getString(I)Ljava/lang/String;
 
@@ -1097,7 +1097,7 @@
 
     if-eqz v10, :cond_17
 
-    const v10, 0x7f080591
+    const v10, 0x7f0c058c
 
     :goto_7
     invoke-virtual {p0, v10}, Lcom/android/settings/ChooseLockPassword$ChooseLockPasswordFragment;->getString(I)Ljava/lang/String;
@@ -1107,7 +1107,7 @@
     goto/16 :goto_1
 
     :cond_17
-    const v10, 0x7f08058c
+    const v10, 0x7f0c0587
 
     goto :goto_7
 
@@ -1718,7 +1718,7 @@
 
     if-eqz v10, :cond_7
 
-    const v4, 0x7f0807f8
+    const v4, 0x7f0c07f3
 
     .line 243
     .local v4, id:I
@@ -1807,7 +1807,7 @@
     .end local v7           #state:Ljava/lang/String;
     .restart local v6       #preferenceActivity:Landroid/preference/PreferenceActivity;
     :cond_7
-    const v4, 0x7f0807fa
+    const v4, 0x7f0c07f5
 
     goto :goto_4
 .end method

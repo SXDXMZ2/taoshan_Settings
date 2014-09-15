@@ -101,7 +101,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0800df
+    const v1, 0x7f0c00df
 
     invoke-virtual {p0, v1}, Lcom/android/settings/profiles/ProfileConfig;->getString(I)Ljava/lang/String;
 
@@ -131,7 +131,7 @@
     invoke-direct {v0, v1}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
     .line 429
-    const v1, 0x7f0800c1
+    const v1, 0x7f0c00c1
 
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -141,12 +141,12 @@
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setIconAttribute(I)Landroid/app/AlertDialog$Builder;
 
     .line 431
-    const v1, 0x7f0800dd
+    const v1, 0x7f0c00dd
 
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
     .line 432
-    const v1, 0x7f080434
+    const v1, 0x7f0c0431
 
     new-instance v2, Lcom/android/settings/profiles/ProfileConfig$1;
 
@@ -155,7 +155,7 @@
     invoke-virtual {v0, v1, v2}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
     .line 437
-    const v1, 0x7f080519
+    const v1, 0x7f0c0514
 
     new-instance v2, Lcom/android/settings/profiles/ProfileConfig$2;
 
@@ -394,7 +394,7 @@
     invoke-virtual {v0, v1}, Lcom/android/settings/profiles/ProfileRingModePreference;->setRingModeItem(Lcom/android/settings/profiles/ProfileConfig$RingModeItem;)V
 
     .line 234
-    const v27, 0x7f08011a
+    const v27, 0x7f0c011a
 
     move-object/from16 v0, v20
 
@@ -539,7 +539,7 @@
     invoke-virtual {v4, v0}, Lcom/android/settings/profiles/ProfileAirplaneModePreference;->setAirplaneModeItem(Lcom/android/settings/profiles/ProfileConfig$AirplaneModeItem;)V
 
     .line 253
-    const v27, 0x7f08010c
+    const v27, 0x7f0c010c
 
     move/from16 v0, v27
 
@@ -604,7 +604,7 @@
 
     move-object/from16 v27, v0
 
-    const v28, 0x7f080105
+    const v28, 0x7f0c0105
 
     invoke-virtual/range {v27 .. v28}, Landroid/preference/ListPreference;->setTitle(I)V
 
@@ -615,7 +615,7 @@
 
     move-object/from16 v27, v0
 
-    const v28, 0x7f0c0078
+    const v28, 0x7f0b0078
 
     invoke-virtual/range {v27 .. v28}, Landroid/preference/ListPreference;->setEntries(I)V
 
@@ -626,7 +626,7 @@
 
     move-object/from16 v27, v0
 
-    const v28, 0x7f0c007a
+    const v28, 0x7f0b007a
 
     invoke-virtual/range {v27 .. v28}, Landroid/preference/ListPreference;->setEntryValues(I)V
 
@@ -652,7 +652,7 @@
 
     move-result-object v28
 
-    const v29, 0x7f0c0079
+    const v29, 0x7f0b0079
 
     invoke-virtual/range {v28 .. v29}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -747,7 +747,7 @@
 
     move-object/from16 v27, v0
 
-    const v28, 0x7f080577
+    const v28, 0x7f0c0572
 
     invoke-virtual/range {v27 .. v28}, Landroid/preference/ListPreference;->setSummary(I)V
 
@@ -787,7 +787,7 @@
 
     move-object/from16 v27, v0
 
-    const v28, 0x7f08030c
+    const v28, 0x7f0c0307
 
     invoke-virtual/range {v27 .. v28}, Landroid/preference/ListPreference;->setTitle(I)V
 
@@ -798,7 +798,7 @@
 
     move-object/from16 v27, v0
 
-    const v28, 0x7f0c007b
+    const v28, 0x7f0b007b
 
     invoke-virtual/range {v27 .. v28}, Landroid/preference/ListPreference;->setEntries(I)V
 
@@ -809,7 +809,7 @@
 
     move-object/from16 v27, v0
 
-    const v28, 0x7f0c007c
+    const v28, 0x7f0b007c
 
     invoke-virtual/range {v27 .. v28}, Landroid/preference/ListPreference;->setEntryValues(I)V
 
@@ -835,7 +835,7 @@
 
     move-result-object v28
 
-    const v29, 0x7f0c007b
+    const v29, 0x7f0b007b
 
     invoke-virtual/range {v28 .. v29}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -1100,7 +1100,7 @@
 
     .line 311
     .local v16, numerator:I
-    const v27, 0x7f0800ea
+    const v27, 0x7f0c00ea
 
     const/16 v28, 0x2
 
@@ -1749,7 +1749,7 @@
 
     new-instance v3, Lcom/android/settings/profiles/ProfileConfig$StreamItem;
 
-    const v4, 0x7f0806cc
+    const v4, 0x7f0c06c7
 
     invoke-virtual {p0, v4}, Lcom/android/settings/profiles/ProfileConfig;->getString(I)Ljava/lang/String;
 
@@ -1761,7 +1761,7 @@
 
     new-instance v3, Lcom/android/settings/profiles/ProfileConfig$StreamItem;
 
-    const v4, 0x7f0806ca
+    const v4, 0x7f0c06c5
 
     invoke-virtual {p0, v4}, Lcom/android/settings/profiles/ProfileConfig;->getString(I)Ljava/lang/String;
 
@@ -1773,7 +1773,7 @@
 
     new-instance v3, Lcom/android/settings/profiles/ProfileConfig$StreamItem;
 
-    const v4, 0x7f0806c6
+    const v4, 0x7f0c06c1
 
     invoke-virtual {p0, v4}, Lcom/android/settings/profiles/ProfileConfig;->getString(I)Ljava/lang/String;
 
@@ -1787,7 +1787,7 @@
 
     const/4 v4, 0x5
 
-    const v5, 0x7f0806c7
+    const v5, 0x7f0c06c2
 
     invoke-virtual {p0, v5}, Lcom/android/settings/profiles/ProfileConfig;->getString(I)Ljava/lang/String;
 
@@ -1820,7 +1820,7 @@
 
     const/4 v4, 0x7
 
-    const v5, 0x7f08010f
+    const v5, 0x7f0c010f
 
     invoke-virtual {p0, v5}, Lcom/android/settings/profiles/ProfileConfig;->getString(I)Ljava/lang/String;
 
@@ -1836,7 +1836,7 @@
 
     new-instance v3, Lcom/android/settings/profiles/ProfileConfig$ConnectionItem;
 
-    const v4, 0x7f080110
+    const v4, 0x7f0c0110
 
     invoke-virtual {p0, v4}, Lcom/android/settings/profiles/ProfileConfig;->getString(I)Ljava/lang/String;
 
@@ -1851,7 +1851,7 @@
 
     new-instance v3, Lcom/android/settings/profiles/ProfileConfig$ConnectionItem;
 
-    const v4, 0x7f08010d
+    const v4, 0x7f0c010d
 
     invoke-virtual {p0, v4}, Lcom/android/settings/profiles/ProfileConfig;->getString(I)Ljava/lang/String;
 
@@ -1868,7 +1868,7 @@
 
     const/4 v4, 0x5
 
-    const v5, 0x7f080112
+    const v5, 0x7f0c0112
 
     invoke-virtual {p0, v5}, Lcom/android/settings/profiles/ProfileConfig;->getString(I)Ljava/lang/String;
 
@@ -1894,7 +1894,7 @@
 
     new-instance v3, Lcom/android/settings/profiles/ProfileConfig$ConnectionItem;
 
-    const v4, 0x7f080111
+    const v4, 0x7f0c0111
 
     invoke-virtual {p0, v4}, Lcom/android/settings/profiles/ProfileConfig;->getString(I)Ljava/lang/String;
 
@@ -1909,7 +1909,7 @@
 
     new-instance v3, Lcom/android/settings/profiles/ProfileConfig$ConnectionItem;
 
-    const v4, 0x7f08010e
+    const v4, 0x7f0c010e
 
     invoke-virtual {p0, v4}, Lcom/android/settings/profiles/ProfileConfig;->getString(I)Ljava/lang/String;
 
@@ -1947,13 +1947,13 @@
 
     const/16 v4, 0x9
 
-    const v5, 0x7f080113
+    const v5, 0x7f0c0113
 
     invoke-virtual {p0, v5}, Lcom/android/settings/profiles/ProfileConfig;->getString(I)Ljava/lang/String;
 
     move-result-object v5
 
-    const v6, 0x7f0c0073
+    const v6, 0x7f0b0073
 
     invoke-direct {v3, v4, v5, v6}, Lcom/android/settings/profiles/ProfileConfig$ConnectionItem;-><init>(ILjava/lang/String;I)V
 
@@ -1977,7 +1977,7 @@
 
     new-instance v3, Lcom/android/settings/profiles/ProfileConfig$ConnectionItem;
 
-    const v4, 0x7f080114
+    const v4, 0x7f0c0114
 
     invoke-virtual {p0, v4}, Lcom/android/settings/profiles/ProfileConfig;->getString(I)Ljava/lang/String;
 
@@ -2006,7 +2006,7 @@
 
     const/16 v4, 0x8
 
-    const v5, 0x7f080115
+    const v5, 0x7f0c0115
 
     invoke-virtual {p0, v5}, Lcom/android/settings/profiles/ProfileConfig;->getString(I)Ljava/lang/String;
 
@@ -2065,7 +2065,7 @@
     .line 129
     new-instance v2, Landroid/app/Profile;
 
-    const v3, 0x7f0800d6
+    const v3, 0x7f0c00d6
 
     invoke-virtual {p0, v3}, Lcom/android/settings/profiles/ProfileConfig;->getString(I)Ljava/lang/String;
 
@@ -2120,7 +2120,7 @@
     if-eqz v3, :cond_0
 
     .line 140
-    const v3, 0x7f0800c9
+    const v3, 0x7f0c00c9
 
     invoke-interface {p1, v5, v7, v5, v3}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
@@ -2141,7 +2141,7 @@
     :cond_0
     const/4 v3, 0x3
 
-    const v4, 0x7f0800c5
+    const v4, 0x7f0c00c5
 
     invoke-interface {p1, v5, v3, v5, v4}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
@@ -2160,7 +2160,7 @@
     .line 149
     const/4 v3, 0x2
 
-    const v4, 0x7f0800c1
+    const v4, 0x7f0c00c1
 
     invoke-interface {p1, v5, v3, v7, v4}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
@@ -2476,7 +2476,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f0800d9
+    const v7, 0x7f0c00d9
 
     invoke-static {v6, v7, v9}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 
@@ -2516,7 +2516,7 @@
 
     move-result-object v7
 
-    const v8, 0x7f0c0079
+    const v8, 0x7f0b0079
 
     invoke-virtual {v7, v8}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -2564,7 +2564,7 @@
 
     move-result-object v7
 
-    const v8, 0x7f0c007b
+    const v8, 0x7f0b007b
 
     invoke-virtual {v7, v8}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 

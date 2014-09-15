@@ -124,7 +124,7 @@
 
     .line 165
     :cond_0
-    const v2, 0x7f080809
+    const v2, 0x7f0c0804
 
     invoke-direct {p0, v2}, Lcom/android/settings/ConfirmLockPassword$ConfirmLockPasswordFragment;->showError(I)V
 
@@ -418,7 +418,7 @@
 
     if-eqz v3, :cond_3
 
-    const v8, 0x7f0807fb
+    const v8, 0x7f0c07f6
 
     :goto_1
     invoke-virtual {v9, v8}, Landroid/widget/TextView;->setText(I)V
@@ -486,7 +486,7 @@
     .local v4, preferenceActivity:Landroid/preference/PreferenceActivity;
     if-eqz v3, :cond_6
 
-    const v2, 0x7f0807fb
+    const v2, 0x7f0c07f6
 
     .line 135
     .local v2, id:I
@@ -517,7 +517,7 @@
     .line 115
     .restart local v3       #isAlpha:Z
     :cond_3
-    const v8, 0x7f0807fd
+    const v8, 0x7f0c07f8
 
     goto :goto_1
 
@@ -539,7 +539,7 @@
     .end local v1           #currentType:I
     .restart local v4       #preferenceActivity:Landroid/preference/PreferenceActivity;
     :cond_6
-    const v2, 0x7f0807fd
+    const v2, 0x7f0c07f8
 
     goto :goto_4
 .end method

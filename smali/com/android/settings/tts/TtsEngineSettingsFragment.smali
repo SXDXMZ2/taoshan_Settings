@@ -323,7 +323,7 @@
     .line 253
     iget-object v0, p0, Lcom/android/settings/tts/TtsEngineSettingsFragment;->mLocalePreference:Landroid/preference/ListPreference;
 
-    const v1, 0x7f0809fe
+    const v1, 0x7f0c09f9
 
     invoke-virtual {v0, v1}, Landroid/preference/ListPreference;->setSummary(I)V
 
@@ -1055,7 +1055,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f080a16
+    const v3, 0x7f0c0a11
 
     const/4 v4, 0x1
 

@@ -78,7 +78,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0400e3
+    const v2, 0x7f0400e4
 
     iget-object v3, p0, Lcom/android/settings/UserDictionarySettings;->mCursor:Landroid/database/Cursor;
 
@@ -407,7 +407,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f0808d4
+    const v3, 0x7f0c08cf
 
     move-object v5, v4
 
@@ -500,7 +500,7 @@
 
     .line 111
     .local v1, emptyView:Landroid/widget/TextView;
-    const v7, 0x7f0808e1
+    const v7, 0x7f0c08dc
 
     invoke-virtual {v1, v7}, Landroid/widget/TextView;->setText(I)V
 
@@ -615,7 +615,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0808d1
+    const v1, 0x7f0c08cc
 
     invoke-virtual {v0, v1}, Landroid/app/ActionBar;->setTitle(I)V
 
@@ -634,7 +634,7 @@
     .line 166
     const/4 v1, 0x1
 
-    const v2, 0x7f0808d3
+    const v2, 0x7f0c08ce
 
     invoke-interface {p1, v3, v1, v3, v2}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 

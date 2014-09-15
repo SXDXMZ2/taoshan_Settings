@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/xperia_connectivity"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceScreen android:title="@string/playanywhere_strings_throw_settings_title_txt" android:key="throw_settings" android:summary="@string/playanywhere_strings_throw_setting_summary_txt">
+        <intent android:targetPackage="com.sonymobile.playanywhere" android:action="android.intent.action.MAIN" android:targetClass="com.sonymobile.playanywhere.settings.ThrowSettingActivity" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/tether_settings_title_all" android:key="tether_settings" android:summary="@string/usbux_strings_local_connectivity_settings_summary_txt" android:fragment="com.android.settings.TetherSettings" />
+    <PreferenceScreen android:title="@string/mil_strings_mirrorlink_activator_txt" android:key="start_mirrorlink" android:summary="@string/mil_strings_mirrorlink_activator_sub_txt">
+        <intent android:targetPackage="com.sonymobile.mirrorlink.manualswitch" android:action="android.intent.action.MAIN" android:targetClass="com.sonymobile.mirrorlink.manualswitch.MirrorLinkManualSwitch" />
+    </PreferenceScreen>
+    <PreferenceScreen android:id="@id/mobile_network_settings" android:title="@string/network_settings_title">
+        <intent android:action="android.settings.DATA_ROAMING_SETTINGS" />
+    </PreferenceScreen>
+</PreferenceScreen>

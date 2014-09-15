@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="backlight_timeout_time">
-        <item quantity="other">%d sekundit</item>
-        <item quantity="one">%d sekund</item>
-    </plurals>
-    <plurals name="app_ops_count">
-        <item quantity="other">%d korda</item>
-        <item quantity="one">üks kord</item>
-    </plurals>
     <plurals name="show_dev_countdown">
         <item quantity="other">%1$d sammu veel ja olete arendaja.</item>
         <item quantity="one">%1$d sammu veel ja olete arendaja.</item>

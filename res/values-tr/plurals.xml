@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="show_dev_countdown_cm">
-        <item quantity="other">Geliştirici seçeneklerinin etkinleştirilmesi için %1$d adım kaldı.</item>
-    </plurals>
     <plurals name="show_dev_countdown">
         <item quantity="other">Geliştirici olmanıza %1$d adım kaldı.</item>
         <item quantity="one">Geliştirici olmanıza %1$d adım kaldı.</item>

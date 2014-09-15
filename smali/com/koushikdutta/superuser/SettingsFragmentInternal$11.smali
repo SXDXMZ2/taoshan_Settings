@@ -62,7 +62,7 @@
 
     .line 370
     .local v0, builder:Landroid/app/AlertDialog$Builder;
-    const v2, 0x7f08001c
+    const v2, 0x7f0c001c
 
     invoke-virtual {v0, v2}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -75,7 +75,7 @@
 
     iget-object v3, p0, Lcom/koushikdutta/superuser/SettingsFragmentInternal$11;->this$0:Lcom/koushikdutta/superuser/SettingsFragmentInternal;
 
-    const v4, 0x7f08001d
+    const v4, 0x7f0c001d
 
     invoke-virtual {v3, v4}, Lcom/koushikdutta/superuser/SettingsFragmentInternal;->getString(I)Ljava/lang/String;
 
@@ -87,7 +87,7 @@
 
     iget-object v3, p0, Lcom/koushikdutta/superuser/SettingsFragmentInternal$11;->this$0:Lcom/koushikdutta/superuser/SettingsFragmentInternal;
 
-    const v4, 0x7f080028
+    const v4, 0x7f0c0028
 
     invoke-virtual {v3, v4}, Lcom/koushikdutta/superuser/SettingsFragmentInternal;->getString(I)Ljava/lang/String;
 
@@ -99,7 +99,7 @@
 
     iget-object v3, p0, Lcom/koushikdutta/superuser/SettingsFragmentInternal$11;->this$0:Lcom/koushikdutta/superuser/SettingsFragmentInternal;
 
-    const v4, 0x7f080029
+    const v4, 0x7f0c0029
 
     invoke-virtual {v3, v4}, Lcom/koushikdutta/superuser/SettingsFragmentInternal;->getString(I)Ljava/lang/String;
 
@@ -130,7 +130,7 @@
     .locals 6
 
     .prologue
-    const v5, 0x7f08001e
+    const v5, 0x7f0c001e
 
     const/4 v1, 0x1
 
@@ -157,7 +157,7 @@
     :pswitch_0
     iget-object v0, p0, Lcom/koushikdutta/superuser/SettingsFragmentInternal$11;->this$0:Lcom/koushikdutta/superuser/SettingsFragmentInternal;
 
-    const v1, 0x7f08002a
+    const v1, 0x7f0c002a
 
     invoke-virtual {v0, v1}, Lcom/koushikdutta/superuser/SettingsFragmentInternal;->getString(I)Ljava/lang/String;
 
@@ -175,7 +175,7 @@
 
     iget-object v2, p0, Lcom/koushikdutta/superuser/SettingsFragmentInternal$11;->this$0:Lcom/koushikdutta/superuser/SettingsFragmentInternal;
 
-    const v3, 0x7f080029
+    const v3, 0x7f0c0029
 
     invoke-virtual {v2, v3}, Lcom/koushikdutta/superuser/SettingsFragmentInternal;->getString(I)Ljava/lang/String;
 
@@ -199,7 +199,7 @@
 
     iget-object v2, p0, Lcom/koushikdutta/superuser/SettingsFragmentInternal$11;->this$0:Lcom/koushikdutta/superuser/SettingsFragmentInternal;
 
-    const v3, 0x7f080028
+    const v3, 0x7f0c0028
 
     invoke-virtual {v2, v3}, Lcom/koushikdutta/superuser/SettingsFragmentInternal;->getString(I)Ljava/lang/String;
 

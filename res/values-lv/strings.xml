@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="allow">Atļaut</string>
+    <string name="deny">Aizliegt</string>
     <string name="delete">Dzēst</string>
     <string name="battery_info_status_full">Pilns</string>
     <string name="yes">Jā</string>
     <string name="no">Nē</string>
     <string name="create">Izveidot</string>
-    <string name="allow">Atļaut</string>
-    <string name="deny">Aizliegt</string>
     <string name="device_info_default">Nezināms</string>
     <string name="show_dev_on">Tagad jūs esat izstrādātājs!</string>
     <string name="show_dev_already">Nav nepieciešams, ja jau esat izstrādātājs.</string>
@@ -647,6 +647,8 @@ Iestatot tālruni, var ievērojami palielināties tīkla darbības apjoms."</str
     <string name="volume_notification_mute">Izslēgt paziņojumu skaņu</string>
     <string name="volume_alarm_mute">Izslēgt brīdinājumu skaņu</string>
     <string name="vibrate_when_ringing_title">Vibrēt zvanot</string>
+    <string name="system_update_settings_list_item_title">Sistēmas atjauninājumi</string>
+    <string name="system_update_settings_list_item_summary" />
     <string name="dock_settings">Doks</string>
     <string name="dock_settings_title">Doka iestatījumi</string>
     <string name="dock_audio_settings_title">Audio</string>
@@ -711,8 +713,6 @@ Iespējams, ka ievadījāt nepareizu PIN kodu."</string>
     <string name="wrong_pin_code_pukked">Nepareizs SIM kartes PIN kods. Lai atbloķētu ierīci, sazinieties ar mobilo sakaru operatoru.</string>
     <string name="pin_failed">SIM kartes PIN koda ievadīšana neizdevās.</string>
     <string name="device_info_settings">Tālruņa statuss</string>
-    <string name="system_update_settings_list_item_title">Sistēmas atjauninājumi</string>
-    <string name="system_update_settings_list_item_summary" />
     <string name="firmware_version">Android versija</string>
     <string name="model_number">Modeļa numurs</string>
     <string name="fcc_equipment_id">Iekārtas ID</string>
@@ -1952,4 +1952,36 @@ Ikviens lietotājs var atļaut lietotņu atjaunināšanu citu lietotāju vietā.
     <string name="user_image_take_photo">Uzņemt fotoattēlu</string>
     <string name="user_image_choose_photo">Izvēlēties fotoattēlu no galerijas</string>
     <string name="regulatory_info_text" />
+    <string name="quick_settings_description">Atlasiet ātro iestatījumu skaitu paziņojumu panelī un rediģējiet to secību</string>
+    <string name="swiqi_strings_swiqi_desc_txt">Uzlabo foto un video attēla kvalitāti</string>
+    <string name="theme_label_summary">Mainīt vai lejupielādēt motīvus</string>
+    <string name="find_my_device">Atrast manu ierīci</string>
+    <string name="display_category_personalisation_title">Personalizēšana</string>
+    <string name="xperia_connectivity">Xperia™ savienojums</string>
+    <string name="preference_summary">Ja pazaudēsit savu ierīci, varēsit to atrast, slēgt un/vai izdzēst datus, izmantojot my Xperia</string>
+    <string name="playanywhere_strings_throw_settings_title_txt">Throw iestatījumi</string>
+    <string name="playanywhere_strings_throw_setting_summary_txt">Bezvadu režīmā atskaņojiet Xperia™ ierīces saturu citās ierīcēs</string>
+    <string name="usbux_strings_local_connectivity_settings_summary_txt">Savienojiet ierīci ar citām ierīcēm vai datoriem, izmantojot USB vai Wi-Fi</string>
+    <string name="mil_strings_app_name_mirrorlink_settings_txt">MirrorLink™ iestatījumi</string>
+    <string name="mil_strings_mirrorlink_activator_txt">Startēt MirrorLink™</string>
+    <string name="mil_strings_dialog_usb_not_connected_txt">Nav noteikta neviena ierīce. Pārliecinieties, vai ir pievienota saderīga ierīce.</string>
+    <string name="mil_strings_dialog_mirrorlink_start_txt">Funkcija MirrorLink™ tūlīt tiks startēta. Ja ierīce nav sertificēta darbam ar MirrorLink™ , funkcija, iespējams, nedarbosies pareizi.</string>
+    <string name="mil_strings_mirrorlink_activator_sub_txt">Ja, izmantojot USB, ir izveidots savienojums ar MirrorLink™ sertificētu ierīci, tajā varat vadīt savu Xperia™</string>
+    <string name="setupguide_settings_title">Iestatīšanas ceļvedis</string>
+    <string name="lockscreen_app_name">Slēgšanas ekrāns</string>
+    <string name="lockscreen_settings_title">Slēgšanas ekrāns</string>
+    <string name="lockscreen_settings_title_txt">Slēgšanas ekrāns</string>
+    <string name="lockscreen_settings_wallpaper_summary_txt">Mainīt slēgšanas ekrāna fonu</string>
+    <string name="lockscreen_setting_wallpaper_wait_txt">Notiek fona iestatīšana</string>
+    <string name="lockscreen_could_not_load_wallpaper_txt">Nevarēja iestatīt fonu</string>
+    <string name="lockscreen_dialog_title_pick_wallpaper">Fona izvēle</string>
+    <string name="lockscreen_wallpaper_picker_semc_name">Xperia™ foni</string>
+    <string name="lockscreen_wallpaper_picker_semc_set_wallpaper">Iestatīt fonu</string>
+    <string name="lockscreen_wallpaper_picker_album_name">Albums</string>
+    <string name="lockscreen_unlock_hint">Švīkājiet uz augšu vai uz leju, lai atbloķētu</string>
+    <string name="lockscreen_short_unlock_hint">Švīkājiet, lai atbloķētu</string>
+    <string name="lockscreen_accessibility_unlock_hint">Ekrāna centrā švīkājiet uz augšu vai uz leju, lai atbloķētu</string>
+    <string name="lockscreen_set_as_wallpaper_txt">Slēgšanas ekrāna fons</string>
+    <string name="status_bar_tab_quick_settings_title">Ātrie iestatījumi</string>
+    <string name="power_settings_title">Enerģijas pārvaldība</string>
 </resources>

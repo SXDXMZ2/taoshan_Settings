@@ -441,7 +441,7 @@
     invoke-virtual {v3, v4}, Landroid/view/Window;->addPrivateFlags(I)V
 
     .line 95
-    const v3, 0x7f040056
+    const v3, 0x7f040057
 
     invoke-virtual {p0, v3}, Lcom/android/settings/KeyguardAppWidgetPickActivity;->setContentView(I)V
 
@@ -720,7 +720,7 @@
 
     .line 525
     .local v0, KEYGUARD_HOST_ID:I
-    const v7, 0x10400d3
+    const v7, 0x10400d2
 
     invoke-virtual {p0, v7}, Lcom/android/settings/KeyguardAppWidgetPickActivity;->getString(I)Ljava/lang/String;
 
@@ -838,7 +838,7 @@
     .parameter "requestCode"
 
     .prologue
-    const v2, 0x7f080821
+    const v2, 0x7f0c081c
 
     const/4 v1, 0x0
 

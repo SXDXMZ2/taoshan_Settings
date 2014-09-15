@@ -128,7 +128,7 @@
 
     if-eqz p1, :cond_1
 
-    const v0, 0x7f0802f7
+    const v0, 0x7f0c02f2
 
     :goto_0
     invoke-interface {v1, v0}, Landroid/view/MenuItem;->setTitle(I)Landroid/view/MenuItem;
@@ -137,7 +137,7 @@
 
     if-eqz p1, :cond_2
 
-    const v0, 0x7f020136
+    const v0, 0x7f020137
 
     :goto_1
     invoke-interface {v1, v0}, Landroid/view/MenuItem;->setIcon(I)Landroid/view/MenuItem;
@@ -157,12 +157,12 @@
 
     .line 147
     :cond_1
-    const v0, 0x7f0802f8
+    const v0, 0x7f0c02f3
 
     goto :goto_0
 
     :cond_2
-    const v0, 0x7f020135
+    const v0, 0x7f020136
 
     goto :goto_1
 
@@ -207,7 +207,7 @@
     .line 90
     const/4 v0, 0x1
 
-    const v1, 0x7f0800db
+    const v1, 0x7f0c00db
 
     invoke-interface {p1, v2, v0, v2, v1}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
@@ -230,7 +230,7 @@
     .line 95
     const/4 v0, 0x2
 
-    const v1, 0x7f0802f8
+    const v1, 0x7f0c02f3
 
     invoke-interface {p1, v2, v0, v2, v1}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
@@ -241,7 +241,7 @@
     .line 96
     iget-object v0, p0, Lcom/android/settings/cyanogenmod/NavBar;->mEditMenu:Landroid/view/MenuItem;
 
-    const v1, 0x7f020135
+    const v1, 0x7f020136
 
     invoke-interface {v0, v1}, Landroid/view/MenuItem;->setIcon(I)Landroid/view/MenuItem;
 
@@ -267,7 +267,7 @@
 
     .prologue
     .line 58
-    const v1, 0x7f040071
+    const v1, 0x7f040073
 
     const/4 v2, 0x0
 
@@ -335,7 +335,7 @@
 
     invoke-direct {v0, v2}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v2, 0x7f0802c0
+    const v2, 0x7f0c02bb
 
     invoke-virtual {v0, v2}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -347,13 +347,13 @@
 
     move-result-object v0
 
-    const v2, 0x7f0802f4
+    const v2, 0x7f0c02ef
 
     invoke-virtual {v0, v2}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
     move-result-object v0
 
-    const v2, 0x7f0801f9
+    const v2, 0x7f0c01f5
 
     new-instance v3, Lcom/android/settings/cyanogenmod/NavBar$1;
 
@@ -363,7 +363,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f080519
+    const v2, 0x7f0c0514
 
     const/4 v3, 0x0
 
@@ -403,7 +403,7 @@
     .line 129
     iget-object v0, p0, Lcom/android/settings/cyanogenmod/NavBar;->mActivity:Landroid/app/Activity;
 
-    const v2, 0x7f0802f5
+    const v2, 0x7f0c02f0
 
     invoke-static {v0, v2, v1}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 

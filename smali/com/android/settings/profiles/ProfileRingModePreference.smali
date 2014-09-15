@@ -120,7 +120,7 @@
 
     .prologue
     .line 98
-    const v0, 0x7f0400a5
+    const v0, 0x7f0400a7
 
     invoke-virtual {p0, v0}, Lcom/android/settings/profiles/ProfileRingModePreference;->setLayoutResource(I)V
 
@@ -153,7 +153,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0c0069
+    const v5, 0x7f0b0069
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -197,12 +197,12 @@
     .line 136
     .end local v2           #i:I
     :cond_0
-    const v4, 0x7f08011a
+    const v4, 0x7f0c011a
 
     invoke-virtual {v0, v4}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
     .line 137
-    const v4, 0x7f0c0068
+    const v4, 0x7f0b0068
 
     iget v5, p0, Lcom/android/settings/profiles/ProfileRingModePreference;->currentChoice:I
 
@@ -456,7 +456,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f0c0068
+    const v6, 0x7f0b0068
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -468,7 +468,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f0c0069
+    const v6, 0x7f0b0069
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 

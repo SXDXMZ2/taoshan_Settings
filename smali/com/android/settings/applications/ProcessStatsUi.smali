@@ -204,10 +204,10 @@
 
     :array_0
     .array-data 0x4
-        0xe0t 0x9t 0x8t 0x7ft
-        0xe1t 0x9t 0x8t 0x7ft
-        0xe2t 0x9t 0x8t 0x7ft
-        0xe3t 0x9t 0x8t 0x7ft
+        0xdbt 0x9t 0xct 0x7ft
+        0xdct 0x9t 0xct 0x7ft
+        0xddt 0x9t 0xct 0x7ft
+        0xdet 0x9t 0xct 0x7ft
     .end array-data
 
     .line 322
@@ -429,7 +429,7 @@
 
     .line 364
     .local v53, stats:[I
-    const v54, 0x7f0809d8
+    const v54, 0x7f0c09d3
 
     .line 374
     .local v54, statsLabel:I
@@ -502,7 +502,7 @@
 
     move-result-object v7
 
-    const v9, 0x7f0c0062
+    const v9, 0x7f0b0062
 
     invoke-virtual {v7, v9}, Landroid/content/res/Resources;->getTextArray(I)[Ljava/lang/CharSequence;
 
@@ -544,7 +544,7 @@
 
     move-result-object v9
 
-    const v10, 0x7f0809d6
+    const v10, 0x7f0c09d1
 
     const/4 v13, 0x2
 
@@ -585,7 +585,7 @@
 
     move-result-object v9
 
-    const v10, 0x7f0809da
+    const v10, 0x7f0c09d5
 
     const/4 v13, 0x1
 
@@ -728,7 +728,7 @@
 
     .line 367
     .restart local v53       #stats:[I
-    const v54, 0x7f0809d9
+    const v54, 0x7f0c09d4
 
     .restart local v54       #statsLabel:I
     goto/16 :goto_0
@@ -748,7 +748,7 @@
     .line 371
     .restart local v53       #stats:[I
     :goto_4
-    const v54, 0x7f0809d7
+    const v54, 0x7f0c09d2
 
     .restart local v54       #statsLabel:I
     goto/16 :goto_0
@@ -2032,7 +2032,7 @@
     const/4 v6, 0x0
 
     .line 203
-    const v3, 0x7f0809d0
+    const v3, 0x7f0c09cb
 
     invoke-interface {p1, v6, v7, v6, v3}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
@@ -2057,7 +2057,7 @@
     invoke-interface {v1, v3}, Landroid/view/MenuItem;->setShowAsAction(I)V
 
     .line 208
-    const v3, 0x7f0809df
+    const v3, 0x7f0c09da
 
     invoke-interface {p1, v3}, Landroid/view/Menu;->addSubMenu(I)Landroid/view/SubMenu;
 
@@ -2101,7 +2101,7 @@
     :cond_0
     const/4 v3, 0x6
 
-    const v4, 0x7f0809e4
+    const v4, 0x7f0c09df
 
     invoke-interface {p1, v6, v3, v6, v4}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
@@ -2122,7 +2122,7 @@
     .line 216
     const/4 v3, 0x7
 
-    const v4, 0x7f0809e5
+    const v4, 0x7f0c09e0
 
     invoke-interface {p1, v6, v3, v6, v4}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
@@ -2141,7 +2141,7 @@
     iput-object v3, p0, Lcom/android/settings/applications/ProcessStatsUi;->mUseUssMenu:Landroid/view/MenuItem;
 
     .line 219
-    const v3, 0x7f0809e6
+    const v3, 0x7f0c09e1
 
     invoke-interface {p1, v3}, Landroid/view/Menu;->addSubMenu(I)Landroid/view/SubMenu;
 
@@ -2150,7 +2150,7 @@
     .line 220
     const/16 v3, 0x8
 
-    const v4, 0x7f0809e7
+    const v4, 0x7f0c09e2
 
     invoke-interface {v2, v6, v3, v6, v4}, Landroid/view/SubMenu;->add(IIII)Landroid/view/MenuItem;
 
@@ -2171,7 +2171,7 @@
     .line 224
     const/16 v3, 0x9
 
-    const v4, 0x7f0809e8
+    const v4, 0x7f0c09e3
 
     invoke-interface {v2, v6, v3, v6, v4}, Landroid/view/SubMenu;->add(IIII)Landroid/view/MenuItem;
 
@@ -2192,7 +2192,7 @@
     .line 228
     const/16 v3, 0xa
 
-    const v4, 0x7f0809e9
+    const v4, 0x7f0c09e4
 
     invoke-interface {v2, v6, v3, v6, v4}, Landroid/view/SubMenu;->add(IIII)Landroid/view/MenuItem;
 
@@ -2444,7 +2444,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f08099f
+    const v3, 0x7f0c099a
 
     move-object v5, v4
 

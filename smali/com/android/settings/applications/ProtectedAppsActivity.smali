@@ -41,15 +41,15 @@
     .locals 1
 
     .prologue
-    .line 35
+    .line 34
     invoke-direct {p0}, Landroid/app/Activity;-><init>()V
 
-    .line 50
+    .line 49
     const/4 v0, 0x0
 
     iput-boolean v0, p0, Lcom/android/settings/applications/ProtectedAppsActivity;->mWaitUserAuth:Z
 
-    .line 316
+    .line 293
     return-void
 .end method
 
@@ -58,7 +58,7 @@
     .parameter "x0"
 
     .prologue
-    .line 35
+    .line 34
     iget-object v0, p0, Lcom/android/settings/applications/ProtectedAppsActivity;->mAppsAdapter:Lcom/android/settings/applications/ProtectedAppsActivity$AppsAdapter;
 
     return-object v0
@@ -69,7 +69,7 @@
     .parameter "x0"
 
     .prologue
-    .line 35
+    .line 34
     iget-object v0, p0, Lcom/android/settings/applications/ProtectedAppsActivity;->mListView:Landroid/widget/ListView;
 
     return-object v0
@@ -80,7 +80,7 @@
     .parameter "x0"
 
     .prologue
-    .line 35
+    .line 34
     invoke-direct {p0}, Lcom/android/settings/applications/ProtectedAppsActivity;->restoreCheckedItems()V
 
     return-void
@@ -91,7 +91,7 @@
     .parameter "x0"
 
     .prologue
-    .line 35
+    .line 34
     invoke-direct {p0}, Lcom/android/settings/applications/ProtectedAppsActivity;->refreshApps()Ljava/util/List;
 
     move-result-object v0
@@ -104,7 +104,7 @@
     .parameter "x0"
 
     .prologue
-    .line 35
+    .line 34
     iget-object v0, p0, Lcom/android/settings/applications/ProtectedAppsActivity;->mPackageManager:Landroid/content/pm/PackageManager;
 
     return-object v0
@@ -123,7 +123,7 @@
     .end annotation
 
     .prologue
-    .line 208
+    .line 190
     new-instance v4, Landroid/content/Intent;
 
     const-string v5, "android.intent.action.MAIN"
@@ -132,13 +132,13 @@
 
     invoke-direct {v4, v5, v6}, Landroid/content/Intent;-><init>(Ljava/lang/String;Landroid/net/Uri;)V
 
-    .line 209
+    .line 191
     .local v4, mainIntent:Landroid/content/Intent;
     const-string v5, "android.intent.category.LAUNCHER"
 
     invoke-virtual {v4, v5}, Landroid/content/Intent;->addCategory(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 210
+    .line 192
     iget-object v5, p0, Lcom/android/settings/applications/ProtectedAppsActivity;->mPackageManager:Landroid/content/pm/PackageManager;
 
     const/4 v6, 0x0
@@ -147,7 +147,7 @@
 
     move-result-object v1
 
-    .line 211
+    .line 193
     .local v1, apps:Ljava/util/List;,"Ljava/util/List<Landroid/content/pm/ResolveInfo;>;"
     new-instance v5, Landroid/content/pm/ResolveInfo$DisplayNameComparator;
 
@@ -157,7 +157,7 @@
 
     invoke-static {v1, v5}, Ljava/util/Collections;->sort(Ljava/util/List;Ljava/util/Comparator;)V
 
-    .line 212
+    .line 194
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-interface {v1}, Ljava/util/List;->size()I
@@ -166,7 +166,7 @@
 
     invoke-direct {v0, v5}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 213
+    .line 195
     .local v0, appEntries:Ljava/util/List;,"Ljava/util/List<Lcom/android/settings/applications/ProtectedAppsActivity$AppEntry;>;"
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -186,7 +186,7 @@
 
     check-cast v3, Landroid/content/pm/ResolveInfo;
 
-    .line 214
+    .line 196
     .local v3, info:Landroid/content/pm/ResolveInfo;
     new-instance v5, Lcom/android/settings/applications/ProtectedAppsActivity$AppEntry;
 
@@ -196,156 +196,83 @@
 
     goto :goto_0
 
-    .line 216
+    .line 198
     .end local v3           #info:Landroid/content/pm/ResolveInfo;
     :cond_0
     return-object v0
 .end method
 
 .method private reset()V
-    .locals 14
+    .locals 7
 
     .prologue
-    const/4 v13, 0x1
+    const/4 v6, 0x1
 
-    const/4 v12, 0x0
-
-    .line 171
-    new-instance v2, Ljava/util/ArrayList;
-
-    invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
-
-    .line 172
-    .local v2, componentsList:Ljava/util/ArrayList;,"Ljava/util/ArrayList<Landroid/content/ComponentName;>;"
     const/4 v5, 0x0
 
-    .local v5, i:I
+    .line 170
+    new-instance v0, Ljava/util/ArrayList;
+
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+
+    .line 171
+    .local v0, componentsList:Ljava/util/ArrayList;,"Ljava/util/ArrayList<Landroid/content/ComponentName;>;"
+    const/4 v1, 0x0
+
+    .local v1, i:I
     :goto_0
-    iget-object v11, p0, Lcom/android/settings/applications/ProtectedAppsActivity;->mListView:Landroid/widget/ListView;
+    iget-object v4, p0, Lcom/android/settings/applications/ProtectedAppsActivity;->mListView:Landroid/widget/ListView;
 
-    invoke-virtual {v11}, Landroid/widget/ListView;->getCount()I
+    invoke-virtual {v4}, Landroid/widget/ListView;->getCount()I
 
-    move-result v11
+    move-result v4
 
-    if-ge v5, v11, :cond_0
-
-    .line 173
-    iget-object v11, p0, Lcom/android/settings/applications/ProtectedAppsActivity;->mAppsAdapter:Lcom/android/settings/applications/ProtectedAppsActivity$AppsAdapter;
-
-    invoke-virtual {v11, v5}, Lcom/android/settings/applications/ProtectedAppsActivity$AppsAdapter;->getItem(I)Ljava/lang/Object;
-
-    move-result-object v11
-
-    check-cast v11, Lcom/android/settings/applications/ProtectedAppsActivity$AppEntry;
-
-    iget-object v11, v11, Lcom/android/settings/applications/ProtectedAppsActivity$AppEntry;->componentName:Landroid/content/ComponentName;
-
-    invoke-virtual {v2, v11}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-
-    .line 174
-    iget-object v11, p0, Lcom/android/settings/applications/ProtectedAppsActivity;->mListView:Landroid/widget/ListView;
-
-    invoke-virtual {v11, v5, v12}, Landroid/widget/ListView;->setItemChecked(IZ)V
+    if-ge v1, v4, :cond_0
 
     .line 172
-    add-int/lit8 v5, v5, 0x1
+    iget-object v4, p0, Lcom/android/settings/applications/ProtectedAppsActivity;->mAppsAdapter:Lcom/android/settings/applications/ProtectedAppsActivity$AppsAdapter;
 
-    goto :goto_0
-
-    .line 180
-    :cond_0
-    invoke-virtual {p0}, Lcom/android/settings/applications/ProtectedAppsActivity;->getContentResolver()Landroid/content/ContentResolver;
-
-    move-result-object v9
-
-    .line 181
-    .local v9, resolver:Landroid/content/ContentResolver;
-    const-string v11, "protected_components"
-
-    invoke-static {v9, v11}, Landroid/provider/Settings$Secure;->getString(Landroid/content/ContentResolver;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v4, v1}, Lcom/android/settings/applications/ProtectedAppsActivity$AppsAdapter;->getItem(I)Ljava/lang/Object;
 
     move-result-object v4
 
-    .line 184
-    .local v4, hiddenComponents:Ljava/lang/String;
-    if-eqz v4, :cond_2
+    check-cast v4, Lcom/android/settings/applications/ProtectedAppsActivity$AppEntry;
 
-    const-string v11, ""
+    iget-object v4, v4, Lcom/android/settings/applications/ProtectedAppsActivity$AppEntry;->componentName:Landroid/content/ComponentName;
 
-    invoke-virtual {v4, v11}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v4}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    move-result v11
+    .line 173
+    iget-object v4, p0, Lcom/android/settings/applications/ProtectedAppsActivity;->mListView:Landroid/widget/ListView;
 
-    if-nez v11, :cond_2
+    invoke-virtual {v4, v1, v5}, Landroid/widget/ListView;->setItemChecked(IZ)V
 
-    .line 185
-    const-string v11, "\\|"
+    .line 171
+    add-int/lit8 v1, v1, 0x1
 
-    invoke-virtual {v4, v11}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
+    goto :goto_0
 
-    move-result-object v0
+    .line 176
+    :cond_0
+    new-instance v2, Lcom/android/settings/applications/ProtectedAppsActivity$AppProtectList;
 
-    .local v0, arr$:[Ljava/lang/String;
-    array-length v7, v0
+    invoke-direct {v2, p0, v0, v6}, Lcom/android/settings/applications/ProtectedAppsActivity$AppProtectList;-><init>(Lcom/android/settings/applications/ProtectedAppsActivity;Ljava/util/ArrayList;Z)V
 
-    .local v7, len$:I
-    const/4 v6, 0x0
+    .line 178
+    .local v2, list:Lcom/android/settings/applications/ProtectedAppsActivity$AppProtectList;
+    new-instance v3, Lcom/android/settings/applications/ProtectedAppsActivity$StoreComponentProtectedStatus;
 
-    .local v6, i$:I
-    :goto_1
-    if-ge v6, v7, :cond_2
+    invoke-direct {v3, p0, p0}, Lcom/android/settings/applications/ProtectedAppsActivity$StoreComponentProtectedStatus;-><init>(Lcom/android/settings/applications/ProtectedAppsActivity;Landroid/content/Context;)V
 
-    aget-object v3, v0, v6
+    .line 179
+    .local v3, task:Lcom/android/settings/applications/ProtectedAppsActivity$StoreComponentProtectedStatus;
+    new-array v4, v6, [Lcom/android/settings/applications/ProtectedAppsActivity$AppProtectList;
 
-    .line 186
-    .local v3, flattened:Ljava/lang/String;
-    invoke-static {v3}, Landroid/content/ComponentName;->unflattenFromString(Ljava/lang/String;)Landroid/content/ComponentName;
+    aput-object v2, v4, v5
 
-    move-result-object v1
+    invoke-virtual {v3, v4}, Lcom/android/settings/applications/ProtectedAppsActivity$StoreComponentProtectedStatus;->execute([Ljava/lang/Object;)Landroid/os/AsyncTask;
 
-    .line 188
-    .local v1, cmp:Landroid/content/ComponentName;
-    invoke-virtual {v2, v1}, Ljava/util/ArrayList;->contains(Ljava/lang/Object;)Z
-
-    move-result v11
-
-    if-nez v11, :cond_1
-
-    .line 189
-    invoke-virtual {v2, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-
-    .line 185
-    :cond_1
-    add-int/lit8 v6, v6, 0x1
-
-    goto :goto_1
-
-    .line 194
-    .end local v0           #arr$:[Ljava/lang/String;
-    .end local v1           #cmp:Landroid/content/ComponentName;
-    .end local v3           #flattened:Ljava/lang/String;
-    .end local v6           #i$:I
-    .end local v7           #len$:I
-    :cond_2
-    new-instance v8, Lcom/android/settings/applications/ProtectedAppsActivity$AppProtectList;
-
-    invoke-direct {v8, p0, v2, v13}, Lcom/android/settings/applications/ProtectedAppsActivity$AppProtectList;-><init>(Lcom/android/settings/applications/ProtectedAppsActivity;Ljava/util/ArrayList;Z)V
-
-    .line 196
-    .local v8, list:Lcom/android/settings/applications/ProtectedAppsActivity$AppProtectList;
-    new-instance v10, Lcom/android/settings/applications/ProtectedAppsActivity$StoreComponentProtectedStatus;
-
-    invoke-direct {v10, p0, p0}, Lcom/android/settings/applications/ProtectedAppsActivity$StoreComponentProtectedStatus;-><init>(Lcom/android/settings/applications/ProtectedAppsActivity;Landroid/content/Context;)V
-
-    .line 197
-    .local v10, task:Lcom/android/settings/applications/ProtectedAppsActivity$StoreComponentProtectedStatus;
-    new-array v11, v13, [Lcom/android/settings/applications/ProtectedAppsActivity$AppProtectList;
-
-    aput-object v8, v11, v12
-
-    invoke-virtual {v10, v11}, Lcom/android/settings/applications/ProtectedAppsActivity$StoreComponentProtectedStatus;->execute([Ljava/lang/Object;)Landroid/os/AsyncTask;
-
-    .line 198
+    .line 180
     return-void
 .end method
 
@@ -353,12 +280,12 @@
     .locals 4
 
     .prologue
-    .line 201
+    .line 183
     const/4 v0, 0x0
 
     iput-boolean v0, p0, Lcom/android/settings/applications/ProtectedAppsActivity;->mWaitUserAuth:Z
 
-    .line 202
+    .line 184
     new-instance v0, Landroid/content/Intent;
 
     const-string v1, "recreate_pattern_lock"
@@ -369,12 +296,12 @@
 
     invoke-direct {v0, v1, v2, p0, v3}, Landroid/content/Intent;-><init>(Ljava/lang/String;Landroid/net/Uri;Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 204
+    .line 186
     const/4 v1, 0x2
 
     invoke-virtual {p0, v0, v1}, Lcom/android/settings/applications/ProtectedAppsActivity;->startActivityForResult(Landroid/content/Intent;I)V
 
-    .line 205
+    .line 187
     return-void
 .end method
 
@@ -382,7 +309,7 @@
     .locals 7
 
     .prologue
-    .line 125
+    .line 124
     iget-object v5, p0, Lcom/android/settings/applications/ProtectedAppsActivity;->mListView:Landroid/widget/ListView;
 
     invoke-virtual {v5}, Landroid/widget/ListView;->getAdapter()Landroid/widget/ListAdapter;
@@ -391,13 +318,13 @@
 
     check-cast v3, Lcom/android/settings/applications/ProtectedAppsActivity$AppsAdapter;
 
-    .line 126
+    .line 125
     .local v3, listAdapter:Lcom/android/settings/applications/ProtectedAppsActivity$AppsAdapter;
     invoke-virtual {p0}, Lcom/android/settings/applications/ProtectedAppsActivity;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object v4
 
-    .line 128
+    .line 127
     .local v4, pm:Landroid/content/pm/PackageManager;
     const/4 v1, 0x0
 
@@ -409,14 +336,14 @@
 
     if-ge v1, v5, :cond_1
 
-    .line 129
+    .line 128
     invoke-virtual {v3, v1}, Lcom/android/settings/applications/ProtectedAppsActivity$AppsAdapter;->getItem(I)Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Lcom/android/settings/applications/ProtectedAppsActivity$AppEntry;
 
-    .line 131
+    .line 130
     .local v2, info:Lcom/android/settings/applications/ProtectedAppsActivity$AppEntry;
     :try_start_0
     iget-object v5, v2, Lcom/android/settings/applications/ProtectedAppsActivity$AppEntry;->componentName:Landroid/content/ComponentName;
@@ -433,14 +360,14 @@
 
     if-eqz v5, :cond_0
 
-    .line 132
+    .line 131
     iget-object v5, p0, Lcom/android/settings/applications/ProtectedAppsActivity;->mListView:Landroid/widget/ListView;
 
     const/4 v6, 0x1
 
     invoke-virtual {v5, v1, v6}, Landroid/widget/ListView;->setItemChecked(IZ)V
 
-    .line 133
+    .line 132
     iget-object v5, p0, Lcom/android/settings/applications/ProtectedAppsActivity;->mProtect:Ljava/util/ArrayList;
 
     iget-object v6, v2, Lcom/android/settings/applications/ProtectedAppsActivity$AppEntry;->componentName:Landroid/content/ComponentName;
@@ -449,22 +376,22 @@
     :try_end_0
     .catch Landroid/content/pm/PackageManager$NameNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 128
+    .line 127
     :cond_0
     :goto_1
     add-int/lit8 v1, v1, 0x1
 
     goto :goto_0
 
-    .line 135
+    .line 134
     :catch_0
     move-exception v0
 
-    .line 136
+    .line 135
     .local v0, e:Landroid/content/pm/PackageManager$NameNotFoundException;
     goto :goto_1
 
-    .line 139
+    .line 138
     .end local v0           #e:Landroid/content/pm/PackageManager$NameNotFoundException;
     .end local v2           #info:Lcom/android/settings/applications/ProtectedAppsActivity$AppEntry;
     :cond_1
@@ -482,60 +409,48 @@
     .prologue
     const/4 v0, 0x1
 
-    .line 143
+    .line 142
     packed-switch p1, :pswitch_data_0
 
-    .line 159
+    .line 158
     :goto_0
     :pswitch_0
     return-void
 
-    .line 145
+    .line 144
     :pswitch_1
     iput-boolean v0, p0, Lcom/android/settings/applications/ProtectedAppsActivity;->mWaitUserAuth:Z
 
-    .line 146
+    .line 145
     packed-switch p2, :pswitch_data_1
 
     goto :goto_0
 
-    .line 152
+    .line 151
     :pswitch_2
     invoke-virtual {p0}, Lcom/android/settings/applications/ProtectedAppsActivity;->finish()V
 
     goto :goto_0
 
-    .line 157
+    .line 156
     :pswitch_3
     iput-boolean v0, p0, Lcom/android/settings/applications/ProtectedAppsActivity;->mWaitUserAuth:Z
 
     goto :goto_0
 
-    .line 143
+    .line 142
     :pswitch_data_0
     .packed-switch 0x1
         :pswitch_1
         :pswitch_3
     .end packed-switch
 
-    .line 146
+    .line 145
     :pswitch_data_1
     .packed-switch -0x1
         :pswitch_0
         :pswitch_2
     .end packed-switch
-.end method
-
-.method public onConfigurationChanged(Landroid/content/res/Configuration;)V
-    .locals 0
-    .parameter "newConfig"
-
-    .prologue
-    .line 313
-    invoke-super {p0, p1}, Landroid/app/Activity;->onConfigurationChanged(Landroid/content/res/Configuration;)V
-
-    .line 314
-    return-void
 .end method
 
 .method protected onCreate(Landroid/os/Bundle;)V
@@ -545,27 +460,27 @@
     .prologue
     const/4 v2, 0x1
 
-    .line 54
+    .line 53
     invoke-super {p0, p1}, Landroid/app/Activity;->onCreate(Landroid/os/Bundle;)V
 
-    .line 56
-    const v0, 0x7f08041b
+    .line 55
+    const v0, 0x7f0c0416
 
     invoke-virtual {p0, v0}, Lcom/android/settings/applications/ProtectedAppsActivity;->setTitle(I)V
 
-    .line 57
+    .line 56
     const v0, 0x7f040050
 
     invoke-virtual {p0, v0}, Lcom/android/settings/applications/ProtectedAppsActivity;->setContentView(I)V
 
-    .line 59
+    .line 58
     invoke-virtual {p0}, Lcom/android/settings/applications/ProtectedAppsActivity;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/android/settings/applications/ProtectedAppsActivity;->mPackageManager:Landroid/content/pm/PackageManager;
 
-    .line 60
+    .line 59
     new-instance v0, Lcom/android/settings/applications/ProtectedAppsActivity$AppsAdapter;
 
     const v1, 0x7f040051
@@ -574,12 +489,12 @@
 
     iput-object v0, p0, Lcom/android/settings/applications/ProtectedAppsActivity;->mAppsAdapter:Lcom/android/settings/applications/ProtectedAppsActivity$AppsAdapter;
 
-    .line 61
+    .line 60
     iget-object v0, p0, Lcom/android/settings/applications/ProtectedAppsActivity;->mAppsAdapter:Lcom/android/settings/applications/ProtectedAppsActivity$AppsAdapter;
 
     invoke-virtual {v0, v2}, Lcom/android/settings/applications/ProtectedAppsActivity$AppsAdapter;->setNotifyOnChange(Z)V
 
-    .line 63
+    .line 62
     const v0, 0x7f0d00e5
 
     invoke-virtual {p0, v0}, Lcom/android/settings/applications/ProtectedAppsActivity;->findViewById(I)Landroid/view/View;
@@ -590,14 +505,14 @@
 
     iput-object v0, p0, Lcom/android/settings/applications/ProtectedAppsActivity;->mListView:Landroid/widget/ListView;
 
-    .line 64
+    .line 63
     iget-object v0, p0, Lcom/android/settings/applications/ProtectedAppsActivity;->mListView:Landroid/widget/ListView;
 
     iget-object v1, p0, Lcom/android/settings/applications/ProtectedAppsActivity;->mAppsAdapter:Lcom/android/settings/applications/ProtectedAppsActivity$AppsAdapter;
 
     invoke-virtual {v0, v1}, Landroid/widget/ListView;->setAdapter(Landroid/widget/ListAdapter;)V
 
-    .line 66
+    .line 65
     iget-object v0, p0, Lcom/android/settings/applications/ProtectedAppsActivity;->mListView:Landroid/widget/ListView;
 
     new-instance v1, Lcom/android/settings/applications/ProtectedAppsActivity$1;
@@ -606,24 +521,24 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/ListView;->setOnItemClickListener(Landroid/widget/AdapterView$OnItemClickListener;)V
 
-    .line 83
+    .line 82
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/android/settings/applications/ProtectedAppsActivity;->mProtect:Ljava/util/ArrayList;
 
-    .line 86
+    .line 85
     new-instance v0, Landroid/content/Intent;
 
     const-class v1, Lcom/android/settings/applications/LockPatternActivity;
 
     invoke-direct {v0, p0, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 87
+    .line 86
     invoke-virtual {p0, v0, v2}, Lcom/android/settings/applications/ProtectedAppsActivity;->startActivityForResult(Landroid/content/Intent;I)V
 
-    .line 88
+    .line 87
     return-void
 .end method
 
@@ -636,8 +551,8 @@
 
     const/4 v1, 0x0
 
-    .line 163
-    const v0, 0x7f080419
+    .line 162
+    const v0, 0x7f0c0414
 
     invoke-interface {p1, v1, v1, v1, v0}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
@@ -645,8 +560,8 @@
 
     invoke-interface {v0, v1}, Landroid/view/MenuItem;->setShowAsAction(I)V
 
-    .line 165
-    const v0, 0x7f08041a
+    .line 164
+    const v0, 0x7f0c0415
 
     invoke-interface {p1, v1, v2, v1, v0}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
@@ -654,7 +569,7 @@
 
     invoke-interface {v0, v1}, Landroid/view/MenuItem;->setShowAsAction(I)V
 
-    .line 167
+    .line 166
     return v2
 .end method
 
@@ -665,14 +580,14 @@
     .prologue
     const/4 v0, 0x1
 
-    .line 221
+    .line 203
     invoke-interface {p1}, Landroid/view/MenuItem;->getItemId()I
 
     move-result v1
 
     sparse-switch v1, :sswitch_data_0
 
-    .line 232
+    .line 214
     invoke-super {p0, p1}, Landroid/app/Activity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z
 
     move-result v0
@@ -680,25 +595,25 @@
     :goto_0
     return v0
 
-    .line 223
+    .line 205
     :sswitch_0
     invoke-direct {p0}, Lcom/android/settings/applications/ProtectedAppsActivity;->reset()V
 
     goto :goto_0
 
-    .line 226
+    .line 208
     :sswitch_1
     invoke-direct {p0}, Lcom/android/settings/applications/ProtectedAppsActivity;->resetLock()V
 
     goto :goto_0
 
-    .line 229
+    .line 211
     :sswitch_2
     invoke-virtual {p0}, Lcom/android/settings/applications/ProtectedAppsActivity;->finish()V
 
     goto :goto_0
 
-    .line 221
+    .line 203
     nop
 
     :sswitch_data_0
@@ -713,18 +628,18 @@
     .locals 1
 
     .prologue
-    .line 116
+    .line 115
     invoke-super {p0}, Landroid/app/Activity;->onPause()V
 
-    .line 119
+    .line 118
     iget-boolean v0, p0, Lcom/android/settings/applications/ProtectedAppsActivity;->mWaitUserAuth:Z
 
     if-eqz v0, :cond_0
 
-    .line 120
+    .line 119
     invoke-virtual {p0}, Lcom/android/settings/applications/ProtectedAppsActivity;->finish()V
 
-    .line 122
+    .line 121
     :cond_0
     return-void
 .end method
@@ -737,15 +652,15 @@
 
     const/4 v3, 0x0
 
-    .line 92
+    .line 91
     invoke-super {p0}, Landroid/app/Activity;->onResume()V
 
-    .line 94
+    .line 93
     new-instance v0, Lcom/android/settings/applications/ProtectedAppsActivity$2;
 
     invoke-direct {v0, p0}, Lcom/android/settings/applications/ProtectedAppsActivity$2;-><init>(Lcom/android/settings/applications/ProtectedAppsActivity;)V
 
-    .line 109
+    .line 108
     .local v0, refreshAppsTask:Landroid/os/AsyncTask;,"Landroid/os/AsyncTask<Ljava/lang/Void;Ljava/lang/Void;Ljava/util/List<Lcom/android/settings/applications/ProtectedAppsActivity$AppEntry;>;>;"
     const/4 v1, 0x3
 
@@ -763,13 +678,13 @@
 
     invoke-virtual {v0, v1}, Landroid/os/AsyncTask;->execute([Ljava/lang/Object;)Landroid/os/AsyncTask;
 
-    .line 111
+    .line 110
     invoke-virtual {p0}, Lcom/android/settings/applications/ProtectedAppsActivity;->getActionBar()Landroid/app/ActionBar;
 
     move-result-object v1
 
     invoke-virtual {v1, v4}, Landroid/app/ActionBar;->setDisplayHomeAsUpEnabled(Z)V
 
-    .line 112
+    .line 111
     return-void
 .end method

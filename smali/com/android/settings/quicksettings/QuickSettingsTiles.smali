@@ -158,17 +158,17 @@
 
     .line 275
     .local v0, alert:Landroid/app/AlertDialog$Builder;
-    const v1, 0x7f0801c3
+    const v1, 0x7f0c01bf
 
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
     .line 276
-    const v1, 0x7f0801c4
+    const v1, 0x7f0c01c0
 
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
     .line 277
-    const v1, 0x7f0801f9
+    const v1, 0x7f0c01f5
 
     new-instance v2, Lcom/android/settings/quicksettings/QuickSettingsTiles$3;
 
@@ -177,7 +177,7 @@
     invoke-virtual {v0, v1, v2}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
     .line 283
-    const v1, 0x7f080519
+    const v1, 0x7f0c0514
 
     const/4 v2, 0x0
 
@@ -214,7 +214,7 @@
     .line 159
     iget-object v8, p0, Lcom/android/settings/quicksettings/QuickSettingsTiles;->mInflater:Landroid/view/LayoutInflater;
 
-    const v9, 0x7f0400b9
+    const v9, 0x7f0400bb
 
     const/4 v10, 0x0
 
@@ -330,7 +330,7 @@
     .line 172
     iget-object v8, p0, Lcom/android/settings/quicksettings/QuickSettingsTiles;->mInflater:Landroid/view/LayoutInflater;
 
-    const v9, 0x7f0400ba
+    const v9, 0x7f0400bc
 
     const/4 v10, 0x0
 
@@ -400,7 +400,7 @@
     :try_start_1
     iget-object v8, p0, Lcom/android/settings/quicksettings/QuickSettingsTiles;->mInflater:Landroid/view/LayoutInflater;
 
-    const v9, 0x7f0400b9
+    const v9, 0x7f0400bb
 
     const/4 v10, 0x0
 
@@ -529,7 +529,7 @@
     .end local v1           #tile:Lcom/android/settings/quicksettings/QuickSettingsUtil$TileInfo;
     .end local v2           #tileindex:Ljava/lang/String;
     :cond_1
-    const v4, 0x7f0800c0
+    const v4, 0x7f0c00c0
 
     const/4 v5, 0x0
 
@@ -590,7 +590,7 @@
     .line 255
     const/4 v0, 0x1
 
-    const v1, 0x7f0800db
+    const v1, 0x7f0c00db
 
     invoke-interface {p1, v2, v0, v2, v1}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 

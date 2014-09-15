@@ -37,7 +37,7 @@
     .parameter
 
     .prologue
-    .line 95
+    .line 94
     iput-object p1, p0, Lcom/android/settings/applications/ProtectedAppsActivity$2;->this$0:Lcom/android/settings/applications/ProtectedAppsActivity;
 
     invoke-direct {p0}, Landroid/os/AsyncTask;-><init>()V
@@ -52,7 +52,7 @@
     .parameter "x0"
 
     .prologue
-    .line 95
+    .line 94
     check-cast p1, [Ljava/lang/Void;
 
     .end local p1
@@ -79,7 +79,7 @@
     .end annotation
 
     .prologue
-    .line 106
+    .line 105
     iget-object v0, p0, Lcom/android/settings/applications/ProtectedAppsActivity$2;->this$0:Lcom/android/settings/applications/ProtectedAppsActivity;
 
     #calls: Lcom/android/settings/applications/ProtectedAppsActivity;->refreshApps()Ljava/util/List;
@@ -95,7 +95,7 @@
     .parameter "x0"
 
     .prologue
-    .line 95
+    .line 94
     check-cast p1, Ljava/util/List;
 
     .end local p1
@@ -118,7 +118,7 @@
     .end annotation
 
     .prologue
-    .line 99
+    .line 98
     .local p1, apps:Ljava/util/List;,"Ljava/util/List<Lcom/android/settings/applications/ProtectedAppsActivity$AppEntry;>;"
     iget-object v0, p0, Lcom/android/settings/applications/ProtectedAppsActivity$2;->this$0:Lcom/android/settings/applications/ProtectedAppsActivity;
 
@@ -129,7 +129,7 @@
 
     invoke-virtual {v0}, Lcom/android/settings/applications/ProtectedAppsActivity$AppsAdapter;->clear()V
 
-    .line 100
+    .line 99
     iget-object v0, p0, Lcom/android/settings/applications/ProtectedAppsActivity$2;->this$0:Lcom/android/settings/applications/ProtectedAppsActivity;
 
     #getter for: Lcom/android/settings/applications/ProtectedAppsActivity;->mAppsAdapter:Lcom/android/settings/applications/ProtectedAppsActivity$AppsAdapter;
@@ -139,12 +139,12 @@
 
     invoke-virtual {v0, p1}, Lcom/android/settings/applications/ProtectedAppsActivity$AppsAdapter;->addAll(Ljava/util/Collection;)V
 
-    .line 101
+    .line 100
     iget-object v0, p0, Lcom/android/settings/applications/ProtectedAppsActivity$2;->this$0:Lcom/android/settings/applications/ProtectedAppsActivity;
 
     #calls: Lcom/android/settings/applications/ProtectedAppsActivity;->restoreCheckedItems()V
     invoke-static {v0}, Lcom/android/settings/applications/ProtectedAppsActivity;->access$200(Lcom/android/settings/applications/ProtectedAppsActivity;)V
 
-    .line 102
+    .line 101
     return-void
 .end method

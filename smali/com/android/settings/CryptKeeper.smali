@@ -234,7 +234,7 @@
     invoke-direct {p0, v3}, Lcom/android/settings/CryptKeeper;->setBackFunctionality(Z)V
 
     .line 498
-    const v2, 0x7f080ab6
+    const v2, 0x7f0c0ab1
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(I)V
 
@@ -244,7 +244,7 @@
 
     .line 500
     :cond_0
-    const v2, 0x7f08055f
+    const v2, 0x7f0c055a
 
     invoke-virtual {p0, v2}, Lcom/android/settings/CryptKeeper;->getText(I)Ljava/lang/CharSequence;
 
@@ -1307,7 +1307,7 @@
 
     check-cast v2, Landroid/widget/TextView;
 
-    const v3, 0x7f080561
+    const v3, 0x7f0c055c
 
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setText(I)V
 
@@ -1320,7 +1320,7 @@
 
     check-cast v2, Landroid/widget/TextView;
 
-    const v3, 0x7f080562
+    const v3, 0x7f0c055d
 
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setText(I)V
 
@@ -1431,15 +1431,15 @@
     if-ne v2, v5, :cond_2
 
     .line 722
-    const v4, 0x7f080b30
+    const v4, 0x7f0c0b2b
 
     .line 723
     .local v4, textId:I
-    const v3, 0x7f020137
+    const v3, 0x7f020138
 
     .line 724
     .local v3, phoneCallIcon:I
-    const v5, 0x7f020137
+    const v5, 0x7f020138
 
     invoke-virtual {v0, v5, v6, v6, v6}, Landroid/widget/Button;->setCompoundDrawablesWithIntrinsicBounds(IIII)V
 
@@ -1463,7 +1463,7 @@
     .line 726
     .restart local v2       #newState:I
     :cond_2
-    const v4, 0x7f080b2f
+    const v4, 0x7f0c0b2a
 
     .line 727
     .restart local v4       #textId:I
@@ -1527,7 +1527,7 @@
 
     .line 479
     :goto_1
-    const v5, 0x7f08055e
+    const v5, 0x7f0c0559
 
     invoke-virtual {p0, v5}, Lcom/android/settings/CryptKeeper;->getText(I)Ljava/lang/CharSequence;
 

@@ -40,7 +40,7 @@
     if-eqz v0, :cond_0
 
     .line 34
-    const v0, 0x7f080001
+    const v0, 0x7f0c0001
 
     .line 37
     :goto_0
@@ -59,13 +59,13 @@
     if-eqz v0, :cond_1
 
     .line 36
-    const v0, 0x7f080010
+    const v0, 0x7f0c0010
 
     goto :goto_0
 
     .line 37
     :cond_1
-    const v0, 0x7f080003
+    const v0, 0x7f0c0003
 
     goto :goto_0
 .end method

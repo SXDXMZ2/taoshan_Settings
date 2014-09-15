@@ -77,7 +77,7 @@
 
     iget-object v1, v1, Lcom/koushikdutta/superuser/PolicyFragmentInternal$2;->val$up:Lcom/koushikdutta/superuser/db/UidPolicy;
 
-    const v2, 0x7f080059
+    const v2, 0x7f0c0059
 
     #calls: Lcom/koushikdutta/superuser/PolicyFragmentInternal;->showErrorDialog(Lcom/koushikdutta/superuser/db/UidPolicy;I)V
     invoke-static {v0, v1, v2}, Lcom/koushikdutta/superuser/PolicyFragmentInternal;->access$000(Lcom/koushikdutta/superuser/PolicyFragmentInternal;Lcom/koushikdutta/superuser/db/UidPolicy;I)V

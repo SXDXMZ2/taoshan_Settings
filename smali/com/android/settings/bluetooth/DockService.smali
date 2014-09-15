@@ -615,7 +615,7 @@
 
     .line 513
     .local v10, items:[Ljava/lang/CharSequence;
-    const v4, 0x7f0805e7
+    const v4, 0x7f0c05e2
 
     invoke-virtual {p0, v4}, Lcom/android/settings/bluetooth/DockService;->getString(I)Ljava/lang/String;
 
@@ -631,7 +631,7 @@
     invoke-virtual {v1, v10, v4, v6}, Landroid/app/AlertDialog$Builder;->setMultiChoiceItems([Ljava/lang/CharSequence;[ZLandroid/content/DialogInterface$OnMultiChoiceClickListener;)Landroid/app/AlertDialog$Builder;
 
     .line 519
-    const v4, 0x7f0400bd
+    const v4, 0x7f0400bf
 
     const/4 v6, 0x0
 
@@ -790,7 +790,7 @@
     .end local v10           #items:[Ljava/lang/CharSequence;
     .end local v12           #rememberCheckbox:Landroid/widget/CheckBox;
     :cond_4
-    const v4, 0x7f0805e7
+    const v4, 0x7f0c05e2
 
     invoke-virtual {p0, v4}, Lcom/android/settings/bluetooth/DockService;->getString(I)Ljava/lang/String;
 
@@ -1449,7 +1449,7 @@
     .parameter "firstTime"
 
     .prologue
-    const v3, 0x7f0805e9
+    const v3, 0x7f0c05e4
 
     const/4 v5, 0x1
 
@@ -1532,7 +1532,7 @@
     .line 654
     .restart local v0       #items:[Ljava/lang/CharSequence;
     :pswitch_3
-    const v2, 0x7f0805e8
+    const v2, 0x7f0c05e3
 
     invoke-virtual {p0, v2}, Lcom/android/settings/bluetooth/DockService;->getString(I)Ljava/lang/String;
 

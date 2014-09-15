@@ -6,9 +6,6 @@
     <plurals name="app_ops_count">
         <item quantity="other">%d ครั้ง</item>
     </plurals>
-    <plurals name="show_dev_countdown_cm">
-        <item quantity="other">ขณะนี้คุณอยู่ขั้นที่ %1$d ในการเปิดใช้งานตัวเลือกสำหรับนักพัฒนา</item>
-    </plurals>
     <plurals name="show_dev_countdown">
         <item quantity="other">คุณเหลืออีกเพียง %1$d ขั้นตอนเพื่อเป็นนักพัฒนาซอฟต์แวร์</item>
         <item quantity="one">คุณเหลืออีกเพียง %1$d ขั้นตอนเพื่อเป็นนักพัฒนาซอฟต์แวร์</item>

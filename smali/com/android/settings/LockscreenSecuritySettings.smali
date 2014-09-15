@@ -745,7 +745,7 @@
     :cond_1
     iget-object v8, p0, Lcom/android/settings/LockscreenSecuritySettings;->mLockAfter:Landroid/preference/ListPreference;
 
-    const v9, 0x7f080541
+    const v9, 0x7f0c053c
 
     const/4 v10, 0x1
 

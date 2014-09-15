@@ -69,7 +69,7 @@
 
     invoke-direct {v0, p0}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f0807f5
+    const v1, 0x7f0c07f0
 
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -104,7 +104,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0807f6
+    const v2, 0x7f0c07f1
 
     new-array v3, v3, [Ljava/lang/Object;
 
@@ -347,7 +347,7 @@
 
     .line 90
     .local v5, p:Lcom/android/internal/app/AlertController$AlertParams;
-    const v7, 0x7f0807f7
+    const v7, 0x7f0c07f2
 
     invoke-virtual {p0, v7}, Lcom/android/settings/SettingsSafetyLegalActivity;->getString(I)Ljava/lang/String;
 

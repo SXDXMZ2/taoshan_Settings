@@ -82,7 +82,7 @@
 
     const-string v1, "toggleAirplane"
 
-    const v2, 0x7f08018a
+    const v2, 0x7f0c0186
 
     const-string v3, "com.android.systemui:drawable/ic_qs_airplane_on"
 
@@ -95,7 +95,7 @@
 
     const-string v1, "toggleBattery"
 
-    const v2, 0x7f08018b
+    const v2, 0x7f0c0187
 
     const-string v3, "com.android.systemui:drawable/ic_qs_battery_neutral"
 
@@ -108,7 +108,7 @@
 
     const-string v1, "toggleBluetooth"
 
-    const v2, 0x7f08018c
+    const v2, 0x7f0c0188
 
     const-string v3, "com.android.systemui:drawable/ic_qs_bluetooth_on"
 
@@ -121,7 +121,7 @@
 
     const-string v1, "toggleBrightness"
 
-    const v2, 0x7f08018d
+    const v2, 0x7f0c0189
 
     const-string v3, "com.android.systemui:drawable/ic_qs_brightness_auto_off"
 
@@ -134,7 +134,7 @@
 
     const-string v1, "toggleCamera"
 
-    const v2, 0x7f08018e
+    const v2, 0x7f0c018a
 
     const-string v3, "com.android.systemui:drawable/ic_qs_camera"
 
@@ -147,7 +147,7 @@
 
     const-string v1, "toggleCompass"
 
-    const v2, 0x7f08018f
+    const v2, 0x7f0c018b
 
     const-string v3, "com.android.systemui:drawable/ic_qs_compass_on"
 
@@ -160,7 +160,7 @@
 
     const-string v1, "toggleHeadsUp"
 
-    const v2, 0x7f080190
+    const v2, 0x7f0c018c
 
     const-string v3, "com.android.systemui:drawable/ic_qs_heads_up_on"
 
@@ -173,7 +173,7 @@
 
     const-string v1, "toggleExpandedDesktop"
 
-    const v2, 0x7f0801a5
+    const v2, 0x7f0c01a1
 
     const-string v3, "com.android.systemui:drawable/ic_qs_expanded_desktop_neutral"
 
@@ -186,7 +186,7 @@
 
     const-string v1, "toggleSleepMode"
 
-    const v2, 0x7f080191
+    const v2, 0x7f0c018d
 
     const-string v3, "com.android.systemui:drawable/ic_qs_sleep"
 
@@ -199,7 +199,7 @@
 
     const-string v1, "toggleGPS"
 
-    const v2, 0x7f080192
+    const v2, 0x7f0c018e
 
     const-string v3, "com.android.systemui:drawable/ic_qs_location_on"
 
@@ -212,7 +212,7 @@
 
     const-string v1, "toggleLockScreen"
 
-    const v2, 0x7f080194
+    const v2, 0x7f0c0190
 
     const-string v3, "com.android.systemui:drawable/ic_qs_lock_screen_on"
 
@@ -225,7 +225,7 @@
 
     const-string v1, "toggleLte"
 
-    const v2, 0x7f080195
+    const v2, 0x7f0c0191
 
     const-string v3, "com.android.systemui:drawable/ic_qs_lte_on"
 
@@ -238,7 +238,7 @@
 
     const-string v1, "toggleMobileData"
 
-    const v2, 0x7f080196
+    const v2, 0x7f0c0192
 
     const-string v3, "com.android.systemui:drawable/ic_qs_signal_full_4"
 
@@ -251,7 +251,7 @@
 
     const-string v1, "toggleNetworkMode"
 
-    const v2, 0x7f0801a0
+    const v2, 0x7f0c019c
 
     const-string v3, "com.android.systemui:drawable/ic_qs_2g3g_on"
 
@@ -264,7 +264,7 @@
 
     const-string v1, "toggleNfc"
 
-    const v2, 0x7f0801a1
+    const v2, 0x7f0c019d
 
     const-string v3, "com.android.systemui:drawable/ic_qs_nfc_on"
 
@@ -277,7 +277,7 @@
 
     const-string v1, "toggleAutoRotate"
 
-    const v2, 0x7f080199
+    const v2, 0x7f0c0195
 
     const-string v3, "com.android.systemui:drawable/ic_qs_auto_rotate"
 
@@ -290,7 +290,7 @@
 
     const-string v1, "toggleProfile"
 
-    const v2, 0x7f080197
+    const v2, 0x7f0c0193
 
     const-string v3, "com.android.systemui:drawable/ic_qs_profiles"
 
@@ -303,7 +303,7 @@
 
     const-string v1, "togglePerformanceProfile"
 
-    const v2, 0x7f080198
+    const v2, 0x7f0c0194
 
     const-string v3, "com.android.systemui:drawable/ic_qs_perf_profile"
 
@@ -316,7 +316,7 @@
 
     const-string v1, "toggleQuietHours"
 
-    const v2, 0x7f0801a3
+    const v2, 0x7f0c019f
 
     const-string v3, "com.android.systemui:drawable/ic_qs_quiet_hours_on"
 
@@ -329,7 +329,7 @@
 
     const-string v1, "toggleScreenTimeout"
 
-    const v2, 0x7f0801a2
+    const v2, 0x7f0c019e
 
     const-string v3, "com.android.systemui:drawable/ic_qs_screen_timeout_on"
 
@@ -342,7 +342,7 @@
 
     const-string v1, "toggleSettings"
 
-    const v2, 0x7f08019a
+    const v2, 0x7f0c0196
 
     const-string v3, "com.android.systemui:drawable/ic_qs_settings"
 
@@ -355,7 +355,7 @@
 
     const-string v1, "toggleSound"
 
-    const v2, 0x7f08019b
+    const v2, 0x7f0c0197
 
     const-string v3, "com.android.systemui:drawable/ic_qs_ring_on"
 
@@ -368,7 +368,7 @@
 
     const-string v1, "toggleSync"
 
-    const v2, 0x7f08019c
+    const v2, 0x7f0c0198
 
     const-string v3, "com.android.systemui:drawable/ic_qs_sync_on"
 
@@ -381,7 +381,7 @@
 
     const-string v1, "toggleFlashlight"
 
-    const v2, 0x7f080193
+    const v2, 0x7f0c018f
 
     const-string v3, "com.android.systemui:drawable/ic_qs_torch_on"
 
@@ -394,7 +394,7 @@
 
     const-string v1, "toggleUser"
 
-    const v2, 0x7f08019f
+    const v2, 0x7f0c019b
 
     const-string v3, "com.android.systemui:drawable/ic_qs_default_user"
 
@@ -407,7 +407,7 @@
 
     const-string v1, "toggleVolume"
 
-    const v2, 0x7f0801a4
+    const v2, 0x7f0c01a0
 
     const-string v3, "com.android.systemui:drawable/ic_qs_volume"
 
@@ -420,7 +420,7 @@
 
     const-string v1, "toggleWifi"
 
-    const v2, 0x7f08019e
+    const v2, 0x7f0c019a
 
     const-string v3, "com.android.systemui:drawable/ic_qs_wifi_full_4"
 
@@ -433,7 +433,7 @@
 
     const-string v1, "toggleWifiAp"
 
-    const v2, 0x7f08019d
+    const v2, 0x7f0c0199
 
     const-string v3, "com.android.systemui:drawable/ic_qs_wifi_ap_on"
 
@@ -446,7 +446,7 @@
 
     const-string v1, "toggleNetworkAdb"
 
-    const v2, 0x7f0801a6
+    const v2, 0x7f0c01a2
 
     const-string v3, "com.android.systemui:drawable/ic_qs_network_adb_off"
 

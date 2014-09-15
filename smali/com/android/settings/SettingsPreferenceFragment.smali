@@ -345,7 +345,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0a0020
+    const v3, 0x7f090020
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -681,7 +681,7 @@
     .line 189
     const/16 v1, 0x65
 
-    const v2, 0x7f080ba7
+    const v2, 0x7f0c0ba2
 
     invoke-interface {p1, v3, v1, v3, v2}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
@@ -913,7 +913,7 @@
 
     .line 407
     .local v0, preferenceActivity:Landroid/preference/PreferenceActivity;
-    const v3, 0x7f080564
+    const v3, 0x7f0c055f
 
     const/4 v4, 0x0
 

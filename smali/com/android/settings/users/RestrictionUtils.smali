@@ -32,7 +32,7 @@
     .line 40
     new-array v0, v3, [I
 
-    const v1, 0x7f080bc8
+    const v1, 0x7f0c0bc3
 
     aput v1, v0, v2
 
@@ -41,7 +41,7 @@
     .line 47
     new-array v0, v3, [I
 
-    const v1, 0x7f080bc9
+    const v1, 0x7f0c0bc4
 
     aput v1, v0, v2
 

@@ -87,7 +87,7 @@
 
     .prologue
     .line 105
-    const v2, 0x7f0c0076
+    const v2, 0x7f0b0076
 
     invoke-virtual {p3, v2}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -113,7 +113,7 @@
     if-ne v2, p2, :cond_1
 
     .line 108
-    const v2, 0x7f0c0075
+    const v2, 0x7f0b0075
 
     invoke-virtual {p3, v2}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -169,7 +169,7 @@
 
     .line 85
     .local v3, res:Landroid/content/res/Resources;
-    const v4, 0x7f0c0077
+    const v4, 0x7f0b0077
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -750,7 +750,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0c0075
+    const v3, 0x7f0b0075
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -762,7 +762,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0c0076
+    const v3, 0x7f0b0076
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -1040,7 +1040,7 @@
 
     invoke-direct {v2, v3}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v3, 0x7f0800c4
+    const v3, 0x7f0c00c4
 
     invoke-virtual {v2, v3}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 

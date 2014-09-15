@@ -149,13 +149,13 @@
     .parameter "savedInstanceState"
 
     .prologue
-    const v6, 0x7f080867
+    const v6, 0x7f0c0862
 
     const/4 v11, 0x0
 
-    const v7, 0x7f080866
+    const v7, 0x7f0c0861
 
-    const v10, 0x7f080865
+    const v10, 0x7f0c0860
 
     const v9, 0x1010355
 
@@ -225,7 +225,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f080863
+    const v6, 0x7f0c085e
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;
 
@@ -243,7 +243,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f080864
+    const v6, 0x7f0c085f
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;
 
@@ -287,7 +287,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f08086a
+    const v6, 0x7f0c0865
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;
 
@@ -305,7 +305,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f08086b
+    const v6, 0x7f0c0866
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;
 
@@ -407,7 +407,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f08086c
+    const v6, 0x7f0c0867
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;
 
@@ -425,7 +425,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f08086d
+    const v6, 0x7f0c0868
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;
 
@@ -463,7 +463,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f080883
+    const v6, 0x7f0c087e
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;
 
@@ -481,7 +481,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f080884
+    const v6, 0x7f0c087f
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;
 
@@ -515,7 +515,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f080886
+    const v5, 0x7f0c0881
 
     const/4 v6, 0x1
 
@@ -552,7 +552,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f080885
+    const v6, 0x7f0c0880
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;
 
@@ -595,7 +595,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f080889
+    const v6, 0x7f0c0884
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;
 
@@ -613,7 +613,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f08088a
+    const v6, 0x7f0c0885
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;
 
@@ -655,7 +655,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f08088d
+    const v6, 0x7f0c0888
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;
 
@@ -673,7 +673,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f08088e
+    const v6, 0x7f0c0889
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;
 
@@ -719,7 +719,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f08088b
+    const v6, 0x7f0c0886
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;
 
@@ -737,7 +737,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f08088c
+    const v6, 0x7f0c0887
 
     invoke-virtual {v5, v6}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;
 
@@ -785,7 +785,7 @@
     if-eqz v4, :cond_0
 
     .line 1322
-    const v1, 0x7f08025c
+    const v1, 0x7f0c0258
 
     .line 1327
     .local v1, messageResId:I
@@ -798,7 +798,7 @@
 
     invoke-direct {v4, v5}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v5, 0x7f08025a
+    const v5, 0x7f0c0256
 
     invoke-virtual {v4, v5}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -837,7 +837,7 @@
     .line 1324
     .end local v1           #messageResId:I
     :cond_0
-    const v1, 0x7f08025b
+    const v1, 0x7f0c0257
 
     .restart local v1       #messageResId:I
     goto :goto_1

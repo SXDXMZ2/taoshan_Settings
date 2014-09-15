@@ -2,9 +2,12 @@
 <PreferenceScreen android:title="@string/security_settings_title"
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceScreen android:id="@id/lock_screen_settings" android:title="@string/lock_screen_title" android:fragment="com.android.settings.cyanogenmod.LockscreenInterface" settings:includeXmlForSearch="@xml/lockscreen_interface_settings" />
     <PreferenceScreen android:title="@string/owner_info_settings_title" android:key="owner_info_settings" android:summary="@string/owner_info_settings_summary" android:fragment="com.android.settings.OwnerInfoSettings" />
-    <PreferenceCategory android:title="@string/app_security_title" android:key="app_security">
-        <ListPreference android:entries="@array/sms_security_check_limit_entries" android:title="@string/sms_security_check_limit_title" android:key="sms_security_check_limit" android:defaultValue="30" android:dialogTitle="@string/sms_security_check_limit_title" android:entryValues="@array/sms_security_check_limit_values" />
+    <PreferenceCategory android:title="@string/find_my_device" android:key="my_xperia_settings_catagory">
+        <PreferenceScreen android:title="@string/my_xperia_title" android:key="my_xperia" android:summary="@string/preference_summary">
+            <intent android:targetPackage="com.sonymobile.mx.android" android:action="android.intent.action.MAIN" android:targetClass="com.sonymobile.mx.android.ui.StatusActivity" />
+        </PreferenceScreen>
     </PreferenceCategory>
     <PreferenceCategory android:persistent="false" android:title="@string/sim_lock_settings_title" android:key="sim_lock">
         <Preference android:persistent="false" android:title="@string/sim_lock_settings_category" android:key="sim_lock_settings">
@@ -29,5 +32,8 @@
         <Preference android:persistent="false" android:title="@string/credentials_reset" android:key="reset_credentials" android:summary="@string/credentials_reset_summary">
             <intent android:targetPackage="com.android.settings" android:action="com.android.credentials.RESET" android:targetClass="com.android.settings.CredentialStorage" />
         </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/app_security_title" android:key="app_security">
+        <ListPreference android:entries="@array/sms_security_check_limit_entries" android:title="@string/sms_security_check_limit_title" android:key="sms_security_check_limit" android:defaultValue="30" android:dialogTitle="@string/sms_security_check_limit_title" android:entryValues="@array/sms_security_check_limit_values" />
     </PreferenceCategory>
 </PreferenceScreen>

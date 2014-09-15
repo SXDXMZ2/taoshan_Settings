@@ -39,7 +39,7 @@
 
     .prologue
     .line 87
-    const v0, 0x7f040064
+    const v0, 0x7f040065
 
     return v0
 .end method
@@ -72,7 +72,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f040082
+    const v3, 0x7f040084
 
     const/4 v4, 0x0
 
@@ -297,7 +297,7 @@
 
     if-eqz v3, :cond_4
 
-    const v3, 0x7f08003f
+    const v3, 0x7f0c003f
 
     move-object/from16 v0, p0
 
@@ -509,7 +509,7 @@
     .end local v15           #icon:Landroid/widget/ImageView;
     .end local v20           #name:Landroid/widget/TextView;
     :cond_5
-    const v2, 0x7f080014
+    const v2, 0x7f0c0014
 
     move-object/from16 v0, p0
 
@@ -676,7 +676,7 @@
     invoke-virtual {p2, v1, p1}, Landroid/view/MenuInflater;->inflate(ILandroid/view/Menu;)V
 
     .line 71
-    const v1, 0x7f0d02fe
+    const v1, 0x7f0d02fc
 
     invoke-interface {p1, v1}, Landroid/view/Menu;->findItem(I)Landroid/view/MenuItem;
 

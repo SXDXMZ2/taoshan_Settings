@@ -22,7 +22,7 @@
 
     .prologue
     .line 34
-    const v13, 0x7f090007
+    const v13, 0x7f080007
 
     move-object/from16 v0, p0
 
@@ -32,7 +32,7 @@
     invoke-super/range {p0 .. p1}, Landroid/app/Activity;->onCreate(Landroid/os/Bundle;)V
 
     .line 37
-    const v13, 0x7f04007c
+    const v13, 0x7f04007e
 
     move-object/from16 v0, p0
 
@@ -99,7 +99,7 @@
 
     .line 53
     .local v10, pkgs:[Ljava/lang/String;
-    const v13, 0x7f0d0232
+    const v13, 0x7f0d0230
 
     move-object/from16 v0, p0
 
@@ -111,7 +111,7 @@
 
     .line 54
     .local v12, unknown:Landroid/widget/TextView;
-    const v13, 0x7f080005
+    const v13, 0x7f0c0005
 
     const/4 v14, 0x1
 
@@ -176,7 +176,7 @@
 
     check-cast v13, Landroid/widget/TextView;
 
-    const v14, 0x7f080006
+    const v14, 0x7f0c0006
 
     const/4 v15, 0x1
 
@@ -281,7 +281,7 @@
     .end local v8           #pi:Landroid/content/pm/PackageInfo;
     .end local v9           #pkg:Ljava/lang/String;
     :cond_2
-    const v13, 0x7f0d0232
+    const v13, 0x7f0d0230
 
     move-object/from16 v0, p0
 

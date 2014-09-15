@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="allow">ნების დართვა</string>
+    <string name="deny">უარყოფა</string>
     <string name="delete">წაშლა</string>
     <string name="battery_info_status_full">ბატარეა დატენილია</string>
     <string name="cell_broadcast_settings_summary">გადაუდებელი გაფრთხილებების ტიპების არჩევა საჩვენებლად.</string>
@@ -23,8 +25,6 @@
     <string name="yes">დიახ</string>
     <string name="no">არა</string>
     <string name="create">შექმნა</string>
-    <string name="allow">ნების დართვა</string>
-    <string name="deny">უარყოფა</string>
     <string name="device_info_default">უცნობი</string>
     <string name="show_dev_on">ახლა დეველოპერი ხართ!</string>
     <string name="show_dev_already">არ არის საჭირო, თქვენ უკვე დეველოპერი ხართ.</string>
@@ -655,6 +655,8 @@
     <string name="volume_notification_mute">შეტყობინებების დადუმება</string>
     <string name="volume_alarm_mute">მაღვიძარების გაჩუმება</string>
     <string name="vibrate_when_ringing_title">დარეკვის დროს ვიბრაცია</string>
+    <string name="system_update_settings_list_item_title">სისტემური განახლებები</string>
+    <string name="system_update_settings_list_item_summary" />
     <string name="dock_settings">სამაგრი</string>
     <string name="dock_settings_title">სამაგრის პარამეტრები</string>
     <string name="dock_audio_settings_title">აუდიო</string>
@@ -717,8 +719,6 @@
     <string name="sim_enter_ok">კარგი</string>
     <string name="sim_enter_cancel">გაუქმება</string>
     <string name="device_info_settings">ტელეფონის სტატუსი</string>
-    <string name="system_update_settings_list_item_title">სისტემური განახლებები</string>
-    <string name="system_update_settings_list_item_summary" />
     <string name="firmware_version">Android-ის ვერსია</string>
     <string name="model_number">მოდელის ნომერი</string>
     <string name="fcc_equipment_id">მოწყობილობის ID</string>
@@ -1891,4 +1891,18 @@ Google-ის სინქრონიზაციის ტექნოლო�
     <string name="user_image_take_photo">ფოტოს გადაღება</string>
     <string name="user_image_choose_photo">გალერეიდან სურათის არჩევა</string>
     <string name="regulatory_info_text" />
+    <string name="lockscreen_app_name">ეკრანის დაბლოკვა</string>
+    <string name="lockscreen_settings_title">ეკრანის დაბლოკვა</string>
+    <string name="lockscreen_settings_title_txt">ეკრანის დაბლოკვა</string>
+    <string name="lockscreen_settings_wallpaper_summary_txt">ფონის შეცვლა დაბლოკვის ეკრანზე</string>
+    <string name="lockscreen_setting_wallpaper_wait_txt">ფონის დაყენება</string>
+    <string name="lockscreen_could_not_load_wallpaper_txt">ფონის დაყენება შეუძლებელია</string>
+    <string name="lockscreen_dialog_title_pick_wallpaper">ფონის არჩევა</string>
+    <string name="lockscreen_wallpaper_picker_semc_name">Xperia™–ს ფონები</string>
+    <string name="lockscreen_wallpaper_picker_semc_set_wallpaper">ფონის დაყენება</string>
+    <string name="lockscreen_wallpaper_picker_album_name">ალბომი</string>
+    <string name="lockscreen_unlock_hint">განბლოკვისთვის გადაუსვით ზემოთ ან ქვემოთ</string>
+    <string name="lockscreen_short_unlock_hint">გადაუსვით განბლოკვისთვის</string>
+    <string name="lockscreen_accessibility_unlock_hint">განბლოკვისთვის ეკრანის ცენტრიდან გააცურეთ ზემოთ ან ქვემოთ</string>
+    <string name="lockscreen_set_as_wallpaper_txt">ეკრანის ფონის დაბლოკვა</string>
 </resources>

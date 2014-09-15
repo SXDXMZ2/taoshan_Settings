@@ -27,7 +27,7 @@
     .parameter
 
     .prologue
-    .line 1171
+    .line 1191
     iput-object p1, p0, Lcom/android/settings/Settings$HeaderAdapter$1;->this$0:Lcom/android/settings/Settings$HeaderAdapter;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,14 +42,14 @@
     .parameter "v"
 
     .prologue
-    .line 1174
+    .line 1194
     new-instance v0, Landroid/content/Intent;
 
     const-string v1, "com.android.settings.MONITORING_CERT_INFO"
 
     invoke-direct {v0, v1}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 
-    .line 1176
+    .line 1196
     .local v0, intent:Landroid/content/Intent;
     iget-object v1, p0, Lcom/android/settings/Settings$HeaderAdapter$1;->this$0:Lcom/android/settings/Settings$HeaderAdapter;
 
@@ -59,6 +59,6 @@
 
     invoke-virtual {v1, v0}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
 
-    .line 1177
+    .line 1197
     return-void
 .end method

@@ -46,7 +46,7 @@
     invoke-virtual {p0, v0}, Lcom/android/settings/cyanogenmod/IncreasingRingPreference;->setStreamType(I)V
 
     .line 57
-    const v0, 0x7f040092
+    const v0, 0x7f040094
 
     invoke-virtual {p0, v0}, Lcom/android/settings/cyanogenmod/IncreasingRingPreference;->setDialogLayoutResource(I)V
 
@@ -258,7 +258,7 @@
 
     move-result-object v5
 
-    const v8, 0x7f0c0067
+    const v8, 0x7f0b0067
 
     invoke-virtual {v5, v8}, Landroid/content/res/Resources;->getIntArray(I)[I
 

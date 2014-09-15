@@ -359,7 +359,7 @@
 
     .line 255
     .local v4, activeInputMethodsCategory:Landroid/preference/PreferenceCategory;
-    const v22, 0x7f0808fd
+    const v22, 0x7f0c08f8
 
     move/from16 v0, v22
 
@@ -606,7 +606,7 @@
 
     .line 293
     :cond_a
-    const v22, 0x7f0808fe
+    const v22, 0x7f0c08f9
 
     move/from16 v0, v22
 
@@ -1617,7 +1617,7 @@
 
     move-result-object v10
 
-    const v11, 0x7f0808c2
+    const v11, 0x7f0c08bd
 
     const/4 v12, 0x1
 

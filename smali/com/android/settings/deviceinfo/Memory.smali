@@ -153,7 +153,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f08075b
+    const v3, 0x7f0c0756
 
     invoke-static {v2, v3, v4}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 
@@ -178,7 +178,7 @@
     .line 300
     sget-object v2, Lcom/android/settings/deviceinfo/Memory;->sLastClickedMountToggle:Landroid/preference/Preference;
 
-    const v3, 0x7f08075c
+    const v3, 0x7f0c0757
 
     invoke-virtual {p0, v3}, Lcom/android/settings/deviceinfo/Memory;->getString(I)Ljava/lang/String;
 
@@ -189,7 +189,7 @@
     .line 301
     sget-object v2, Lcom/android/settings/deviceinfo/Memory;->sLastClickedMountToggle:Landroid/preference/Preference;
 
-    const v3, 0x7f08075d
+    const v3, 0x7f0c0758
 
     invoke-virtual {p0, v3}, Lcom/android/settings/deviceinfo/Memory;->getString(I)Ljava/lang/String;
 
@@ -584,7 +584,7 @@
     .parameter "id"
 
     .prologue
-    const v3, 0x7f080865
+    const v3, 0x7f0c0860
 
     const/4 v0, 0x0
 
@@ -605,7 +605,7 @@
 
     invoke-direct {v1, v2}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v2, 0x7f080757
+    const v2, 0x7f0c0752
 
     invoke-virtual {v1, v2}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -619,13 +619,13 @@
 
     move-result-object v1
 
-    const v2, 0x7f080519
+    const v2, 0x7f0c0514
 
     invoke-virtual {v1, v2, v0}, Landroid/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
     move-result-object v0
 
-    const v1, 0x7f080758
+    const v1, 0x7f0c0753
 
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
@@ -647,7 +647,7 @@
 
     invoke-direct {v1, v2}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v2, 0x7f080759
+    const v2, 0x7f0c0754
 
     invoke-virtual {v1, v2}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -657,7 +657,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f08075a
+    const v1, 0x7f0c0755
 
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
@@ -765,7 +765,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f080761
+    const v3, 0x7f0c075c
 
     const/4 v6, 0x0
 
@@ -799,7 +799,7 @@
     nop
 
     :pswitch_data_0
-    .packed-switch 0x7f0d030a
+    .packed-switch 0x7f0d0308
         :pswitch_0
     .end packed-switch
 .end method
@@ -1044,7 +1044,7 @@
 
     .prologue
     .line 178
-    const v3, 0x7f0d030a
+    const v3, 0x7f0d0308
 
     invoke-interface {p1, v3}, Landroid/view/Menu;->findItem(I)Landroid/view/MenuItem;
 

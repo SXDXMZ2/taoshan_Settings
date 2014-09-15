@@ -48,20 +48,20 @@
     .end annotation
 
     .prologue
-    .line 251
+    .line 233
     .local p2, componentNames:Ljava/util/ArrayList;,"Ljava/util/ArrayList<Landroid/content/ComponentName;>;"
     iput-object p1, p0, Lcom/android/settings/applications/ProtectedAppsActivity$AppProtectList;->this$0:Lcom/android/settings/applications/ProtectedAppsActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 252
+    .line 234
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v2, p0, Lcom/android/settings/applications/ProtectedAppsActivity$AppProtectList;->componentNames:Ljava/util/ArrayList;
 
-    .line 253
+    .line 235
     invoke-virtual {p2}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
@@ -80,7 +80,7 @@
 
     check-cast v0, Landroid/content/ComponentName;
 
-    .line 254
+    .line 236
     .local v0, cn:Landroid/content/ComponentName;
     iget-object v2, p0, Lcom/android/settings/applications/ProtectedAppsActivity$AppProtectList;->componentNames:Ljava/util/ArrayList;
 
@@ -92,11 +92,11 @@
 
     goto :goto_0
 
-    .line 257
+    .line 239
     .end local v0           #cn:Landroid/content/ComponentName;
     :cond_0
     iput-boolean p3, p0, Lcom/android/settings/applications/ProtectedAppsActivity$AppProtectList;->state:Z
 
-    .line 258
+    .line 240
     return-void
 .end method

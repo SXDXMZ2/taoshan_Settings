@@ -18,8 +18,6 @@
 # static fields
 .field static final SINK_UUIDS:[Landroid/os/ParcelUuid;
 
-.field static final SOURCE_UUIDS:[Landroid/os/ParcelUuid;
-
 .field private static V:Z
 
 
@@ -40,36 +38,27 @@
     .locals 4
 
     .prologue
-    const/4 v3, 0x0
-
-    const/4 v2, 0x1
+    const/4 v3, 0x1
 
     .line 36
-    sput-boolean v2, Lcom/android/settings/bluetooth/A2dpProfile;->V:Z
+    sput-boolean v3, Lcom/android/settings/bluetooth/A2dpProfile;->V:Z
 
     .line 44
     const/4 v0, 0x2
 
     new-array v0, v0, [Landroid/os/ParcelUuid;
 
-    sget-object v1, Landroid/bluetooth/BluetoothUuid;->AudioSink:Landroid/os/ParcelUuid;
+    const/4 v1, 0x0
 
-    aput-object v1, v0, v3
+    sget-object v2, Landroid/bluetooth/BluetoothUuid;->AudioSink:Landroid/os/ParcelUuid;
+
+    aput-object v2, v0, v1
 
     sget-object v1, Landroid/bluetooth/BluetoothUuid;->AdvAudioDist:Landroid/os/ParcelUuid;
 
-    aput-object v1, v0, v2
-
-    sput-object v0, Lcom/android/settings/bluetooth/A2dpProfile;->SINK_UUIDS:[Landroid/os/ParcelUuid;
-
-    .line 49
-    new-array v0, v2, [Landroid/os/ParcelUuid;
-
-    sget-object v1, Landroid/bluetooth/BluetoothUuid;->AudioSource:Landroid/os/ParcelUuid;
-
     aput-object v1, v0, v3
 
-    sput-object v0, Lcom/android/settings/bluetooth/A2dpProfile;->SOURCE_UUIDS:[Landroid/os/ParcelUuid;
+    sput-object v0, Lcom/android/settings/bluetooth/A2dpProfile;->SINK_UUIDS:[Landroid/os/ParcelUuid;
 
     return-void
 .end method
@@ -82,19 +71,19 @@
     .parameter "profileManager"
 
     .prologue
-    .line 95
+    .line 90
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 96
+    .line 91
     iput-object p2, p0, Lcom/android/settings/bluetooth/A2dpProfile;->mLocalAdapter:Lcom/android/settings/bluetooth/LocalBluetoothAdapter;
 
-    .line 97
+    .line 92
     iput-object p3, p0, Lcom/android/settings/bluetooth/A2dpProfile;->mDeviceManager:Lcom/android/settings/bluetooth/CachedBluetoothDeviceManager;
 
-    .line 98
+    .line 93
     iput-object p4, p0, Lcom/android/settings/bluetooth/A2dpProfile;->mProfileManager:Lcom/android/settings/bluetooth/LocalBluetoothProfileManager;
 
-    .line 99
+    .line 94
     iget-object v0, p0, Lcom/android/settings/bluetooth/A2dpProfile;->mLocalAdapter:Lcom/android/settings/bluetooth/LocalBluetoothAdapter;
 
     new-instance v1, Lcom/android/settings/bluetooth/A2dpProfile$A2dpServiceListener;
@@ -107,7 +96,7 @@
 
     invoke-virtual {v0, p1, v1, v2}, Lcom/android/settings/bluetooth/LocalBluetoothAdapter;->getProfileProxy(Landroid/content/Context;Landroid/bluetooth/BluetoothProfile$ServiceListener;I)V
 
-    .line 101
+    .line 96
     return-void
 .end method
 
@@ -192,55 +181,32 @@
 
 # virtual methods
 .method public connect(Landroid/bluetooth/BluetoothDevice;)Z
-    .locals 6
+    .locals 4
     .parameter "device"
 
     .prologue
+    .line 115
+    iget-object v3, p0, Lcom/android/settings/bluetooth/A2dpProfile;->mService:Landroid/bluetooth/BluetoothA2dp;
+
+    if-nez v3, :cond_0
+
     const/4 v3, 0x0
 
-    .line 120
-    iget-object v4, p0, Lcom/android/settings/bluetooth/A2dpProfile;->mService:Landroid/bluetooth/BluetoothA2dp;
-
-    if-nez v4, :cond_0
-
-    .line 132
+    .line 122
     :goto_0
     return v3
 
-    .line 122
+    .line 116
     :cond_0
-    invoke-virtual {p1}, Landroid/bluetooth/BluetoothDevice;->getUuids()[Landroid/os/ParcelUuid;
-
-    move-result-object v4
-
-    sget-object v5, Landroid/bluetooth/BluetoothUuid;->AudioSink:Landroid/os/ParcelUuid;
-
-    invoke-static {v4, v5}, Landroid/bluetooth/BluetoothUuid;->isUuidPresent([Landroid/os/ParcelUuid;Landroid/os/ParcelUuid;)Z
-
-    move-result v4
-
-    if-nez v4, :cond_1
-
-    .line 123
-    const-string v4, "A2dpProfile"
-
-    const-string v5, "Remote device doesn\'t support A2dpSink, Ignoring"
-
-    invoke-static {v4, v5}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    goto :goto_0
-
-    .line 126
-    :cond_1
     invoke-virtual {p0}, Lcom/android/settings/bluetooth/A2dpProfile;->getConnectedDevices()Ljava/util/List;
 
     move-result-object v2
 
-    .line 127
+    .line 117
     .local v2, sinks:Ljava/util/List;,"Ljava/util/List<Landroid/bluetooth/BluetoothDevice;>;"
-    if-eqz v2, :cond_2
+    if-eqz v2, :cond_1
 
-    .line 128
+    .line 118
     invoke-interface {v2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
@@ -251,7 +217,7 @@
 
     move-result v3
 
-    if-eqz v3, :cond_2
+    if-eqz v3, :cond_1
 
     invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
@@ -259,7 +225,7 @@
 
     check-cast v1, Landroid/bluetooth/BluetoothDevice;
 
-    .line 129
+    .line 119
     .local v1, sink:Landroid/bluetooth/BluetoothDevice;
     iget-object v3, p0, Lcom/android/settings/bluetooth/A2dpProfile;->mService:Landroid/bluetooth/BluetoothA2dp;
 
@@ -267,10 +233,10 @@
 
     goto :goto_1
 
-    .line 132
+    .line 122
     .end local v0           #i$:Ljava/util/Iterator;
     .end local v1           #sink:Landroid/bluetooth/BluetoothDevice;
-    :cond_2
+    :cond_1
     iget-object v3, p0, Lcom/android/settings/bluetooth/A2dpProfile;->mService:Landroid/bluetooth/BluetoothA2dp;
 
     invoke-virtual {v3, p1}, Landroid/bluetooth/BluetoothA2dp;->connect(Landroid/bluetooth/BluetoothDevice;)Z
@@ -287,18 +253,18 @@
     .prologue
     const/16 v1, 0x64
 
-    .line 136
+    .line 126
     iget-object v0, p0, Lcom/android/settings/bluetooth/A2dpProfile;->mService:Landroid/bluetooth/BluetoothA2dp;
 
     if-nez v0, :cond_0
 
     const/4 v0, 0x0
 
-    .line 141
+    .line 131
     :goto_0
     return v0
 
-    .line 138
+    .line 128
     :cond_0
     iget-object v0, p0, Lcom/android/settings/bluetooth/A2dpProfile;->mService:Landroid/bluetooth/BluetoothA2dp;
 
@@ -308,12 +274,12 @@
 
     if-le v0, v1, :cond_1
 
-    .line 139
+    .line 129
     iget-object v0, p0, Lcom/android/settings/bluetooth/A2dpProfile;->mService:Landroid/bluetooth/BluetoothA2dp;
 
     invoke-virtual {v0, p1, v1}, Landroid/bluetooth/BluetoothA2dp;->setPriority(Landroid/bluetooth/BluetoothDevice;I)Z
 
-    .line 141
+    .line 131
     :cond_1
     iget-object v0, p0, Lcom/android/settings/bluetooth/A2dpProfile;->mService:Landroid/bluetooth/BluetoothA2dp;
 
@@ -328,7 +294,7 @@
     .locals 4
 
     .prologue
-    .line 213
+    .line 203
     sget-boolean v1, Lcom/android/settings/bluetooth/A2dpProfile;->V:Z
 
     if-eqz v1, :cond_0
@@ -339,13 +305,13 @@
 
     invoke-static {v1, v2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 214
+    .line 204
     :cond_0
     iget-object v1, p0, Lcom/android/settings/bluetooth/A2dpProfile;->mService:Landroid/bluetooth/BluetoothA2dp;
 
     if-eqz v1, :cond_1
 
-    .line 216
+    .line 206
     :try_start_0
     invoke-static {}, Landroid/bluetooth/BluetoothAdapter;->getDefaultAdapter()Landroid/bluetooth/BluetoothAdapter;
 
@@ -357,23 +323,23 @@
 
     invoke-virtual {v1, v2, v3}, Landroid/bluetooth/BluetoothAdapter;->closeProfileProxy(ILandroid/bluetooth/BluetoothProfile;)V
 
-    .line 218
+    .line 208
     const/4 v1, 0x0
 
     iput-object v1, p0, Lcom/android/settings/bluetooth/A2dpProfile;->mService:Landroid/bluetooth/BluetoothA2dp;
     :try_end_0
     .catch Ljava/lang/Throwable; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 223
+    .line 213
     :cond_1
     :goto_0
     return-void
 
-    .line 219
+    .line 209
     :catch_0
     move-exception v0
 
-    .line 220
+    .line 210
     .local v0, t:Ljava/lang/Throwable;
     const-string v1, "A2dpProfile"
 
@@ -397,7 +363,7 @@
     .end annotation
 
     .prologue
-    .line 112
+    .line 107
     iget-object v0, p0, Lcom/android/settings/bluetooth/A2dpProfile;->mService:Landroid/bluetooth/BluetoothA2dp;
 
     if-nez v0, :cond_0
@@ -408,7 +374,7 @@
 
     invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 113
+    .line 108
     :goto_0
     return-object v0
 
@@ -440,15 +406,15 @@
     .parameter "device"
 
     .prologue
-    .line 145
+    .line 135
     iget-object v0, p0, Lcom/android/settings/bluetooth/A2dpProfile;->mService:Landroid/bluetooth/BluetoothA2dp;
 
     if-nez v0, :cond_0
 
-    .line 146
+    .line 136
     const/4 v0, 0x0
 
-    .line 148
+    .line 138
     :goto_0
     return v0
 
@@ -467,7 +433,7 @@
     .parameter "btClass"
 
     .prologue
-    .line 209
+    .line 199
     const v0, 0x7f020064
 
     return v0
@@ -478,8 +444,8 @@
     .parameter "device"
 
     .prologue
-    .line 191
-    const v0, 0x7f0805c6
+    .line 181
+    const v0, 0x7f0c05c1
 
     return v0
 .end method
@@ -488,7 +454,7 @@
     .locals 1
 
     .prologue
-    .line 187
+    .line 177
     const/4 v0, 0x1
 
     return v0
@@ -499,14 +465,14 @@
     .parameter "device"
 
     .prologue
-    .line 157
+    .line 147
     iget-object v0, p0, Lcom/android/settings/bluetooth/A2dpProfile;->mService:Landroid/bluetooth/BluetoothA2dp;
 
     if-nez v0, :cond_0
 
     const/4 v0, 0x0
 
-    .line 158
+    .line 148
     :goto_0
     return v0
 
@@ -525,16 +491,16 @@
     .parameter "device"
 
     .prologue
-    .line 195
+    .line 185
     invoke-virtual {p0, p1}, Lcom/android/settings/bluetooth/A2dpProfile;->getConnectionStatus(Landroid/bluetooth/BluetoothDevice;)I
 
     move-result v0
 
-    .line 196
+    .line 186
     .local v0, state:I
     packed-switch v0, :pswitch_data_0
 
-    .line 204
+    .line 194
     :pswitch_0
     invoke-static {v0}, Lcom/android/settings/bluetooth/Utils;->getConnectionStateSummary(I)I
 
@@ -543,19 +509,19 @@
     :goto_0
     return v1
 
-    .line 198
+    .line 188
     :pswitch_1
-    const v1, 0x7f0805e0
+    const v1, 0x7f0c05db
 
     goto :goto_0
 
-    .line 201
+    .line 191
     :pswitch_2
-    const v1, 0x7f0805d8
+    const v1, 0x7f0c05d3
 
     goto :goto_0
 
-    .line 196
+    .line 186
     :pswitch_data_0
     .packed-switch 0x0
         :pswitch_1
@@ -570,18 +536,18 @@
     .prologue
     const/4 v2, 0x0
 
-    .line 172
+    .line 162
     iget-object v1, p0, Lcom/android/settings/bluetooth/A2dpProfile;->mService:Landroid/bluetooth/BluetoothA2dp;
 
     if-nez v1, :cond_0
 
     move v1, v2
 
-    .line 179
+    .line 169
     :goto_0
     return v1
 
-    .line 173
+    .line 163
     :cond_0
     iget-object v1, p0, Lcom/android/settings/bluetooth/A2dpProfile;->mService:Landroid/bluetooth/BluetoothA2dp;
 
@@ -589,7 +555,7 @@
 
     move-result-object v0
 
-    .line 174
+    .line 164
     .local v0, sinks:Ljava/util/List;,"Ljava/util/List<Landroid/bluetooth/BluetoothDevice;>;"
     invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
 
@@ -597,7 +563,7 @@
 
     if-nez v1, :cond_1
 
-    .line 175
+    .line 165
     iget-object v3, p0, Lcom/android/settings/bluetooth/A2dpProfile;->mService:Landroid/bluetooth/BluetoothA2dp;
 
     invoke-interface {v0, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -612,7 +578,7 @@
 
     if-eqz v1, :cond_1
 
-    .line 176
+    .line 166
     const/4 v1, 0x1
 
     goto :goto_0
@@ -620,7 +586,7 @@
     :cond_1
     move v1, v2
 
-    .line 179
+    .line 169
     goto :goto_0
 .end method
 
@@ -628,7 +594,7 @@
     .locals 1
 
     .prologue
-    .line 108
+    .line 103
     const/4 v0, 0x1
 
     return v0
@@ -638,7 +604,7 @@
     .locals 1
 
     .prologue
-    .line 104
+    .line 99
     const/4 v0, 0x1
 
     return v0
@@ -651,12 +617,12 @@
     .prologue
     const/4 v0, 0x0
 
-    .line 152
+    .line 142
     iget-object v1, p0, Lcom/android/settings/bluetooth/A2dpProfile;->mService:Landroid/bluetooth/BluetoothA2dp;
 
     if-nez v1, :cond_1
 
-    .line 153
+    .line 143
     :cond_0
     :goto_0
     return v0
@@ -679,7 +645,7 @@
     .locals 1
 
     .prologue
-    .line 90
+    .line 85
     iget-boolean v0, p0, Lcom/android/settings/bluetooth/A2dpProfile;->mIsProfileReady:Z
 
     return v0
@@ -693,21 +659,21 @@
     .prologue
     const/16 v1, 0x64
 
-    .line 162
+    .line 152
     iget-object v0, p0, Lcom/android/settings/bluetooth/A2dpProfile;->mService:Landroid/bluetooth/BluetoothA2dp;
 
     if-nez v0, :cond_1
 
-    .line 170
+    .line 160
     :cond_0
     :goto_0
     return-void
 
-    .line 163
+    .line 153
     :cond_1
     if-eqz p2, :cond_2
 
-    .line 164
+    .line 154
     iget-object v0, p0, Lcom/android/settings/bluetooth/A2dpProfile;->mService:Landroid/bluetooth/BluetoothA2dp;
 
     invoke-virtual {v0, p1}, Landroid/bluetooth/BluetoothA2dp;->getPriority(Landroid/bluetooth/BluetoothDevice;)I
@@ -716,14 +682,14 @@
 
     if-ge v0, v1, :cond_0
 
-    .line 165
+    .line 155
     iget-object v0, p0, Lcom/android/settings/bluetooth/A2dpProfile;->mService:Landroid/bluetooth/BluetoothA2dp;
 
     invoke-virtual {v0, p1, v1}, Landroid/bluetooth/BluetoothA2dp;->setPriority(Landroid/bluetooth/BluetoothDevice;I)Z
 
     goto :goto_0
 
-    .line 168
+    .line 158
     :cond_2
     iget-object v0, p0, Lcom/android/settings/bluetooth/A2dpProfile;->mService:Landroid/bluetooth/BluetoothA2dp;
 
@@ -738,7 +704,7 @@
     .locals 1
 
     .prologue
-    .line 183
+    .line 173
     const-string v0, "A2DP"
 
     return-object v0

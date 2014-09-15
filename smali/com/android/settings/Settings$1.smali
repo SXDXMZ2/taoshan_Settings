@@ -24,7 +24,7 @@
     .parameter
 
     .prologue
-    .line 228
+    .line 231
     iput-object p1, p0, Lcom/android/settings/Settings$1;->this$0:Lcom/android/settings/Settings;
 
     invoke-direct {p0}, Landroid/content/BroadcastReceiver;-><init>()V
@@ -40,12 +40,12 @@
     .parameter "intent"
 
     .prologue
-    .line 232
+    .line 235
     invoke-virtual {p2}, Landroid/content/Intent;->getAction()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 233
+    .line 236
     .local v0, action:Ljava/lang/String;
     const-string v2, "android.intent.action.BATTERY_CHANGED"
 
@@ -55,12 +55,12 @@
 
     if-eqz v2, :cond_0
 
-    .line 234
+    .line 237
     invoke-static {p2}, Lcom/android/settings/Utils;->isBatteryPresent(Landroid/content/Intent;)Z
 
     move-result v1
 
-    .line 236
+    .line 239
     .local v1, batteryPresent:Z
     iget-object v2, p0, Lcom/android/settings/Settings$1;->this$0:Lcom/android/settings/Settings;
 
@@ -71,18 +71,18 @@
 
     if-eq v2, v1, :cond_0
 
-    .line 237
+    .line 240
     iget-object v2, p0, Lcom/android/settings/Settings$1;->this$0:Lcom/android/settings/Settings;
 
     #setter for: Lcom/android/settings/Settings;->mBatteryPresent:Z
     invoke-static {v2, v1}, Lcom/android/settings/Settings;->access$002(Lcom/android/settings/Settings;Z)Z
 
-    .line 238
+    .line 241
     iget-object v2, p0, Lcom/android/settings/Settings$1;->this$0:Lcom/android/settings/Settings;
 
     invoke-virtual {v2}, Lcom/android/settings/Settings;->invalidateHeaders()V
 
-    .line 241
+    .line 244
     .end local v1           #batteryPresent:Z
     :cond_0
     return-void

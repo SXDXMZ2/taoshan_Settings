@@ -287,7 +287,7 @@
     :cond_0
     iget-object v0, p0, Lcom/android/settings/privacyguard/PrivacyGuardManager;->mNoUserAppsInstalled:Landroid/widget/TextView;
 
-    const v1, 0x7f080261
+    const v1, 0x7f0c025d
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -777,7 +777,7 @@
     invoke-virtual {p2, v0, p1}, Landroid/view/MenuInflater;->inflate(ILandroid/view/Menu;)V
 
     .line 394
-    const v0, 0x7f0d02ec
+    const v0, 0x7f0d02ea
 
     invoke-interface {p1, v0}, Landroid/view/Menu;->findItem(I)Landroid/view/MenuItem;
 
@@ -832,7 +832,7 @@
     iput-object v0, p0, Lcom/android/settings/privacyguard/PrivacyGuardManager;->mAppOps:Landroid/app/AppOpsManager;
 
     .line 104
-    const v0, 0x7f0400b0
+    const v0, 0x7f0400b2
 
     const/4 v1, 0x0
 
@@ -1001,7 +1001,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f08088f
+    const v3, 0x7f0c088a
 
     const/4 v4, 0x0
 
@@ -1122,10 +1122,10 @@
     .line 399
     :sswitch_data_0
     .sparse-switch
-        0x7f0d02ec -> :sswitch_2
-        0x7f0d0302 -> :sswitch_1
-        0x7f0d0303 -> :sswitch_3
-        0x7f0d0304 -> :sswitch_0
+        0x7f0d02ea -> :sswitch_2
+        0x7f0d0300 -> :sswitch_1
+        0x7f0d0301 -> :sswitch_3
+        0x7f0d0302 -> :sswitch_0
     .end sparse-switch
 .end method
 

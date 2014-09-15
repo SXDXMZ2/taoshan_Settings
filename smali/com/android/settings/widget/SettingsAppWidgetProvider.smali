@@ -214,13 +214,13 @@
 
     move-result-object v1
 
-    const v2, 0x7f0400ea
+    const v2, 0x7f0400eb
 
     invoke-direct {v0, v1, v2}, Landroid/widget/RemoteViews;-><init>(Ljava/lang/String;I)V
 
     .line 689
     .local v0, views:Landroid/widget/RemoteViews;
-    const v1, 0x7f0d0255
+    const v1, 0x7f0d0253
 
     const/4 v2, 0x0
 
@@ -231,7 +231,7 @@
     invoke-virtual {v0, v1, v2}, Landroid/widget/RemoteViews;->setOnClickPendingIntent(ILandroid/app/PendingIntent;)V
 
     .line 691
-    const v1, 0x7f0d0261
+    const v1, 0x7f0d025f
 
     const/4 v2, 0x1
 
@@ -242,7 +242,7 @@
     invoke-virtual {v0, v1, v2}, Landroid/widget/RemoteViews;->setOnClickPendingIntent(ILandroid/app/PendingIntent;)V
 
     .line 694
-    const v1, 0x7f0d025e
+    const v1, 0x7f0d025c
 
     const/4 v2, 0x2
 
@@ -253,7 +253,7 @@
     invoke-virtual {v0, v1, v2}, Landroid/widget/RemoteViews;->setOnClickPendingIntent(ILandroid/app/PendingIntent;)V
 
     .line 697
-    const v1, 0x7f0d025b
+    const v1, 0x7f0d0259
 
     const/4 v2, 0x3
 
@@ -264,7 +264,7 @@
     invoke-virtual {v0, v1, v2}, Landroid/widget/RemoteViews;->setOnClickPendingIntent(ILandroid/app/PendingIntent;)V
 
     .line 699
-    const v1, 0x7f0d0258
+    const v1, 0x7f0d0256
 
     const/4 v2, 0x4
 
@@ -736,11 +736,11 @@
     .parameter "context"
 
     .prologue
-    const v10, 0x7f0d0262
+    const v10, 0x7f0d0260
 
-    const v9, 0x7f0d0261
+    const v9, 0x7f0d025f
 
-    const v8, 0x7f080a2d
+    const v8, 0x7f0c0a28
 
     const/4 v7, 0x1
 
@@ -776,7 +776,7 @@
     .line 733
     new-array v4, v7, [Ljava/lang/Object;
 
-    const v5, 0x7f080a2e
+    const v5, 0x7f0c0a29
 
     invoke-virtual {p1, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -796,7 +796,7 @@
     invoke-virtual {p0, v10, v4}, Landroid/widget/RemoteViews;->setImageViewResource(II)V
 
     .line 738
-    const v4, 0x7f0d0263
+    const v4, 0x7f0d0261
 
     const v5, 0x7f020017
 
@@ -857,7 +857,7 @@
     .line 749
     new-array v4, v7, [Ljava/lang/Object;
 
-    const v5, 0x7f080a2f
+    const v5, 0x7f0c0a2a
 
     invoke-virtual {p1, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -881,7 +881,7 @@
     if-le v0, v2, :cond_3
 
     .line 769
-    const v4, 0x7f0d0263
+    const v4, 0x7f0d0261
 
     const v5, 0x7f020017
 
@@ -896,7 +896,7 @@
     .line 755
     new-array v4, v7, [Ljava/lang/Object;
 
-    const v5, 0x7f080a30
+    const v5, 0x7f0c0a2b
 
     invoke-virtual {p1, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -921,7 +921,7 @@
     :cond_2
     new-array v4, v7, [Ljava/lang/Object;
 
-    const v5, 0x7f080a31
+    const v5, 0x7f0c0a2c
 
     invoke-virtual {p1, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -944,7 +944,7 @@
 
     .line 772
     :cond_3
-    const v4, 0x7f0d0263
+    const v4, 0x7f0d0261
 
     const v5, 0x7f020014
 

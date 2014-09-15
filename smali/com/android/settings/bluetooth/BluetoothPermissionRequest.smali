@@ -669,14 +669,14 @@
     packed-switch v0, :pswitch_data_0
 
     .line 127
-    const v0, 0x7f0804b8
+    const v0, 0x7f0c04b3
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
     .line 128
-    const v0, 0x7f0804ba
+    const v0, 0x7f0c04b5
 
     new-array v6, v8, [Ljava/lang/Object;
 
@@ -780,14 +780,14 @@
 
     .line 119
     :pswitch_0
-    const v0, 0x7f0804bb
+    const v0, 0x7f0c04b6
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
     .line 120
-    const v0, 0x7f0804bc
+    const v0, 0x7f0c04b7
 
     new-array v6, v8, [Ljava/lang/Object;
 
@@ -803,14 +803,14 @@
 
     .line 123
     :pswitch_1
-    const v0, 0x7f0804bf
+    const v0, 0x7f0c04ba
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
     .line 124
-    const v0, 0x7f0804c0
+    const v0, 0x7f0c04bb
 
     new-array v6, v8, [Ljava/lang/Object;
 

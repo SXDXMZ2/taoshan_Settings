@@ -69,7 +69,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f09003c
+    const v2, 0x7f08003c
 
     invoke-direct {p0, v1, v3, v2}, Landroid/preference/CheckBoxPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -84,12 +84,12 @@
     iput-object v1, p0, Lcom/android/settings/inputmethod/InputMethodPreference;->mPrefOnclickListener:Landroid/view/View$OnClickListener;
 
     .line 89
-    const v1, 0x7f04009a
+    const v1, 0x7f04009c
 
     invoke-virtual {p0, v1}, Lcom/android/settings/inputmethod/InputMethodPreference;->setLayoutResource(I)V
 
     .line 90
-    const v1, 0x7f04009b
+    const v1, 0x7f04009d
 
     invoke-virtual {p0, v1}, Lcom/android/settings/inputmethod/InputMethodPreference;->setWidgetLayoutResource(I)V
 
@@ -515,7 +515,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0808c2
+    const v2, 0x7f0c08bd
 
     new-array v3, v3, [Ljava/lang/Object;
 

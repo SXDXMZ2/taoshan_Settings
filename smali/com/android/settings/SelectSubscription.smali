@@ -50,7 +50,7 @@
     invoke-static {v9}, Lcom/android/settings/SelectSubscription;->log(Ljava/lang/String;)V
 
     .line 66
-    const v9, 0x7f0400c9
+    const v9, 0x7f0400cb
 
     invoke-virtual {p0, v9}, Lcom/android/settings/SelectSubscription;->setContentView(I)V
 
@@ -115,7 +115,7 @@
     .line 80
     .local v4, operatorName:Ljava/lang/String;
     :goto_1
-    const v9, 0x7f08040e
+    const v9, 0x7f0c0409
 
     const/4 v10, 0x2
 
@@ -192,7 +192,7 @@
     .end local v2           #label:Ljava/lang/String;
     .end local v4           #operatorName:Ljava/lang/String;
     :cond_0
-    const v9, 0x7f08040d
+    const v9, 0x7f0c0408
 
     invoke-virtual {p0, v9}, Lcom/android/settings/SelectSubscription;->getString(I)Ljava/lang/String;
 

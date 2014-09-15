@@ -61,13 +61,13 @@
 
     const-string v3, "system"
 
-    const v4, 0x7f080b54
+    const v4, 0x7f0c0b4f
 
-    const v5, 0x7f0d0220
+    const v5, 0x7f0d021e
 
-    const v6, 0x7f0d0221
+    const v6, 0x7f0d021f
 
-    const v7, 0x7f0d0222
+    const v7, 0x7f0d0220
 
     invoke-direct/range {v0 .. v8}, Lcom/android/settings/TrustedCredentialsSettings$Tab;-><init>(Ljava/lang/String;ILjava/lang/String;IIIIZ)V
 
@@ -80,13 +80,13 @@
 
     const-string v9, "user"
 
-    const v10, 0x7f080b55
+    const v10, 0x7f0c0b50
 
-    const v11, 0x7f0d0223
+    const v11, 0x7f0d0221
 
-    const v12, 0x7f0d0224
+    const v12, 0x7f0d0222
 
-    const v13, 0x7f0d0225
+    const v13, 0x7f0d0223
 
     move v14, v2
 
@@ -435,7 +435,7 @@
     if-eqz v0, :cond_0
 
     .line 131
-    const v0, 0x7f080b59
+    const v0, 0x7f0c0b54
 
     .line 135
     :goto_0
@@ -443,13 +443,13 @@
 
     .line 133
     :cond_0
-    const v0, 0x7f080b5a
+    const v0, 0x7f0c0b55
 
     goto :goto_0
 
     .line 135
     :pswitch_1
-    const v0, 0x7f080b5b
+    const v0, 0x7f0c0b56
 
     goto :goto_0
 
@@ -496,7 +496,7 @@
     if-eqz v0, :cond_0
 
     .line 119
-    const v0, 0x7f080b57
+    const v0, 0x7f0c0b52
 
     .line 123
     :goto_0
@@ -504,13 +504,13 @@
 
     .line 121
     :cond_0
-    const v0, 0x7f080b56
+    const v0, 0x7f0c0b51
 
     goto :goto_0
 
     .line 123
     :pswitch_1
-    const v0, 0x7f080b58
+    const v0, 0x7f0c0b53
 
     goto :goto_0
 

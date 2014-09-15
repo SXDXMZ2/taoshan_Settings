@@ -416,7 +416,7 @@
     .line 350
     .restart local v0       #address:Ljava/lang/String;
     :cond_2
-    const v3, 0x7f08073d
+    const v3, 0x7f0c0738
 
     invoke-virtual {p0, v3}, Lcom/android/settings/deviceinfo/msim/MSimStatus;->getString(I)Ljava/lang/String;
 
@@ -455,7 +455,7 @@
 
     .line 337
     :cond_0
-    const v2, 0x7f08073d
+    const v2, 0x7f0c0738
 
     invoke-virtual {p0, v2}, Lcom/android/settings/deviceinfo/msim/MSimStatus;->getString(I)Ljava/lang/String;
 
@@ -562,7 +562,7 @@
     .line 327
     .restart local v0       #macAddress:Ljava/lang/String;
     :cond_1
-    const v4, 0x7f08073d
+    const v4, 0x7f0c0738
 
     invoke-virtual {p0, v4}, Lcom/android/settings/deviceinfo/msim/MSimStatus;->getString(I)Ljava/lang/String;
 
@@ -634,7 +634,7 @@
     .local v5, wimaxMacAddressPref:Landroid/preference/Preference;
     const-string v6, "net.wimax.mac.address"
 
-    const v7, 0x7f08073d
+    const v7, 0x7f0c0738
 
     invoke-virtual {p0, v7}, Lcom/android/settings/deviceinfo/msim/MSimStatus;->getString(I)Ljava/lang/String;
 
@@ -658,7 +658,7 @@
     .line 285
     iget-object v1, p0, Lcom/android/settings/deviceinfo/msim/MSimStatus;->mRes:Landroid/content/res/Resources;
 
-    const v2, 0x7f080459
+    const v2, 0x7f0c0454
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -683,7 +683,7 @@
     :pswitch_0
     iget-object v1, p0, Lcom/android/settings/deviceinfo/msim/MSimStatus;->mRes:Landroid/content/res/Resources;
 
-    const v2, 0x7f080457
+    const v2, 0x7f0c0452
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -696,7 +696,7 @@
     :pswitch_1
     iget-object v1, p0, Lcom/android/settings/deviceinfo/msim/MSimStatus;->mRes:Landroid/content/res/Resources;
 
-    const v2, 0x7f080458
+    const v2, 0x7f0c0453
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -709,7 +709,7 @@
     :pswitch_2
     iget-object v1, p0, Lcom/android/settings/deviceinfo/msim/MSimStatus;->mRes:Landroid/content/res/Resources;
 
-    const v2, 0x7f080456
+    const v2, 0x7f0c0451
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -722,7 +722,7 @@
     :pswitch_3
     iget-object v1, p0, Lcom/android/settings/deviceinfo/msim/MSimStatus;->mRes:Landroid/content/res/Resources;
 
-    const v2, 0x7f080455
+    const v2, 0x7f0c0450
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -933,7 +933,7 @@
     .line 172
     iget-object v0, p0, Lcom/android/settings/deviceinfo/msim/MSimStatus;->mRes:Landroid/content/res/Resources;
 
-    const v2, 0x7f080439
+    const v2, 0x7f0c0434
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

@@ -217,14 +217,14 @@
     .prologue
     const/4 v7, 0x0
 
-    const v6, 0x7f0d010f
+    const v6, 0x7f0d010e
 
     const v5, 0x7f0d0038
 
     .line 459
     iget-object v3, p0, Lcom/android/settings/cyanogenmod/LockscreenTargets;->mActivity:Landroid/app/Activity;
 
-    const v4, 0x7f040062
+    const v4, 0x7f040063
 
     invoke-static {v3, v4, v7}, Landroid/view/View;->inflate(Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View;
 
@@ -1060,7 +1060,7 @@
 
     invoke-direct {v0, v1}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f0802c0
+    const v1, 0x7f0c02bb
 
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -1072,13 +1072,13 @@
 
     move-result-object v0
 
-    const v1, 0x7f0802c1
+    const v1, 0x7f0c02bc
 
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
     move-result-object v0
 
-    const v1, 0x7f0801f9
+    const v1, 0x7f0c01f5
 
     new-instance v2, Lcom/android/settings/cyanogenmod/LockscreenTargets$1;
 
@@ -1088,7 +1088,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f080519
+    const v1, 0x7f0c0514
 
     const/4 v2, 0x0
 
@@ -2124,7 +2124,7 @@
     .line 137
     const/4 v0, 0x1
 
-    const v1, 0x7f0800db
+    const v1, 0x7f0c00db
 
     invoke-interface {p1, v2, v0, v2, v1}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
@@ -2249,7 +2249,7 @@
     .line 108
     iget-object v0, p0, Lcom/android/settings/cyanogenmod/LockscreenTargets;->mResources:Landroid/content/res/Resources;
 
-    const v1, 0x7f0802c2
+    const v1, 0x7f0c02bd
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2258,7 +2258,7 @@
     sput-object v0, Lcom/android/settings/cyanogenmod/LockscreenTargets;->mEmptyLabel:Ljava/lang/String;
 
     .line 110
-    const v0, 0x7f040063
+    const v0, 0x7f040064
 
     const/4 v1, 0x0
 
@@ -2409,7 +2409,7 @@
 
     invoke-direct {v0, v1}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f0802c3
+    const v1, 0x7f0c02be
 
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -2423,7 +2423,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0801f9
+    const v1, 0x7f0c01f5
 
     new-instance v2, Lcom/android/settings/cyanogenmod/LockscreenTargets$2;
 
@@ -2433,7 +2433,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f080519
+    const v1, 0x7f0c0514
 
     const/4 v2, 0x0
 

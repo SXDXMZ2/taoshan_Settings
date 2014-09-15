@@ -85,12 +85,12 @@
 
     .line 405
     .local v0, builder:Landroid/app/AlertDialog$Builder;
-    const v2, 0x7f080754
+    const v2, 0x7f0c074f
 
     invoke-virtual {v0, v2}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
     .line 406
-    const v2, 0x7f080755
+    const v2, 0x7f0c0750
 
     invoke-virtual {p0, v2}, Lcom/android/settings/deviceinfo/Memory$ConfirmClearCacheFragment;->getString(I)Ljava/lang/String;
 

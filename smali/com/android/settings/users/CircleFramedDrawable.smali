@@ -341,7 +341,7 @@
 
     .line 63
     .local v6, shadowRadius:F
-    const v1, 0x7f0a002a
+    const v1, 0x7f09002a
 
     invoke-virtual {v9, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -349,7 +349,7 @@
 
     .line 64
     .local v3, frameColor:I
-    const v1, 0x7f0a002b
+    const v1, 0x7f09002b
 
     invoke-virtual {v9, v1}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -357,7 +357,7 @@
 
     .line 65
     .local v5, frameShadowColor:I
-    const v1, 0x7f0a002c
+    const v1, 0x7f09002c
 
     invoke-virtual {v9, v1}, Landroid/content/res/Resources;->getColor(I)I
 

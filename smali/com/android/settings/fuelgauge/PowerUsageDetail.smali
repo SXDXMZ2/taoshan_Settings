@@ -87,14 +87,14 @@
 
     :array_0
     .array-data 0x4
-        0xbet 0x9t 0x8t 0x7ft
-        0xbft 0x9t 0x8t 0x7ft
-        0xbdt 0x9t 0x8t 0x7ft
-        0xc3t 0x9t 0x8t 0x7ft
-        0xc5t 0x9t 0x8t 0x7ft
-        0xc1t 0x9t 0x8t 0x7ft
-        0xc8t 0x9t 0x8t 0x7ft
-        0xcct 0x9t 0x8t 0x7ft
+        0xb9t 0x9t 0xct 0x7ft
+        0xbat 0x9t 0xct 0x7ft
+        0xb8t 0x9t 0xct 0x7ft
+        0xbet 0x9t 0xct 0x7ft
+        0xc0t 0x9t 0xct 0x7ft
+        0xbct 0x9t 0xct 0x7ft
+        0xc3t 0x9t 0xct 0x7ft
+        0xc7t 0x9t 0xct 0x7ft
     .end array-data
 .end method
 
@@ -150,7 +150,7 @@
 
     .line 412
     .local v1, inflater:Landroid/view/LayoutInflater;
-    const v5, 0x7f040085
+    const v5, 0x7f040087
 
     const/4 v6, 0x0
 
@@ -683,7 +683,7 @@
 
     .line 212
     .local v12, text1:Landroid/widget/TextView;
-    const v13, 0x7f080b62
+    const v13, 0x7f0c0b5d
 
     const/4 v14, 0x1
 
@@ -727,7 +727,7 @@
 
     iget-object v13, v0, Lcom/android/settings/fuelgauge/PowerUsageDetail;->mRootView:Landroid/view/View;
 
-    const v14, 0x7f0d0230
+    const v14, 0x7f0d022e
 
     invoke-virtual {v13, v14}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -744,7 +744,7 @@
 
     iget-object v13, v0, Lcom/android/settings/fuelgauge/PowerUsageDetail;->mRootView:Landroid/view/View;
 
-    const v14, 0x7f0d0231
+    const v14, 0x7f0d022f
 
     invoke-virtual {v13, v14}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -872,7 +872,7 @@
 
     iget-object v13, v0, Lcom/android/settings/fuelgauge/PowerUsageDetail;->mForceStopButton:Landroid/widget/Button;
 
-    const v14, 0x7f080838
+    const v14, 0x7f0c0833
 
     invoke-virtual {v13, v14}, Landroid/widget/Button;->setText(I)V
 
@@ -903,7 +903,7 @@
 
     iget-object v13, v0, Lcom/android/settings/fuelgauge/PowerUsageDetail;->mReportButton:Landroid/widget/Button;
 
-    const v14, 0x10404c6
+    const v14, 0x10404c5
 
     invoke-virtual {v13, v14}, Landroid/widget/Button;->setText(I)V
 
@@ -1158,7 +1158,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f0806bc
+    const v3, 0x7f0c06b7
 
     move-object v4, v2
 
@@ -1176,7 +1176,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f080603
+    const v3, 0x7f0c05fe
 
     move-object v4, v2
 
@@ -1194,7 +1194,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f0805a1
+    const v3, 0x7f0c059c
 
     move-object v4, v2
 
@@ -1212,7 +1212,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f08051e
+    const v3, 0x7f0c0519
 
     move-object v4, v2
 
@@ -1236,7 +1236,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f08054c
+    const v3, 0x7f0c0547
 
     move-object v4, v2
 
@@ -1385,9 +1385,9 @@
     if-ne v5, v8, :cond_4
 
     .line 363
-    const v5, 0x7f0809b8
+    const v5, 0x7f0c09b3
 
-    const v6, 0x7f0809c9
+    const v6, 0x7f0c09c4
 
     const/4 v7, 0x5
 
@@ -1407,9 +1407,9 @@
     if-eqz v5, :cond_0
 
     .line 372
-    const v5, 0x7f08054c
+    const v5, 0x7f0c0547
 
-    const v6, 0x7f0809ca
+    const v6, 0x7f0c09c5
 
     const/4 v7, 0x6
 
@@ -1422,9 +1422,9 @@
 
     .line 378
     :pswitch_1
-    const v5, 0x7f0806eb
+    const v5, 0x7f0c06e8
 
-    const v6, 0x7f0809c2
+    const v6, 0x7f0c09bd
 
     invoke-direct {p0, v5, v6, v8}, Lcom/android/settings/fuelgauge/PowerUsageDetail;->addControl(III)V
 
@@ -1436,9 +1436,9 @@
 
     .line 384
     :pswitch_2
-    const v5, 0x7f080603
+    const v5, 0x7f0c05fe
 
-    const v6, 0x7f0809c4
+    const v6, 0x7f0c09bf
 
     const/4 v7, 0x2
 
@@ -1452,9 +1452,9 @@
 
     .line 390
     :pswitch_3
-    const v5, 0x7f0805a1
+    const v5, 0x7f0c059c
 
-    const v6, 0x7f0809c6
+    const v6, 0x7f0c09c1
 
     const/4 v7, 0x3
 
@@ -1477,9 +1477,9 @@
     if-lez v5, :cond_0
 
     .line 397
-    const v5, 0x7f08051e
+    const v5, 0x7f0c0519
 
-    const v6, 0x7f0809c0
+    const v6, 0x7f0c09bb
 
     const/4 v7, 0x4
 
@@ -1601,7 +1601,7 @@
 
     .line 338
     :goto_3
-    const v10, 0x7f040086
+    const v10, 0x7f040088
 
     const/4 v11, 0x0
 
@@ -1618,7 +1618,7 @@
     invoke-virtual {v10, v4}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
     .line 341
-    const v10, 0x7f0d010f
+    const v10, 0x7f0d010e
 
     invoke-virtual {v4, v10}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -1688,7 +1688,7 @@
 
     move-result-object v10
 
-    const v11, 0x7f080b62
+    const v11, 0x7f0c0b5d
 
     const/4 v12, 0x1
 
@@ -1727,7 +1727,7 @@
 
     .line 320
     :pswitch_data_0
-    .packed-switch 0x7f0809ac
+    .packed-switch 0x7f0c09a7
         :pswitch_3
         :pswitch_0
         :pswitch_0
@@ -1867,7 +1867,7 @@
 
     .line 534
     :cond_4
-    const v8, 0x7f040088
+    const v8, 0x7f04008a
 
     const/4 v9, 0x0
 
@@ -1882,7 +1882,7 @@
     invoke-virtual {v6, v3}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
     .line 537
-    const v8, 0x7f0d010f
+    const v8, 0x7f0d010e
 
     invoke-virtual {v3, v8}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -2233,7 +2233,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f08082e
+    const v3, 0x7f0c0829
 
     move-object v5, v4
 
@@ -2315,7 +2315,7 @@
     const/4 v2, 0x0
 
     .line 151
-    const v1, 0x7f040087
+    const v1, 0x7f040089
 
     invoke-virtual {p1, v1, p2, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 

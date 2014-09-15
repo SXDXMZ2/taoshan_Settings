@@ -53,7 +53,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0400d3
+    const v3, 0x7f0400d5
 
     invoke-virtual {p0}, Lcom/android/settings/SmsListPreference;->getEntries()[Ljava/lang/CharSequence;
 

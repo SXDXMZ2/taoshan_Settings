@@ -107,7 +107,7 @@
     .line 160
     iget-object v0, p0, Lcom/android/settings/cyanogenmod/StatusBar;->mStatusBarBrightnessControl:Landroid/preference/CheckBoxPreference;
 
-    const v1, 0x7f080360
+    const v1, 0x7f0c035b
 
     invoke-virtual {v0, v1}, Landroid/preference/CheckBoxPreference;->setSummary(I)V
 
@@ -119,7 +119,7 @@
     :cond_0
     iget-object v0, p0, Lcom/android/settings/cyanogenmod/StatusBar;->mStatusBarBrightnessControl:Landroid/preference/CheckBoxPreference;
 
-    const v1, 0x7f08035f
+    const v1, 0x7f0c035a
 
     invoke-virtual {v0, v1}, Landroid/preference/CheckBoxPreference;->setSummary(I)V
     :try_end_0

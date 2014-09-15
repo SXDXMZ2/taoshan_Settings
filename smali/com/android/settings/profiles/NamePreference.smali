@@ -114,7 +114,7 @@
 
     .prologue
     .line 71
-    const v0, 0x7f04009e
+    const v0, 0x7f0400a0
 
     invoke-virtual {p0, v0}, Lcom/android/settings/profiles/NamePreference;->setLayoutResource(I)V
 
@@ -254,12 +254,12 @@
 
     .line 99
     .local v0, builder:Landroid/app/AlertDialog$Builder;
-    const v4, 0x7f0800d7
+    const v4, 0x7f0c00d7
 
     invoke-virtual {v0, v4}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
     .line 100
-    const v4, 0x7f0800d8
+    const v4, 0x7f0c00d8
 
     invoke-virtual {v0, v4}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 

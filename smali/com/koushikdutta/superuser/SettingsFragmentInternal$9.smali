@@ -58,7 +58,7 @@
 
     .line 319
     .local v0, builder:Landroid/app/AlertDialog$Builder;
-    const v3, 0x7f08001a
+    const v3, 0x7f0c001a
 
     invoke-virtual {v0, v3}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -80,7 +80,7 @@
     .line 322
     iget-object v3, p0, Lcom/koushikdutta/superuser/SettingsFragmentInternal$9;->this$0:Lcom/koushikdutta/superuser/SettingsFragmentInternal;
 
-    const v4, 0x7f080025
+    const v4, 0x7f0c0025
 
     const/4 v5, 0x1
 

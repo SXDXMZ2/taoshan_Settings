@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="allow">Разрешаване</string>
+    <string name="deny">Отказ</string>
     <string name="delete">Изтриване</string>
     <string name="battery_info_status_full">Пълна</string>
     <string name="yes">" Да"</string>
     <string name="no">Не</string>
     <string name="create">Създаване</string>
-    <string name="allow">Разрешаване</string>
-    <string name="deny">Отказ</string>
     <string name="device_info_default">Неизвестно</string>
     <string name="show_dev_on">Вече сте програмист!</string>
     <string name="show_dev_already">Не е необходимо – вече сте програмист.</string>
@@ -647,6 +647,8 @@
     <string name="volume_notification_mute">Спиране на известията</string>
     <string name="volume_alarm_mute">Спиране на алармите</string>
     <string name="vibrate_when_ringing_title">Да вибрира при звънене</string>
+    <string name="system_update_settings_list_item_title">Актуализации на системата</string>
+    <string name="system_update_settings_list_item_summary" />
     <string name="dock_settings">Докинг станция</string>
     <string name="dock_settings_title">Настройки за докинг станция</string>
     <string name="dock_audio_settings_title">Аудио</string>
@@ -711,8 +713,6 @@
     <string name="wrong_pin_code_pukked">Неправилен ПИН код за SIM картата – сега трябва да се свържете с оператора си, за да отключите устройството.</string>
     <string name="pin_failed">Операцията с ПИН кода за SIM картата не бе успешна!</string>
     <string name="device_info_settings">Състояние на телефона</string>
-    <string name="system_update_settings_list_item_title">Актуализации на системата</string>
-    <string name="system_update_settings_list_item_summary" />
     <string name="firmware_version">Версия на Android</string>
     <string name="model_number">Номер на модел</string>
     <string name="fcc_equipment_id">Идент. № на оборудването</string>
@@ -1952,4 +1952,36 @@
     <string name="user_image_take_photo">Правене на снимка</string>
     <string name="user_image_choose_photo">Избор на снимка от галерията</string>
     <string name="regulatory_info_text" />
+    <string name="quick_settings_description">Изберете броя бързи настройки в панела за известия и редактирайте техния ред</string>
+    <string name="swiqi_strings_swiqi_desc_txt">Подобрява качеството на снимки и видео</string>
+    <string name="theme_label_summary">Промяна или изтегляне на теми</string>
+    <string name="find_my_device">Намиране на моето устройство</string>
+    <string name="display_category_personalisation_title">Персонализиране</string>
+    <string name="xperia_connectivity">Свързване на Xperia™</string>
+    <string name="preference_summary">Ако загубите вашето устройство – открийте, заключете и/или изтрийте данните си с my Xperia</string>
+    <string name="playanywhere_strings_throw_settings_title_txt">Настройки за Throw</string>
+    <string name="playanywhere_strings_throw_setting_summary_txt">Изпълнявайте безжично съдържание в Xperia™ на други устройства</string>
+    <string name="usbux_strings_local_connectivity_settings_summary_txt">Свързване на устройството с други устр. или компютри чрез USB или Wi-Fi</string>
+    <string name="mil_strings_app_name_mirrorlink_settings_txt">Настройки на MirrorLink™</string>
+    <string name="mil_strings_mirrorlink_activator_txt">Старт. на MirrorLink™</string>
+    <string name="mil_strings_dialog_usb_not_connected_txt">Няма намерени устройства. Уверете се, че е свързано съвместимо устройство.</string>
+    <string name="mil_strings_dialog_mirrorlink_start_txt">MirrorLink™ ще се стартира след малко. Възможно е да не работи правилно, ако устройството не е сертифицирано за MirrorLink™.</string>
+    <string name="mil_strings_mirrorlink_activator_sub_txt">При свързване със сертифицирано устройство за MirrorLink™ чрез USB можете да управлявате вашата Xperia™ от устройството</string>
+    <string name="setupguide_settings_title">Ръководство за настройка</string>
+    <string name="lockscreen_app_name">Екран при заключване</string>
+    <string name="lockscreen_settings_title">Екран при заключване</string>
+    <string name="lockscreen_settings_title_txt">Екран при заключване</string>
+    <string name="lockscreen_settings_wallpaper_summary_txt">Промяна на фона на заключен екран</string>
+    <string name="lockscreen_setting_wallpaper_wait_txt">Задаване на фон</string>
+    <string name="lockscreen_could_not_load_wallpaper_txt">Неуспешно задаване на фон</string>
+    <string name="lockscreen_dialog_title_pick_wallpaper">Избор на фон</string>
+    <string name="lockscreen_wallpaper_picker_semc_name">Фонове на Xperia™</string>
+    <string name="lockscreen_wallpaper_picker_semc_set_wallpaper">Задаване на фон</string>
+    <string name="lockscreen_wallpaper_picker_album_name">Албум</string>
+    <string name="lockscreen_unlock_hint">Плъзнете нагоре или надолу за отключване</string>
+    <string name="lockscreen_short_unlock_hint">Плъзнете за отключване</string>
+    <string name="lockscreen_accessibility_unlock_hint">Плъзнете нагоре или надолу от центъра на екрана, за да го отключите</string>
+    <string name="lockscreen_set_as_wallpaper_txt">Фон на екрана при заключване</string>
+    <string name="status_bar_tab_quick_settings_title">Бързи настройки</string>
+    <string name="power_settings_title">Управление на захранването</string>
 </resources>

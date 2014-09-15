@@ -136,12 +136,12 @@
     iput-object v1, p0, Lcom/android/settings/profiles/NFCProfileWriter;->mProfileManager:Landroid/app/ProfileManager;
 
     .line 64
-    const v1, 0x7f040076
+    const v1, 0x7f040078
 
     invoke-virtual {p0, v1}, Lcom/android/settings/profiles/NFCProfileWriter;->setContentView(I)V
 
     .line 65
-    const v1, 0x7f0800c9
+    const v1, 0x7f0c00c9
 
     invoke-virtual {p0, v1}, Lcom/android/settings/profiles/NFCProfileWriter;->setTitle(I)V
 
@@ -208,7 +208,7 @@
     if-eqz v1, :cond_1
 
     .line 123
-    const v1, 0x7f0800cb
+    const v1, 0x7f0c00cb
 
     invoke-static {p0, v1, v3}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 
@@ -231,7 +231,7 @@
     .line 126
     .restart local v0       #detectedTag:Landroid/nfc/Tag;
     :cond_1
-    const v1, 0x7f0800cc
+    const v1, 0x7f0c00cc
 
     invoke-static {p0, v1, v3}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 

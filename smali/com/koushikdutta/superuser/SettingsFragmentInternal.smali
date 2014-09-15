@@ -60,7 +60,7 @@
 
     .line 96
     .local v5, d:Landroid/app/Dialog;
-    const v0, 0x7f08001f
+    const v0, 0x7f0c001f
 
     invoke-virtual {v5, v0}, Landroid/app/Dialog;->setTitle(I)V
 
@@ -130,7 +130,7 @@
 
     .line 52
     .local v6, d:Landroid/app/Dialog;
-    const v0, 0x7f080022
+    const v0, 0x7f0c0022
 
     invoke-virtual {v6, v0}, Landroid/app/Dialog;->setTitle(I)V
 
@@ -179,7 +179,7 @@
 
     .prologue
     .line 46
-    const v0, 0x7f0400cc
+    const v0, 0x7f0400ce
 
     return v0
 .end method
@@ -190,11 +190,11 @@
     .parameter "view"
 
     .prologue
-    const v8, 0x7f080012
+    const v8, 0x7f0c0012
 
     const/4 v7, 0x1
 
-    const v6, 0x7f080035
+    const v6, 0x7f0c0035
 
     const/4 v4, 0x0
 
@@ -204,7 +204,7 @@
     .line 130
     new-instance v0, Lcom/koushikdutta/superuser/SettingsFragmentInternal$4;
 
-    const v3, 0x7f08004c
+    const v3, 0x7f0c004c
 
     move-object v1, p0
 
@@ -238,7 +238,7 @@
     .line 186
     new-instance v0, Lcom/koushikdutta/superuser/SettingsFragmentInternal$5;
 
-    const v1, 0x7f080036
+    const v1, 0x7f0c0036
 
     invoke-direct {v0, p0, p0, v1, v4}, Lcom/koushikdutta/superuser/SettingsFragmentInternal$5;-><init>(Lcom/koushikdutta/superuser/SettingsFragmentInternal;Lcom/koushikdutta/widgets/BetterListFragmentInternal;II)V
 
@@ -254,9 +254,9 @@
     :cond_0
     new-instance v0, Lcom/koushikdutta/superuser/SettingsFragmentInternal$6;
 
-    const v1, 0x7f08002e
+    const v1, 0x7f0c002e
 
-    const v2, 0x7f08002f
+    const v2, 0x7f0c002f
 
     invoke-direct {v0, p0, p0, v1, v2}, Lcom/koushikdutta/superuser/SettingsFragmentInternal$6;-><init>(Lcom/koushikdutta/superuser/SettingsFragmentInternal;Lcom/koushikdutta/widgets/BetterListFragmentInternal;II)V
 
@@ -287,7 +287,7 @@
     .line 258
     new-instance v0, Lcom/koushikdutta/superuser/SettingsFragmentInternal$7;
 
-    const v1, 0x7f080030
+    const v1, 0x7f0c0030
 
     invoke-direct {v0, p0, p0, v1, v4}, Lcom/koushikdutta/superuser/SettingsFragmentInternal$7;-><init>(Lcom/koushikdutta/superuser/SettingsFragmentInternal;Lcom/koushikdutta/widgets/BetterListFragmentInternal;II)V
 
@@ -302,7 +302,7 @@
     .line 305
     new-instance v1, Lcom/koushikdutta/superuser/SettingsFragmentInternal$8;
 
-    const v2, 0x7f080018
+    const v2, 0x7f0c0018
 
     invoke-virtual {p0}, Lcom/koushikdutta/superuser/SettingsFragmentInternal;->getActivity()Landroid/app/Activity;
 
@@ -314,7 +314,7 @@
 
     if-eqz v0, :cond_2
 
-    const v0, 0x7f080024
+    const v0, 0x7f0c0024
 
     :goto_0
     invoke-direct {v1, p0, p0, v2, v0}, Lcom/koushikdutta/superuser/SettingsFragmentInternal$8;-><init>(Lcom/koushikdutta/superuser/SettingsFragmentInternal;Lcom/koushikdutta/widgets/BetterListFragmentInternal;II)V
@@ -334,13 +334,13 @@
     .line 314
     new-instance v0, Lcom/koushikdutta/superuser/SettingsFragmentInternal$9;
 
-    const v1, 0x7f08001a
+    const v1, 0x7f0c001a
 
     invoke-virtual {p0, v1}, Lcom/koushikdutta/superuser/SettingsFragmentInternal;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
-    const v2, 0x7f08001b
+    const v2, 0x7f0c001b
 
     new-array v3, v7, [Ljava/lang/Object;
 
@@ -375,9 +375,9 @@
     .line 336
     new-instance v0, Lcom/koushikdutta/superuser/SettingsFragmentInternal$10;
 
-    const v1, 0x7f080016
+    const v1, 0x7f0c0016
 
-    const v2, 0x7f080017
+    const v2, 0x7f0c0017
 
     invoke-direct {v0, p0, p0, v1, v2}, Lcom/koushikdutta/superuser/SettingsFragmentInternal$10;-><init>(Lcom/koushikdutta/superuser/SettingsFragmentInternal;Lcom/koushikdutta/widgets/BetterListFragmentInternal;II)V
 
@@ -408,7 +408,7 @@
     .line 347
     new-instance v0, Lcom/koushikdutta/superuser/SettingsFragmentInternal$11;
 
-    const v1, 0x7f08001c
+    const v1, 0x7f0c001c
 
     invoke-direct {v0, p0, p0, v1, v4}, Lcom/koushikdutta/superuser/SettingsFragmentInternal$11;-><init>(Lcom/koushikdutta/superuser/SettingsFragmentInternal;Lcom/koushikdutta/widgets/BetterListFragmentInternal;II)V
 
@@ -440,7 +440,7 @@
     .line 395
     new-instance v0, Lcom/koushikdutta/superuser/SettingsFragmentInternal$12;
 
-    const v1, 0x7f080053
+    const v1, 0x7f0c0053
 
     invoke-direct {v0, p0, p0, v1, v4}, Lcom/koushikdutta/superuser/SettingsFragmentInternal$12;-><init>(Lcom/koushikdutta/superuser/SettingsFragmentInternal;Lcom/koushikdutta/widgets/BetterListFragmentInternal;II)V
 
@@ -458,7 +458,7 @@
 
     .line 305
     :cond_2
-    const v0, 0x7f080019
+    const v0, 0x7f0c0019
 
     goto/16 :goto_0
 .end method
@@ -480,7 +480,7 @@
 
     .line 77
     .local v5, d:Landroid/app/Dialog;
-    const v0, 0x7f080020
+    const v0, 0x7f0c0020
 
     invoke-virtual {v5, v0}, Landroid/app/Dialog;->setTitle(I)V
 

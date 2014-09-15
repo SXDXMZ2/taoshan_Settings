@@ -30,7 +30,7 @@
     .parameter
 
     .prologue
-    .line 258
+    .line 256
     iput-object p1, p0, Lcom/android/settings/Settings$2;->this$0:Lcom/android/settings/Settings;
 
     iput-object p2, p0, Lcom/android/settings/Settings$2;->val$imm:Landroid/view/inputmethod/InputMethodManager;
@@ -47,7 +47,7 @@
     .parameter "item"
 
     .prologue
-    .line 261
+    .line 259
     iget-object v0, p0, Lcom/android/settings/Settings$2;->this$0:Lcom/android/settings/Settings;
 
     #getter for: Lcom/android/settings/Settings;->mSearchBar:Lcom/android/settings/search/SettingsAutoCompleteTextView;
@@ -57,7 +57,7 @@
 
     invoke-virtual {v0}, Lcom/android/settings/search/SettingsAutoCompleteTextView;->clearFocus()V
 
-    .line 262
+    .line 260
     iget-object v0, p0, Lcom/android/settings/Settings$2;->this$0:Lcom/android/settings/Settings;
 
     #getter for: Lcom/android/settings/Settings;->mSearchBar:Lcom/android/settings/search/SettingsAutoCompleteTextView;
@@ -69,7 +69,7 @@
 
     invoke-virtual {v0, v1}, Lcom/android/settings/search/SettingsAutoCompleteTextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 263
+    .line 261
     iget-object v0, p0, Lcom/android/settings/Settings$2;->val$imm:Landroid/view/inputmethod/InputMethodManager;
 
     iget-object v1, p0, Lcom/android/settings/Settings$2;->this$0:Lcom/android/settings/Settings;
@@ -87,7 +87,7 @@
 
     invoke-virtual {v0, v1, v2}, Landroid/view/inputmethod/InputMethodManager;->hideSoftInputFromWindow(Landroid/os/IBinder;I)Z
 
-    .line 264
+    .line 262
     const/4 v0, 0x1
 
     return v0
@@ -100,7 +100,7 @@
     .prologue
     const/4 v2, 0x1
 
-    .line 269
+    .line 267
     iget-object v0, p0, Lcom/android/settings/Settings$2;->this$0:Lcom/android/settings/Settings;
 
     #getter for: Lcom/android/settings/Settings;->mSearchBar:Lcom/android/settings/search/SettingsAutoCompleteTextView;
@@ -110,13 +110,13 @@
 
     invoke-virtual {v0}, Lcom/android/settings/search/SettingsAutoCompleteTextView;->requestFocus()Z
 
-    .line 270
+    .line 268
     iget-object v0, p0, Lcom/android/settings/Settings$2;->val$imm:Landroid/view/inputmethod/InputMethodManager;
 
     const/4 v1, 0x2
 
     invoke-virtual {v0, v1, v2}, Landroid/view/inputmethod/InputMethodManager;->toggleSoftInput(II)V
 
-    .line 272
+    .line 270
     return v2
 .end method

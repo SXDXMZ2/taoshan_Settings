@@ -25,7 +25,7 @@
     .locals 1
 
     .prologue
-    .line 126
+    .line 148
     const/4 v0, 0x0
 
     invoke-direct {p0, v0}, Lcom/android/settings/cyanogenmod/SpamList$ItemInfo;-><init>(Lcom/android/settings/cyanogenmod/SpamList$1;)V
@@ -38,7 +38,7 @@
     .parameter "x0"
 
     .prologue
-    .line 126
+    .line 148
     invoke-direct {p0}, Lcom/android/settings/cyanogenmod/SpamList$PackageInfo;-><init>()V
 
     return-void

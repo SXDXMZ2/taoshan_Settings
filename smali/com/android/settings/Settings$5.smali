@@ -37,7 +37,7 @@
     .parameter
 
     .prologue
-    .line 850
+    .line 870
     iput-object p1, p0, Lcom/android/settings/Settings$5;->this$0:Lcom/android/settings/Settings;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -53,7 +53,7 @@
     .parameter "h2"
 
     .prologue
-    .line 853
+    .line 873
     iget-object v0, p1, Landroid/preference/PreferenceActivity$Header;->title:Ljava/lang/CharSequence;
 
     invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
@@ -79,7 +79,7 @@
     .parameter "x1"
 
     .prologue
-    .line 850
+    .line 870
     check-cast p1, Landroid/preference/PreferenceActivity$Header;
 
     .end local p1

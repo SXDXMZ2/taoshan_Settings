@@ -418,7 +418,7 @@
     if-nez v1, :cond_2
 
     .line 329
-    const v12, 0x7f080577
+    const v12, 0x7f0c0572
 
     invoke-virtual {v7, v12}, Landroid/preference/Preference;->setSummary(I)V
 
@@ -474,7 +474,7 @@
     .line 353
     const-string v1, ":android:show_fragment_title"
 
-    const v2, 0x7f080565
+    const v2, 0x7f0c0560
 
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
@@ -794,7 +794,7 @@
 
     .prologue
     .line 437
-    const v0, 0x7f080bb0
+    const v0, 0x7f0c0bab
 
     return v0
 .end method
@@ -1082,7 +1082,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0400e9
+    const v4, 0x7f0400ea
 
     invoke-static {v3, v4, v6}, Landroid/view/View;->inflate(Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View;
 

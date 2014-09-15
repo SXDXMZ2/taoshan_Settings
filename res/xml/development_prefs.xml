@@ -4,7 +4,7 @@
     <PreferenceScreen android:persistent="false" android:title="@string/development_tools_title" android:key="development_tools">
         <intent android:targetPackage="com.android.development" android:action="android.settings.development.LAUNCH_TOOLS" android:targetClass="com.android.development.Development" />
     </PreferenceScreen>
-    <com.android.settings.BugreportPreference android:title="@*android:string/bugreport_title" android:key="bugreport" android:dialogTitle="@*android:string/bugreport_title" />
+    <com.android.settings.BugreportPreference android:title="@*android:string/config_tether_apndata" android:key="bugreport" android:dialogTitle="@*android:string/config_tether_apndata" />
     <CheckBoxPreference android:title="@string/advanced_reboot_title" android:key="advanced_reboot" android:summary="@string/advanced_reboot_summary" />
     <PreferenceScreen android:persistent="false" android:title="@string/local_backup_password_title" android:key="local_backup_password" android:summary="@string/local_backup_password_summary_none">
         <intent android:targetPackage="com.android.settings" android:action="android.settings.privacy.SET_FULL_BACKUP_PASSWORD" android:targetClass="com.android.settings.SetFullBackupPassword" />

@@ -97,7 +97,7 @@
 
     .line 214
     .local v0, notAvailable:Landroid/preference/Preference;
-    const v1, 0x7f08098d
+    const v1, 0x7f0c0988
 
     invoke-virtual {v0, v1}, Landroid/preference/Preference;->setTitle(I)V
 
@@ -473,7 +473,7 @@
     .line 169
     const/4 v4, 0x2
 
-    const v5, 0x7f0809d0
+    const v5, 0x7f0c09cb
 
     invoke-interface {p1, v6, v4, v6, v5}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
@@ -498,7 +498,7 @@
     .line 174
     const/4 v4, 0x3
 
-    const v5, 0x7f080373
+    const v5, 0x7f0c036e
 
     invoke-interface {p1, v6, v4, v6, v5}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
@@ -525,7 +525,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f080bae
+    const v5, 0x7f0c0ba9
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -541,7 +541,7 @@
     .line 182
     const/4 v4, 0x4
 
-    const v5, 0x7f080ba7
+    const v5, 0x7f0c0ba2
 
     invoke-interface {p1, v6, v4, v6, v5}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
@@ -786,7 +786,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f08099e
+    const v3, 0x7f0c0999
 
     move-object v5, v4
 

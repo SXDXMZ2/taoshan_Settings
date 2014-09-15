@@ -284,7 +284,7 @@
     .locals 9
 
     .prologue
-    const v6, 0x7f08069d
+    const v6, 0x7f0c0698
 
     const/4 v5, 0x2
 
@@ -323,7 +323,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0c0014
+    const v4, 0x7f0b0014
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -346,7 +346,7 @@
     if-nez v3, :cond_0
 
     .line 180
-    const v3, 0x10404f6
+    const v3, 0x10404f5
 
     invoke-virtual {v0, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -452,7 +452,7 @@
     .line 533
     iget-object v1, p0, Lcom/android/settings/TetherSettings;->mUsbTether:Landroid/preference/CheckBoxPreference;
 
-    const v2, 0x7f0807b8
+    const v2, 0x7f0c07b3
 
     invoke-virtual {v1, v2}, Landroid/preference/CheckBoxPreference;->setSummary(I)V
 
@@ -648,7 +648,7 @@
     .line 510
     iget-object v2, p0, Lcom/android/settings/TetherSettings;->mBluetoothTether:Landroid/preference/CheckBoxPreference;
 
-    const v3, 0x7f0804b5
+    const v3, 0x7f0c04b0
 
     invoke-virtual {v2, v3}, Landroid/preference/CheckBoxPreference;->setSummary(I)V
 
@@ -681,7 +681,7 @@
     :cond_2
     iget-object v2, p0, Lcom/android/settings/TetherSettings;->mBluetoothTether:Landroid/preference/CheckBoxPreference;
 
-    const v3, 0x7f0807ba
+    const v3, 0x7f0c07b5
 
     invoke-virtual {v2, v3}, Landroid/preference/CheckBoxPreference;->setSummary(I)V
 
@@ -833,7 +833,7 @@
 
     move-object/from16 v17, v0
 
-    const v18, 0x7f0804b6
+    const v18, 0x7f0c04b1
 
     invoke-virtual/range {v17 .. v18}, Landroid/preference/CheckBoxPreference;->setSummary(I)V
 
@@ -865,7 +865,7 @@
 
     move-object/from16 v17, v0
 
-    const v18, 0x7f0804b5
+    const v18, 0x7f0c04b0
 
     invoke-virtual/range {v17 .. v18}, Landroid/preference/CheckBoxPreference;->setSummary(I)V
 
@@ -941,7 +941,7 @@
     if-le v8, v0, :cond_6
 
     .line 425
-    const v17, 0x7f0807bc
+    const v17, 0x7f0c07b7
 
     const/16 v18, 0x1
 
@@ -1001,7 +1001,7 @@
 
     move-object/from16 v17, v0
 
-    const v18, 0x7f0807bb
+    const v18, 0x7f0c07b6
 
     invoke-virtual/range {v17 .. v18}, Landroid/preference/CheckBoxPreference;->setSummary(I)V
 
@@ -1018,7 +1018,7 @@
 
     move-object/from16 v17, v0
 
-    const v18, 0x7f0807be
+    const v18, 0x7f0c07b9
 
     invoke-virtual/range {v17 .. v18}, Landroid/preference/CheckBoxPreference;->setSummary(I)V
 
@@ -1032,7 +1032,7 @@
 
     move-object/from16 v17, v0
 
-    const v18, 0x7f0807ba
+    const v18, 0x7f0c07b5
 
     invoke-virtual/range {v17 .. v18}, Landroid/preference/CheckBoxPreference;->setSummary(I)V
 
@@ -1069,7 +1069,7 @@
 
     move-object/from16 v17, v0
 
-    const v18, 0x7f0807bd
+    const v18, 0x7f0c07b8
 
     invoke-virtual/range {v17 .. v18}, Landroid/preference/CheckBoxPreference;->setSummary(I)V
 
@@ -1413,7 +1413,7 @@
     .line 372
     iget-object v13, p0, Lcom/android/settings/TetherSettings;->mUsbTether:Landroid/preference/CheckBoxPreference;
 
-    const v14, 0x7f0807b5
+    const v14, 0x7f0c07b0
 
     invoke-virtual {v13, v14}, Landroid/preference/CheckBoxPreference;->setSummary(I)V
 
@@ -1445,7 +1445,7 @@
     .line 377
     iget-object v13, p0, Lcom/android/settings/TetherSettings;->mUsbTether:Landroid/preference/CheckBoxPreference;
 
-    const v14, 0x7f0807b4
+    const v14, 0x7f0c07af
 
     invoke-virtual {v13, v14}, Landroid/preference/CheckBoxPreference;->setSummary(I)V
 
@@ -1470,7 +1470,7 @@
     :cond_b
     iget-object v13, p0, Lcom/android/settings/TetherSettings;->mUsbTether:Landroid/preference/CheckBoxPreference;
 
-    const v14, 0x7f0807b8
+    const v14, 0x7f0c07b3
 
     invoke-virtual {v13, v14}, Landroid/preference/CheckBoxPreference;->setSummary(I)V
 
@@ -1483,7 +1483,7 @@
     .line 384
     iget-object v13, p0, Lcom/android/settings/TetherSettings;->mUsbTether:Landroid/preference/CheckBoxPreference;
 
-    const v14, 0x7f0807b8
+    const v14, 0x7f0c07b3
 
     invoke-virtual {v13, v14}, Landroid/preference/CheckBoxPreference;->setSummary(I)V
 
@@ -1512,7 +1512,7 @@
     .line 388
     iget-object v13, p0, Lcom/android/settings/TetherSettings;->mUsbTether:Landroid/preference/CheckBoxPreference;
 
-    const v14, 0x7f0807b6
+    const v14, 0x7f0c07b1
 
     invoke-virtual {v13, v14}, Landroid/preference/CheckBoxPreference;->setSummary(I)V
 
@@ -1536,7 +1536,7 @@
     :cond_e
     iget-object v13, p0, Lcom/android/settings/TetherSettings;->mUsbTether:Landroid/preference/CheckBoxPreference;
 
-    const v14, 0x7f0807b7
+    const v14, 0x7f0c07b2
 
     invoke-virtual {v13, v14}, Landroid/preference/CheckBoxPreference;->setSummary(I)V
 
@@ -1564,7 +1564,7 @@
 
     .prologue
     .line 618
-    const v0, 0x7f080bb2
+    const v0, 0x7f0c0bad
 
     return v0
 .end method
@@ -1739,7 +1739,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f08069d
+    const v3, 0x7f0c0698
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -2362,7 +2362,7 @@
     .line 570
     iget-object v7, p0, Lcom/android/settings/TetherSettings;->mBluetoothTether:Landroid/preference/CheckBoxPreference;
 
-    const v8, 0x7f0807be
+    const v8, 0x7f0c07b9
 
     invoke-virtual {v7, v8}, Landroid/preference/CheckBoxPreference;->setSummary(I)V
 
@@ -2372,7 +2372,7 @@
     :cond_6
     iget-object v7, p0, Lcom/android/settings/TetherSettings;->mBluetoothTether:Landroid/preference/CheckBoxPreference;
 
-    const v8, 0x7f0807bd
+    const v8, 0x7f0c07b8
 
     invoke-virtual {v7, v8}, Landroid/preference/CheckBoxPreference;->setSummary(I)V
 

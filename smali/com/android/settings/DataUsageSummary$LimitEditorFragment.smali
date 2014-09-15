@@ -221,7 +221,7 @@
     invoke-virtual {v2, v0}, Landroid/widget/NumberPicker;->setWrapSelectorWheel(Z)V
 
     .line 2031
-    const v0, 0x7f080b1d
+    const v0, 0x7f0c0b18
 
     invoke-virtual {v6, v0}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -229,7 +229,7 @@
     invoke-virtual {v6, v11}, Landroid/app/AlertDialog$Builder;->setView(Landroid/view/View;)Landroid/app/AlertDialog$Builder;
 
     .line 2034
-    const v14, 0x7f080b1b
+    const v14, 0x7f0c0b16
 
     new-instance v0, Lcom/android/settings/DataUsageSummary$LimitEditorFragment$1;
 

@@ -234,7 +234,7 @@
     .line 165
     iget-object v4, p0, Lcom/android/settings/wifi/WifiPriority$WifiPriorityAdapter;->mInflater:Landroid/view/LayoutInflater;
 
-    const v5, 0x7f0400f4
+    const v5, 0x7f0400f5
 
     const/4 v6, 0x0
 
@@ -280,7 +280,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f02013e
+    const v5, 0x7f02013f
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -336,7 +336,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f02013c
+    const v5, 0x7f02013d
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

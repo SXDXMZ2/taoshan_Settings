@@ -166,7 +166,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0808b2
+    const v5, 0x7f0c08ad
 
     invoke-virtual {v4, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -186,7 +186,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0808b3
+    const v5, 0x7f0c08ae
 
     invoke-virtual {v4, v5}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -196,7 +196,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f080865
+    const v4, 0x7f0c0860
 
     new-instance v5, Lcom/android/settings/applications/RunningServiceDetails$MyAlertDialogFragment$1;
 
@@ -206,7 +206,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f080866
+    const v4, 0x7f0c0861
 
     invoke-virtual {v3, v4, v2}, Landroid/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 

@@ -8,10 +8,6 @@
         <item quantity="other">වාර %d</item>
         <item quantity="one">එක් වරයි</item>
     </plurals>
-    <plurals name="show_dev_countdown_cm">
-        <item quantity="other">ඔබ දැන් වර්ධක විකල්ප සබල කිරීමට පියවර %1$d ක් එපිටින් සිටී.</item>
-        <item quantity="one">ඔබ දැන් වර්ධක විකල්ප සබල කිරීමට %1$d පියවරක් එපිටින් සිටී.</item>
-    </plurals>
     <plurals name="show_dev_countdown">
         <item quantity="other">ඔබට දැන් වර්ධකයකු වීමට ඇත්තේ පියවර %1$d කි.</item>
         <item quantity="one">ඔබට දැන් වර්ධකයකු වීමට ඇත්තේ පියවර %1$d කි.</item>

@@ -728,7 +728,7 @@
     .line 749
     iget-object v2, p0, Lcom/android/settings/wifi/WifiSettings;->mEmptyView:Landroid/widget/TextView;
 
-    const v3, 0x7f080626
+    const v3, 0x7f0c0621
 
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setText(I)V
 
@@ -778,7 +778,7 @@
     if-eqz v2, :cond_1
 
     .line 756
-    const v1, 0x7f080614
+    const v1, 0x7f0c060f
 
     .line 760
     .local v1, resId:I
@@ -808,7 +808,7 @@
 
     .line 758
     :cond_1
-    const v1, 0x7f080615
+    const v1, 0x7f0c0610
 
     .restart local v1       #resId:I
     goto :goto_0
@@ -874,7 +874,7 @@
     if-eqz v4, :cond_2
 
     .line 715
-    const v4, 0x7f080628
+    const v4, 0x7f0c0623
 
     invoke-direct {p0, v4}, Lcom/android/settings/wifi/WifiSettings;->addMessagePreference(I)V
 
@@ -896,7 +896,7 @@
 
     .line 738
     :pswitch_0
-    const v4, 0x7f080609
+    const v4, 0x7f0c0604
 
     invoke-direct {p0, v4}, Lcom/android/settings/wifi/WifiSettings;->addMessagePreference(I)V
 
@@ -924,7 +924,7 @@
     if-nez v4, :cond_3
 
     .line 726
-    const v4, 0x7f080627
+    const v4, 0x7f0c0622
 
     invoke-direct {p0, v4}, Lcom/android/settings/wifi/WifiSettings;->addMessagePreference(I)V
 
@@ -1165,7 +1165,7 @@
 
     .line 929
     :pswitch_1
-    const v0, 0x7f080608
+    const v0, 0x7f0c0603
 
     invoke-direct {p0, v0}, Lcom/android/settings/wifi/WifiSettings;->addMessagePreference(I)V
 
@@ -1289,7 +1289,7 @@
     return v0
 
     :cond_0
-    const v0, 0x7f080ba8
+    const v0, 0x7f0c0ba3
 
     goto :goto_0
 .end method
@@ -1953,7 +1953,7 @@
     .line 567
     const/4 v1, 0x7
 
-    const v2, 0x7f080623
+    const v2, 0x7f0c061e
 
     invoke-interface {p1, v3, v1, v3, v2}, Landroid/view/ContextMenu;->add(IIII)Landroid/view/MenuItem;
 
@@ -1968,14 +1968,14 @@
     .line 570
     const/16 v1, 0x8
 
-    const v2, 0x7f080624
+    const v2, 0x7f0c061f
 
     invoke-interface {p1, v3, v1, v3, v2}, Landroid/view/ContextMenu;->add(IIII)Landroid/view/MenuItem;
 
     .line 571
     const/16 v1, 0x9
 
-    const v2, 0x7f080625
+    const v2, 0x7f0c0620
 
     invoke-interface {p1, v3, v1, v3, v2}, Landroid/view/ContextMenu;->add(IIII)Landroid/view/MenuItem;
 
@@ -1989,9 +1989,9 @@
     .parameter "dialogId"
 
     .prologue
-    const v5, 0x7f08066e
+    const v5, 0x7f0c0669
 
-    const v4, 0x7f08066d
+    const v4, 0x7f0c0668
 
     const/4 v2, 0x0
 
@@ -2105,7 +2105,7 @@
 
     invoke-direct {v0, v1}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f08066f
+    const v1, 0x7f0c066a
 
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
@@ -2147,7 +2147,7 @@
 
     invoke-direct {v0, v1}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f080670
+    const v1, 0x7f0c066b
 
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
@@ -2196,7 +2196,7 @@
     .parameter "inflater"
 
     .prologue
-    const v8, 0x7f08061b
+    const v8, 0x7f0c0616
 
     const/4 v7, 0x4
 
@@ -2250,7 +2250,7 @@
     if-eqz v2, :cond_1
 
     .line 457
-    const v2, 0x7f08061d
+    const v2, 0x7f0c0618
 
     invoke-interface {p1, v4, v5, v4, v2}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
@@ -2292,7 +2292,7 @@
 
     .line 465
     :cond_1
-    const v2, 0x7f08061d
+    const v2, 0x7f0c0618
 
     invoke-interface {p1, v4, v5, v4, v2}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
@@ -2334,7 +2334,7 @@
     .line 473
     const/4 v2, 0x6
 
-    const v3, 0x7f080621
+    const v3, 0x7f0c061c
 
     invoke-interface {p1, v4, v2, v4, v3}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
@@ -2347,7 +2347,7 @@
     invoke-interface {v2, v4}, Landroid/view/MenuItem;->setShowAsAction(I)V
 
     .line 477
-    const v2, 0x7f08061f
+    const v2, 0x7f0c061a
 
     invoke-interface {p1, v4, v6, v4, v2}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
@@ -2367,7 +2367,7 @@
     .line 481
     const/4 v2, 0x3
 
-    const v3, 0x7f080620
+    const v3, 0x7f0c061b
 
     invoke-interface {p1, v4, v2, v4, v3}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
@@ -2383,7 +2383,7 @@
     :cond_2
     const/4 v2, 0x5
 
-    const v3, 0x7f080622
+    const v3, 0x7f0c061d
 
     invoke-interface {p1, v4, v2, v4, v3}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
@@ -2418,7 +2418,7 @@
     if-eqz v5, :cond_3
 
     .line 214
-    const v5, 0x7f0400d2
+    const v5, 0x7f0400d4
 
     invoke-virtual {p1, v5, p2, v6}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -2646,7 +2646,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f080687
+    const v3, 0x7f0c0682
 
     move-object v4, v2
 
@@ -2746,7 +2746,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f080672
+    const v3, 0x7f0c066d
 
     move-object v4, v2
 

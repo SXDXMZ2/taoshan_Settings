@@ -301,7 +301,7 @@
     .line 286
     iget-object v0, p0, Lcom/android/settings/cyanogenmod/ButtonBacklightBrightness;->mTimeoutValue:Landroid/widget/TextView;
 
-    const v1, 0x7f080343
+    const v1, 0x7f0c033e
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -386,9 +386,9 @@
     .locals 7
 
     .prologue
-    const v5, 0x7f080346
+    const v5, 0x7f0c0341
 
-    const v3, 0x7f080344
+    const v3, 0x7f0c033f
 
     const/4 v4, 0x1
 
@@ -440,7 +440,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f080345
+    const v3, 0x7f0c0340
 
     new-array v4, v4, [Ljava/lang/Object;
 
@@ -890,7 +890,7 @@
 
     .prologue
     .line 87
-    const v0, 0x7f0801ce
+    const v0, 0x7f0c01ca
 
     new-instance v1, Lcom/android/settings/cyanogenmod/ButtonBacklightBrightness$1;
 

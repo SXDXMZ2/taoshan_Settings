@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="allow">अनुमति दिनुहोस्</string>
+    <string name="deny">अस्वीकार गर्नुहोस्</string>
     <string name="delete">मेट्नुहोस्</string>
     <string name="battery_info_status_full">पूर्ण</string>
     <string name="category_printers">प्रिन्टरहरू</string>
@@ -34,8 +36,6 @@
     <string name="yes">हो</string>
     <string name="no">होइन</string>
     <string name="create">सिर्जना गर्नुहोस्</string>
-    <string name="allow">अनुमति दिनुहोस्</string>
-    <string name="deny">अस्वीकार गर्नुहोस्</string>
     <string name="device_info_default">अज्ञात</string>
     <string name="show_dev_on">तपाईं अब एउटा विकासकर्ता हुनुहुन्छ!</string>
     <string name="show_dev_already">आवश्यक छैन, तपाईँ आफैँ नै एउटा विकासकर्ता हुनुहुन्छ।</string>
@@ -668,6 +668,8 @@
     <string name="volume_notification_mute">सूचनाहरू मौन गराउनुहोस्</string>
     <string name="volume_alarm_mute">आलार्म म्युट गर्नुहोस्</string>
     <string name="vibrate_when_ringing_title">घन्टी बज्दा कम्पन गराउनुहोस्</string>
+    <string name="system_update_settings_list_item_title">"प्रणाली  अद्यावधिकहरू"</string>
+    <string name="system_update_settings_list_item_summary" />
     <string name="dock_settings">डक गर्नुहोस्</string>
     <string name="dock_settings_title">डक सेटिङहरू</string>
     <string name="dock_audio_settings_title">अडियो</string>
@@ -730,8 +732,6 @@
     <string name="sim_enter_ok">ठीक छ</string>
     <string name="sim_enter_cancel">रद्द गर्नुहोस्</string>
     <string name="device_info_settings">फोनको स्थिति</string>
-    <string name="system_update_settings_list_item_title">"प्रणाली  अद्यावधिकहरू"</string>
-    <string name="system_update_settings_list_item_summary" />
     <string name="firmware_version">एन्ड्रोइड संस्करण</string>
     <string name="model_number">मोडल नम्बर</string>
     <string name="fcc_equipment_id">उपकरण ID</string>

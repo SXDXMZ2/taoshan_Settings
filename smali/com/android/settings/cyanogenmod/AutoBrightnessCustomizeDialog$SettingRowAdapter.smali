@@ -356,7 +356,7 @@
 
     if-eqz v3, :cond_1
 
-    const v1, 0x7f0801ca
+    const v1, 0x7f0c01c6
 
     .line 860
     .local v1, resId:I
@@ -433,7 +433,7 @@
     .line 856
     .restart local v2       #row:Lcom/android/settings/cyanogenmod/AutoBrightnessCustomizeDialog$SettingRow;
     :cond_1
-    const v1, 0x7f0801c9
+    const v1, 0x7f0c01c5
 
     goto :goto_1
 .end method

@@ -27,7 +27,7 @@
     .parameter
 
     .prologue
-    .line 354
+    .line 346
     iput-object p1, p0, Lcom/android/settings/bluetooth/BluetoothEventManager$PairingCancelHandler;->this$0:Lcom/android/settings/bluetooth/BluetoothEventManager;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -41,7 +41,7 @@
     .parameter "x1"
 
     .prologue
-    .line 354
+    .line 346
     invoke-direct {p0, p1}, Lcom/android/settings/bluetooth/BluetoothEventManager$PairingCancelHandler;-><init>(Lcom/android/settings/bluetooth/BluetoothEventManager;)V
 
     return-void
@@ -56,26 +56,25 @@
     .parameter "device"
 
     .prologue
-    .line 356
-    if-nez p3, :cond_1
+    .line 348
+    if-nez p3, :cond_0
 
-    .line 357
+    .line 349
     const-string v2, "BluetoothEventManager"
 
     const-string v3, "ACTION_PAIRING_CANCEL with no EXTRA_DEVICE"
 
     invoke-static {v2, v3}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 365
-    :cond_0
+    .line 355
     :goto_0
     return-void
 
-    .line 360
-    :cond_1
-    const v1, 0x7f0805b1
+    .line 352
+    :cond_0
+    const v1, 0x7f0c05ac
 
-    .line 361
+    .line 353
     .local v1, errorMsg:I
     iget-object v2, p0, Lcom/android/settings/bluetooth/BluetoothEventManager$PairingCancelHandler;->this$0:Lcom/android/settings/bluetooth/BluetoothEventManager;
 
@@ -88,13 +87,8 @@
 
     move-result-object v0
 
-    .line 362
+    .line 354
     .local v0, cachedDevice:Lcom/android/settings/bluetooth/CachedBluetoothDevice;
-    if-eqz p1, :cond_0
-
-    if-eqz v0, :cond_0
-
-    .line 363
     invoke-virtual {v0}, Lcom/android/settings/bluetooth/CachedBluetoothDevice;->getName()Ljava/lang/String;
 
     move-result-object v2

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="superuser">Superusuariu</string>
-    <string name="su_allow">Permitir</string>
-    <string name="su_allow_countdown">Permitir (%1$s)</string>
-    <string name="su_deny">Refugar</string>
+    <string name="allow">Permitir</string>
+    <string name="allow_countdown">Permitío (%1$s)</string>
+    <string name="deny">Refugar</string>
     <string name="status_incoming">Solicitú de Superusuariu…</string>
     <string name="unknown_uid">UID desconocíu: %s</string>
     <string name="application_request">%s ta solicitando accesu alministrativu.</string>
@@ -96,9 +96,6 @@ Recomiéndase'l mou recuperación pa los preseos HTC."</string>
     <string name="details">Detalles</string>
     <string name="db_delete_error">"El permisu de superusuariu nun pue revocase dende esta app.
 Por favor reanicia l'app del Superusuariu y prueba otra vuelta."</string>
-    <string name="font_size_preview_text">Servez à ce monsieur une bière et des kiwis.</string>
-    <string name="default_date_format">MM/dd/yyyy</string>
-    <string name="intent_sender_data_label">Datos:</string>
     <string name="wifi_disabled_association_rejected">Asociación refugada</string>
     <string name="battery_info_status_full">Completa</string>
     <string name="bluetooth_enter_pin_msg_hs">"Pa enllazar con:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>Escribi'l PIN que pide'l preséu (16 díxitos o más):"</string>
@@ -204,14 +201,10 @@ Si'l volume inicial s'afita más altu que'l volume de llamada, va prevalecer el 
     <string name="profile_networkmode_2g">2G</string>
     <string name="profile_networkmode_3g">3G</string>
     <string name="profile_networkmode_2g3g">2G/3G</string>
-    <string name="settings_search_action_bar_button">Guetar</string>
-    <string name="settings_search_autocompleteview_hint">Axustes de la gueta</string>
-    <string name="settings_search_loading_text">Cargando datos de gueta…</string>
     <string name="profile_connectionoverrides_title">Coneutividá</string>
     <string name="profile_volumeoverrides_title">Volume</string>
     <string name="connection_state_disabled">Deshabilitáu</string>
     <string name="connection_state_enabled">Habilitáu</string>
-    <string name="volume_override_summary">Afitar a %1$s/%2$s</string>
     <string name="profile_profiles_manage">Perfiles</string>
     <string name="profile_profile_manage">Alministrar perfil</string>
     <string name="profile_appgroups_manage">"Grupu d'aplicaciones"</string>
@@ -220,8 +213,6 @@ Si'l volume inicial s'afita más altu que'l volume de llamada, va prevalecer el 
     <string name="profile_trigger_connect">Al coneutar</string>
     <string name="profile_trigger_disconnect">Al desconeutar</string>
     <string name="profile_trigger_notrigger">Ensin eventu</string>
-    <string name="profile_trigger_a2dp_connect">Al coneutar A2DP</string>
-    <string name="profile_trigger_a2dp_disconnect">Al desconeutar A2DP</string>
     <string name="sound_mode">Mou de notificación</string>
     <string name="ringer_mode">Llamaes</string>
     <string name="lights_mode">Brillu</string>
@@ -280,7 +271,6 @@ Si'l volume inicial s'afita más altu que'l volume de llamada, va prevalecer el 
     <string name="icon_picker_pack_title">"Paquete d'iconos"</string>
     <string name="display_lights_settings_title">Pantalla y leds</string>
     <string name="lights_category_title">Leds</string>
-    <string name="notification_light_title">Lluz de notificación</string>
     <string name="notification_light_general_title">Xeneral</string>
     <string name="notification_light_applist_title">Aplicaciones</string>
     <string name="notification_light_phonelist_title">Teléfonu</string>
@@ -292,8 +282,6 @@ Si'l volume inicial s'afita más altu que'l volume de llamada, va prevalecer el 
     <string name="notification_light_voicemail_title">Buzón de voz</string>
     <string name="adaptive_backlight_title">Brillu adautativu</string>
     <string name="adaptive_backlight_summary">"Variar intelixentemente'l brillu de la pantalla ayudando d'esti mou a la duración de la batería"</string>
-    <string name="color_enhancement_title">Ameyoramientu de color</string>
-    <string name="color_enhancement_summary">Ameyorar dinámicamente el color de la pantalla</string>
     <string name="wake_when_plugged_or_unplugged_title">Prender con cargador</string>
     <string name="wake_when_plugged_or_unplugged_summary">Prender la pantalla al coneutar o desconeutar el cargador</string>
     <string name="screen_animation_off_title">Animación al apagar</string>
@@ -324,14 +312,9 @@ Si'l volume inicial s'afita más altu que'l volume de llamada, va prevalecer el 
     <string name="battery_light_low_color_title">Batería baxa</string>
     <string name="battery_light_medium_color_title">Cargando</string>
     <string name="battery_light_full_color_title">Cargada</string>
-    <string name="lockpattern_reset_button">Restaurar el patrón</string>
-    <string name="lockpattern_settings_reset_summary">Introduz la cuenta de corréu principal y la contraseña asociada pa restablecer el patrón de bloquéu</string>
     <string name="lockpattern_settings_enable_error_path_title">Amosar patrón fallíu</string>
     <string name="lockpattern_settings_enable_dots_title">Amosar puntos de patrón</string>
     <string name="screen_security_category">Seguridá de pantalla</string>
-    <string name="screen_security_summary">Amosar o cambiar la configuración de seguridá de la pantalla de bloquéu</string>
-    <string name="unlock_scramble_pin_layout_title">Disposición al debalu</string>
-    <string name="unlock_scramble_pin_layout_summary">Cambiar la disposición de los númberos del PIN pa desbloquiar el preséu</string>
     <string name="unlock_menu_unlock_title">Botón Menú</string>
     <string name="unlock_menu_unlock_summary">"Primir el botón Menú desbloquia'l preséu"</string>
     <string name="unlock_home_unlock_title">Botón Aniciu</string>
@@ -357,22 +340,12 @@ Calcando «Aceutar», reconoces esti avisu y eximes de cualquier responsabilidá
     <string name="tile_choose_title">Esbillar un control</string>
     <string name="title_qs_small_icons">Controles pequeños</string>
     <string name="summary_qs_small_icons">Usar controles pequeños pa incrementar el númberu de columnes</string>
-    <string name="category_heads_up">Notificaciones emerxentes</string>
-    <string name="summary_heads_up_enabled">Tán habilitaes les notificaciones emerxentes</string>
-    <string name="summary_heads_up_disabled">Tán deshabilitaes les notificaciones emerxentes</string>
-    <string name="add_heads_up_package">Amestar aplicación</string>
-    <string name="add_heads_up_dnd_summary">Nun amosar notificaciones emerxentes nestes aplicaciones</string>
-    <string name="add_heads_up_blacklist_summary">"Nun amosar notificaciones emerxentes d'estes aplicaciones"</string>
-    <string name="heads_up_dnd_title">Nun molestar</string>
-    <string name="heads_up_blacklist_title">Llista prieta</string>
-    <string name="heads_up_disabled_notice">Pa permitir a les aplicaciones amosar notificaciones interactives en ventanes emerxentes, habilita les notificaciones emerxentes.</string>
     <string name="title_tile_airplane">Mou avión</string>
     <string name="title_tile_battery">Batería</string>
     <string name="title_tile_bluetooth">Bluetooth</string>
     <string name="title_tile_brightness">Brillu</string>
     <string name="title_tile_camera">Cámara</string>
     <string name="title_tile_compass">Brúxula</string>
-    <string name="title_tile_heads_up">Testera</string>
     <string name="title_tile_sleep">Bloquiar</string>
     <string name="title_tile_gps">GPS</string>
     <string name="title_tile_torch">Llinterna</string>
@@ -474,10 +447,11 @@ Calcando «Aceutar», reconoces esti avisu y eximes de cualquier responsabilidá
     <string name="display_rotation_180_title">180 graos</string>
     <string name="display_rotation_270_title">270 graos</string>
     <string name="advanced_reboot_title">Reaniciu mou avanzáu</string>
+    <string name="advanced_reboot_summary">En preseos desbloquiaos, incluyir opciones nel menú de apagáu pa reaniciar en mou «recovery» o «bootloader»</string>
     <string name="app_security_title">"Seguridá n'aplicaciones"</string>
     <string name="root_access">Accesu alministrativu</string>
     <string name="root_access_warning_title">¿Permitir accesu alministrativu?</string>
-    <string name="root_access_warning_message">¡Permitir a les aplicaciones solicitar accesu alministrativu ye enforma peligroso y pue comprometer la seguridá del sistema!</string>
+    <string name="root_access_warning_message">¡Permitir a les aplicaciones solicitar accesu alministrativu ye enforma peligroso y pue comprometer la seguridá del preséu!</string>
     <string name="root_access_none">Desactivar</string>
     <string name="root_access_apps">Namái aplicaciones</string>
     <string name="root_access_adb">Namái ADB</string>
@@ -499,7 +473,6 @@ Calcando «Aceutar», reconoces esti avisu y eximes de cualquier responsabilidá
     <string name="quiet_hours_dim_summary">Desactiva la lluz de notificación</string>
     <string name="quiet_hours_haptic">Rempuesta háptica</string>
     <string name="quiet_hours_haptic_summary">Desactiva la rempuesta háptica</string>
-    <string name="quiet_hours_active_period">Activu dende les %1$s hasta les %2$s</string>
     <string name="quiet_hours_ringer_allow_all">Sonar pa toles llamaes</string>
     <string name="quiet_hours_ringer_allow_contacts">Sonar pa tolos contautos</string>
     <string name="quiet_hours_ringer_allow_starred">Sonar pa tolos favoritos</string>
@@ -569,7 +542,6 @@ Nun comuniques informes de fallos si camudasti dalgún de los valores definíos 
     <string name="changelog_error">Imposible cargar el rexistru de cambeos</string>
     <string name="changelog_unknown">Desconocíu</string>
     <string name="changelog_version">Versión</string>
-    <string name="contributor_cloud_title">Collaboradores</string>
     <string name="cmupdate_settings_title">Anovamientos CyanogenMod</string>
     <string name="cmupdate_settings_summary">Comprobar, ver ya instalar anovamientos disponibles</string>
     <string name="advanced_settings_title">Opciones avanzaes</string>
@@ -655,11 +627,8 @@ Usa esta carauterística namái cuando te coneutes a redes segures.
     <string name="collapse_on_dismiss_if_empty_summary">"Zarrar l'área de notificación al desaniciar la cabera notificación"</string>
     <string name="collapse_on_dismiss_if_no_clearable_summary">"Zarrar l'área de notificación al desaniciar la cabera notificación non persistente"</string>
     <string name="double_tap_to_wake_title">Doble toque pa esconsoñar</string>
-    <string name="proximity_wake_title">Prevenir encendíu accidental</string>
-    <string name="proximity_wake_summary">Comprobar el sensor de proximidá enantes de prender la pantalla</string>
     <string name="category_quick_access">"Cinta d'axustes rápidos"</string>
     <string name="title_quick_access">Amosar cinta</string>
-    <string name="title_quick_access_size">Tamañu de la barra de cinta</string>
     <string name="title_quick_access_linked">Disposición enllazada</string>
     <string name="summary_quick_access_linked">"Usar la mesma disposición que nel panel d'axustes rápidos"</string>
     <string name="font_size_sample">Amuesa</string>
@@ -689,7 +658,7 @@ Usa esta carauterística namái cuando te coneutes a redes segures.
     <string name="lockscreen_target_reset_message">¿Desaniciar tolos accesos direutos creaos y restablecer valores por defeutu?</string>
     <string name="lockscreen_target_empty">Baleru</string>
     <string name="lockscreen_target_edit_title">Editar accesu direutu</string>
-    <string name="lockscreen_target_edit_msg">"Seleicionar o cambiar l'aplicación (o actividá) y el so iconu asociáu"</string>
+    <string name="lockscreen_target_edit_msg">"Seleicionar o camudar l'aplicación (o actividá) y el so iconu"</string>
     <string name="picker_activities">Actividaes</string>
     <string name="select_custom_app_title">Seleicionar aplicación personalizada</string>
     <string name="select_custom_activity_title">Seleicionar actividá personalizada</string>
@@ -756,8 +725,6 @@ Usa esta carauterística namái cuando te coneutes a redes segures.
     <string name="navigation_bar_reset_toast">Barra de navegación restablecida</string>
     <string name="navigation_bar_menu_editable">Editable</string>
     <string name="navigation_bar_menu_locked">Bloquiada</string>
-    <string name="navigation_bar_arrow_keys_title">"Tecles de direición mientres s'escribe"</string>
-    <string name="navigation_bar_arrow_keys_summary">"Amuesa los botones del cursor a esquierda y derecha mientres s'escribe"</string>
     <string name="navigation_ring_title">Accesos rápidos</string>
     <string name="navring_target_reset_message">¿Desaniciar tolos accesos rápidos creaos y restablecer a valores por defeutu?</string>
     <string name="navring_target_reset">Accesos rápidos restablecíos</string>
@@ -803,7 +770,7 @@ Usa esta carauterística namái cuando te coneutes a redes segures.
     <string name="hardware_keys_action_search">Asistente de gueta</string>
     <string name="hardware_keys_action_voice_search">Gueta por voz</string>
     <string name="hardware_keys_action_in_app_search">"Gueta dientro de l'aplicación"</string>
-    <string name="hardware_keys_action_launch_camera">Abrir cámara</string>
+    <string name="hardware_keys_action_launch_camera">Aniciar Cámara</string>
     <string name="power_end_call_title">Finar llamada</string>
     <string name="power_end_call_summary">"Calcando'l botón d'apagáu, va finar la llamada en cursu"</string>
     <string name="button_wake_title">Esconsoñar</string>
@@ -843,10 +810,6 @@ Usa esta carauterística namái cuando te coneutes a redes segures.
     <string name="setting_lockscreen_background">"Aplicando'l fondu pantalla"</string>
     <string name="confirm_delete_apn">El APN va desaniciase.</string>
     <string name="status_bar_title">"Barra d'estáu"</string>
-    <string name="status_bar_clock_title">Estilu de reló</string>
-    <string name="status_bar_clock_style_default">Por defeutu</string>
-    <string name="status_bar_clock_style_center">Centráu</string>
-    <string name="status_bar_clock_style_hidden">Anubríu</string>
     <string name="status_bar_battery_title">Estilu batería</string>
     <string name="status_bar_style_icon_portrait">Iconu vertical</string>
     <string name="status_bar_style_icon_landscape">Iconu horizontal</string>
@@ -859,7 +822,6 @@ Usa esta carauterística namái cuando te coneutes a redes segures.
     <string name="status_bar_signal_style_text">Testu</string>
     <string name="status_bar_toggle_brightness">Axuste de brillu</string>
     <string name="status_bar_toggle_brightness_summary">"Permitir axustar la lluminosidá de la pantalla eslizando'l deu pela barra d'estáu"</string>
-    <string name="status_bar_toggle_info">"Nun ta disponible mientres ta activáu'l brillu automáticu"</string>
     <string name="status_bar_notif_count_title">Amosar contador notificaciones</string>
     <string name="status_bar_notif_count_summary">"Amosar el númberu de notificaciones pendientes na barra d'estáu"</string>
     <string name="status_bar_double_tap_to_sleep_title">Doble toque pa bloquiar</string>
@@ -879,8 +841,8 @@ Usa esta carauterística namái cuando te coneutes a redes segures.
     <string name="battery_info_status_charging_dock_ac">(BaseAC)</string>
     <string name="battery_info_status_charging_dock_usb">(BaseUSB)</string>
     <string name="menu_stats_reset">Restablecer</string>
-    <string name="cmlicense_title">Llicencia CyanogenMod</string>
-    <string name="settings_cmlicense_activity_title">Llicencia CyanogenMod</string>
+    <string name="cmlicense_title">Llicencia de CyanogenMod</string>
+    <string name="settings_cmlicense_activity_title">Llicencia de CyanogenMod</string>
     <string name="settings_cmlicense_activity_unreachable">Nun hai una conexón de datos disponible. Pa ver esta información agora, introduz la direición %s en cualquier ordenador con accesu a Internet.</string>
     <string name="stylus_icon_enabled_title">Stylus</string>
     <string name="stylus_icon_enabled_summary">"Amosar el cursor cuando s'arrastra o dibuxa con Stylus"</string>
@@ -896,7 +858,6 @@ Usa esta carauterística namái cuando te coneutes a redes segures.
     <string name="gestures_down_spen_title_head">Eslizar hacia abaxo</string>
     <string name="gestures_long_spen_title_head">Pulsación llarga</string>
     <string name="gestures_double_spen_title_head">Doble toque</string>
-    <string name="gestures_settings_header_title">Xestos</string>
     <string name="gestures_action_empty">Ensin aición</string>
     <string name="gestures_action_home">Emular botón Aniciu</string>
     <string name="gestures_action_back">Emular botón Atrás</string>
@@ -1040,35 +1001,14 @@ Usa esta carauterística namái cuando te coneutes a redes segures.
     <string name="priority_sub_title">Prioridá de soscripción</string>
     <string name="bluetooth_accept_all_files">Aceutar tolos tipos de ficheros</string>
     <string name="autoperf_title">Habilitar los perfiles por aplicación</string>
-    <string name="autoperf_summary">Escoyer automáticamente un perfil de rindimientu afayadizu pa delles aplicaciones</string>
+    <string name="autoperf_summary">Escoyer automáticamente un perfil de rindimientu afayadizu pa cada aplicación</string>
     <string name="graphics_title">Gráficos y renderizáu</string>
-    <string name="menu_hidden_apps_delete">Reaniciar</string>
-    <string name="menu_hidden_apps_reset_lock">"Reanicia'l patrón de bloquéu"</string>
-    <string name="protected_apps">Apps protexíes</string>
-    <string name="saving_protected_components">"Guardando l'estáu del componente…"</string>
-    <string name="pa_login_username_hint">"Nome d'usuariu (corréu-e)"</string>
-    <string name="pa_login_password_hint">Contraseña</string>
-    <string name="pa_login_submit_button">Aniciar sesión</string>
-    <string name="pa_login_checking_password">Comprobando cuenta…</string>
-    <string name="pa_login_incorrect_login">Conexón incorreuta</string>
-    <string name="keep_screen_on_summary_cm">La pantalla nun va apagase mientres tea coneutáu</string>
-    <string name="show_dev_on_cm">¡Habilitáronse los axustes de desendolcu!</string>
-    <string name="show_dev_already_cm">Nun fai falta, los axustes de desendolcu yá tán habilitaos.</string>
-    <string name="enable_adb_cm">Depuración Android</string>
-    <string name="enable_adb_summary_cm">Habilitar la interface Android Debug Bridge (adb)</string>
-    <string name="spam_added_title">Amestada: %1$s</string>
-    <string name="spam_last_blocked_title">Cabera bloquiada: %1$s (Total: %2$s)</string>
-    <string name="block_notifications_title">Filtriar notificaciones</string>
-    <string name="block_notifications_summary">Remanar filtros y notificaciones bloquiaes</string>
-    <string name="no_filters_title">Nun hai filtros afitaos. Pa filtrar una notificación, facer una pulsación llarga encima y seleicionar «Inorar notificaciones como estes».</string>
     <string name="yes">Sí</string>
     <string name="no">Non</string>
     <string name="create">Crear</string>
-    <string name="allow">Permitir</string>
-    <string name="deny">Refugar</string>
     <string name="device_info_default">Desconocíu</string>
-    <string name="show_dev_on">¡Agora yes un desendolcador!</string>
-    <string name="show_dev_already">Nun hai necesidá, yá yes un desendolcador.</string>
+    <string name="show_dev_on">¡Agora tán activaes les opciones de desendolcu!</string>
+    <string name="show_dev_already">Nun fai falta, yá tán activaes les opciones de desendolcu.</string>
     <string name="header_category_wireless_networks">CONEXONES INALÁMBRIQUES Y REDES</string>
     <string name="header_category_device">PRESÉU</string>
     <string name="header_category_personal">PERSONAL</string>
@@ -1174,6 +1114,7 @@ Usa esta carauterística namái cuando te coneutes a redes segures.
     <string name="bluetooth_disconnected">Desconeutada</string>
     <string name="bluetooth_disconnecting">Desconeutando…</string>
     <string name="bluetooth_connecting">Afitando conexón…</string>
+    <string name="bluetooth_unknown" />
     <string name="bluetooth_pairing">Enllazando…</string>
     <string name="bluetooth_device">Preséu Bluetooth ensin nome</string>
     <string name="progress_scanning">Guetando</string>
@@ -1228,9 +1169,9 @@ Usa esta carauterística namái cuando te coneutes a redes segures.
     <string name="proxy_error_empty_host_set_port">"El campu de puertu tien de tar baleru si'l campu de host tamién lo ta."</string>
     <string name="proxy_error_invalid_port">"El puertu qu'introduxisti nun ye válidu."</string>
     <string name="proxy_warning_limited_support">"El restolador usa'l proxy HTTP, pero nun puen usalu otres aplicaciones."</string>
-    <string name="proxy_url">"URL de configuración automática de proxy: "</string>
+    <string name="proxy_url">URL de configuración automática de proxy:</string>
     <string name="radio_info_signal_location_label">Llocalización:</string>
-    <string name="radio_info_neighboring_location_label">CID anexu:</string>
+    <string name="radio_info_neighboring_location_label">CID anexu</string>
     <string name="radio_info_cellinfo_label">Información móvil:</string>
     <string name="radio_info_data_attempts_label">Intentos de datos:</string>
     <string name="radio_info_gprs_service_label">Serviciu GPRS:</string>
@@ -1245,7 +1186,7 @@ Usa esta carauterística namái cuando te coneutes a redes segures.
     <string name="radio_info_gsm_service_label">Serviciu GSM:</string>
     <string name="radio_info_signal_strength_label">Intensidá de la señal:</string>
     <string name="radio_info_call_status_label">Estáu de la llamada:</string>
-    <string name="radio_info_ppp_sent_label">PPP unviáu:</string>
+    <string name="radio_info_ppp_sent_label">PPP enviado:</string>
     <string name="radio_info_radio_resets_label">Restablecimientos de señal móvil:</string>
     <string name="radio_info_message_waiting_label">"Mensaxe n'espera:"</string>
     <string name="radio_info_phone_number_label">Númberu de teléfonu:</string>
@@ -1265,7 +1206,7 @@ Usa esta carauterística namái cuando te coneutes a redes segures.
     <string name="band_mode_loading">Cargando llista de bandes…</string>
     <string name="band_mode_set">Afitar</string>
     <string name="band_mode_failed">Con fallu</string>
-    <string name="band_mode_succeeded">Correutu</string>
+    <string name="band_mode_succeeded">Correcto</string>
     <string name="sdcard_changes_instructions">Los cambeos van aplicase cuando se vuelva a coneutar el cable USB.</string>
     <string name="sdcard_settings_screen_mass_storage_text">Habilitar almacenamientu masivu USB</string>
     <string name="sdcard_settings_total_bytes_label">Bytes totales:</string>
@@ -1281,7 +1222,6 @@ Usa esta carauterística namái cuando te coneutes a redes segures.
     <string name="next_label">Siguiente</string>
     <string name="language_picker_title">Llingua</string>
     <string name="activity_picker_label">Esbillar actividá</string>
-    <string name="debug_intent_sender_label">Debug intent sender</string>
     <string name="device_info_label">Información del preséu</string>
     <string name="battery_info_label">Información tocante a la batería</string>
     <string name="display_label">Pantalla</string>
@@ -1335,6 +1275,7 @@ Esta configuración afecta a tolos usuarios d'esti teléfonu."</string>
     <string name="owner_info_settings_title">Información del propietariu</string>
     <string name="security_enable_widgets_title">Habilitar widgets</string>
     <string name="security_enable_widgets_disabled_summary">Inhabilitáu pol alministrador</string>
+    <string name="owner_info_settings_summary" />
     <string name="owner_info_settings_edit_text_hint">Introduz el testu que va amosase na pantalla de bloquéu.</string>
     <string name="show_user_info_on_lockscreen_label">"Amosar información d'usuariu na pantalla de bloquéu"</string>
     <string name="user_info_settings_title">Información del usuariu</string>
@@ -1349,7 +1290,7 @@ Esta configuración afecta a tolos usuarios d'esti teléfonu."</string>
     <string name="crypt_keeper_encrypt_title">Cifrar teléfonu</string>
     <string name="crypt_keeper_encrypt_summary">Solicitar una contraseña o un PIN numbéricu pa descifrar el teléfonu cada vegada que se prenda</string>
     <string name="crypt_keeper_encrypted_summary">Cifráu</string>
-    <string name="crypt_keeper_desc">"Pues cifrar les tos cuentes, axustes, les aplicaciones descargaes (y los sos datos), ficheros multimedia y otres tribes de ficheros. Cuando cifres el teléfonu, tienes d'inxertar un PIN o una contraseña pa descifralu cada vegada que lu prendas. Namái vas poder desfacer la operación restableciendo los datos de fábrica y desaniciando tolos datos del teléfonu.
+    <string name="crypt_keeper_desc">"Pues cifrar les tos cuentes, axustes, les aplicaciones descargaes y los sos datos, ficheros multimedia y otres tribes de ficheros. Cuando cifres el teléfonu, tienes d'inxertar un PIN o una contraseña pa descifralu cada vegada que lu prendas. Namái vas poder desfacer la operación restableciendo los datos de fábrica y desaniciando tolos datos del teléfonu.
 
 El procesu de cifráu tarda alrodiu d'una hora. Tienes d'aniciar esti procesu con una batería cargada y caltener el teléfonu coneutáu hasta que fine'l procesu. Si s'interrumpe'l procesu de cifráu, perderás los datos total o parcialmente."</string>
     <string name="crypt_keeper_button_text">Cifrar teléfonu</string>
@@ -1359,14 +1300,14 @@ El procesu de cifráu tarda alrodiu d'una hora. Tienes d'aniciar esti procesu co
     <string name="crypt_keeper_dialog_need_password_message">"Tienes d'afitar una contraseña o un PIN de la pantalla de bloquéu pa poder aniciar el procesu de cifráu."</string>
     <string name="crypt_keeper_confirm_title">¿Cifrar preséu?</string>
     <string name="crypt_keeper_final_desc">"La operación de cifráu nun pue desfacese, y si la encaboxes vas perder datos. El cifráu tarda alrodiu d'una hora y el teléfonu reaníciase delles vegaes mientres esti procesu."</string>
-    <string name="crypt_keeper_setup_title">Cifrando</string>
-    <string name="crypt_keeper_setup_description">"Espera mentanto se cifra'l teléfonu. ^1% completáu"</string>
+    <string name="crypt_keeper_setup_title">Encriptando</string>
+    <string name="crypt_keeper_setup_description">Espera mentanto se cifra el teléfonu. ^1% completáu</string>
     <string name="crypt_keeper_cooldown">Espera ^1 segundos y vuelvi a intentalo.</string>
     <string name="crypt_keeper_enter_password">Escribi la contraseña</string>
     <string name="crypt_keeper_failed_title">Fallu nel cifráu</string>
     <string name="crypt_keeper_failed_summary">"El procesu de cifráu paróse y nun pue completase. Poro, nun vas poder acceder a los datos del teléfonu. 
 
-Tienes de restablecer los datos de fábrica pa volver a usar el teléfonu. Cuando configures el teléfonu dempués d'esti procesu, podrás restaurar los datos de los que tengas copia de seguranza na to cuenta de Google."</string>
+Tienes de restablecer los datos de fábrica pa volver a usar el teléfonu. Cuando configures el teléfonu dempués d'esti procesu, podrás restaurar los datos de los que tengas copia de seguridá na to cuenta de Google."</string>
     <string name="crypt_keeper_switch_input_method">"Camudar métodu d'entrada"</string>
     <string name="lock_settings_picker_title">Escoyer bloquéu de pantalla</string>
     <string name="backup_lock_settings_picker_title">Bloquéu alternativu</string>
@@ -1376,6 +1317,7 @@ Tienes de restablecer los datos de fábrica pa volver a usar el teléfonu. Cuand
     <string name="unlock_set_unlock_launch_picker_enable_summary">Esbilla un métodu pa bloquiar la pantalla.</string>
     <string name="unlock_backup_info_summary">"Si'l desbloquéu facial nun te reconoz, ¿cómo quies desbloquiar la pantalla?"</string>
     <string name="unlock_set_unlock_off_title">Ensin seguridá</string>
+    <string name="unlock_set_unlock_off_summary" />
     <string name="unlock_set_unlock_none_title">Eslizar</string>
     <string name="unlock_set_unlock_none_summary">Ensin seguridá</string>
     <string name="unlock_set_unlock_biometric_weak_title">Desbloquéu facial</string>
@@ -1387,8 +1329,8 @@ Tienes de restablecer los datos de fábrica pa volver a usar el teléfonu. Cuand
     <string name="unlock_set_unlock_password_title">Contraseña</string>
     <string name="unlock_set_unlock_password_summary">Seguridá alta</string>
     <string name="unlock_set_unlock_disabled_summary">Desactiváu pol alministrador, política de cifráu o almacenamientu de credenciales</string>
-    <string name="unlock_set_unlock_mode_off">Nengún</string>
-    <string name="unlock_set_unlock_mode_none">Eslizar</string>
+    <string name="unlock_set_unlock_mode_off">Dengún</string>
+    <string name="unlock_set_unlock_mode_none">Deslizar</string>
     <string name="unlock_set_unlock_mode_biometric_weak">Desbloquéu facial</string>
     <string name="unlock_set_unlock_mode_pattern">Patrón</string>
     <string name="unlock_set_unlock_mode_pin">PIN</string>
@@ -1443,6 +1385,7 @@ Tienes de restablecer los datos de fábrica pa volver a usar el teléfonu. Cuand
     <string name="bluetooth_display_passkey_pin_msg">Pa enllazar con:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>Escribi&lt;br>&lt;b>%2$s&lt;/b> nel preséu y, darréu, primi la tecla Intro o de retornu.</string>
     <string name="bluetooth_pairing_accept">Enllazar</string>
     <string name="bluetooth_pairing_decline">Encaboxar</string>
+    <string name="bluetooth_error_title" />
     <string name="bluetooth_pairing_error_message">Nun pudo enllazase con %1$s.</string>
     <string name="bluetooth_pairing_pin_error_message">"Nun pudo enllazase con %1$s porque la clave d'accesu o el PIN son incorreutos."</string>
     <string name="bluetooth_pairing_device_down_error_message">Nun pue afitase comunicación con %1$s.</string>
@@ -1462,7 +1405,7 @@ Tienes de restablecer los datos de fábrica pa volver a usar el teléfonu. Cuand
     <string name="bluetooth_device_context_connect_advanced">Opciones…</string>
     <string name="bluetooth_menu_advanced">Axustes avanzaos</string>
     <string name="bluetooth_advanced_titlebar">Axustes avanzaos de Bluetooth</string>
-    <string name="bluetooth_empty_list_bluetooth_off">"Cuando'l Bluetooth ta activáu, el preséu pue coneutase con otros preseos Bluetooth cercanos."</string>
+    <string name="bluetooth_empty_list_bluetooth_off">"Pa ver preseos, activa'l Bluetooth."</string>
     <string name="bluetooth_connect_specific_profiles_title">Afitar conexón con…</string>
     <string name="bluetooth_profile_a2dp">Audiu multimedia</string>
     <string name="bluetooth_profile_headset">Audiu del teléfonu</string>
@@ -1500,7 +1443,7 @@ Tienes de restablecer los datos de fábrica pa volver a usar el teléfonu. Cuand
     <string name="bluetooth_dock_settings_title">"Usu de la base p'audiu"</string>
     <string name="bluetooth_dock_settings_headset">Como altavoz del teléfonu</string>
     <string name="bluetooth_dock_settings_a2dp">Pa música y conteníu multimedia</string>
-    <string name="bluetooth_dock_settings_remember">Axustes de recordatoriu</string>
+    <string name="bluetooth_dock_settings_remember">Axustes de recordatorio</string>
     <string name="wifi_display_settings_title">Pantalla de Cast</string>
     <string name="wifi_display_enable_menu_item">Habilitar pantalla inalámbrica</string>
     <string name="wifi_display_no_devices_found">Nun hai preseos cercanos.</string>
@@ -1600,7 +1543,7 @@ Namái tienes de xunir los preseos (davezu, pela parte trasera) y, darréu, toca
     <string name="wifi_ip_settings">Axustes de IP</string>
     <string name="wifi_unchanged">(ensin modificar)</string>
     <string name="wifi_unspecified">(non especificáu)</string>
-    <string name="wifi_remembered">Guardada</string>
+    <string name="wifi_remembered">Guardáu</string>
     <string name="wifi_disabled_generic">Inhabilitáu</string>
     <string name="wifi_disabled_network_failure">Mala conexón inhabilitada</string>
     <string name="wifi_disabled_password_failure">"Fallu d'autenticación"</string>
@@ -1609,19 +1552,7 @@ Namái tienes de xunir los preseos (davezu, pela parte trasera) y, darréu, toca
     <string name="wifi_wps_available_second_item">(WPS disponible)</string>
     <string name="wifi_secured_first_item">Protexida con %1$s</string>
     <string name="wifi_secured_second_item">, protexida con %1$s</string>
-    <string name="wifi_security_short_wep">WEP</string>
-    <string name="wifi_security_short_wpa">WPA</string>
-    <string name="wifi_security_short_wpa2">WPA2</string>
-    <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
-    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
-    <string name="wifi_security_short_eap">802.1x</string>
-    <string name="wifi_security_none">Nenguna</string>
-    <string name="wifi_security_wep">WEP</string>
-    <string name="wifi_security_wpa">WPA PSK</string>
-    <string name="wifi_security_wpa2">WPA2 PSK</string>
-    <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
-    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
-    <string name="wifi_security_eap">802.1x EAP</string>
+    <string name="wifi_security_none">Denguna</string>
     <string name="wifi_scan_always_turnon_message">"P'ameyorar la precisión de la llocalización y pa otros fines, %1$s quier activar la busca de redes magar que la conexón Wi-Fi tea desactivada.
 
 ¿Permitir pa toles aplicaciones que quieran guetar redes?"</string>
@@ -1686,6 +1617,7 @@ La configuración del teléfonu pue riquir una gran cantidá d'actividá de rede
     <string name="display_settings_title">Pantalla</string>
     <string name="sound_settings">Soníu</string>
     <string name="ringtone_title">Tonu del teléfonu</string>
+    <string name="ringtone_summary" />
     <string name="all_volume_title">Volume</string>
     <string name="musicfx_title">Efeutos de música</string>
     <string name="ring_volume_title">Volume del timbre</string>
@@ -1714,6 +1646,8 @@ La configuración del teléfonu pue riquir una gran cantidá d'actividá de rede
     <string name="volume_notification_mute">Silenciar notificaciones</string>
     <string name="volume_alarm_mute">Silenciar alarmes</string>
     <string name="vibrate_when_ringing_title">Vibrar al sonar</string>
+    <string name="system_update_settings_list_item_title">Anovamientos del sistema</string>
+    <string name="system_update_settings_list_item_summary" />
     <string name="dock_settings">Base</string>
     <string name="dock_settings_title">Axustes de la base</string>
     <string name="dock_audio_settings_title">Audiu</string>
@@ -1778,7 +1712,6 @@ Ye dable que'l PIN nun seya correutu."</string>
     <string name="wrong_pin_code_pukked">Códigu PIN de la tarxeta SIM incorreutu. Tienes de contautar col operador pa desbloquiar el preséu.</string>
     <string name="pin_failed">Fallu al intentar desbloquiar la tarxeta SIM col códigu PIN</string>
     <string name="device_info_settings">Estáu del teléfonu</string>
-    <string name="system_update_settings_list_item_title">Anovamientos del sistema</string>
     <string name="firmware_version">"Versión d'Android"</string>
     <string name="model_number">Númberu de modelu</string>
     <string name="fcc_equipment_id">"ID d'equipu"</string>
@@ -1793,8 +1726,6 @@ Ye dable que'l PIN nun seya correutu."</string>
     <string name="storage_settings">Almacenamientu</string>
     <string name="storage_settings_title">"Axustes d'almacenamientu"</string>
     <string name="storage_settings_summary">Desactivar tarxeta SD, ver almacenamientu disponible.</string>
-    <string name="status_imei">IMEI</string>
-    <string name="status_imei_sv">IMEI SV</string>
     <string name="status_number">El mio númberu de teléfonu</string>
     <string name="status_min_number">MIN</string>
     <string name="status_msid_number">MSID</string>
@@ -1831,6 +1762,7 @@ Ye dable que'l PIN nun seya correutu."</string>
     <string name="sd_eject_summary">Desactivar la tarxeta SD pa estrayela de mou seguru</string>
     <string name="sd_insert_summary">Inxertar una tarxeta SD pal montaxe</string>
     <string name="sd_mount">Activar tarxeta SD</string>
+    <string name="sd_mount_summary" />
     <string name="sd_format">Desaniciar tarxeta SD</string>
     <string name="sd_format_summary">Desanicia tolos datos de la tarxeta SD, como la música y les semeyes.</string>
     <string name="memory_clear_cache_title">¿Desaniciar datos almacenaos en caché?</string>
@@ -1838,6 +1770,7 @@ Ye dable que'l PIN nun seya correutu."</string>
     <string name="mtp_ptp_mode_summary">La función MTP o PTP ta activa.</string>
     <string name="dlg_confirm_unmount_title">¿Desactivar tarxeta SD?</string>
     <string name="dlg_confirm_unmount_text">Si desactives la tarxeta SD, van parase dalgunes aplicaciones que tas usando y nun van tar disponibles hasta que vuelvas activala.</string>
+    <string name="dlg_error_unmount_title" />
     <string name="dlg_error_unmount_text">Nun pudo desactivase la tarxeta SD. Vuelvi intentalo dempués.</string>
     <string name="unmount_inform_text">Va desactivase la tarxeta SD.</string>
     <string name="sd_ejecting_title">Desactivando</string>
@@ -1871,7 +1804,7 @@ Ye dable que'l PIN nun seya correutu."</string>
     <string name="apn_mcc">MCC</string>
     <string name="apn_mnc">MNC</string>
     <string name="apn_auth_type">"Tipu d'autenticación"</string>
-    <string name="apn_auth_type_none">Nengún</string>
+    <string name="apn_auth_type_none">Dengún</string>
     <string name="apn_auth_type_pap">PAP</string>
     <string name="apn_auth_type_chap">CHAP</string>
     <string name="apn_auth_type_pap_chap">PAP o CHAP</string>
@@ -1888,6 +1821,7 @@ Ye dable que'l PIN nun seya correutu."</string>
     <string name="menu_new">APN Nuevu</string>
     <string name="menu_save">Guardar</string>
     <string name="menu_cancel">Descartar</string>
+    <string name="error_title" />
     <string name="error_name_empty">El campu Nome nun pue quedar baleru.</string>
     <string name="error_apn_empty">El campu APN nun pue quedar baleru.</string>
     <string name="error_mcc_not3">El campu MMC tien de tener 3 díxitos.</string>
@@ -1897,11 +1831,11 @@ Ye dable que'l PIN nun seya correutu."</string>
     <string name="restore_default_apn_completed">Reafitóse la configuración predeterminada de APN.</string>
     <string name="master_clear_title">Reafitar datos de fábrica</string>
     <string name="master_clear_summary">Desaniciar tolos datos del teléfonu</string>
-    <string name="master_clear_desc">Van desaniciase tolos datos del <b>almacenamientu internu</b>" del teléfonu, como:
+    <string name="master_clear_desc">Van desaniciase tolos datos del \"<b>almacenamientu internu\"</b>" del teléfonu, como:
 
-"<li>La to cuenta de Google</li>"
-"<li>"Los axustes y los datos d'aplicaciones y del sistema "</li>"
-"<li>Les aplicaciones descargaes</li></string>
+\""<li>La to cuenta de Google\"</li>"
+"<li>"Los axustes y los datos d'aplicaciones y del sistema \""</li>"
+"<li>Les aplicaciones descargaes\"</li></string>
     <string name="master_clear_accounts">"
 
 Accedisti a les cuentes que s'indiquen darréu:
@@ -1911,7 +1845,7 @@ Accedisti a les cuentes que s'indiquen darréu:
 "<li>"Otros datos d'usuariu"</li></string>
     <string name="master_clear_desc_erase_external_storage">"
 
-Pa llimpiar la música, les semeyes, y otros datos d'usuariu, necesítase desaniciar la "<b>tarxeta SD </b>.</string>
+Pa desaniciar la música, les imáxenes y otros datos d'usuariu, tienes de desaniciar la \""<b>tarxeta SD\"</b>.</string>
     <string name="erase_external_storage">Desaniciar tarxeta SD</string>
     <string name="erase_external_storage_description">Desanicia tolos datos de la tarxeta SD, como la música o les semeyes.</string>
     <string name="master_clear_button_text">Restablecer teléfonu</string>
@@ -1956,10 +1890,10 @@ Pa llimpiar la música, les semeyes, y otros datos d'usuariu, necesítase desani
     <string name="manage_mobile_plan_title">Plan móvil</string>
     <string name="sms_application_title">Aplicación de SMS predeterminada</string>
     <string name="sms_change_default_dialog_title">¿Camudar aplicación de SMS?</string>
-    <string name="sms_change_default_dialog_text">Usar %1$s en cuenta de %2$s como aplicación de SMS?</string>
+    <string name="sms_change_default_dialog_text" formatted="false">¿Usar %s en cuenta de %s como aplicación de SMS?</string>
     <string name="sms_change_default_no_previous_dialog_text">¿Usar %s como aplicación de SMS?</string>
     <string name="mobile_unknown_sim_operator">Operador de SIM desconocíu</string>
-    <string name="mobile_no_provisioning_url">"%1$s nun tien nengún sitiu web d'aprovisionamientu"</string>
+    <string name="mobile_no_provisioning_url">"%1$s nun tien dengún sitiu web d'aprovisionamientu"</string>
     <string name="mobile_insert_sim_card">"Inxerta la tarxeta SIM y reanicia'l preséu"</string>
     <string name="mobile_connect_to_internet">Tienes de coneutate a Internet</string>
     <string name="location_title">Mio llocalización</string>
@@ -1969,7 +1903,7 @@ Pa llimpiar la música, les semeyes, y otros datos d'usuariu, necesítase desani
     <string name="location_mode_sensors_only_title">Namái en preséu</string>
     <string name="location_mode_location_off_title">Llocalización desactivada</string>
     <string name="location_category_recent_location_requests">Solicitúes de llocalización recientes</string>
-    <string name="location_no_recent_apps">Nenguna aplicación solicitó la llocalización recientemente</string>
+    <string name="location_no_recent_apps">Denguna aplicación solicitó la llocalización recientemente</string>
     <string name="location_category_location_services">Servicios de llocalización</string>
     <string name="location_high_battery_use">Usu de batería altu</string>
     <string name="location_low_battery_use">Pocu usu de batería</string>
@@ -2053,7 +1987,7 @@ Pa llimpiar la música, les semeyes, y otros datos d'usuariu, necesítase desani
     <string name="applications_settings_header">"Axustes d'aplicación"</string>
     <string name="install_applications">Fontes desconocíes</string>
     <string name="install_unknown_applications">"Permitir la instalación d'aplicaciones d'orixe desconocíu"</string>
-    <string name="install_all_warning">"El teléfonu y los datos personales son más vulnerables a los ataques d'aplicaciones d'orixe desconocíu. L'usuariu aceuta ser l'únicu responsable de cualquier dañu nel teléfonu o perda de datos que pueda derivase del usu d'estes aplicaciones."</string>
+    <string name="install_all_warning">"El teléfonu y los datos personales son más vulnerables a los ataques d'aplicaciones d'orixe desconocíu. L'usuariu aceuta ser l'únicu responsable de cualquier dañu nel teléfonu o perda de datos que se pueda derivase del usu d'estes aplicaciones."</string>
     <string name="verify_applications">Verificar aplicaciones</string>
     <string name="verify_applications_summary">"Nun permitir la instalación d'aplicaciones que puedan provocar daños o amosar un avisu enantes d'instalales"</string>
     <string name="advanced_settings">Axustes avanzaos</string>
@@ -2123,6 +2057,7 @@ Pa llimpiar la música, les semeyes, y otros datos d'usuariu, necesítase desani
     <string name="clear_data_dlg_text">"Tolos datos d'esta aplicación van desaniciase de mou permanente. Esto inclúi tolos ficheros, configuración, cuentes, bases de datos, etc."</string>
     <string name="dlg_ok">Aceutar</string>
     <string name="dlg_cancel">Encaboxar</string>
+    <string name="app_not_found_dlg_title" />
     <string name="app_not_found_dlg_text">"Nun s'atopó l'aplicación na llista d'aplicaciones instalaes."</string>
     <string name="clear_data_failed">"Nun pudieron desaniciase los datos d'aplicaciones."</string>
     <string name="app_factory_reset_dlg_title">¿Desinstalar aplicaciones?</string>
@@ -2139,19 +2074,20 @@ Pa llimpiar la música, les semeyes, y otros datos d'usuariu, necesítase desani
     <string name="security_settings_premium_sms_desc">Unviar SMS premium</string>
     <string name="computing_size">Calculando…</string>
     <string name="invalid_size_value">"Nun pudo calculase'l tamañu del paquete."</string>
-    <string name="empty_list_msg">Nun tienes instalada nenguna aplicación esterna.</string>
+    <string name="empty_list_msg">Nun tienes instalada denguna aplicación esterna.</string>
     <string name="version_text">versión %1$s</string>
     <string name="move_app">Mover</string>
     <string name="move_app_to_internal">Mover al teléfonu</string>
     <string name="move_app_to_sdcard">Mover a la tarxeta SD</string>
     <string name="moving">Moviendo</string>
-    <string name="insufficient_storage">"Nun hai espaciu abondu d'almacenamientu."</string>
+    <string name="insufficient_storage">"Nun hai abondu espaciu d'almacenamientu."</string>
     <string name="does_not_exist">"L'aplicación nun esiste."</string>
     <string name="app_forward_locked">"L'aplicación ta protexida escontra copies."</string>
     <string name="invalid_location">"La llocalización d'instalación nun ye válida."</string>
     <string name="system_package">"Los anovamientos del sistema nun puen instalase n'allugamientos esternos."</string>
     <string name="force_stop_dlg_title">¿Forciar detención?</string>
     <string name="force_stop_dlg_text">Si se detién una aplicación, ye dable que nun funcione correcho.</string>
+    <string name="move_app_failed_dlg_title" />
     <string name="move_app_failed_dlg_text">"Nun pudo movese l'aplicación (%1$s)."</string>
     <string name="app_install_location_title">"Llocalización d'instalación preferida"</string>
     <string name="app_install_location_summary">"Modificar la llocalización d'instalación preferida pa nueves aplicaciones"</string>
@@ -2172,11 +2108,9 @@ Pa llimpiar la música, les semeyes, y otros datos d'usuariu, necesítase desani
     <string name="cached">Procesu en segundu planu en caché</string>
     <string name="no_running_services">"Nun hai nada n'execución."</string>
     <string name="service_started_by_app">Aniciáu por aplicación</string>
-    <string name="service_client_name">%1$s</string>
     <string name="service_background_processes">%1$s llibre</string>
-    <string name="service_foreground_processes">%1$s usaos</string>
+    <string name="service_foreground_processes">%1$s usáu</string>
     <string name="memory">RAM</string>
-    <string name="service_process_name">%1$s</string>
     <string name="running_process_item_user_label">Usuariu: %1$s</string>
     <string name="running_process_item_removed_user_label">Usuariu desaniciáu</string>
     <string name="running_processes_item_description_s_s">%1$d procesu y %2$d serviciu</string>
@@ -2203,6 +2137,7 @@ Pa llimpiar la música, les semeyes, y otros datos d'usuariu, necesítase desani
     <string name="language_settings_category">Axustes de llingua</string>
     <string name="keyboard_settings_category">"Tecláu y métodos d'introducción"</string>
     <string name="phone_language">Llingua</string>
+    <string name="phone_language_summary" />
     <string name="auto_replace">Correición automática</string>
     <string name="auto_replace_summary">"Correxir pallabres con fallos d'escritura"</string>
     <string name="auto_caps">Mayúscules automátiques</string>
@@ -2227,6 +2162,7 @@ Pa llimpiar la música, les semeyes, y otros datos d'usuariu, necesítase desani
     <string name="keyboard_layout_default_label">Predetermináu</string>
     <string name="keyboard_layout_picker_title">Diseños de tecláu</string>
     <string name="user_dict_settings_title">Diccionariu personal</string>
+    <string name="user_dict_settings_summary" />
     <string name="user_dict_settings_add_menu_title">Amestar</string>
     <string name="user_dict_settings_add_dialog_title">Amestar al diccionariu</string>
     <string name="user_dict_settings_add_screen_title">Fras</string>
@@ -2241,13 +2177,12 @@ Pa llimpiar la música, les semeyes, y otros datos d'usuariu, necesítase desani
     <string name="user_dict_settings_edit_dialog_title">Editar pallabra</string>
     <string name="user_dict_settings_context_menu_edit_title">Editar</string>
     <string name="user_dict_settings_context_menu_delete_title">Desaniciar</string>
-    <string name="user_dict_settings_empty_text">"Nun tienes nenguna pallabra nel diccionariu del usuariu. Toca'l botón Amestar (+) p'amestar una pallabra."</string>
+    <string name="user_dict_settings_empty_text">"Nun tienes denguna pallabra nel diccionariu del usuariu. Toca'l botón Amestar (+) p'amestar una pallabra."</string>
     <string name="user_dict_settings_all_languages">Pa toles llingües</string>
     <string name="user_dict_settings_more_languages">Más llingües…</string>
     <string name="testing">Prueba</string>
     <string name="testing_phone_info">Información tocante al teléfonu</string>
     <string name="testing_battery_info">Información de la batería</string>
-    <string name="testing_sim_toolkit">SIM toolkit</string>
     <string name="quick_launch_title">Aniciu rápidu</string>
     <string name="quick_launch_summary">"Afitar accesos rápidos del tecláu p'aniciar aplicaciones"</string>
     <string name="quick_launch_assign_application">Asignar aplicación</string>
@@ -2280,7 +2215,7 @@ Pa llimpiar la música, les semeyes, y otros datos d'usuariu, necesítase desani
     <string name="development_settings_summary">"Afitar opciones de desendolcu d'aplicaciones"</string>
     <string name="development_settings_not_available">Les opciones de desendolcador nun tán disponibles pa esti usuariu</string>
     <string name="enable_adb">Depuración USB</string>
-    <string name="enable_adb_summary">"Mou depuración cuando l'USB tea coneutáu"</string>
+    <string name="enable_adb_summary">"Activar el mou de depuración cuando'l preséu tea coneutáu por USB"</string>
     <string name="clear_adb_keys">Revocar autorizaciones depur. USB</string>
     <string name="bugreport_in_power">"Informe d'error menú encendíu"</string>
     <string name="bugreport_in_power_summary">"Incluyir opción nel menú d'encendíu pa xenerar un informe d'error"</string>
@@ -2372,14 +2307,13 @@ Si hai dellos usuarios nel preséu, esti accesu direutu na pantalla de bloquéu 
     <string name="captioning_background_color">Color de fondu</string>
     <string name="captioning_background_opacity">Opacidad del fondu</string>
     <string name="captioning_foreground_color">Color del testu</string>
-    <string name="captioning_foreground_opacity">Opacidá del testu</string>
     <string name="captioning_edge_color">Color del berbesu</string>
     <string name="captioning_edge_type">Tipu de berbesu</string>
     <string name="captioning_typeface">Tipu de fonte</string>
     <string name="captioning_preview_text">"Los subtítulos van vese d'esti mou"</string>
     <string name="captioning_preview_characters">Aa</string>
     <string name="locale_default">Predetermináu</string>
-    <string name="color_none">Nengún</string>
+    <string name="color_none">Dengún</string>
     <string name="color_white">Blancu</string>
     <string name="color_gray">Buxu</string>
     <string name="color_black">Prietu</string>
@@ -2395,16 +2329,16 @@ Si hai dellos usuarios nel preséu, esti accesu direutu na pantalla de bloquéu 
     <string name="capability_desc_receiveAccessibilityEvents">Recibir notificaciones cuando interactúes con una aplicación.</string>
     <string name="disable_service_title">¿Detener %1$s?</string>
     <string name="disable_service_message">Si toques Aceutar, va detenese %1$s.</string>
-    <string name="accessibility_no_services_installed">"Nun s'instaló nengún serviciu"</string>
+    <string name="accessibility_no_services_installed">"Nun s'instaló dengún serviciu."</string>
     <string name="accessibility_service_no_apps_title">¿Necesitas un llector de pantalla?</string>
     <string name="accessibility_service_no_apps_message">TalkBack ufre mensaxes de voz pa usuarios con discapacidaes visuales. ¿Quies instalalu de baldre dende Android Market?</string>
-    <string name="accessibility_service_default_description">"Nun s'especificó nenguna descripción."</string>
+    <string name="accessibility_service_default_description">"Nun s'especificó denguna descripción."</string>
     <string name="settings_button">Axustes</string>
     <string name="print_settings">Impresión</string>
     <string name="print_settings_title">"Servicios d'impresión"</string>
     <string name="print_service_security_warning_title">¿Usar %1$s?</string>
     <string name="print_service_security_warning_summary">"Ye dable que'l documentu pase por ún o dellos sirvidores enantes d'imprentase."</string>
-    <string name="print_no_services_installed">"Nun s'instaló nengún serviciu"</string>
+    <string name="print_no_services_installed">"Nun s'instaló dengún serviciu."</string>
     <string name="print_no_printers_found">"Nun s'atoparon imprentadores"</string>
     <string name="print_menu_item_settings">Axustes</string>
     <string name="print_menu_item_add_printers">Amestar imprentadores</string>
@@ -2441,7 +2375,6 @@ Si hai dellos usuarios nel preséu, esti accesu direutu na pantalla de bloquéu 
     <string name="battery_stats_wifi_running_label">Wi-Fi</string>
     <string name="battery_stats_wake_lock_label">Activa</string>
     <string name="battery_stats_phone_signal_label">Señal de rede móvil</string>
-    <string name="battery_stats_last_duration">@string/menu_stats_last_unplugged</string>
     <string name="awake">"Tiempu d'actividá del preséu"</string>
     <string name="wifi_on_time">Tiempu de conexón Wi-Fi</string>
     <string name="bluetooth_on_time">Tiempu de conexón Wi-Fi</string>
@@ -2607,6 +2540,7 @@ Si hai dellos usuarios nel preséu, esti accesu direutu na pantalla de bloquéu 
     <string name="credential_storage_type_software">Namái software</string>
     <string name="credentials_install_gesture_prompt">"Dibuxa'l patrón de desbloquéu."</string>
     <string name="credentials_install_gesture_explanation">Tienes de dibuxar el patrón de desbloquéu pa confirmar la instalación de les credenciales.</string>
+    <string name="credentials_unlock" />
     <string name="credentials_unlock_hint">Escribi la contraseña del almacenamientu de credenciales.</string>
     <string name="credentials_old_password">Contraseña actual:</string>
     <string name="credentials_reset_hint">¿Daveres que quies desaniciar tolos certificaos?</string>
@@ -2620,23 +2554,24 @@ Si hai dellos usuarios nel preséu, esti accesu direutu na pantalla de bloquéu 
     <string name="credentials_configure_lock_screen_hint">"Pa poder usar l'almacenamientu de credenciales, tienes d'afitar una contraseña o un PIN pa la pantalla de bloquéu."</string>
     <string name="emergency_tone_title">"Tonu d'emerxencia"</string>
     <string name="emergency_tone_summary">"Afitar comportamientu al facer una llamada d'emerxencia"</string>
-    <string name="privacy_settings">Copia de seguranza</string>
-    <string name="privacy_settings_title">Copia de seguranza y restauración</string>
-    <string name="backup_section_title">Copia de seguranza</string>
+    <string name="privacy_settings">Copia de seguridá</string>
+    <string name="privacy_settings_title">Copia de seguridá y restauración</string>
+    <string name="backup_section_title">Copia de seguridá</string>
     <string name="personal_data_section_title">Datos personales</string>
     <string name="backup_data_title">Copiar los mios datos</string>
-    <string name="backup_data_summary">"Crear copia de seguranza de datos d'aplicaciones, contraseñes Wi-Fi y otros axustes nos sirvidores de Google"</string>
-    <string name="backup_configure_account_title">Cuenta de copia de seguranza</string>
-    <string name="backup_configure_account_default_summary">Nestos momentos, nun hai denguna cuenta almacenando datos con copia de seguranza</string>
+    <string name="backup_data_summary">"Crear copia de seguridá de datos d'aplicaciones, contraseñes Wi-Fi y otros axustes nos sirvidores de Google"</string>
+    <string name="backup_configure_account_title">Cuenta de copia de seguridá</string>
+    <string name="backup_configure_account_default_summary">Nestos momentos, nun hai denguna cuenta almacenando datos con copia de seguridá.</string>
     <string name="auto_restore_title">Restauración automática</string>
     <string name="auto_restore_summary">Cuando vuelvas a instalar una aplicación, restaurar la configuración y los datos incluyíos na copia</string>
     <string name="local_backup_password_title">"Contraseña pa copies d'ordenador"</string>
-    <string name="local_backup_password_summary_none">"Les copies de seguranza completes d'ordenador nun tán protexíes"</string>
-    <string name="local_backup_password_summary_change">"Tocar pa camudar o desaniciar la contraseña pa les copies de seguranza completes d'ordenador"</string>
-    <string name="local_backup_password_toast_success">Afitóse la contraseña nueva de seguranza</string>
+    <string name="local_backup_password_summary_none">"Les copies de seguridá completes d'ordenador nun tán protexíes"</string>
+    <string name="local_backup_password_summary_change">"Tocar pa camudar o desaniciar la contraseña pa les copies de seguridá completes d'ordenador"</string>
+    <string name="local_backup_password_toast_success">Afitóse la contraseña nueva de seguridá</string>
     <string name="local_backup_password_toast_confirmation_mismatch">La contraseña nueva y la de confirmación nun concasen.</string>
-    <string name="local_backup_password_toast_validation_failure">Fallu al afitar contraseña de seguranza</string>
-    <string name="backup_erase_dialog_message">"¿Quies dexar de facer copies de seguranza de les contraseñes Wi-Fi, de los marcadores y d'otros axustes y datos d'aplicaciones, arriendes de desaniciar toles copies de los sirvidores de Google?"</string>
+    <string name="local_backup_password_toast_validation_failure">Fallu al afitar contraseña de seguridá</string>
+    <string name="backup_erase_dialog_title" />
+    <string name="backup_erase_dialog_message">"¿Quies dexar de facer copies de seguridá de les contraseñes Wi-Fi, de los marcadores y d'otros axustes y datos d'aplicaciones, arriendes de desaniciar toles copies de los sirvidores de Google?"</string>
     <string name="device_admin_settings_title">"Axustes d'alministración de preseos"</string>
     <string name="active_device_admin_msg">Alministrador de preseos</string>
     <string name="remove_device_admin">Desactivar</string>
@@ -2672,16 +2607,16 @@ Si hai dellos usuarios nel preséu, esti accesu direutu na pantalla de bloquéu 
     <string name="wifi_setup_status_select_network">Toca nuna rede pa coneutate a ella</string>
     <string name="wifi_setup_status_existing_network">Afitar conexón con rede esistente</string>
     <string name="wifi_setup_status_unsecured_network">Coneutar con rede non segura</string>
-    <string name="wifi_setup_status_edit_network">Inxertar configuración de rede</string>
+    <string name="wifi_setup_status_edit_network">Introducir configuración de rede</string>
     <string name="wifi_setup_status_new_network">Afitar conexón con rede nueva</string>
     <string name="wifi_setup_status_connecting">Coneutando…</string>
     <string name="wifi_setup_status_proceed_to_next">Dir al siguiente pasu</string>
     <string name="wifi_setup_status_eap_not_supported">EAP non compatible</string>
     <string name="wifi_setup_eap_not_supported">"Nun pues definir una conexón Wi-Fi EAP mentanto la configuración, pero pues facelo cuando tenga finao a traviés d'Axustes > Conexones inalámbriques y redes."</string>
     <string name="wifi_setup_description_connecting">Coneutando (pue tardar unos minutos)…</string>
-    <string name="wifi_setup_description_connected">Toca \"<b>Siguiente</b>" pa continuar col procesu de configuración.
+    <string name="wifi_setup_description_connected">Toca \"<b>Siguiente\"</b>" pa continuar col procesu de configuración.
 
-Toca \""<b>Atrás</b> pa coneutate a otra rede Wi-Fi.</string>
+Toca \""<b>Atrás\"</b> pa coneutate a otra rede Wi-Fi.</string>
     <string name="accessibility_sync_enabled">Sincronización habilitada</string>
     <string name="accessibility_sync_disabled">Sincronización inhabilitada</string>
     <string name="accessibility_sync_error">Fallu de sincronización</string>
@@ -2700,8 +2635,8 @@ Toca \""<b>Atrás</b> pa coneutate a otra rede Wi-Fi.</string>
     <string name="sync_error">Fallu de sincronización</string>
     <string name="last_synced">Cabera sincronización: %1$s</string>
     <string name="sync_in_progress">Sincronizando…</string>
-    <string name="settings_backup">Facer copia de seguranza de configuración</string>
-    <string name="settings_backup_summary">Facer copia de seguranza de la mio configuración</string>
+    <string name="settings_backup">Facer copia de seguridá de configuración</string>
+    <string name="settings_backup_summary">Facer copia de seguridá de la mio configuración</string>
     <string name="sync_menu_sync_now">Sincronizar agora</string>
     <string name="sync_menu_sync_cancel">Encaboxar sincronización</string>
     <string name="sync_one_time_sync">Tocar pa facer agora la sincronización %1$s</string>
@@ -2719,9 +2654,8 @@ un serviciu de Google que te permite sincronizar datos pa que puedas acceder a l
     <string name="finish_button_label">Finar</string>
     <string name="really_remove_account_title">¿Desaniciar cuenta?</string>
     <string name="really_remove_account_message">Si desanicies esta cuenta, van desaniciase tolos mensaxes, contautos y otros datos del teléfonu.</string>
-    <string name="remove_account_failed">Dalgunes aplicaciones necesiten esta cuenta. Pa desaniciala, tienes de reafitar a valores de fábrica del teléfonu (esta aición desanicia tolos datos personales). Pa ello, vete a Axustes > Copia de seguranza.</string>
+    <string name="remove_account_failed">Dalgunes aplicaciones necesiten esta cuenta. Pa desaniciala, tienes de reafitar a valores de fábrica del teléfonu (esta aición desanicia tolos datos personales). Pa ello, vete a Axustes > Copia de seguridá.</string>
     <string name="provider_label">Unviar soscripciones</string>
-    <string name="sync_item_title">%s</string>
     <string name="cant_sync_dialog_title">Nun pue facer la sincronización de mou manual.</string>
     <string name="cant_sync_dialog_message">"La sincronización d'esti elementu nun ta disponible nesti momentu. Pa modificar la preferencia, activa temporalmente les conexones automátiques y la sincronización automática."</string>
     <string name="wimax_settings">4G</string>
@@ -2739,7 +2673,7 @@ un serviciu de Google que te permite sincronizar datos pa que puedas acceder a l
     <string name="debug_app_not_set">Aplicación de depuración non configurada</string>
     <string name="debug_app_set">Aplicación de depuración: %1$s</string>
     <string name="select_application">Esbillar aplicación</string>
-    <string name="no_application">Nenguna</string>
+    <string name="no_application">Denguna</string>
     <string name="wait_for_debugger">Esperar al depurador</string>
     <string name="wait_for_debugger_summary">"L'aplicación de depuración espera a que se coneute'l depurador pa executase"</string>
     <string name="debug_input_category">Entrada</string>
@@ -2795,7 +2729,7 @@ un serviciu de Google que te permite sincronizar datos pa que puedas acceder a l
     <string name="data_usage_menu_auto_sync">Sincronización automática</string>
     <string name="data_usage_change_cycle">Camudar ciclu…</string>
     <string name="data_usage_pick_cycle_day">"Día del mes pa restablecer ciclu d'usu de datos:"</string>
-    <string name="data_usage_empty">Nenguna aplicación usó datos nesti periodu.</string>
+    <string name="data_usage_empty">Denguna aplicación usó datos nesti periodu.</string>
     <string name="data_usage_label_foreground">Primer planu</string>
     <string name="data_usage_label_background">Segundo planu</string>
     <string name="data_usage_app_restricted">con restricción</string>
@@ -2892,7 +2826,7 @@ Esta configuración afecta a tolos usuarios del teléfonu."</string>
     <string name="vpn_menu_delete">Desaniciar perfil</string>
     <string name="vpn_menu_lockdown">VPN siempre activada</string>
     <string name="vpn_lockdown_summary">"Esbilla un perfil de VPN pa permanecer coneutáu de forma continua. Namái va permitise'l tráficu de rede cuando teas coneutáu a esta rede VPN."</string>
-    <string name="vpn_lockdown_none">Nenguna</string>
+    <string name="vpn_lockdown_none">Denguna</string>
     <string name="vpn_lockdown_config_error">Les redes VPN activaes continuamente riquen una direición IP pal sirvidor y el DNS.</string>
     <string name="vpn_no_network">Nun hai conexón de rede. Inténtalo de nueves dempués.</string>
     <string name="vpn_missing_cert">"Falta un certificáu. Edita'l perfil."</string>
@@ -2905,9 +2839,9 @@ Esta configuración afecta a tolos usuarios del teléfonu."</string>
     <string name="trusted_credentials_disable_confirmation">¿Quies inhabilitar el certificáu de CA del sistema?</string>
     <string name="trusted_credentials_remove_confirmation">"¿Quies desaniciar el certificáu de CA d'usuariu de forma permanente?"</string>
     <string name="spellcheckers_settings_title">Correutor ortográficu</string>
-    <string name="current_backup_pw_prompt">Introduz equí la contraseña actual de la copia de seguranza completa.</string>
-    <string name="new_backup_pw_prompt">Introduz una contraseña nueva pa les copies de seguranza completes.</string>
-    <string name="confirm_new_backup_pw_prompt">Vuelvi a escribir equí la nueva contraseña de copia de seguranza completa.</string>
+    <string name="current_backup_pw_prompt">Introduz equí la contraseña actual de la copia de seguridá completa.</string>
+    <string name="new_backup_pw_prompt">Introduz una contraseña nueva pa les copies de seguridá completes.</string>
+    <string name="confirm_new_backup_pw_prompt">Vuelvi a escribir equí la nueva contraseña de copia de seguridá completa.</string>
     <string name="backup_pw_set_button_text">Afitar contraseña</string>
     <string name="backup_pw_cancel_button_text">Encaboxar</string>
     <string name="percentage">%d%%</string>
@@ -3014,4 +2948,7 @@ Cualquier usuariu pue aceutar permisos d'aplicaciones anovaos en nome del restu 
     <string name="wizard_finish">Finar</string>
     <string name="user_image_take_photo">Facer semeya</string>
     <string name="user_image_choose_photo">Esbillar semeya de la galería</string>
+    <string name="regulatory_info_text" />
+    <string name="display_category_personalisation_title">Personalización</string>
+    <string name="status_bar_show_clock_title">Amosar reló</string>
 </resources>

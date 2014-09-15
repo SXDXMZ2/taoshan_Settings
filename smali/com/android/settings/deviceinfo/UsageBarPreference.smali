@@ -188,7 +188,7 @@
 
     .prologue
     .line 71
-    const v0, 0x7f04009d
+    const v0, 0x7f04009f
 
     invoke-virtual {p0, v0}, Lcom/android/settings/deviceinfo/UsageBarPreference;->setLayoutResource(I)V
 

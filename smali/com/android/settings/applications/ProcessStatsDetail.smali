@@ -130,7 +130,7 @@
 
     .line 191
     .local v0, inflater:Landroid/view/LayoutInflater;
-    const v4, 0x7f040086
+    const v4, 0x7f040088
 
     const/4 v5, 0x0
 
@@ -145,7 +145,7 @@
     invoke-virtual {p1, v1}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
     .line 194
-    const v4, 0x7f0d010f
+    const v4, 0x7f0d010e
 
     invoke-virtual {v1, v4}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
 
@@ -191,7 +191,7 @@
 
     .line 174
     .local v3, inflater:Landroid/view/LayoutInflater;
-    const v6, 0x7f0400c2
+    const v6, 0x7f0400c4
 
     const/4 v7, 0x0
 
@@ -623,7 +623,7 @@
     .line 138
     iget-object v8, p0, Lcom/android/settings/applications/ProcessStatsDetail;->mRootView:Landroid/view/View;
 
-    const v9, 0x7f0d0231
+    const v9, 0x7f0d022f
 
     invoke-virtual {v8, v9}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -636,7 +636,7 @@
     .line 139
     iget-object v8, p0, Lcom/android/settings/applications/ProcessStatsDetail;->mRootView:Landroid/view/View;
 
-    const v9, 0x7f0d0230
+    const v9, 0x7f0d022e
 
     invoke-virtual {v8, v9}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -702,7 +702,7 @@
     .line 150
     iget-object v8, p0, Lcom/android/settings/applications/ProcessStatsDetail;->mForceStopButton:Landroid/widget/Button;
 
-    const v9, 0x7f080838
+    const v9, 0x7f0c0833
 
     invoke-virtual {v8, v9}, Landroid/widget/Button;->setText(I)V
 
@@ -788,7 +788,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0809db
+    const v1, 0x7f0c09d6
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -822,7 +822,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0809dc
+    const v1, 0x7f0c09d7
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -856,7 +856,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0809dd
+    const v2, 0x7f0c09d8
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -1168,7 +1168,7 @@
 
     move-result-object v15
 
-    const v16, 0x7f080b62
+    const v16, 0x7f0c0b5d
 
     const/16 v17, 0x1
 
@@ -1282,7 +1282,7 @@
 
     .line 78
     .local v0, percent:D
-    const v2, 0x7f080b62
+    const v2, 0x7f0c0b5d
 
     const/4 v3, 0x1
 
@@ -1432,7 +1432,7 @@
     const/4 v2, 0x0
 
     .line 97
-    const v1, 0x7f0400b2
+    const v1, 0x7f0400b4
 
     invoke-virtual {p1, v1, p2, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 

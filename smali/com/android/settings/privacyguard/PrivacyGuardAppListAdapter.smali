@@ -366,7 +366,7 @@
     .line 92
     iget-object v4, p0, Lcom/android/settings/privacyguard/PrivacyGuardAppListAdapter;->mInflater:Landroid/view/LayoutInflater;
 
-    const v5, 0x7f0400b1
+    const v5, 0x7f0400b3
 
     const/4 v6, 0x0
 

@@ -178,7 +178,7 @@
     if-nez v2, :cond_0
 
     .line 159
-    const v2, 0x7f080b9f
+    const v2, 0x7f0c0b9a
 
     invoke-interface {p1, v2}, Landroid/view/Menu;->add(I)Landroid/view/MenuItem;
 
@@ -222,7 +222,7 @@
     .line 107
     iget-object v2, p0, Lcom/android/settings/nfc/PaymentSettings;->mInflater:Landroid/view/LayoutInflater;
 
-    const v3, 0x7f040073
+    const v3, 0x7f040075
 
     const/4 v4, 0x0
 

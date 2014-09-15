@@ -262,77 +262,46 @@
 .end method
 
 .method public isEnabled(I)Z
-    .locals 7
+    .locals 3
     .parameter "position"
 
     .prologue
     .line 350
-    iget-object v5, p0, Lcom/android/settings/quicksettings/QuickSettingsTiles$TileAdapter;->mTiles:[Lcom/android/settings/quicksettings/QuickSettingsTiles$TileAdapter$Entry;
-
-    aget-object v5, v5, p1
-
-    iget-object v5, v5, Lcom/android/settings/quicksettings/QuickSettingsTiles$TileAdapter$Entry;->tile:Lcom/android/settings/quicksettings/QuickSettingsUtil$TileInfo;
-
-    invoke-virtual {v5}, Lcom/android/settings/quicksettings/QuickSettingsUtil$TileInfo;->getId()Ljava/lang/String;
-
-    move-result-object v2
-
-    .line 351
-    .local v2, id:Ljava/lang/String;
     invoke-virtual {p0}, Lcom/android/settings/quicksettings/QuickSettingsTiles$TileAdapter;->getContext()Landroid/content/Context;
 
-    move-result-object v5
+    move-result-object v1
 
-    iget-boolean v6, p0, Lcom/android/settings/quicksettings/QuickSettingsTiles$TileAdapter;->mIsRibbon:Z
+    iget-boolean v2, p0, Lcom/android/settings/quicksettings/QuickSettingsTiles$TileAdapter;->mIsRibbon:Z
 
-    invoke-static {v5, v6}, Lcom/android/settings/quicksettings/QuickSettingsUtil;->getCurrentTiles(Landroid/content/Context;Z)Ljava/lang/String;
+    invoke-static {v1, v2}, Lcom/android/settings/quicksettings/QuickSettingsUtil;->getCurrentTiles(Landroid/content/Context;Z)Ljava/lang/String;
 
     move-result-object v0
 
     .line 352
-    .local v0, currentTiles:Ljava/lang/String;
-    invoke-static {v0}, Lcom/android/settings/quicksettings/QuickSettingsUtil;->getTileListFromString(Ljava/lang/String;)Ljava/util/ArrayList;
+    .local v0, usedTiles:Ljava/lang/String;
+    iget-object v1, p0, Lcom/android/settings/quicksettings/QuickSettingsTiles$TileAdapter;->mTiles:[Lcom/android/settings/quicksettings/QuickSettingsTiles$TileAdapter$Entry;
 
-    move-result-object v4
+    aget-object v1, v1, p1
 
-    .line 353
-    .local v4, tiles:Ljava/util/ArrayList;,"Ljava/util/ArrayList<Ljava/lang/String;>;"
-    invoke-virtual {v4}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
+    iget-object v1, v1, Lcom/android/settings/quicksettings/QuickSettingsTiles$TileAdapter$Entry;->tile:Lcom/android/settings/quicksettings/QuickSettingsUtil$TileInfo;
+
+    invoke-virtual {v1}, Lcom/android/settings/quicksettings/QuickSettingsUtil$TileInfo;->getId()Ljava/lang/String;
 
     move-result-object v1
 
-    .local v1, i$:Ljava/util/Iterator;
-    :cond_0
-    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+    invoke-virtual {v0, v1}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
-    move-result v5
+    move-result v1
 
-    if-eqz v5, :cond_1
+    if-nez v1, :cond_0
 
-    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    const/4 v1, 0x1
 
-    move-result-object v3
-
-    check-cast v3, Ljava/lang/String;
-
-    .line 354
-    .local v3, tile:Ljava/lang/String;
-    invoke-virtual {v3, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v5
-
-    if-eqz v5, :cond_0
-
-    .line 355
-    const/4 v5, 0x0
-
-    .line 358
-    .end local v3           #tile:Ljava/lang/String;
     :goto_0
-    return v5
+    return v1
 
-    :cond_1
-    const/4 v5, 0x1
+    :cond_0
+    const/4 v1, 0x0
 
     goto :goto_0
 .end method

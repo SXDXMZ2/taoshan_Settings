@@ -398,7 +398,7 @@
     .prologue
     .line 36
     .local p0, this:Lcom/koushikdutta/widgets/SeparatedListAdapter;,"Lcom/koushikdutta/widgets/SeparatedListAdapter<TT;>;"
-    const v0, 0x7f04005c
+    const v0, 0x7f04005d
 
     return v0
 .end method

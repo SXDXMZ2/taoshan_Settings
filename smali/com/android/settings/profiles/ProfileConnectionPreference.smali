@@ -120,7 +120,7 @@
 
     .prologue
     .line 98
-    const v0, 0x7f0400a5
+    const v0, 0x7f0400a7
 
     invoke-virtual {p0, v0}, Lcom/android/settings/profiles/ProfileConnectionPreference;->setLayoutResource(I)V
 
@@ -153,7 +153,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0c0074
+    const v4, 0x7f0b0074
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 

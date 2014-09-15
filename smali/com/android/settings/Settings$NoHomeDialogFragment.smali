@@ -19,7 +19,7 @@
     .locals 0
 
     .prologue
-    .line 975
+    .line 995
     invoke-direct {p0}, Landroid/app/DialogFragment;-><init>()V
 
     return-void
@@ -30,12 +30,12 @@
     .parameter "parent"
 
     .prologue
-    .line 977
+    .line 997
     new-instance v0, Lcom/android/settings/Settings$NoHomeDialogFragment;
 
     invoke-direct {v0}, Lcom/android/settings/Settings$NoHomeDialogFragment;-><init>()V
 
-    .line 978
+    .line 998
     .local v0, dialog:Lcom/android/settings/Settings$NoHomeDialogFragment;
     invoke-virtual {p0}, Landroid/app/Activity;->getFragmentManager()Landroid/app/FragmentManager;
 
@@ -45,7 +45,7 @@
 
     invoke-virtual {v0, v1, v2}, Lcom/android/settings/Settings$NoHomeDialogFragment;->show(Landroid/app/FragmentManager;Ljava/lang/String;)V
 
-    .line 979
+    .line 999
     return-void
 .end method
 
@@ -56,7 +56,7 @@
     .parameter "savedInstanceState"
 
     .prologue
-    .line 983
+    .line 1003
     new-instance v0, Landroid/app/AlertDialog$Builder;
 
     invoke-virtual {p0}, Lcom/android/settings/Settings$NoHomeDialogFragment;->getActivity()Landroid/app/Activity;
@@ -65,7 +65,7 @@
 
     invoke-direct {v0, v1}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f080b98
+    const v1, 0x7f0c0b93
 
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 

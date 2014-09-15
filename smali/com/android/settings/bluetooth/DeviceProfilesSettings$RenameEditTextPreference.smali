@@ -27,7 +27,7 @@
     .parameter
 
     .prologue
-    .line 74
+    .line 72
     iput-object p1, p0, Lcom/android/settings/bluetooth/DeviceProfilesSettings$RenameEditTextPreference;->this$0:Lcom/android/settings/bluetooth/DeviceProfilesSettings;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -41,7 +41,7 @@
     .parameter "x1"
 
     .prologue
-    .line 74
+    .line 72
     invoke-direct {p0, p1}, Lcom/android/settings/bluetooth/DeviceProfilesSettings$RenameEditTextPreference;-><init>(Lcom/android/settings/bluetooth/DeviceProfilesSettings;)V
 
     return-void
@@ -54,7 +54,7 @@
     .parameter "s"
 
     .prologue
-    .line 76
+    .line 74
     iget-object v1, p0, Lcom/android/settings/bluetooth/DeviceProfilesSettings$RenameEditTextPreference;->this$0:Lcom/android/settings/bluetooth/DeviceProfilesSettings;
 
     #getter for: Lcom/android/settings/bluetooth/DeviceProfilesSettings;->mDeviceNamePref:Landroid/preference/EditTextPreference;
@@ -66,13 +66,13 @@
 
     move-result-object v0
 
-    .line 77
+    .line 75
     .local v0, d:Landroid/app/Dialog;
     instance-of v1, v0, Landroid/app/AlertDialog;
 
     if-eqz v1, :cond_0
 
-    .line 78
+    .line 76
     check-cast v0, Landroid/app/AlertDialog;
 
     .end local v0           #d:Landroid/app/Dialog;
@@ -93,11 +93,11 @@
     :goto_0
     invoke-virtual {v2, v1}, Landroid/widget/Button;->setEnabled(Z)V
 
-    .line 80
+    .line 78
     :cond_0
     return-void
 
-    .line 78
+    .line 76
     :cond_1
     const/4 v1, 0x0
 
@@ -112,7 +112,7 @@
     .parameter "after"
 
     .prologue
-    .line 85
+    .line 83
     return-void
 .end method
 
@@ -124,6 +124,6 @@
     .parameter "count"
 
     .prologue
-    .line 90
+    .line 88
     return-void
 .end method

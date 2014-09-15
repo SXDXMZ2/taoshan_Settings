@@ -757,7 +757,7 @@
     .restart local v6       #keyboardLayout:Landroid/hardware/input/KeyboardLayout;
     .restart local v8       #pref:Landroid/preference/PreferenceScreen;
     :cond_2
-    const v10, 0x7f0808cf
+    const v10, 0x7f0c08ca
 
     invoke-virtual {v8, v10}, Landroid/preference/PreferenceScreen;->setSummary(I)V
 
@@ -1245,7 +1245,7 @@
     invoke-virtual {p0, v0}, Lcom/android/settings/inputmethod/InputMethodAndLanguageSettings;->addPreferencesFromResource(I)V
 
     .line 123
-    const v0, 0x7f080433
+    const v0, 0x7f0c0430
 
     :try_start_0
     invoke-virtual {p0, v0}, Lcom/android/settings/inputmethod/InputMethodAndLanguageSettings;->getString(I)Ljava/lang/String;
@@ -1452,7 +1452,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0808f5
+    const v2, 0x7f0c08f0
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="superuser">สิทธิผู้ดูแลระบบ</string>
-    <string name="su_allow">อนุญาต</string>
-    <string name="su_allow_countdown">อนุญาต (%1$s)</string>
-    <string name="su_deny">ปฏิเสธ</string>
+    <string name="allow">อนุญาต</string>
+    <string name="allow_countdown">อนุญาต (%1$s)</string>
+    <string name="deny">ปฏิเสธ</string>
     <string name="status_incoming">มีการร้องขอสิทธิ…</string>
     <string name="unknown_uid">ไม่ทราบ UID: %s</string>
     <string name="application_request">%s ต้องการสิทธิผู้ดูแลระบบ</string>
@@ -201,9 +201,6 @@ android.permission.ACCESS_SUPERUSER
     <string name="profile_networkmode_2g">2G</string>
     <string name="profile_networkmode_3g">3G</string>
     <string name="profile_networkmode_2g3g">2G/3G</string>
-    <string name="settings_search_action_bar_button">ค้นหา</string>
-    <string name="settings_search_autocompleteview_hint">ตั้งค่าการค้นหา</string>
-    <string name="settings_search_loading_text">กำลังโหลดข้อมูลการค้นหา…</string>
     <string name="profile_connectionoverrides_title">แทนที่การเชื่อมต่อ</string>
     <string name="profile_volumeoverrides_title">แทนที่ระดับเสียง</string>
     <string name="connection_state_disabled">ปิด</string>
@@ -217,8 +214,6 @@ android.permission.ACCESS_SUPERUSER
     <string name="profile_trigger_connect">เมื่อเชื่อมต่อ</string>
     <string name="profile_trigger_disconnect">เมื่อตัดการเชื่อมต่อ</string>
     <string name="profile_trigger_notrigger">ไม่กระตุ้น</string>
-    <string name="profile_trigger_a2dp_connect">ขณะเชื่อมต่อ A2DP</string>
-    <string name="profile_trigger_a2dp_disconnect">ขณะตัดการเชื่อมต่อ A2DP</string>
     <string name="sound_mode">รูปแบบการแจ้งเตือน</string>
     <string name="ringer_mode">รูปแบบเสียงเรียกเข้า</string>
     <string name="lights_mode">รูปแบบแสง</string>
@@ -277,9 +272,8 @@ android.permission.ACCESS_SUPERUSER
     <string name="icon_picker_pack_title">ชุดไอคอน</string>
     <string name="display_lights_settings_title">การแสดงผล &amp; แสง</string>
     <string name="lights_category_title">แสง</string>
-    <string name="notification_light_title">ไฟแจ้งเตือน</string>
     <string name="notification_light_general_title">ทั่วไป</string>
-    <string name="notification_light_applist_title">แอป</string>
+    <string name="notification_light_applist_title">แอปพลิเคชัน</string>
     <string name="notification_light_phonelist_title">โทรศัพท์</string>
     <string name="notification_light_use_custom">ใช้ค่ากำหนดเอง</string>
     <string name="notification_light_enabled">เปิด</string>
@@ -289,8 +283,6 @@ android.permission.ACCESS_SUPERUSER
     <string name="notification_light_voicemail_title">ข้อความเสียง</string>
     <string name="adaptive_backlight_title">ปรับแสงไฟหน้าจอ</string>
     <string name="adaptive_backlight_summary">ปรับความสว่างของแสงหน้าจออัตโนมัติเพื่อให้สามารถใช้งานได้ยาวนานขึ้น</string>
-    <string name="color_enhancement_title">เพิ่มประสิทธิภาพของสี</string>
-    <string name="color_enhancement_summary">เพิ่มสีบนจอแสดงผลแบบไดนามิก</string>
     <string name="wake_when_plugged_or_unplugged_title">ตื่นเมื่อเสียบปลั๊ก</string>
     <string name="wake_when_plugged_or_unplugged_summary">เปิดหน้าจอเมื่อเชื่อมต่อ หรือตัดการเชื่อมต่อกับแหล่งจ่ายไฟ</string>
     <string name="screen_animation_off_title">ภาพเคลื่อนไหวปิดหน้าจอ</string>
@@ -321,14 +313,9 @@ android.permission.ACCESS_SUPERUSER
     <string name="battery_light_low_color_title">แบตเตอรีต่ำ</string>
     <string name="battery_light_medium_color_title">กำลังชาร์จ</string>
     <string name="battery_light_full_color_title">ชาร์จแล้ว</string>
-    <string name="lockpattern_reset_button">ล้างค่ารูปแบบ</string>
-    <string name="lockpattern_settings_reset_summary">กรอกบัญชีอีเมลหลักและรหัสผ่านเพื่อล้างค่ารูปแบบล็อค</string>
     <string name="lockpattern_settings_enable_error_path_title">แสดงลายเส้นที่ผิดพลาด</string>
     <string name="lockpattern_settings_enable_dots_title">แสดงจุดที่ลากผ่าน</string>
     <string name="screen_security_category">ความปลอดภัยหน้าจอ</string>
-    <string name="screen_security_summary">ดู หรือเปลี่ยนการตั้งค่าความปลอดภัยของล็อคหน้าจอ</string>
-    <string name="unlock_scramble_pin_layout_title">สุ่มสลับแป้นพิมพ์</string>
-    <string name="unlock_scramble_pin_layout_summary">สุ่มสลับแป้นพิมพ์สำหรับกรอกรหัสผ่าน</string>
     <string name="unlock_menu_unlock_title">เมนูเพื่อปลดล็อค</string>
     <string name="unlock_menu_unlock_summary">แตะปุ่มเมนูจะปลดล็อคอุปกรณ์</string>
     <string name="unlock_home_unlock_title">โฮมเพื่อปลดล็อค</string>
@@ -354,22 +341,12 @@ android.permission.ACCESS_SUPERUSER
     <string name="tile_choose_title">เลือกไทต์</string>
     <string name="title_qs_small_icons">แสดงไทต์เล็กลง</string>
     <string name="summary_qs_small_icons">ใช้ไทต์ที่เล็กลงเพื่อเพิ่มจำนวนคอลัมน์</string>
-    <string name="category_heads_up">Heads up</string>
-    <string name="summary_heads_up_enabled">เปิดใช้งานการแจ้งเตือนแบบป๊อปอัพ</string>
-    <string name="summary_heads_up_disabled">ไม่ใช้งานการแจ้งเตือนแบบป๊อปอัพ</string>
-    <string name="add_heads_up_package">เพิ่มแอป</string>
-    <string name="add_heads_up_dnd_summary">ไม่แสดง heads up ในแอปเหล่านี้</string>
-    <string name="add_heads_up_blacklist_summary">ไม่แสดง heads up จากแอปเหล่านี้</string>
-    <string name="heads_up_dnd_title">ห้าม​รบกวน</string>
-    <string name="heads_up_blacklist_title">บัญชีดำ</string>
-    <string name="heads_up_disabled_notice">เพื่ออนุญาติให้แอปแสดงการแจ้งเตือนเป็นป็อปอัพบนหน้าจอของคุณ, เปิดใช้งาน Heads up.</string>
     <string name="title_tile_airplane">โหมดเครื่องบิน</string>
     <string name="title_tile_battery">แบตเตอรี</string>
     <string name="title_tile_bluetooth">บลูทูธ</string>
     <string name="title_tile_brightness">ความสว่าง</string>
     <string name="title_tile_camera">กล้อง</string>
     <string name="title_tile_compass">เข็มทิศ</string>
-    <string name="title_tile_heads_up">Heads up</string>
     <string name="title_tile_sleep">พักหน้าจอ</string>
     <string name="title_tile_gps">GPS</string>
     <string name="title_tile_torch">ไฟฉาย</string>
@@ -470,6 +447,7 @@ android.permission.ACCESS_SUPERUSER
     <string name="display_rotation_180_title">180 องศา</string>
     <string name="display_rotation_270_title">270 องศา</string>
     <string name="advanced_reboot_title">เริ่มระบบใหม่แบบขั้นสูง</string>
+    <string name="advanced_reboot_summary">เมื่อปลดล็อค,สำหรับเริ่มระบบใหม่ไปยังbootloaderหรือ recoveryในเมนูปุ่มเพาว์เวอร์</string>
     <string name="app_security_title">ความปลอดภัยของแอป</string>
     <string name="root_access">สิทธิผู้ดูแลระบบ</string>
     <string name="root_access_warning_title">ให้สิทธิผู้ดูแลระบบ?</string>
@@ -479,7 +457,7 @@ android.permission.ACCESS_SUPERUSER
     <string name="root_access_adb">ADB เท่านั้น</string>
     <string name="root_access_all">แอปและADB</string>
     <string name="update_recovery_title">ปรับปรุงการกู้คืน CM</string>
-    <string name="update_recovery_summary">ปรับปรุงการกู้คืนเมื่อติดตั้งการปรับปรุงระบบใหม่</string>
+    <string name="update_recovery_summary">ปรับปรุงการกู้คือเมื่อติดตั้งการปรับปรุงระบบใหม่</string>
     <string name="ok">ตกลง</string>
     <string name="quiet_hours_title">ชั่วโมงเงียบ</string>
     <string name="quiet_hours_summary">ตั้งค่าช่วงเวลาที่อุปกรณ์ควรจะเงียบ</string>
@@ -562,12 +540,12 @@ android.permission.ACCESS_SUPERUSER
     <string name="pref_force_highend_gfx_summary">บังคับใช้กราฟฟิกโปร่งใสระดับสูง เช่น ทำให้แถบสถานะ/แถบนำทางโปร่งใส (ต้องเริ่มระบบใหม่)</string>
     <string name="kill_app_longpress_back">ปิดแอปด้วยปุ่มกลับ</string>
     <string name="kill_app_longpress_back_summary">ปิดแอปที่กำลังใช้งานโดยกดปุ่มกลับค้าง</string>
-    <string name="changelog_title">ความเปลี่ยนแปลง</string>
+    <string name="changelog_title">ดูความเปลี่ยนแปลง</string>
     <string name="changelog_loading">กำลังโหลด ความเปลี่ยนแปลง…</string>
     <string name="changelog_error">ไม่สามารถโหลดความเปลี่ยนแปลงได้</string>
     <string name="changelog_unknown">ไม่ทราบ</string>
     <string name="changelog_version">รุ่น</string>
-    <string name="contributor_cloud_title">ผู้ร่วมพัฒนา</string>
+    <string name="contributor_cloud_title">ดูรายชื่อผู้ร่วมพัฒนา</string>
     <string name="cmupdate_settings_title">ปรับปรุงรุ่น CyanogenMod</string>
     <string name="cmupdate_settings_summary">ตรวจสอบ,ดู หรือติดตั้งการอัพเดต</string>
     <string name="advanced_settings_title">ขั้นสูง</string>
@@ -653,11 +631,8 @@ android.permission.ACCESS_SUPERUSER
     <string name="collapse_on_dismiss_if_empty_summary">ปิดเมื่อนำการแจ้งเตือนสุดท้ายออก</string>
     <string name="collapse_on_dismiss_if_no_clearable_summary">ปิดเมื่อนำการแจ้งเตือนที่เอาออกได้อันสุดท้ายออก</string>
     <string name="double_tap_to_wake_title">แตะสองครั้งเพื่อเปิดจอ</string>
-    <string name="proximity_wake_title">ป้องกันการเปิดหน้าจอโดยอุบัติเหตุ</string>
-    <string name="proximity_wake_summary">ตรวจสอบเซนเซอร์แนบหน้าจอก่อนที่จะเปิดหน้าจอ</string>
     <string name="category_quick_access">ริบบิ้นตั้งค่า</string>
     <string name="title_quick_access">แสดงในแผงแจ้งเตือน</string>
-    <string name="title_quick_access_size">ขนาดของแถบริบบิ้น</string>
     <string name="title_quick_access_linked">ใช้รูปแบบเหมือนกัน</string>
     <string name="summary_quick_access_linked">ใช้รูปแบบไทต์เหมือนกับแผงตั้งค่า</string>
     <string name="font_size_sample">ตัวอย่าง</string>
@@ -687,7 +662,7 @@ android.permission.ACCESS_SUPERUSER
     <string name="lockscreen_target_reset_message">ต้องการลบทางลัดหน้าล็อคจอของทุกผู้ใช้งานและกลับคืนสู่ค่าเดิมหรือไม่ ?</string>
     <string name="lockscreen_target_empty">ว่างเปล่า</string>
     <string name="lockscreen_target_edit_title">แก้ไขทางลัดและไอคอน</string>
-    <string name="lockscreen_target_edit_msg">เลือกหรือเปลี่ยนแปลงแอปหรือกิจกรรมและไอคอนเกี่ยวข้อง</string>
+    <string name="lockscreen_target_edit_msg">เลือกหรือเปลี่ยนแอปพลิเคชันหรือกิจกรรมที่ต้องการและกำหนดไอคอน</string>
     <string name="picker_activities">กิจกรรม</string>
     <string name="select_custom_app_title">เลือกแอปเอง</string>
     <string name="select_custom_activity_title">เลือกกิจกรรมเอง</string>
@@ -753,8 +728,6 @@ android.permission.ACCESS_SUPERUSER
     <string name="navigation_bar_reset_toast">รีเซ็ตแถบนำทางสู่ค่าเริ่มต้น</string>
     <string name="navigation_bar_menu_editable">แก้ไขได้</string>
     <string name="navigation_bar_menu_locked">ล็อค</string>
-    <string name="navigation_bar_arrow_keys_title">ปุ่มลูกศรขณะพิมพ์</string>
-    <string name="navigation_bar_arrow_keys_summary">แสดงปุ่มเคอร์เซอร์ซ้ายและขวาในขณะพิมพ์</string>
     <string name="navigation_ring_title">ทางลัดการเปิด</string>
     <string name="navring_target_reset_message">ลบการสร้างแถบนำทางของผู้ใช้ทั้งหมดและคืนค่าสู่ค่าเริ่มต้น?</string>
     <string name="navring_target_reset">คืนค่าทางลัดแถบนำทางสู่ค่าเริ่มต้น</string>
@@ -840,10 +813,6 @@ android.permission.ACCESS_SUPERUSER
     <string name="setting_lockscreen_background">กำลังกำหนดพื้นหลัง</string>
     <string name="confirm_delete_apn">APN จะถูกลบ</string>
     <string name="status_bar_title">แถบสถานะ</string>
-    <string name="status_bar_clock_title">รูปแบบนาฬิกา</string>
-    <string name="status_bar_clock_style_default">ค่าเริ่มต้น</string>
-    <string name="status_bar_clock_style_center">กลางหน้าจอ</string>
-    <string name="status_bar_clock_style_hidden">ซ่อน</string>
     <string name="status_bar_battery_title">รูปแบบของสถานะแบตเตอร์รี่</string>
     <string name="status_bar_style_icon_portrait">ไอคอนแนวตั้ง</string>
     <string name="status_bar_style_icon_landscape">ไอคอนแนวนอน</string>
@@ -856,7 +825,6 @@ android.permission.ACCESS_SUPERUSER
     <string name="status_bar_signal_style_text">ข้อความ</string>
     <string name="status_bar_toggle_brightness">ความคุมความสว่าง</string>
     <string name="status_bar_toggle_brightness_summary">ตั้งความสว่างหน้าจอโดยการเลื่อนบริเวณแถบสถานะ</string>
-    <string name="status_bar_toggle_info">ไม่สามารถใช้งานได้ขณะเปิดใช้งานความสว่างอัตโนมัติ</string>
     <string name="status_bar_notif_count_title">นับจำนวนการแจ้งเตือน</string>
     <string name="status_bar_notif_count_summary">แสดงตัวเลขของการแจ้งเตือน</string>
     <string name="status_bar_double_tap_to_sleep_title">แตะสองครั้งเพื่อปิดจอ</string>
@@ -893,7 +861,6 @@ android.permission.ACCESS_SUPERUSER
     <string name="gestures_down_spen_title_head">ปัดลง</string>
     <string name="gestures_long_spen_title_head">แตะค้าง</string>
     <string name="gestures_double_spen_title_head">แตะสองครั้ง</string>
-    <string name="gestures_settings_header_title">ท่าทาง</string>
     <string name="gestures_action_empty">ไม่ทำอะไร</string>
     <string name="gestures_action_home">บ้าน</string>
     <string name="gestures_action_back">กลับ</string>
@@ -1043,26 +1010,9 @@ android.permission.ACCESS_SUPERUSER
     <string name="menu_hidden_apps_reset_lock">รีเซ็ตรูปแบบล็อค</string>
     <string name="protected_apps">แอปที่ป้องกัน</string>
     <string name="saving_protected_components">กำลังบันทึกองค์ประกอบ…</string>
-    <string name="pa_login_username_hint">ชื่อผู้ใช้ (อีเมล)</string>
-    <string name="pa_login_password_hint">รหัสผ่าน</string>
-    <string name="pa_login_submit_button">ลงชื่อเข้าใช้</string>
-    <string name="pa_login_checking_password">กำลังตรวจสอบบัญชี…</string>
-    <string name="pa_login_incorrect_login">บัญชีไม่ถูกต้อง</string>
-    <string name="keep_screen_on_summary_cm">หน้าจอจะไม่ดับขณะชาร์จแบตเตอรี</string>
-    <string name="show_dev_on_cm">คุณได้เปิดใช้งานตัวเลือกการพัฒนา!</string>
-    <string name="show_dev_already_cm">ไม่จำเป็น คุณได้เปิดตัวเลือกสำหรับนักพัฒนาแล้ว</string>
-    <string name="enable_adb_cm">แก้ไขข้อบกพร่องแอนดรอยด์</string>
-    <string name="enable_adb_summary_cm">เปิดใช้งานแก้ไขข้อบอกพร่องแอนดรอยด์ (ADB)</string>
-    <string name="spam_added_title">เพิ่ม %1$s</string>
-    <string name="spam_last_blocked_title">บล็อคล่าสุด %1$s (ทั้งหมด: %2$s)</string>
-    <string name="block_notifications_title">ตัวกรองการแจ้งเตือน</string>
-    <string name="block_notifications_summary">จัดการการละเว้นการแจ้งเตือนและตัวกรอง</string>
-    <string name="no_filters_title">"ไม่ได้ตั้งตัวกรอง เพื่อกรองการแจ้งเตือน,แตะค้างแล้วเลือก 'ละเว้นข้อความเช่นนี้'"</string>
     <string name="yes">ใช่</string>
     <string name="no">ไม่</string>
     <string name="create">สร้าง</string>
-    <string name="allow">อนุญาต</string>
-    <string name="deny">ปฏิเสธ</string>
     <string name="device_info_default">ไม่ทราบ</string>
     <string name="show_dev_on">ตอนนี้คุณเป็นนักพัฒนาซอฟต์แวร์แล้ว!</string>
     <string name="show_dev_already">ไม่จำเป็น คุณเป็นนักพัฒนาซอฟต์แวร์อยู่แล้ว</string>
@@ -1703,6 +1653,8 @@ android.permission.ACCESS_SUPERUSER
     <string name="volume_notification_mute">ปิดเสียงการแจ้งเตือน</string>
     <string name="volume_alarm_mute">ปิดเสียงนาฬิกาปลุก</string>
     <string name="vibrate_when_ringing_title">สั่นเมื่อมีสายเข้า</string>
+    <string name="system_update_settings_list_item_title">การอัปเดตระบบ</string>
+    <string name="system_update_settings_list_item_summary" />
     <string name="dock_settings">แท่นชาร์จ</string>
     <string name="dock_settings_title">การตั้งค่าแท่นชาร์จ</string>
     <string name="dock_audio_settings_title">เสียง</string>
@@ -1767,8 +1719,6 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="wrong_pin_code_pukked">รหัส PIN ของซิมไม่ถูกต้อง ตอนนี้คุณต้องติดต่อผู้ให้บริการเพื่อปลดล็อกอุปกรณ์ของคุณ</string>
     <string name="pin_failed">การปลดล็อกด้วย PIN ของซิมล้มเหลว!</string>
     <string name="device_info_settings">สถานะโทรศัพท์</string>
-    <string name="system_update_settings_list_item_title">การอัปเดตระบบ</string>
-    <string name="system_update_settings_list_item_summary" />
     <string name="firmware_version">เวอร์ชันของ Android</string>
     <string name="model_number">หมายเลขรุ่น</string>
     <string name="fcc_equipment_id">รหัสอุปกรณ์</string>
@@ -3008,4 +2958,40 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="user_image_take_photo">ถ่ายภาพ</string>
     <string name="user_image_choose_photo">เลือกรูปภาพจากแกลเลอรี</string>
     <string name="regulatory_info_text" />
+    <string name="quick_settings_description">เลือกจำนวนการตั้งค่าด่วนในแผงการแจ้งและแก้ไขลำดับของการตั้งค่าเหล่านั้น</string>
+    <string name="swiqi_strings_swiqi_desc_txt">ปรับปรุงคุณภาพของภาพถ่ายและวิดีโอ</string>
+    <string name="theme_label_summary">เปลี่ยนหรือดาวน์โหลดธีม</string>
+    <string name="find_my_device">ค้นหาอุปกรณ์ของฉัน</string>
+    <string name="display_category_personalisation_title">การตั้งค่าส่วนตัว</string>
+    <string name="xperia_connectivity">การเชื่อมต่อ Xperia™</string>
+    <string name="preference_summary">หากคุณเคยทำอุปกรณ์ของคุณหาย-ค้นหา ล็อค และ/หรือลบข้อมูลของคุณด้วย my Xperia</string>
+    <string name="playanywhere_strings_throw_settings_title_txt">การตั้งค่า Throw</string>
+    <string name="playanywhere_strings_throw_setting_summary_txt">เล่นเนื้อหาแบบไร้สายใน Xperia™ ของคุณบนอุปกรณ์อื่นๆ</string>
+    <string name="usbux_strings_local_connectivity_settings_summary_txt">เชื่อมต่ออุปกรณ์ของคุณกับอุปกรณ์อื่นๆ หรือพีซีด้วย USB หรือผ่าน Wi-Fi</string>
+    <string name="mil_strings_app_name_mirrorlink_settings_txt">การตั้งค่า MirrorLink™</string>
+    <string name="mil_strings_mirrorlink_activator_txt">เริ่ม MirrorLink™</string>
+    <string name="mil_strings_dialog_usb_not_connected_txt">"ไม่พบอุปกรณ์ใดๆ ตรวจสอบให้แน่ใจว่าได้เชื่อมต่อ
+อุปกรณ์ที่ใช้งานร่วมกันได้แล้ว"</string>
+    <string name="mil_strings_dialog_mirrorlink_start_txt">"MirrorLink™ จะเริ่มทำงานในอีก
+ไม่ช้า การทำงานอาจไม่ถูกต้อง
+หากอุปกรณ์ไม่ใช่ MirrorLink™ ที่ผ่านการรับรอง"</string>
+    <string name="mil_strings_mirrorlink_activator_sub_txt">เมื่อเชื่อมต่อกับอุปกรณ์ที่ได้รับการรับรอง MirrorLink™ โดยใช้ USB คุณสามารถควบคุม Xperia™ จากอุปกรณ์ดังกล่าว</string>
+    <string name="setupguide_settings_title">คู่มือการตั้งค่า</string>
+    <string name="lockscreen_app_name">หน้าจอขณะล็อก</string>
+    <string name="lockscreen_settings_title">หน้าจอขณะล็อก</string>
+    <string name="lockscreen_settings_title_txt">หน้าจอขณะล็อก</string>
+    <string name="lockscreen_settings_wallpaper_summary_txt">เปลี่ยนภาพพื้นหลังในมุมมองล็อกหน้าจอ</string>
+    <string name="lockscreen_setting_wallpaper_wait_txt">การตั้งค่าภาพพื้นหลัง</string>
+    <string name="lockscreen_could_not_load_wallpaper_txt">ไม่สามารถตั้งค่าภาพพื้นหลังได้</string>
+    <string name="lockscreen_dialog_title_pick_wallpaper">เลือกภาพพื้นหลัง</string>
+    <string name="lockscreen_wallpaper_picker_semc_name">ภาพพื้นหลัง Xperia™</string>
+    <string name="lockscreen_wallpaper_picker_semc_set_wallpaper">ตั้งค่าภาพพื้นหลัง</string>
+    <string name="lockscreen_wallpaper_picker_album_name">อัลบั้ม</string>
+    <string name="lockscreen_unlock_hint">ปัดขึ้นหรือลงเพื่อปลดล็อก</string>
+    <string name="lockscreen_short_unlock_hint">ปัดเพื่อปลดล็อก</string>
+    <string name="lockscreen_accessibility_unlock_hint">ปัดขึ้นหรือลงจากตรงกลางหน้าจอเพื่อปลดล็อก</string>
+    <string name="lockscreen_set_as_wallpaper_txt">ภาพพื้นหลังสำหรับล็อกหน้าจอ</string>
+    <string name="status_bar_tab_quick_settings_title">การตั้งค่าด่วน</string>
+    <string name="power_settings_title">การจัดการพลังงาน</string>
+    <string name="status_bar_show_clock_title">แสดงนาฬิกา</string>
 </resources>

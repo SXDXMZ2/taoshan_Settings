@@ -32,7 +32,7 @@
     .prologue
     const-wide v12, 0x140000000L
 
-    const v11, 0x7f080b1f
+    const v11, 0x7f0c0b1a
 
     .line 1737
     invoke-virtual {p0}, Lcom/android/settings/DataUsageSummary;->isAdded()Z
@@ -301,7 +301,7 @@
 
     .line 1782
     .local v0, builder:Landroid/app/AlertDialog$Builder;
-    const v5, 0x7f080b1e
+    const v5, 0x7f0c0b19
 
     invoke-virtual {v0, v5}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 

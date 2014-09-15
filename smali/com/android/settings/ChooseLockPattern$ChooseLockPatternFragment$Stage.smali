@@ -65,7 +65,7 @@
 
     const/4 v2, 0x0
 
-    const v3, 0x7f08080b
+    const v3, 0x7f0c0806
 
     sget-object v4, Lcom/android/settings/ChooseLockPattern$ChooseLockPatternFragment$LeftButtonMode;->Cancel:Lcom/android/settings/ChooseLockPattern$ChooseLockPatternFragment$LeftButtonMode;
 
@@ -86,7 +86,7 @@
 
     const/4 v2, 0x1
 
-    const v3, 0x7f08081e
+    const v3, 0x7f0c0819
 
     sget-object v4, Lcom/android/settings/ChooseLockPattern$ChooseLockPatternFragment$LeftButtonMode;->Gone:Lcom/android/settings/ChooseLockPattern$ChooseLockPatternFragment$LeftButtonMode;
 
@@ -107,7 +107,7 @@
 
     const/4 v2, 0x2
 
-    const v3, 0x7f08080e
+    const v3, 0x7f0c0809
 
     sget-object v4, Lcom/android/settings/ChooseLockPattern$ChooseLockPatternFragment$LeftButtonMode;->Retry:Lcom/android/settings/ChooseLockPattern$ChooseLockPatternFragment$LeftButtonMode;
 
@@ -128,7 +128,7 @@
 
     const/4 v2, 0x3
 
-    const v3, 0x7f08080f
+    const v3, 0x7f0c080a
 
     sget-object v4, Lcom/android/settings/ChooseLockPattern$ChooseLockPatternFragment$LeftButtonMode;->Retry:Lcom/android/settings/ChooseLockPattern$ChooseLockPatternFragment$LeftButtonMode;
 
@@ -149,7 +149,7 @@
 
     const/4 v2, 0x4
 
-    const v3, 0x7f080810
+    const v3, 0x7f0c080b
 
     sget-object v4, Lcom/android/settings/ChooseLockPattern$ChooseLockPatternFragment$LeftButtonMode;->Cancel:Lcom/android/settings/ChooseLockPattern$ChooseLockPatternFragment$LeftButtonMode;
 
@@ -170,7 +170,7 @@
 
     const/4 v2, 0x5
 
-    const v3, 0x7f080809
+    const v3, 0x7f0c0804
 
     sget-object v4, Lcom/android/settings/ChooseLockPattern$ChooseLockPatternFragment$LeftButtonMode;->Cancel:Lcom/android/settings/ChooseLockPattern$ChooseLockPatternFragment$LeftButtonMode;
 
@@ -191,7 +191,7 @@
 
     const/4 v2, 0x6
 
-    const v3, 0x7f080811
+    const v3, 0x7f0c080c
 
     sget-object v4, Lcom/android/settings/ChooseLockPattern$ChooseLockPatternFragment$LeftButtonMode;->Cancel:Lcom/android/settings/ChooseLockPattern$ChooseLockPatternFragment$LeftButtonMode;
 

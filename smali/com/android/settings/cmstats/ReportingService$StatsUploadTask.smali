@@ -307,7 +307,7 @@
 
     move-object/from16 v18, v0
 
-    const v19, 0x7f08005a
+    const v19, 0x7f0c005a
 
     invoke-virtual/range {v18 .. v19}, Lcom/android/settings/cmstats/ReportingService;->getString(I)Ljava/lang/String;
 

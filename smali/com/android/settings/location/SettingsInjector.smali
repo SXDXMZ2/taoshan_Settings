@@ -128,7 +128,7 @@
     invoke-virtual {v2, v4}, Landroid/preference/Preference;->setTitle(Ljava/lang/CharSequence;)V
 
     .line 252
-    const v4, 0x7f0807db
+    const v4, 0x7f0c07d6
 
     invoke-virtual {v2, v4}, Landroid/preference/Preference;->setSummary(I)V
 

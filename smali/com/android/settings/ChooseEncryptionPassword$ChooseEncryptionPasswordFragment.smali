@@ -361,7 +361,7 @@
 
     if-eqz v4, :cond_0
 
-    const v4, 0x7f080585
+    const v4, 0x7f0c0580
 
     :goto_0
     new-array v5, v5, [Ljava/lang/Object;
@@ -405,7 +405,7 @@
 
     .line 446
     :cond_0
-    const v4, 0x7f080586
+    const v4, 0x7f0c0581
 
     goto :goto_0
 
@@ -435,7 +435,7 @@
     :cond_2
     iget-object v4, p0, Lcom/android/settings/ChooseEncryptionPassword$ChooseEncryptionPasswordFragment;->mHeaderText:Landroid/widget/TextView;
 
-    const v6, 0x7f080587
+    const v6, 0x7f0c0582
 
     invoke-virtual {v4, v6}, Landroid/widget/TextView;->setText(I)V
 
@@ -508,7 +508,7 @@
 
     if-eqz v10, :cond_0
 
-    const v10, 0x7f080585
+    const v10, 0x7f0c0580
 
     :goto_0
     const/4 v11, 0x1
@@ -535,7 +535,7 @@
 
     .line 293
     :cond_0
-    const v10, 0x7f080586
+    const v10, 0x7f0c0581
 
     goto :goto_0
 
@@ -554,7 +554,7 @@
 
     if-eqz v10, :cond_2
 
-    const v10, 0x7f080589
+    const v10, 0x7f0c0584
 
     :goto_2
     const/4 v11, 0x1
@@ -580,7 +580,7 @@
     goto :goto_1
 
     :cond_2
-    const v10, 0x7f08058a
+    const v10, 0x7f0c0585
 
     goto :goto_2
 
@@ -637,7 +637,7 @@
 
     .line 312
     :cond_4
-    const v10, 0x7f08058d
+    const v10, 0x7f0c0588
 
     invoke-virtual {p0, v10}, Lcom/android/settings/ChooseEncryptionPassword$ChooseEncryptionPasswordFragment;->getString(I)Ljava/lang/String;
 
@@ -727,7 +727,7 @@
 
     .line 332
     :cond_a
-    const v10, 0x7f08058b
+    const v10, 0x7f0c0586
 
     invoke-virtual {p0, v10}, Lcom/android/settings/ChooseEncryptionPassword$ChooseEncryptionPasswordFragment;->getString(I)Ljava/lang/String;
 
@@ -1008,7 +1008,7 @@
     if-nez v4, :cond_15
 
     .line 365
-    const v10, 0x7f08058e
+    const v10, 0x7f0c0589
 
     invoke-virtual {p0, v10}, Lcom/android/settings/ChooseEncryptionPassword$ChooseEncryptionPasswordFragment;->getString(I)Ljava/lang/String;
 
@@ -1039,7 +1039,7 @@
     if-nez v7, :cond_16
 
     .line 368
-    const v10, 0x7f08058f
+    const v10, 0x7f0c058a
 
     invoke-virtual {p0, v10}, Lcom/android/settings/ChooseEncryptionPassword$ChooseEncryptionPasswordFragment;->getString(I)Ljava/lang/String;
 
@@ -1060,7 +1060,7 @@
     if-eqz v10, :cond_17
 
     .line 372
-    const v10, 0x7f080591
+    const v10, 0x7f0c058c
 
     invoke-virtual {p0, v10}, Lcom/android/settings/ChooseEncryptionPassword$ChooseEncryptionPasswordFragment;->getString(I)Ljava/lang/String;
 
@@ -1620,7 +1620,7 @@
 
     .line 231
     .local v5, preferenceActivity:Landroid/preference/PreferenceActivity;
-    const v3, 0x7f0800b1
+    const v3, 0x7f0c00b1
 
     .line 232
     .local v3, id:I

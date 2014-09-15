@@ -133,7 +133,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f080877
+    const v1, 0x7f0c0872
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;
 
@@ -146,7 +146,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f080876
+    const v1, 0x7f0c0871
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;
 
@@ -360,7 +360,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f08089c
+    const v6, 0x7f0c0897
 
     new-array v7, v12, [Ljava/lang/Object;
 
@@ -419,7 +419,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f08089b
+    const v6, 0x7f0c0896
 
     new-array v7, v12, [Ljava/lang/Object;
 
@@ -512,7 +512,7 @@
 
     if-ne v2, v4, :cond_4
 
-    const v2, 0x7f04006b
+    const v2, 0x7f04006d
 
     :goto_1
     const/4 v3, 0x0
@@ -700,7 +700,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f080861
+    const v4, 0x7f0c085c
 
     invoke-virtual {v3, v4}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;
 
@@ -748,7 +748,7 @@
 
     .line 249
     :cond_4
-    const v2, 0x7f040068
+    const v2, 0x7f04006a
 
     goto/16 :goto_1
 
@@ -764,7 +764,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f080860
+    const v4, 0x7f0c085b
 
     invoke-virtual {v3, v4}, Landroid/app/Activity;->getText(I)Ljava/lang/CharSequence;
 

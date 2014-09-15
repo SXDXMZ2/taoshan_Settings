@@ -150,13 +150,13 @@
 
     const/4 v3, 0x1
 
-    const v4, 0x7f080a3d
+    const v4, 0x7f0c0a38
 
     invoke-virtual {v1, v4}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
     move-result-object v4
 
-    const v5, 0x7f080a3e
+    const v5, 0x7f0c0a39
 
     invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 

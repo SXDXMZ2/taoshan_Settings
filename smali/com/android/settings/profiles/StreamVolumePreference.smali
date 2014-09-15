@@ -108,7 +108,7 @@
 
     .prologue
     .line 98
-    const v0, 0x7f0400a5
+    const v0, 0x7f0400a7
 
     invoke-virtual {p0, v0}, Lcom/android/settings/profiles/StreamVolumePreference;->setLayoutResource(I)V
 

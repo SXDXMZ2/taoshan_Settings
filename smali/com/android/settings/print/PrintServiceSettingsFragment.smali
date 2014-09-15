@@ -454,9 +454,9 @@
     .prologue
     const v10, 0x7f0d0032
 
-    const v9, 0x7f08097f
+    const v9, 0x7f0c097a
 
-    const v8, 0x7f080976
+    const v8, 0x7f0c0971
 
     const v7, 0x7f04004b
 
@@ -1209,11 +1209,11 @@
     .parameter "inflater"
 
     .prologue
-    const v7, 0x7f0d0301
+    const v7, 0x7f0d02ff
 
-    const v6, 0x7f0d0300
+    const v6, 0x7f0d02fe
 
-    const v5, 0x7f0d02ff
+    const v5, 0x7f0d02fd
 
     .line 392
     invoke-super {p0, p1, p2}, Lcom/android/settings/SettingsPreferenceFragment;->onCreateOptionsMenu(Landroid/view/Menu;Landroid/view/MenuInflater;)V

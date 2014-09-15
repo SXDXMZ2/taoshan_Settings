@@ -267,6 +267,8 @@
     <string name="alarm_volume_title">Svegliarin</string>
     <string name="dock_settings_summary">Parameters audio da la basa attatgada</string>
     <string name="audio_record_proc_title">Filter da ramurs</string>
+    <string name="system_update_settings_list_item_title">Actualisaziuns dal sistem</string>
+    <string name="system_update_settings_list_item_summary" />
     <string name="dock_settings">Basa</string>
     <string name="dock_settings_title">Parameters da la basa</string>
     <string name="dock_audio_settings_title">Audio</string>
@@ -303,8 +305,6 @@
     <string name="sim_enter_ok">OK</string>
     <string name="sim_enter_cancel">Interrumper</string>
     <string name="device_info_settings">Status dal telefonin</string>
-    <string name="system_update_settings_list_item_title">Actualisaziuns dal sistem</string>
-    <string name="system_update_settings_list_item_summary" />
     <string name="firmware_version">Versiun dad Android</string>
     <string name="model_number">Numer dal model</string>
     <string name="baseband_version">Versiun Baseband</string>

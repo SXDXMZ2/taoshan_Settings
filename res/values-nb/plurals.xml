@@ -8,10 +8,6 @@
         <item quantity="other">%d ganger</item>
         <item quantity="one">en gang</item>
     </plurals>
-    <plurals name="show_dev_countdown_cm">
-        <item quantity="other">Du er nå %1$d skritt fra aktivering av utvikleralternativer.</item>
-        <item quantity="one">Du er nå %1$d skritt fra aktivering av utvikleralternativer.</item>
-    </plurals>
     <plurals name="show_dev_countdown">
         <item quantity="other">Du er nå %1$d trinn fra å bli en utvikler.</item>
         <item quantity="one">Du er nå %1$d trinn fra å bli en utvikler.</item>

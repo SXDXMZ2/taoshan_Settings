@@ -432,7 +432,7 @@
     nop
 
     :pswitch_data_0
-    .packed-switch 0x7f0800c1
+    .packed-switch 0x7f0c00c1
         :pswitch_0
     .end packed-switch
 .end method
@@ -523,7 +523,7 @@
     .parameter "menuInfo"
 
     .prologue
-    const v1, 0x7f0800c1
+    const v1, 0x7f0c00c1
 
     const/4 v0, 0x0
 
@@ -539,7 +539,7 @@
     .parameter "id"
 
     .prologue
-    const v7, 0x7f0800c1
+    const v7, 0x7f0c00c1
 
     const v6, 0x1040013
 
@@ -586,7 +586,7 @@
     invoke-virtual {v2, v3}, Landroid/widget/ListView;->setAdapter(Landroid/widget/ListAdapter;)V
 
     .line 246
-    const v3, 0x7f080103
+    const v3, 0x7f0c0103
 
     invoke-virtual {v0, v3}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -612,7 +612,7 @@
     .end local v1           #dialog:Landroid/app/Dialog;
     .end local v2           #list:Landroid/widget/ListView;
     :pswitch_1
-    const v3, 0x7f0800de
+    const v3, 0x7f0c00de
 
     invoke-virtual {v0, v3}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
@@ -648,7 +648,7 @@
     .line 279
     .end local v1           #dialog:Landroid/app/Dialog;
     :pswitch_2
-    const v3, 0x7f080100
+    const v3, 0x7f0c0100
 
     invoke-virtual {v0, v3}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
@@ -703,7 +703,7 @@
     .line 101
     const/4 v2, 0x1
 
-    const v3, 0x7f0800c1
+    const v3, 0x7f0c00c1
 
     invoke-interface {p1, v4, v2, v4, v3}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
@@ -722,7 +722,7 @@
     .line 106
     const/4 v2, 0x2
 
-    const v3, 0x7f0800c0
+    const v3, 0x7f0c00c0
 
     invoke-interface {p1, v4, v2, v4, v3}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
@@ -888,7 +888,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0800da
+    const v2, 0x7f0c00da
 
     invoke-static {v1, v2, v3}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 

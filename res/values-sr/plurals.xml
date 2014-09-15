@@ -1,23 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="backlight_timeout_time">
-        <item quantity="other">%d секунде</item>
-        <item quantity="one">%d секунда</item>
-        <item quantity="few">%d секунде</item>
-        <item quantity="many">%d секунди</item>
-    </plurals>
-    <plurals name="app_ops_count">
-        <item quantity="other">%d пута</item>
-        <item quantity="one">једном</item>
-        <item quantity="few">%d пута</item>
-        <item quantity="many">%d пута</item>
-    </plurals>
-    <plurals name="show_dev_countdown_cm">
-        <item quantity="other">Сада си %1$d корака далеко од омогућавања развојних опција.</item>
-        <item quantity="one">Сада си %1$d корак далеко од омогућавања развојних опција.</item>
-        <item quantity="few">Сада си %1$d корака далеко од омогућавања развојних опција.</item>
-        <item quantity="many">Сада си %1$d корака далеко од омогућавања развојних опција.</item>
-    </plurals>
     <plurals name="show_dev_countdown">
         <item quantity="other">Треба да обавите још %1$d корака да бисте постали програмер.</item>
         <item quantity="one">Треба да обавите још %1$d корак да бисте постали програмер.</item>

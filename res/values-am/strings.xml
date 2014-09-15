@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="allow">ይፍቀዱ</string>
+    <string name="deny">ይከልክሉ</string>
     <string name="delete">ሰርዝ</string>
     <string name="battery_info_status_full">ሙሉነው</string>
     <string name="yes">አዎ</string>
     <string name="no">አይ</string>
     <string name="create">ፍጠር</string>
-    <string name="allow">ይፍቀዱ</string>
-    <string name="deny">ይከልክሉ</string>
     <string name="device_info_default">ያልታወቀ</string>
     <string name="show_dev_on">አሁን ገንቢ ሆነዋል!</string>
     <string name="show_dev_already">አያስፈልግም፣ አስቀድሞ ገንቢ ሆነዋል።</string>
@@ -647,6 +647,8 @@
     <string name="volume_notification_mute">የማሳወቂያ ድምፅ አጥፋ</string>
     <string name="volume_alarm_mute">ማንቂያ ደወሎችን ድምጸ ከል አድርግ</string>
     <string name="vibrate_when_ringing_title">በሚደወልበት ጊዜ ንዘር</string>
+    <string name="system_update_settings_list_item_title">የሥርዓት ዝመናዎች</string>
+    <string name="system_update_settings_list_item_summary" />
     <string name="dock_settings">ትከል</string>
     <string name="dock_settings_title">" ቅንብሮችን ትከል"</string>
     <string name="dock_audio_settings_title">ኦዲዮ</string>
@@ -711,8 +713,6 @@
     <string name="wrong_pin_code_pukked">ልክ ያልሆነ የሲም ኮድ። አሁን መሳሪያዎን ለማስከፈት ድምጸ ተያያዥ ሞደምዎን ማግኘት አለብዎ።</string>
     <string name="pin_failed">የሲም ፒን ክወና አልተሳካም!</string>
     <string name="device_info_settings">የስልክ ሁኔታዎች</string>
-    <string name="system_update_settings_list_item_title">የሥርዓት ዝመናዎች</string>
-    <string name="system_update_settings_list_item_summary" />
     <string name="firmware_version">Android ሥሪት</string>
     <string name="model_number">የሞዴል ቁጥር</string>
     <string name="fcc_equipment_id">የመሣሪያ መታወቂያ</string>

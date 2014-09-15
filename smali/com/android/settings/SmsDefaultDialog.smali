@@ -106,7 +106,7 @@
 
     .line 89
     .local v2, p:Lcom/android/internal/app/AlertController$AlertParams;
-    const v6, 0x7f0807c5
+    const v6, 0x7f0c07c0
 
     invoke-virtual {p0, v6}, Lcom/android/settings/SmsDefaultDialog;->getString(I)Ljava/lang/String;
 
@@ -118,7 +118,7 @@
     if-eqz v0, :cond_3
 
     .line 91
-    const v6, 0x7f0807c6
+    const v6, 0x7f0c07c1
 
     const/4 v7, 0x2
 
@@ -142,7 +142,7 @@
 
     .line 98
     :goto_1
-    const v4, 0x7f080434
+    const v4, 0x7f0c0431
 
     invoke-virtual {p0, v4}, Lcom/android/settings/SmsDefaultDialog;->getString(I)Ljava/lang/String;
 
@@ -151,7 +151,7 @@
     iput-object v4, v2, Lcom/android/internal/app/AlertController$AlertParams;->mPositiveButtonText:Ljava/lang/CharSequence;
 
     .line 99
-    const v4, 0x7f080435
+    const v4, 0x7f0c0432
 
     invoke-virtual {p0, v4}, Lcom/android/settings/SmsDefaultDialog;->getString(I)Ljava/lang/String;
 
@@ -175,7 +175,7 @@
 
     .line 95
     :cond_3
-    const v6, 0x7f0807c7
+    const v6, 0x7f0c07c2
 
     new-array v7, v5, [Ljava/lang/Object;
 

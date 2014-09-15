@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="allow">Թույլատրել</string>
+    <string name="deny">Մերժել</string>
     <string name="delete">Ջնջել</string>
     <string name="battery_info_status_full">Լիցքավորված</string>
     <string name="cell_broadcast_settings_summary">Ընտրել արտակարգ իրավիճակների զանգերի ցուցադրման տեսակները:</string>
@@ -23,8 +25,6 @@
     <string name="yes">Այո</string>
     <string name="no">Ոչ</string>
     <string name="create">Ստեղծել</string>
-    <string name="allow">Թույլատրել</string>
-    <string name="deny">Մերժել</string>
     <string name="device_info_default">Անհայտ</string>
     <string name="show_dev_on">Դուք արդեն ծրագրավորո՛ղ եք:</string>
     <string name="show_dev_already">Կարիք չկա, դուք արդեն իսկ ծրագրավորող եք:</string>
@@ -655,6 +655,8 @@
     <string name="volume_notification_mute">Խլացնել ծանուցումները</string>
     <string name="volume_alarm_mute">Համրեցնել ահազանգերը</string>
     <string name="vibrate_when_ringing_title">Թրթռալ զանգելիս</string>
+    <string name="system_update_settings_list_item_title">Համակարգի թարմացումներ</string>
+    <string name="system_update_settings_list_item_summary" />
     <string name="dock_settings">Միակցել</string>
     <string name="dock_settings_title">Հարակցման կարգավորումներ</string>
     <string name="dock_audio_settings_title">Աուդիո</string>
@@ -717,8 +719,6 @@
     <string name="sim_enter_ok">Լավ</string>
     <string name="sim_enter_cancel">Չեղարկել</string>
     <string name="device_info_settings">Հեռախոսի կարգավիճակը</string>
-    <string name="system_update_settings_list_item_title">Համակարգի թարմացումներ</string>
-    <string name="system_update_settings_list_item_summary" />
     <string name="firmware_version">Android տարբերակ</string>
     <string name="model_number">Մոդելի համարը</string>
     <string name="fcc_equipment_id">Սարքավորման ID-ն</string>
@@ -1892,4 +1892,35 @@ Google համաժամեցումը թույլ է տալիս  միանալ ձեր 
     <string name="user_image_take_photo">Լուսանկարել</string>
     <string name="user_image_choose_photo">Ընտրել լուսանկար Պատկերասրահից</string>
     <string name="regulatory_info_text" />
+    <string name="quick_settings_description">Ընտրք Ծնցմն փեղկի արգ պրմտր քնկը և խմբգրք դրնց հրթկնթյնը</string>
+    <string name="swiqi_strings_swiqi_desc_txt">Լուսանկարների և տեսանյութերի պատկերի որակը բարելավող յուրահատկություն</string>
+    <string name="theme_label_summary">Փոխել կամ ներբեռնել թեմաներ</string>
+    <string name="find_my_device">Գտնել իմ սարքը</string>
+    <string name="display_category_personalisation_title">Անհատականացում</string>
+    <string name="xperia_connectivity">Xperia™-ի միացնելիություն</string>
+    <string name="preference_summary">Եթե կորցնեք ձեր սարքը, ապա կարող եք տեղորոշել, կողպել այն և/կամ ջնջել ձեր տվյալները՝ my Xperia-ի օգնությամբ</string>
+    <string name="playanywhere_strings_throw_settings_title_txt">Throw-ի պարամետրեր</string>
+    <string name="playanywhere_strings_throw_setting_summary_txt">Անլար նվագարկել ձեր Xperia™-ի բովանդակությունը այլ սարքերի վրա</string>
+    <string name="mil_strings_app_name_mirrorlink_settings_txt">MirrorLink™ պարամետրեր</string>
+    <string name="mil_strings_mirrorlink_activator_txt">Մկնրկ MirrorLink™</string>
+    <string name="mil_strings_dialog_usb_not_connected_txt">Ոչ մի սարք չի հայտնաբերվել: Համոզվեք, որ համատեղելի սարքը միացված է:</string>
+    <string name="mil_strings_dialog_mirrorlink_start_txt">MirrorLink™ կմեկնարկի շուտով: Այն կարող է նորմալ չաշխատել, եթե սարքը MirrorLink™-ի կողմից վավերացված չէ:</string>
+    <string name="mil_strings_mirrorlink_activator_sub_txt">Երբ միացված եք MirrorLink™-ի կողմից վավերացված սարքի, դուք կարող եք կառավարել ձեր Xperia™ -ն սարքից՝ օգտագործելով USB:</string>
+    <string name="setupguide_settings_title">Տեղակայման ուղեցույց</string>
+    <string name="lockscreen_app_name">Կողպէկրան</string>
+    <string name="lockscreen_settings_title">Կողպէկրան</string>
+    <string name="lockscreen_settings_title_txt">Կողպէկրան</string>
+    <string name="lockscreen_settings_wallpaper_summary_txt">Փոխել էկրանի կողպման պաստառը</string>
+    <string name="lockscreen_setting_wallpaper_wait_txt">Պաստառը նախադրվում է</string>
+    <string name="lockscreen_could_not_load_wallpaper_txt">Անհնար է տեղակայել պաստառը</string>
+    <string name="lockscreen_dialog_title_pick_wallpaper">Ընտրել պաստառ</string>
+    <string name="lockscreen_wallpaper_picker_semc_name">Xperia™ պաստառներ</string>
+    <string name="lockscreen_wallpaper_picker_semc_set_wallpaper">Նախադրել պաստառ</string>
+    <string name="lockscreen_wallpaper_picker_album_name">Ալբոմ</string>
+    <string name="lockscreen_unlock_hint">Ապակողպելու համար մատով անցկացրեք վերև կամ ներքև</string>
+    <string name="lockscreen_short_unlock_hint">Ապակողպելու համար անցկացրեք մատով</string>
+    <string name="lockscreen_accessibility_unlock_hint">Ապակողպելու համար էկրանի կենտրոնից մատով անցկացրեք վերև կամ ներքև</string>
+    <string name="lockscreen_set_as_wallpaper_txt">Էկրանի կողպման պաստառ</string>
+    <string name="status_bar_tab_quick_settings_title">Արագ պարամետրեր</string>
+    <string name="power_settings_title">Հոսանքի կառավարում</string>
 </resources>

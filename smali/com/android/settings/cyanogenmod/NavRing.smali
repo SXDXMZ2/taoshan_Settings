@@ -106,7 +106,7 @@
 
     const-string v2, "none"
 
-    const v3, 0x7f080300
+    const v3, 0x7f0c02fb
 
     invoke-virtual {v1, v2, v3}, Lcom/android/settings/cyanogenmod/NavRing$ActionHolder;->addAction(Ljava/lang/String;I)V
 
@@ -126,7 +126,7 @@
 
     const-string v2, "assist"
 
-    const v3, 0x7f080307
+    const v3, 0x7f0c0302
 
     invoke-virtual {v1, v2, v3}, Lcom/android/settings/cyanogenmod/NavRing$ActionHolder;->addAction(Ljava/lang/String;I)V
 
@@ -147,7 +147,7 @@
 
     const-string v2, "torch"
 
-    const v3, 0x7f080306
+    const v3, 0x7f0c0301
 
     invoke-virtual {v1, v2, v3}, Lcom/android/settings/cyanogenmod/NavRing$ActionHolder;->addAction(Ljava/lang/String;I)V
 
@@ -157,7 +157,7 @@
 
     const-string v2, "screenshot"
 
-    const v3, 0x7f080301
+    const v3, 0x7f0c02fc
 
     invoke-virtual {v1, v2, v3}, Lcom/android/settings/cyanogenmod/NavRing$ActionHolder;->addAction(Ljava/lang/String;I)V
 
@@ -166,7 +166,7 @@
 
     const-string v2, "imeSwitcher"
 
-    const v3, 0x7f0802fe
+    const v3, 0x7f0c02f9
 
     invoke-virtual {v1, v2, v3}, Lcom/android/settings/cyanogenmod/NavRing$ActionHolder;->addAction(Ljava/lang/String;I)V
 
@@ -175,7 +175,7 @@
 
     const-string v2, "ringSilent"
 
-    const v3, 0x7f080303
+    const v3, 0x7f0c02fe
 
     invoke-virtual {v1, v2, v3}, Lcom/android/settings/cyanogenmod/NavRing$ActionHolder;->addAction(Ljava/lang/String;I)V
 
@@ -207,7 +207,7 @@
 
     const-string v2, "ringVibrate"
 
-    const v3, 0x7f080302
+    const v3, 0x7f0c02fd
 
     invoke-virtual {v1, v2, v3}, Lcom/android/settings/cyanogenmod/NavRing$ActionHolder;->addAction(Ljava/lang/String;I)V
 
@@ -216,7 +216,7 @@
 
     const-string v2, "ringVibrateSilent"
 
-    const v3, 0x7f080304
+    const v3, 0x7f0c02ff
 
     invoke-virtual {v1, v2, v3}, Lcom/android/settings/cyanogenmod/NavRing$ActionHolder;->addAction(Ljava/lang/String;I)V
 
@@ -226,7 +226,7 @@
 
     const-string v2, "killTask"
 
-    const v3, 0x7f0802ff
+    const v3, 0x7f0c02fa
 
     invoke-virtual {v1, v2, v3}, Lcom/android/settings/cyanogenmod/NavRing$ActionHolder;->addAction(Ljava/lang/String;I)V
 
@@ -235,7 +235,7 @@
 
     const-string v2, "standby"
 
-    const v3, 0x7f080305
+    const v3, 0x7f0c0300
 
     invoke-virtual {v1, v2, v3}, Lcom/android/settings/cyanogenmod/NavRing$ActionHolder;->addAction(Ljava/lang/String;I)V
 
@@ -244,7 +244,7 @@
 
     const-string v2, "app"
 
-    const v3, 0x7f080ac2
+    const v3, 0x7f0c0abd
 
     invoke-virtual {v1, v2, v3}, Lcom/android/settings/cyanogenmod/NavRing$ActionHolder;->addAction(Ljava/lang/String;I)V
 
@@ -275,7 +275,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0802c2
+    const v3, 0x7f0c02bd
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -344,7 +344,7 @@
 
     invoke-direct {v1, v2}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v2, 0x7f0802c0
+    const v2, 0x7f0c02bb
 
     invoke-virtual {v1, v2}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -356,13 +356,13 @@
 
     move-result-object v1
 
-    const v2, 0x7f0802fc
+    const v2, 0x7f0c02f7
 
     invoke-virtual {v1, v2}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
     move-result-object v1
 
-    const v2, 0x7f0801f9
+    const v2, 0x7f0c01f5
 
     new-instance v3, Lcom/android/settings/cyanogenmod/NavRing$1;
 
@@ -372,7 +372,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080519
+    const v2, 0x7f0c0514
 
     const/4 v3, 0x0
 
@@ -674,7 +674,7 @@
     .line 200
     const/4 v0, 0x1
 
-    const v1, 0x7f0800db
+    const v1, 0x7f0c00db
 
     invoke-interface {p1, v2, v0, v2, v1}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
@@ -766,7 +766,7 @@
     iput-object v0, p0, Lcom/android/settings/cyanogenmod/NavRing;->mPicker:Lcom/android/settings/cyanogenmod/ShortcutPickHelper;
 
     .line 114
-    const v0, 0x7f040072
+    const v0, 0x7f040074
 
     invoke-virtual {p1, v0, p2, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -925,7 +925,7 @@
 
     invoke-direct {v3, v4}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v4, 0x7f080308
+    const v4, 0x7f0c0303
 
     invoke-virtual {v3, v4}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 

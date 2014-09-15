@@ -23,7 +23,7 @@
     .locals 0
 
     .prologue
-    .line 122
+    .line 144
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -34,7 +34,7 @@
     .parameter "x0"
 
     .prologue
-    .line 122
+    .line 144
     invoke-direct {p0}, Lcom/android/settings/cyanogenmod/SpamList$ItemInfo;-><init>()V
 
     return-void

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest android:sharedUserId="android.uid.system" android:versionCode="19" android:versionName="4.4.4-16ef2ffa01" package="com.android.settings" coreApp="true"
+<manifest android:sharedUserId="android.uid.system" android:versionCode="19" android:versionName="4.4.4-6e7e7ae47a" package="com.android.settings" coreApp="true"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="19" />
     <original-package android:name="com.android.settings" />
@@ -448,7 +448,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:theme="@*android:style/Theme.Holo.Dialog.Alert" android:label="@string/settings_safetylegal_activity_title" android:name="SettingsSafetyLegalActivity" android:parentActivityName="Settings$DeviceInfoSettingsActivity">
+        <activity android:theme="@*android:style/Theme.Holo.Dialog.NoFrame" android:label="@string/settings_safetylegal_activity_title" android:name="SettingsSafetyLegalActivity" android:parentActivityName="Settings$DeviceInfoSettingsActivity">
             <intent-filter>
                 <action android:name="android.settings.SAFETY" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -794,7 +794,7 @@
             <meta-data android:name="com.android.settings.PARENT_FRAGMENT_TITLE" android:resource="@string/storage_settings_title" />
             <meta-data android:name="com.android.settings.PARENT_FRAGMENT_CLASS" android:value="com.android.settings.Settings$StorageSettingsActivity" />
         </activity-alias>
-        <activity android:theme="@*android:style/Theme.Holo.Dialog.Alert" android:label="@string/bluetooth_pairing_request" android:name=".bluetooth.BluetoothPairingDialog" android:excludeFromRecents="true">
+        <activity android:theme="@*android:style/Theme.Holo.Dialog.NoFrame" android:label="@string/bluetooth_pairing_request" android:name=".bluetooth.BluetoothPairingDialog" android:excludeFromRecents="true">
             <intent-filter>
                 <action android:name="android.bluetooth.device.action.PAIRING_REQUEST" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -817,7 +817,7 @@
             </intent-filter>
         </receiver>
         <service android:name=".bluetooth.DockService" />
-        <activity android:theme="@*android:style/Theme.Holo.Dialog.Alert" android:label="@string/bluetooth_permission_request" android:name=".bluetooth.RequestPermissionActivity" android:permission="android.permission.BLUETOOTH" android:excludeFromRecents="true">
+        <activity android:theme="@*android:style/Theme.Holo.Dialog.NoFrame" android:label="@string/bluetooth_permission_request" android:name=".bluetooth.RequestPermissionActivity" android:permission="android.permission.BLUETOOTH" android:excludeFromRecents="true">
             <intent-filter>
                 <action android:name="android.bluetooth.adapter.action.REQUEST_DISCOVERABLE" />
                 <action android:name="android.bluetooth.adapter.action.REQUEST_ENABLE" />
@@ -830,7 +830,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:theme="@*android:style/Theme.Holo.Dialog.Alert" android:label="@string/bluetooth_pairing_request" android:name=".bluetooth.RequestPermissionHelperActivity" android:permission="android.permission.BLUETOOTH" android:excludeFromRecents="true" />
+        <activity android:theme="@*android:style/Theme.Holo.Dialog.NoFrame" android:label="@string/bluetooth_pairing_request" android:name=".bluetooth.RequestPermissionHelperActivity" android:permission="android.permission.BLUETOOTH" android:excludeFromRecents="true" />
         <receiver android:name=".bluetooth.BluetoothPairingRequest">
             <intent-filter>
                 <action android:name="android.bluetooth.device.action.PAIRING_REQUEST" />
@@ -844,14 +844,14 @@
                 <action android:name="android.bluetooth.device.action.CONNECTION_ACCESS_CANCEL" />
             </intent-filter>
         </receiver>
-        <activity android:theme="@*android:style/Theme.Holo.Dialog.Alert" android:label="@string/bluetooth_connection_permission_request" android:name=".bluetooth.BluetoothPermissionActivity" android:permission="android.permission.BLUETOOTH_ADMIN" android:excludeFromRecents="true">
+        <activity android:theme="@*android:style/Theme.Holo.Dialog.NoFrame" android:label="@string/bluetooth_connection_permission_request" android:name=".bluetooth.BluetoothPermissionActivity" android:permission="android.permission.BLUETOOTH_ADMIN" android:excludeFromRecents="true">
             <intent-filter>
                 <action android:name="android.bluetooth.device.action.CONNECTION_ACCESS_REQUEST" />
                 <action android:name="android.bluetooth.device.action.CONNECTION_ACCESS_CANCEL" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:theme="@*android:style/Theme.Holo.Dialog.Alert" android:label="@string/activity_picker_label" android:name="ActivityPicker" android:finishOnCloseSystemDialogs="true">
+        <activity android:theme="@*android:style/Theme.Holo.Dialog.NoFrame" android:label="@string/activity_picker_label" android:name="ActivityPicker" android:finishOnCloseSystemDialogs="true">
             <intent-filter>
                 <action android:name="android.intent.action.PICK_ACTIVITY" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -923,13 +923,13 @@
                 <data android:scheme="android_secret_code" android:host="4636" />
             </intent-filter>
         </receiver>
-        <activity android:theme="@*android:style/Theme.Holo.Dialog.Alert" android:label="@string/widget_picker_title" android:name="AppWidgetPickActivity" android:finishOnCloseSystemDialogs="true">
+        <activity android:theme="@*android:style/Theme.Holo.Dialog.NoFrame" android:label="@string/widget_picker_title" android:name="AppWidgetPickActivity" android:finishOnCloseSystemDialogs="true">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_PICK" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:theme="@*android:style/Theme.Holo.Dialog.Alert" android:name="AllowBindAppWidgetActivity" android:excludeFromRecents="true" android:finishOnCloseSystemDialogs="true">
+        <activity android:theme="@*android:style/Theme.Holo.Dialog.NoFrame" android:name="AllowBindAppWidgetActivity" android:excludeFromRecents="true" android:finishOnCloseSystemDialogs="true">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_BIND" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -1004,7 +1004,7 @@
         </activity>
         <activity android:name=".quicksettings.QuickSettingsTiles" />
         <activity android:name=".headsup.HeadsUpSettings" />
-        <activity android:theme="@*android:style/Theme.Holo.Dialog.Alert" android:name=".cyanogenmod.AutoBrightnessSetup" android:excludeFromRecents="true" />
+        <activity android:theme="@*android:style/Theme.Holo.Dialog.NoFrame" android:name=".cyanogenmod.AutoBrightnessSetup" android:excludeFromRecents="true" />
         <activity android:name=".voicewakeup.VoiceWakeupSettings" />
         <activity android:label="@string/voice_wakeup_settings_title" android:name="Settings$VoiceWakeupSettingsActivity" android:taskAffinity="" android:excludeFromRecents="true">
             <intent-filter>
@@ -1142,13 +1142,13 @@
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS" android:value="com.android.settings.nfc.PaymentSettings" />
             <meta-data android:name="com.android.settings.TOP_LEVEL_HEADER_ID" android:resource="@id/nfc_payment_settings" />
         </activity>
-        <activity android:theme="@*android:style/Theme.Holo.Light.Dialog.Alert" android:label="@string/nfc_payment_set_default_label" android:name=".nfc.PaymentDefaultDialog" android:excludeFromRecents="true">
+        <activity android:theme="@*android:style/Theme.Holo.Light.Dialog.NoActionBar.FixedSize" android:label="@string/nfc_payment_set_default_label" android:name=".nfc.PaymentDefaultDialog" android:excludeFromRecents="true">
             <intent-filter>
                 <action android:name="android.nfc.cardemulation.action.ACTION_CHANGE_DEFAULT" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:theme="@*android:style/Theme.Holo.Light.Dialog.Alert" android:label="@string/sms_application_title" android:name=".SmsDefaultDialog" android:excludeFromRecents="true">
+        <activity android:theme="@*android:style/Theme.Holo.Light.Dialog.NoActionBar.FixedSize" android:label="@string/sms_application_title" android:name=".SmsDefaultDialog" android:excludeFromRecents="true">
             <intent-filter>
                 <action android:name="android.provider.Telephony.ACTION_CHANGE_DEFAULT" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -1169,13 +1169,13 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:label="@string/protected_apps" android:name=".applications.ProtectedAppsActivity" android:excludeFromRecents="true" android:configChanges="keyboardHidden|orientation|screenSize">
+        <activity android:label="@string/protected_apps" android:name=".applications.ProtectedAppsActivity" android:excludeFromRecents="true" android:configChanges="orientation">
             <intent-filter>
                 <action android:name=".applications.ProtectedAppsActivity" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:label="@string/protected_apps" android:name=".applications.LockPatternActivity" android:excludeFromRecents="true" android:windowSoftInputMode="stateHidden|adjustResize">
+        <activity android:label="@string/protected_apps" android:name=".applications.LockPatternActivity" android:excludeFromRecents="true">
             <intent-filter>
                 <action android:name=".applications.LockPatternActivity" />
                 <category android:name="android.intent.category.DEFAULT" />

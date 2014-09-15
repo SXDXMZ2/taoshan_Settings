@@ -296,7 +296,7 @@
     invoke-virtual {v1, p1}, Landroid/app/ProfileManager;->setActiveProfile(Ljava/util/UUID;)V
 
     .line 123
-    const v1, 0x7f0800cd
+    const v1, 0x7f0c00cd
 
     new-array v2, v5, [Ljava/lang/Object;
 

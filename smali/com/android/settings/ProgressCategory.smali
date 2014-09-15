@@ -30,7 +30,7 @@
     iput-boolean v0, p0, Lcom/android/settings/ProgressCategory;->mProgress:Z
 
     .line 34
-    const v0, 0x7f0400a1
+    const v0, 0x7f0400a3
 
     invoke-virtual {p0, v0}, Lcom/android/settings/ProgressCategory;->setLayoutResource(I)V
 
@@ -164,7 +164,7 @@
     .line 56
     iget-object v4, p0, Lcom/android/settings/ProgressCategory;->mNoDeviceFoundPreference:Landroid/preference/Preference;
 
-    const v5, 0x7f040094
+    const v5, 0x7f040096
 
     invoke-virtual {v4, v5}, Landroid/preference/Preference;->setLayoutResource(I)V
 

@@ -81,7 +81,7 @@
     .line 118
     iget-object v0, p0, Lcom/android/settings/MediaFormat;->mInflater:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f04006f
+    const v1, 0x7f040071
 
     const/4 v2, 0x0
 
@@ -133,7 +133,7 @@
     .line 141
     iget-object v0, p0, Lcom/android/settings/MediaFormat;->mInflater:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f040070
+    const v1, 0x7f040072
 
     const/4 v2, 0x0
 
@@ -183,13 +183,13 @@
 
     invoke-direct {v0, p0}, Lcom/android/settings/ChooseLockSettingsHelper;-><init>(Landroid/app/Activity;)V
 
-    const v1, 0x7f0807a9
+    const v1, 0x7f0c07a4
 
     invoke-virtual {p0, v1}, Lcom/android/settings/MediaFormat;->getText(I)Ljava/lang/CharSequence;
 
     move-result-object v1
 
-    const v2, 0x7f0807aa
+    const v2, 0x7f0c07a5
 
     invoke-virtual {p0, v2}, Lcom/android/settings/MediaFormat;->getText(I)Ljava/lang/CharSequence;
 

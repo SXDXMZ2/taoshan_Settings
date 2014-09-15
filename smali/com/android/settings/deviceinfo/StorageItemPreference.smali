@@ -94,7 +94,7 @@
     invoke-virtual {p0, p2}, Lcom/android/settings/deviceinfo/StorageItemPreference;->setTitle(Ljava/lang/CharSequence;)V
 
     .line 53
-    const v3, 0x7f080745
+    const v3, 0x7f0c0740
 
     invoke-virtual {p0, v3}, Lcom/android/settings/deviceinfo/StorageItemPreference;->setSummary(I)V
 

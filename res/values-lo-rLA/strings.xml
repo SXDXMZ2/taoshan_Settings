@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="allow">ອະນຸຍາດ</string>
+    <string name="deny">ປະ​ຕິ​ເສດ</string>
     <string name="delete">ລຶບ</string>
     <string name="battery_info_status_full">ເຕັມ</string>
     <string name="yes">ຕົກລົງ</string>
     <string name="no">ບໍ່</string>
     <string name="create">ສ້າງ</string>
-    <string name="allow">ອະນຸຍາດ</string>
-    <string name="deny">ປະ​ຕິ​ເສດ</string>
     <string name="device_info_default">ບໍ່ຮູ້ຈັກ</string>
     <string name="show_dev_on">ຕອນນີ້ທ່ານເປັນນັກພັດທະນາແລ້ວ!</string>
     <string name="show_dev_already">ບໍ່ຈຳເປັນ, ທ່ານເປັນນັກພັດທະນາຢູ່ແລ້ວ.</string>
@@ -647,6 +647,8 @@
     <string name="volume_notification_mute">ປິດສຽງການແຈ້ງເຕືອນ</string>
     <string name="volume_alarm_mute">ປິດສຽງໂມງປຸກ</string>
     <string name="vibrate_when_ringing_title">ສັ່ນເຕືອນເມື່ອມີສາຍໂທເຂົ້າ</string>
+    <string name="system_update_settings_list_item_title">ອັບເດດລະບົບ</string>
+    <string name="system_update_settings_list_item_summary" />
     <string name="dock_settings">ບ່ອນຕັ້ງສາກ</string>
     <string name="dock_settings_title">ການຕັ້ງຄ່າບ່ອນຕັ້ງສາກ</string>
     <string name="dock_audio_settings_title">ສຽງ</string>
@@ -711,8 +713,6 @@
     <string name="wrong_pin_code_pukked">ລະຫັດ PIN ຂອງ SIM ບໍ່ຖືກຕ້ອງທ່ານຕ້ອງຕິດຕໍ່ຫາຜູ່ໃຫ້ບໍລິການຂອງທ່ານ ເພື່ອປົດລັອກອຸປະກອນຂອງທ່ານ.</string>
     <string name="pin_failed">PIN ຂອງ SIM ເຮັດວຽກລົ້ມເຫຼວ!</string>
     <string name="device_info_settings">ສະ​ຖາ​ນະ​ໂທລະ​ສັບ</string>
-    <string name="system_update_settings_list_item_title">ອັບເດດລະບົບ</string>
-    <string name="system_update_settings_list_item_summary" />
     <string name="firmware_version">ເວີຊັນຂອງ Android</string>
     <string name="model_number">ໝາຍເລກໂມເດວ</string>
     <string name="fcc_equipment_id">ໝາຍເລກອຸປະກອນ</string>

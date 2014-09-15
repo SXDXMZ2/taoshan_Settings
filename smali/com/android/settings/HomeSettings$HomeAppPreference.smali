@@ -55,7 +55,7 @@
     invoke-direct {p0, p2}, Landroid/preference/Preference;-><init>(Landroid/content/Context;)V
 
     .line 269
-    const v2, 0x7f040098
+    const v2, 0x7f04009a
 
     invoke-virtual {p0, v2}, Lcom/android/settings/HomeSettings$HomeAppPreference;->setLayoutResource(I)V
 

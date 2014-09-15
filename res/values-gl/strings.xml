@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="superuser">Superusuario</string>
+    <string name="allow">Permitir</string>
+    <string name="deny">Denegar</string>
     <string name="status_incoming">Solicitude de superusuario…</string>
     <string name="unknown_uid">UID descoñecido: %s</string>
     <string name="application_request">%s está solicitando acceso de superusuario.</string>
@@ -93,4 +95,36 @@ Recoméndase a instalación en modo recuperación para os dispositivos HTC."</st
     <string name="details">Detalles</string>
     <string name="db_delete_error">"Non se pode retirar o permiso de superusuario desta aplicación.
 Por favor, reinicie a aplicación de superusuario e inténteo de novo."</string>
+    <string name="quick_settings_description">Seleccione o número de axustes rápidos no panel de notificacións e edite a orde</string>
+    <string name="swiqi_strings_swiqi_desc_txt">Mellora a calidade de fotos e vídeos</string>
+    <string name="theme_label_summary">Cambiar ou descargar temas</string>
+    <string name="find_my_device">Encontrar o meu dispositivo</string>
+    <string name="display_category_personalisation_title">Personalización</string>
+    <string name="xperia_connectivity">Conectividade Xperia™</string>
+    <string name="preference_summary">Se algunha vez perde o seu dispositivo, localice, bloquee e/ou borre os datos con my Xperia</string>
+    <string name="playanywhere_strings_throw_settings_title_txt">Axustes de Throw</string>
+    <string name="playanywhere_strings_throw_setting_summary_txt">Reproducir contido sen fíos do seu Xperia™ noutros dispositivos</string>
+    <string name="usbux_strings_local_connectivity_settings_summary_txt">Conectar o dispositivo a outros dispositivos ou ordenadores mediante USB ou Wi-Fi</string>
+    <string name="mil_strings_app_name_mirrorlink_settings_txt">Axustes de MirrorLink™</string>
+    <string name="mil_strings_mirrorlink_activator_txt">Iniciar MirrorLink™</string>
+    <string name="mil_strings_dialog_usb_not_connected_txt">Non se detectaron dispositivos. Asegúrese de que o dispositivo compatible está conectado.</string>
+    <string name="mil_strings_dialog_mirrorlink_start_txt">MirrorLink™ iniciarase nun intre. É posible que non funcione correctamente se o dispositivo non está certificado para MirrorLink™.</string>
+    <string name="mil_strings_mirrorlink_activator_sub_txt">Cando se conecte a un dispositivo con certificado MirrorLink™ usando o USB, pode controlar o seu Xperia™ desde o dispositivo</string>
+    <string name="setupguide_settings_title">Guía de configuración</string>
+    <string name="lockscreen_app_name">Pantalla de bloqueo</string>
+    <string name="lockscreen_settings_title">Pantalla de bloqueo</string>
+    <string name="lockscreen_settings_title_txt">Pantalla de bloqueo</string>
+    <string name="lockscreen_settings_wallpaper_summary_txt">Cambiar fondo da pantalla de bloqueo</string>
+    <string name="lockscreen_setting_wallpaper_wait_txt">Establecendo fondo</string>
+    <string name="lockscreen_could_not_load_wallpaper_txt">Non se puido establecer o fondo</string>
+    <string name="lockscreen_dialog_title_pick_wallpaper">Seleccionar fondo</string>
+    <string name="lockscreen_wallpaper_picker_semc_name">Fondos Xperia™</string>
+    <string name="lockscreen_wallpaper_picker_semc_set_wallpaper">Establecer fondo</string>
+    <string name="lockscreen_wallpaper_picker_album_name">Álbum</string>
+    <string name="lockscreen_unlock_hint">Mova o dedo cara arriba ou abaixo para desbloquear</string>
+    <string name="lockscreen_short_unlock_hint">Pase o dedo para desbloquear</string>
+    <string name="lockscreen_accessibility_unlock_hint">Pase o dedo cara a arriba ou abaixo desde o centro da pantalla para desbloquear</string>
+    <string name="lockscreen_set_as_wallpaper_txt">Fondo da pantalla de bloqueo</string>
+    <string name="status_bar_tab_quick_settings_title">Axustes rápidos</string>
+    <string name="power_settings_title">Xestión de enerxía</string>
 </resources>

@@ -2601,7 +2601,7 @@
     if-eqz v14, :cond_3
 
     .line 682
-    const v14, 0x7f080bbf
+    const v14, 0x7f0c0bba
 
     const/4 v15, 0x1
 
@@ -2757,7 +2757,7 @@
     invoke-virtual {v8, v14}, Lcom/android/settings/users/AppRestrictionsFragment$AppRestrictionsPreference;->setImmutable(Z)V
 
     .line 715
-    const v14, 0x7f080bc0
+    const v14, 0x7f0c0bbb
 
     invoke-virtual {v8, v14}, Lcom/android/settings/users/AppRestrictionsFragment$AppRestrictionsPreference;->setSummary(I)V
 
@@ -2774,7 +2774,7 @@
     if-eqz v14, :cond_9
 
     .line 718
-    const v14, 0x7f080bc1
+    const v14, 0x7f0c0bbc
 
     invoke-virtual {v8, v14}, Lcom/android/settings/users/AppRestrictionsFragment$AppRestrictionsPreference;->setSummary(I)V
 

@@ -51,7 +51,7 @@
 
     const/4 v2, 0x2
 
-    .line 11115
+    .line 11119
     const/16 v0, 0x9
 
     new-array v0, v0, [I
@@ -60,14 +60,14 @@
 
     sput-object v0, Lcom/koushikdutta/widgets/R$styleable;->BatteryHistoryChart:[I
 
-    .line 11217
+    .line 11221
     new-array v0, v5, [I
 
     fill-array-data v0, :array_1
 
     sput-object v0, Lcom/koushikdutta/widgets/R$styleable;->ChartGridView:[I
 
-    .line 11279
+    .line 11283
     const/4 v0, 0x3
 
     new-array v0, v0, [I
@@ -76,7 +76,7 @@
 
     sput-object v0, Lcom/koushikdutta/widgets/R$styleable;->ChartNetworkSeriesView:[I
 
-    .line 11347
+    .line 11351
     const/4 v0, 0x6
 
     new-array v0, v0, [I
@@ -85,14 +85,14 @@
 
     sput-object v0, Lcom/koushikdutta/widgets/R$styleable;->ChartSweepView:[I
 
-    .line 11447
+    .line 11451
     new-array v0, v2, [I
 
     fill-array-data v0, :array_4
 
     sput-object v0, Lcom/koushikdutta/widgets/R$styleable;->ChartView:[I
 
-    .line 11508
+    .line 11512
     const/16 v0, 0x8
 
     new-array v0, v0, [I
@@ -101,7 +101,7 @@
 
     sput-object v0, Lcom/koushikdutta/widgets/R$styleable;->CubicSplinePreviewView:[I
 
-    .line 11646
+    .line 11650
     new-array v0, v4, [I
 
     const v1, 0x7f010017
@@ -110,28 +110,28 @@
 
     sput-object v0, Lcom/koushikdutta/widgets/R$styleable;->IconPreferenceScreen:[I
 
-    .line 11675
+    .line 11679
     new-array v0, v5, [I
 
     fill-array-data v0, :array_6
 
     sput-object v0, Lcom/koushikdutta/widgets/R$styleable;->IntervalSeekBar:[I
 
-    .line 11746
+    .line 11750
     new-array v0, v2, [I
 
     fill-array-data v0, :array_7
 
     sput-object v0, Lcom/koushikdutta/widgets/R$styleable;->PercentageBarChart:[I
 
-    .line 11796
+    .line 11800
     new-array v0, v2, [I
 
     fill-array-data v0, :array_8
 
     sput-object v0, Lcom/koushikdutta/widgets/R$styleable;->SearchableInfo:[I
 
-    .line 11833
+    .line 11837
     new-array v0, v4, [I
 
     const v1, 0x7f010016
@@ -142,7 +142,7 @@
 
     return-void
 
-    .line 11115
+    .line 11119
     :array_0
     .array-data 0x4
         0x34t 0x0t 0x1t 0x1t
@@ -156,7 +156,7 @@
         0x64t 0x1t 0x1t 0x1t
     .end array-data
 
-    .line 11217
+    .line 11221
     :array_1
     .array-data 0x4
         0x21t 0x0t 0x1t 0x7ft
@@ -165,7 +165,7 @@
         0x24t 0x0t 0x1t 0x7ft
     .end array-data
 
-    .line 11279
+    .line 11283
     :array_2
     .array-data 0x4
         0x25t 0x0t 0x1t 0x7ft
@@ -173,7 +173,7 @@
         0x27t 0x0t 0x1t 0x7ft
     .end array-data
 
-    .line 11347
+    .line 11351
     :array_3
     .array-data 0x4
         0x1ct 0x0t 0x1t 0x7ft
@@ -184,14 +184,14 @@
         0x21t 0x0t 0x1t 0x7ft
     .end array-data
 
-    .line 11447
+    .line 11451
     :array_4
     .array-data 0x4
         0x1at 0x0t 0x1t 0x7ft
         0x1bt 0x0t 0x1t 0x7ft
     .end array-data
 
-    .line 11508
+    .line 11512
     :array_5
     .array-data 0x4
         0x29t 0x0t 0x1t 0x7ft
@@ -204,7 +204,7 @@
         0x30t 0x0t 0x1t 0x7ft
     .end array-data
 
-    .line 11675
+    .line 11679
     :array_6
     .array-data 0x4
         0x31t 0x0t 0x1t 0x7ft
@@ -213,14 +213,14 @@
         0x34t 0x0t 0x1t 0x7ft
     .end array-data
 
-    .line 11746
+    .line 11750
     :array_7
     .array-data 0x4
         0x18t 0x0t 0x1t 0x7ft
         0x19t 0x0t 0x1t 0x7ft
     .end array-data
 
-    .line 11796
+    .line 11800
     :array_8
     .array-data 0x4
         0x35t 0x0t 0x1t 0x7ft
@@ -232,7 +232,7 @@
     .locals 0
 
     .prologue
-    .line 11088
+    .line 11092
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void

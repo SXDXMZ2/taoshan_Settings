@@ -868,7 +868,7 @@
     :goto_0
     if-eqz v1, :cond_1
 
-    const v0, 0x7f08007c
+    const v0, 0x7f0c007c
 
     .line 313
     .local v0, resId:I
@@ -904,7 +904,7 @@
     .line 311
     .restart local v1       #tuneAwayStatus:Z
     :cond_1
-    const v0, 0x7f08007d
+    const v0, 0x7f0c007d
 
     goto :goto_1
 .end method
@@ -1061,7 +1061,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f080071
+    const v3, 0x7f0c0071
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1629,7 +1629,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f0b000d
+    const v6, 0x7f0a000d
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getBoolean(I)Z
 
@@ -1772,7 +1772,7 @@
     .line 179
     .local v2, operatorName:Ljava/lang/String;
     :goto_2
-    const v5, 0x7f08040e
+    const v5, 0x7f0c0409
 
     new-array v6, v11, [Ljava/lang/Object;
 
@@ -1836,7 +1836,7 @@
     .end local v1           #label:Ljava/lang/String;
     .end local v2           #operatorName:Ljava/lang/String;
     :cond_2
-    const v5, 0x7f08040d
+    const v5, 0x7f0c0408
 
     invoke-virtual {p0, v5}, Lcom/android/settings/MultiSimSettings;->getString(I)Ljava/lang/String;
 
@@ -1861,7 +1861,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f080031
+    const v7, 0x7f0c0031
 
     invoke-virtual {v6, v7}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1876,7 +1876,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f08007a
+    const v7, 0x7f0c007a
 
     invoke-virtual {v6, v7}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1923,7 +1923,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080073
+    const v2, 0x7f0c0073
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2423,7 +2423,7 @@
 
     move-result-object v7
 
-    const v9, 0x7f080078
+    const v9, 0x7f0c0078
 
     invoke-virtual {v7, v9}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2531,7 +2531,7 @@
 
     move-result-object v7
 
-    const v9, 0x7f080077
+    const v9, 0x7f0c0077
 
     invoke-virtual {v7, v9}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2585,7 +2585,7 @@
 
     move-result-object v7
 
-    const v9, 0x7f080079
+    const v9, 0x7f0c0079
 
     invoke-virtual {v7, v9}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

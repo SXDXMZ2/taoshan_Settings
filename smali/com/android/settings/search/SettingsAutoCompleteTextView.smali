@@ -3,7 +3,6 @@
 .source "SettingsAutoCompleteTextView.java"
 
 # interfaces
-.implements Landroid/text/TextWatcher;
 .implements Landroid/view/View$OnTouchListener;
 
 
@@ -17,13 +16,13 @@
     .parameter "context"
 
     .prologue
-    .line 37
+    .line 35
     invoke-direct {p0, p1}, Landroid/widget/AutoCompleteTextView;-><init>(Landroid/content/Context;)V
 
-    .line 38
+    .line 36
     invoke-direct {p0}, Lcom/android/settings/search/SettingsAutoCompleteTextView;->create()V
 
-    .line 39
+    .line 37
     return-void
 .end method
 
@@ -33,13 +32,13 @@
     .parameter "attrs"
 
     .prologue
-    .line 47
+    .line 45
     invoke-direct {p0, p1, p2}, Landroid/widget/AutoCompleteTextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
-    .line 48
+    .line 46
     invoke-direct {p0}, Lcom/android/settings/search/SettingsAutoCompleteTextView;->create()V
 
-    .line 49
+    .line 47
     return-void
 .end method
 
@@ -50,21 +49,23 @@
     .parameter "defStyle"
 
     .prologue
-    .line 42
+    .line 40
     invoke-direct {p0, p1, p2, p3}, Landroid/widget/AutoCompleteTextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 43
+    .line 41
     invoke-direct {p0}, Lcom/android/settings/search/SettingsAutoCompleteTextView;->create()V
 
-    .line 44
+    .line 42
     return-void
 .end method
 
 .method private create()V
-    .locals 2
+    .locals 3
 
     .prologue
-    .line 52
+    const/4 v2, 0x0
+
+    .line 50
     invoke-virtual {p0}, Lcom/android/settings/search/SettingsAutoCompleteTextView;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
@@ -77,6 +78,11 @@
 
     iput-object v0, p0, Lcom/android/settings/search/SettingsAutoCompleteTextView;->mClearButton:Landroid/graphics/drawable/Drawable;
 
+    .line 52
+    iget-object v0, p0, Lcom/android/settings/search/SettingsAutoCompleteTextView;->mClearButton:Landroid/graphics/drawable/Drawable;
+
+    invoke-virtual {p0, v2, v2, v0, v2}, Lcom/android/settings/search/SettingsAutoCompleteTextView;->setCompoundDrawablesWithIntrinsicBounds(Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)V
+
     .line 53
     const v0, 0x2000003
 
@@ -85,10 +91,7 @@
     .line 56
     invoke-virtual {p0, p0}, Lcom/android/settings/search/SettingsAutoCompleteTextView;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
-    .line 58
-    invoke-virtual {p0, p0}, Lcom/android/settings/search/SettingsAutoCompleteTextView;->addTextChangedListener(Landroid/text/TextWatcher;)V
-
-    .line 59
+    .line 57
     return-void
 .end method
 
@@ -96,7 +99,7 @@
     .locals 2
 
     .prologue
-    .line 79
+    .line 77
     invoke-virtual {p0}, Lcom/android/settings/search/SettingsAutoCompleteTextView;->getContext()Landroid/content/Context;
 
     move-result-object v0
@@ -116,63 +119,42 @@
 
 
 # virtual methods
-.method public afterTextChanged(Landroid/text/Editable;)V
-    .locals 0
-    .parameter "editable"
-
-    .prologue
-    .line 110
-    return-void
-.end method
-
-.method public beforeTextChanged(Ljava/lang/CharSequence;III)V
-    .locals 0
-    .parameter "charSequence"
-    .parameter "i"
-    .parameter "i2"
-    .parameter "i3"
-
-    .prologue
-    .line 106
-    return-void
-.end method
-
 .method protected onMeasure(II)V
     .locals 3
     .parameter "widthMeasureSpec"
     .parameter "heightMeasureSpec"
 
     .prologue
-    .line 63
+    .line 61
     invoke-static {p1}, Landroid/view/View$MeasureSpec;->getMode(I)I
 
     move-result v1
 
-    .line 64
+    .line 62
     .local v1, widthMode:I
     invoke-static {p1}, Landroid/view/View$MeasureSpec;->getSize(I)I
 
     move-result v0
 
-    .line 66
+    .line 64
     .local v0, width:I
     sparse-switch v1, :sswitch_data_0
 
-    .line 74
+    .line 72
     :goto_0
     const/high16 v1, 0x4000
 
-    .line 75
+    .line 73
     invoke-static {v0, v1}, Landroid/view/View$MeasureSpec;->makeMeasureSpec(II)I
 
     move-result v2
 
     invoke-super {p0, v2, p2}, Landroid/widget/AutoCompleteTextView;->onMeasure(II)V
 
-    .line 76
+    .line 74
     return-void
 
-    .line 68
+    .line 66
     :sswitch_0
     invoke-direct {p0}, Lcom/android/settings/search/SettingsAutoCompleteTextView;->getPreferredWidth()I
 
@@ -182,10 +164,10 @@
 
     move-result v0
 
-    .line 69
+    .line 67
     goto :goto_0
 
-    .line 71
+    .line 69
     :sswitch_1
     invoke-direct {p0}, Lcom/android/settings/search/SettingsAutoCompleteTextView;->getPreferredWidth()I
 
@@ -193,7 +175,7 @@
 
     goto :goto_0
 
-    .line 66
+    .line 64
     nop
 
     :sswitch_data_0
@@ -201,46 +183,6 @@
         -0x80000000 -> :sswitch_0
         0x0 -> :sswitch_1
     .end sparse-switch
-.end method
-
-.method public onTextChanged(Ljava/lang/CharSequence;III)V
-    .locals 2
-    .parameter "s"
-    .parameter "start"
-    .parameter "before"
-    .parameter "count"
-
-    .prologue
-    const/4 v1, 0x0
-
-    .line 100
-    invoke-virtual {p0}, Lcom/android/settings/search/SettingsAutoCompleteTextView;->getText()Landroid/text/Editable;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    move-object v0, v1
-
-    :goto_0
-    invoke-virtual {p0, v1, v1, v0, v1}, Lcom/android/settings/search/SettingsAutoCompleteTextView;->setCompoundDrawablesWithIntrinsicBounds(Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)V
-
-    .line 102
-    return-void
-
-    .line 100
-    :cond_0
-    iget-object v0, p0, Lcom/android/settings/search/SettingsAutoCompleteTextView;->mClearButton:Landroid/graphics/drawable/Drawable;
-
-    goto :goto_0
 .end method
 
 .method public onTouch(Landroid/view/View;Landroid/view/MotionEvent;)Z
@@ -251,7 +193,7 @@
     .prologue
     const/4 v3, 0x0
 
-    .line 85
+    .line 83
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getAction()I
 
     move-result v1
@@ -260,12 +202,12 @@
 
     if-eq v1, v2, :cond_1
 
-    .line 95
+    .line 93
     :cond_0
     :goto_0
     return v3
 
-    .line 89
+    .line 87
     :cond_1
     invoke-virtual {p0}, Lcom/android/settings/search/SettingsAutoCompleteTextView;->getWidth()I
 
@@ -285,7 +227,7 @@
 
     sub-int v0, v1, v2
 
-    .line 91
+    .line 89
     .local v0, clearButtonStart:I
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getX()F
 
@@ -297,7 +239,7 @@
 
     if-lez v1, :cond_0
 
-    .line 93
+    .line 91
     const-string v1, ""
 
     invoke-virtual {p0, v1}, Lcom/android/settings/search/SettingsAutoCompleteTextView;->setText(Ljava/lang/CharSequence;)V

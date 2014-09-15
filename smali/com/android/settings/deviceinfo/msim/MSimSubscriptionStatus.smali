@@ -281,7 +281,7 @@
     .line 320
     iget-object v2, p0, Lcom/android/settings/deviceinfo/msim/MSimSubscriptionStatus;->mRes:Landroid/content/res/Resources;
 
-    const v3, 0x7f080459
+    const v3, 0x7f0c0454
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -324,7 +324,7 @@
 
     iget-object v3, p0, Lcom/android/settings/deviceinfo/msim/MSimSubscriptionStatus;->mRes:Landroid/content/res/Resources;
 
-    const v4, 0x7f080450
+    const v4, 0x7f0c044b
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -354,7 +354,7 @@
     :pswitch_0
     iget-object v2, p0, Lcom/android/settings/deviceinfo/msim/MSimSubscriptionStatus;->mRes:Landroid/content/res/Resources;
 
-    const v3, 0x7f08044c
+    const v3, 0x7f0c0447
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -367,7 +367,7 @@
     :pswitch_1
     iget-object v2, p0, Lcom/android/settings/deviceinfo/msim/MSimSubscriptionStatus;->mRes:Landroid/content/res/Resources;
 
-    const v3, 0x7f08044d
+    const v3, 0x7f0c0448
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -380,7 +380,7 @@
     :pswitch_2
     iget-object v2, p0, Lcom/android/settings/deviceinfo/msim/MSimSubscriptionStatus;->mRes:Landroid/content/res/Resources;
 
-    const v3, 0x7f08044f
+    const v3, 0x7f0c044a
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -394,7 +394,7 @@
 
     iget-object v3, p0, Lcom/android/settings/deviceinfo/msim/MSimSubscriptionStatus;->mRes:Landroid/content/res/Resources;
 
-    const v4, 0x7f080451
+    const v4, 0x7f0c044c
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -515,7 +515,7 @@
     .line 158
     iget-object v6, p0, Lcom/android/settings/deviceinfo/msim/MSimSubscriptionStatus;->mRes:Landroid/content/res/Resources;
 
-    const v7, 0x7f080439
+    const v7, 0x7f0c0434
 
     invoke-virtual {v6, v7}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -671,7 +671,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f0b0009
+    const v7, 0x7f0a0009
 
     invoke-virtual {v6, v7}, Landroid/content/res/Resources;->getBoolean(I)Z
 
@@ -686,7 +686,7 @@
 
     move-result-object v6
 
-    const v7, 0x7f08072f
+    const v7, 0x7f0c072a
 
     invoke-virtual {v6, v7}, Landroid/preference/Preference;->setTitle(I)V
 
@@ -1078,7 +1078,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f08045c
+    const v6, 0x7f0c0457
 
     invoke-virtual {v0, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1108,7 +1108,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f08045d
+    const v6, 0x7f0c0458
 
     invoke-virtual {v0, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

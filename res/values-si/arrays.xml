@@ -471,11 +471,6 @@
         <item>තත්15 | මි1 | මි5</item>
         <item>තත්30 | මි2 | මි5</item>
     </string-array>
-    <string-array name="data_usage_cycle_length">
-        <item>දිනපතා</item>
-        <item>සතිපතා</item>
-        <item>මාස්පතා</item>
-    </string-array>
     <string-array name="data_usage_cycle_weekdays">
         <item>ඉරිදා</item>
         <item>සඳුදා</item>
@@ -489,11 +484,5 @@
         <item>අනුමතයි</item>
         <item>ප්‍රතික්ෂේපිතයි</item>
         <item>සැමවිට අසන්න</item>
-    </string-array>
-    <string-array name="qs_quick_access_size_entries">
-        <item>ස්වයංක්‍රීය</item>
-        <item>ස්වයංක්‍රීය (පටු)</item>
-        <item>විශාල</item>
-        <item>පටු</item>
     </string-array>
 </resources>

@@ -67,7 +67,7 @@
     .line 381
     iget-object v1, p0, Lcom/android/settings/NotificationStation$NotificationHistoryAdapter;->mInflater:Landroid/view/LayoutInflater;
 
-    const v2, 0x7f04007a
+    const v2, 0x7f04007c
 
     const/4 v3, 0x0
 

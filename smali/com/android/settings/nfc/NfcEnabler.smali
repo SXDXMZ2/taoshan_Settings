@@ -140,7 +140,7 @@
     .line 108
     iget-object v0, p0, Lcom/android/settings/nfc/NfcEnabler;->mAndroidBeam:Landroid/preference/PreferenceScreen;
 
-    const v1, 0x7f0805fc
+    const v1, 0x7f0c05f7
 
     invoke-virtual {v0, v1}, Landroid/preference/PreferenceScreen;->setSummary(I)V
 
@@ -174,7 +174,7 @@
     .line 115
     iget-object v0, p0, Lcom/android/settings/nfc/NfcEnabler;->mAndroidBeam:Landroid/preference/PreferenceScreen;
 
-    const v1, 0x7f0805fa
+    const v1, 0x7f0c05f5
 
     invoke-virtual {v0, v1}, Landroid/preference/PreferenceScreen;->setSummary(I)V
 
@@ -184,7 +184,7 @@
     :cond_0
     iget-object v0, p0, Lcom/android/settings/nfc/NfcEnabler;->mAndroidBeam:Landroid/preference/PreferenceScreen;
 
-    const v1, 0x7f0805fb
+    const v1, 0x7f0c05f6
 
     invoke-virtual {v0, v1}, Landroid/preference/PreferenceScreen;->setSummary(I)V
 

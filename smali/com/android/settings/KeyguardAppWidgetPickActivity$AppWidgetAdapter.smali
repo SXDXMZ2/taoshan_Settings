@@ -161,7 +161,7 @@
     .line 487
     iget-object v3, p0, Lcom/android/settings/KeyguardAppWidgetPickActivity$AppWidgetAdapter;->mInflater:Landroid/view/LayoutInflater;
 
-    const v4, 0x7f040055
+    const v4, 0x7f040056
 
     const/4 v5, 0x0
 
@@ -179,7 +179,7 @@
 
     .line 491
     .local v1, item:Lcom/android/settings/KeyguardAppWidgetPickActivity$Item;
-    const v3, 0x7f0d010f
+    const v3, 0x7f0d010e
 
     invoke-virtual {p2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

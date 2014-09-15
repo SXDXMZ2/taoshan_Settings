@@ -68,7 +68,7 @@
     .parameter "password"
 
     .prologue
-    const v1, 0x7f080024
+    const v1, 0x7f0c0024
 
     const/4 v3, 0x0
 
@@ -155,7 +155,7 @@
 
     .line 58
     :cond_1
-    const v0, 0x7f080019
+    const v0, 0x7f0c0019
 
     goto :goto_0
 
@@ -169,7 +169,7 @@
 
     iget-object v1, p0, Lcom/koushikdutta/superuser/SettingsFragmentInternal$1;->this$0:Lcom/koushikdutta/superuser/SettingsFragmentInternal;
 
-    const v2, 0x7f080023
+    const v2, 0x7f0c0023
 
     invoke-virtual {v1, v2}, Lcom/koushikdutta/superuser/SettingsFragmentInternal;->getString(I)Ljava/lang/String;
 

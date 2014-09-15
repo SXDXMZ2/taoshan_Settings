@@ -394,7 +394,7 @@
 
     .prologue
     .line 496
-    const v0, 0x7f080bab
+    const v0, 0x7f0c0ba6
 
     return v0
 .end method
@@ -1047,7 +1047,7 @@
 
     move-result-object v22
 
-    const v23, 0x7f0b0008
+    const v23, 0x7f0a0008
 
     invoke-virtual/range {v22 .. v23}, Landroid/content/res/Resources;->getBoolean(I)Z
 
@@ -1594,7 +1594,7 @@
     .prologue
     const/4 v10, 0x0
 
-    const v9, 0x7f0807c9
+    const v9, 0x7f0c07c4
 
     const/4 v7, 0x0
 
@@ -1756,7 +1756,7 @@
     if-eqz v6, :cond_2
 
     .line 157
-    const v6, 0x7f0807c8
+    const v6, 0x7f0c07c3
 
     invoke-virtual {v4, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1807,7 +1807,7 @@
     if-nez v6, :cond_5
 
     .line 170
-    const v6, 0x7f0807ca
+    const v6, 0x7f0c07c5
 
     invoke-virtual {v4, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1819,7 +1819,7 @@
 
     .line 173
     :cond_5
-    const v6, 0x7f0807cb
+    const v6, 0x7f0c07c6
 
     invoke-virtual {v4, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

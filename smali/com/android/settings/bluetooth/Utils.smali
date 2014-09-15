@@ -31,25 +31,25 @@
 
     .line 43
     :pswitch_0
-    const v0, 0x7f08049d
+    const v0, 0x7f0c0498
 
     goto :goto_0
 
     .line 45
     :pswitch_1
-    const v0, 0x7f0804a4
+    const v0, 0x7f0c049f
 
     goto :goto_0
 
     .line 47
     :pswitch_2
-    const v0, 0x7f0804a2
+    const v0, 0x7f0c049d
 
     goto :goto_0
 
     .line 49
     :pswitch_3
-    const v0, 0x7f0804a3
+    const v0, 0x7f0c049e
 
     goto :goto_0
 
@@ -66,7 +66,7 @@
 .end method
 
 .method static showDisconnectDialog(Landroid/content/Context;Landroid/app/AlertDialog;Landroid/content/DialogInterface$OnClickListener;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Landroid/app/AlertDialog;
-    .locals 3
+    .locals 4
     .parameter "context"
     .parameter "dialog"
     .parameter "disconnectListener"
@@ -90,7 +90,9 @@
 
     const/high16 v2, 0x104
 
-    invoke-virtual {v1, v2, p2}, Landroid/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
+    const/4 v3, 0x0
+
+    invoke-virtual {v1, v2, v3}, Landroid/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
     move-result-object v1
 
@@ -188,7 +190,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0805b0
+    const v4, 0x7f0c05ab
 
     invoke-virtual {v3, v4}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 

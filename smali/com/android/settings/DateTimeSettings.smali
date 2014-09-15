@@ -406,7 +406,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0c0001
+    const v2, 0x7f0b0001
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -510,7 +510,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0804c3
+    const v2, 0x7f0c04be
 
     const/4 v3, 0x1
 
@@ -552,7 +552,7 @@
 
     iget-object v1, v0, Lcom/android/settings/DateTimeSettings;->mDateFormat:Landroid/preference/ListPreference;
 
-    const v2, 0x7f0c0001
+    const v2, 0x7f0b0001
 
     invoke-virtual {v1, v2}, Landroid/preference/ListPreference;->setEntryValues(I)V
 
@@ -1192,7 +1192,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f08005c
+    const v4, 0x7f0c005c
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="superuser">Superuser</string>
-    <string name="su_allow">Dopusti</string>
-    <string name="su_allow_countdown">Dopustiti (%1$s)</string>
-    <string name="su_deny">Odbiti</string>
+    <string name="allow">Dopusti</string>
+    <string name="allow_countdown">Dopustiti (%1$s)</string>
+    <string name="deny">Odbij</string>
     <string name="status_incoming">Dolazni Superuser Zahtjev…</string>
     <string name="unknown_uid">Nepoznati UID: %s</string>
     <string name="application_request">%s zahtjeva Superuser pristup.</string>
@@ -100,8 +100,6 @@ Molimo vas ponovno pokrenite Superuser aplikaciju i pokušajte ponovno."</string
     <string name="yes">Da</string>
     <string name="no">Ne</string>
     <string name="create">Izradi</string>
-    <string name="allow">Dopusti</string>
-    <string name="deny">Odbij</string>
     <string name="device_info_default">Nepoznato</string>
     <string name="show_dev_on">Sad ste razvojni programer!</string>
     <string name="show_dev_already">Nema potrebe, već ste razvojni programer.</string>
@@ -742,6 +740,8 @@ Za postavljanje telefona može biti potrebna značajna mrežna aktivnost."</stri
     <string name="volume_notification_mute">Isključivanje zvuka obavijesti</string>
     <string name="volume_alarm_mute">Isključivanje zvuka alarma</string>
     <string name="vibrate_when_ringing_title">Vibrira dok zvoni</string>
+    <string name="system_update_settings_list_item_title">Ažuriranja sustava</string>
+    <string name="system_update_settings_list_item_summary" />
     <string name="dock_settings">Priključna stanica</string>
     <string name="dock_settings_title">Postavke priključne stanice</string>
     <string name="dock_audio_settings_title">Audio</string>
@@ -806,8 +806,6 @@ Možda je PIN pogrešan."</string>
     <string name="wrong_pin_code_pukked">Netočan PIN kôd SIM kartice; sada morate kontaktirati svog mobilnog operatera da bi otključao vaš uređaj.</string>
     <string name="pin_failed">Operacija PIN-a SIM kartice nije uspjela!</string>
     <string name="device_info_settings">Status telefona</string>
-    <string name="system_update_settings_list_item_title">Ažuriranja sustava</string>
-    <string name="system_update_settings_list_item_summary" />
     <string name="firmware_version">Verzija sustava Android</string>
     <string name="model_number">Broj modela</string>
     <string name="fcc_equipment_id">ID opreme</string>
@@ -2047,4 +2045,36 @@ Bilo koji korisnik može prihvatiti ažurirane dozvole aplikacija u ime svih dru
     <string name="user_image_take_photo">Snimite fotografiju</string>
     <string name="user_image_choose_photo">Odaberite fotografiju iz Galerije</string>
     <string name="regulatory_info_text" />
+    <string name="quick_settings_description">U odjeljku za obavijesti odaberite broj brzih postavki i uredite njihov redoslijed</string>
+    <string name="swiqi_strings_swiqi_desc_txt">Poboljšava kvalitetu fotografija i videozapisa</string>
+    <string name="theme_label_summary">Promijeni ili preuzmi teme</string>
+    <string name="find_my_device">Traženje uređaja</string>
+    <string name="display_category_personalisation_title">Personalizacija</string>
+    <string name="xperia_connectivity">Povezivost uređaja Xperia™</string>
+    <string name="preference_summary">Ako ikad izgubite uređaj – pronađite, zaključajte i/ili izbrišite podatke pomoću funkcije my Xperia</string>
+    <string name="playanywhere_strings_throw_settings_title_txt">Postavke za Throw</string>
+    <string name="playanywhere_strings_throw_setting_summary_txt">Bežično reproducirajte sadržaj sa svojeg uređaja Xperia™ na drugim uređajima</string>
+    <string name="usbux_strings_local_connectivity_settings_summary_txt">Povezivanje uređaja s drugim uređajem ili računalima putem USB kabela ili Wi-Fi veze</string>
+    <string name="mil_strings_app_name_mirrorlink_settings_txt">Postavke za MirrorLink™</string>
+    <string name="mil_strings_mirrorlink_activator_txt">Pokreni MirrorLink™</string>
+    <string name="mil_strings_dialog_usb_not_connected_txt">Nisu otkriveni uređaji. Provjerite jesu li povezani kompatibilni uređaji.</string>
+    <string name="mil_strings_dialog_mirrorlink_start_txt">MirrorLink™ će se uskoro pokrenuti. Taj servis ne može ispravno funkcionirati ako uređaj nije certificiran za njega.</string>
+    <string name="mil_strings_mirrorlink_activator_sub_txt">Kad je putem USB-a povezan s uređajem certificiranim za MirrorLink™, uređajem Xperia™ možete upravljati putem tog uređaja.</string>
+    <string name="setupguide_settings_title">Čarobnjak za postavljanje</string>
+    <string name="lockscreen_app_name">Zaključani zaslon</string>
+    <string name="lockscreen_settings_title">Zaključani zaslon</string>
+    <string name="lockscreen_settings_title_txt">Zaključani zaslon</string>
+    <string name="lockscreen_settings_wallpaper_summary_txt">Promjena pozadine na zaklj. zaslonu</string>
+    <string name="lockscreen_setting_wallpaper_wait_txt">Postavljanje pozadine</string>
+    <string name="lockscreen_could_not_load_wallpaper_txt">Nije moguće postaviti pozadinu</string>
+    <string name="lockscreen_dialog_title_pick_wallpaper">Odabir pozadine</string>
+    <string name="lockscreen_wallpaper_picker_semc_name">Pozadine pametnog telefona Xperia™</string>
+    <string name="lockscreen_wallpaper_picker_semc_set_wallpaper">Postavi pozadinu</string>
+    <string name="lockscreen_wallpaper_picker_album_name">Album</string>
+    <string name="lockscreen_unlock_hint">Prijeđite prstom gore ili dolje da biste otključali telefon</string>
+    <string name="lockscreen_short_unlock_hint">Otključajte povlačenjem prsta</string>
+    <string name="lockscreen_accessibility_unlock_hint">Prijeđite prstom gore ili dolje od središta zaslona da biste ga otključali</string>
+    <string name="lockscreen_set_as_wallpaper_txt">Zaključaj pozadinu zaslona</string>
+    <string name="status_bar_tab_quick_settings_title">Brze postavke</string>
+    <string name="power_settings_title">Upravljanje potroš. energije</string>
 </resources>

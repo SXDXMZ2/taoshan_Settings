@@ -68,27 +68,27 @@
     .parameter "textViewResourceId"
 
     .prologue
-    .line 324
+    .line 301
     iput-object p1, p0, Lcom/android/settings/applications/ProtectedAppsActivity$AppsAdapter;->this$0:Lcom/android/settings/applications/ProtectedAppsActivity;
 
-    .line 325
+    .line 302
     invoke-direct {p0, p2, p3}, Landroid/widget/ArrayAdapter;-><init>(Landroid/content/Context;I)V
 
-    .line 327
+    .line 304
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lcom/android/settings/applications/ProtectedAppsActivity$AppsAdapter;->mApps:Ljava/util/List;
 
-    .line 329
+    .line 306
     invoke-static {p2}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/android/settings/applications/ProtectedAppsActivity$AppsAdapter;->mInflator:Landroid/view/LayoutInflater;
 
-    .line 332
+    .line 309
     invoke-virtual {p2}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
@@ -101,14 +101,14 @@
 
     iput-object v0, p0, Lcom/android/settings/applications/ProtectedAppsActivity$AppsAdapter;->mDefaultImg:Landroid/graphics/drawable/Drawable;
 
-    .line 333
+    .line 310
     new-instance v0, Ljava/util/concurrent/ConcurrentHashMap;
 
     invoke-direct {v0}, Ljava/util/concurrent/ConcurrentHashMap;-><init>()V
 
     iput-object v0, p0, Lcom/android/settings/applications/ProtectedAppsActivity$AppsAdapter;->mIcons:Ljava/util/concurrent/ConcurrentHashMap;
 
-    .line 334
+    .line 311
     return-void
 .end method
 
@@ -117,7 +117,7 @@
     .parameter "x0"
 
     .prologue
-    .line 316
+    .line 293
     iget-object v0, p0, Lcom/android/settings/applications/ProtectedAppsActivity$AppsAdapter;->mIcons:Ljava/util/concurrent/ConcurrentHashMap;
 
     return-object v0
@@ -132,10 +132,10 @@
     .parameter "parent"
 
     .prologue
-    .line 340
+    .line 317
     if-nez p2, :cond_0
 
-    .line 341
+    .line 318
     iget-object v3, p0, Lcom/android/settings/applications/ProtectedAppsActivity$AppsAdapter;->mInflator:Landroid/view/LayoutInflater;
 
     const v4, 0x7f040051
@@ -146,16 +146,16 @@
 
     move-result-object p2
 
-    .line 342
+    .line 319
     new-instance v2, Lcom/android/settings/applications/ProtectedAppsActivity$AppViewHolder;
 
     invoke-direct {v2, p2}, Lcom/android/settings/applications/ProtectedAppsActivity$AppViewHolder;-><init>(Landroid/view/View;)V
 
-    .line 343
+    .line 320
     .local v2, viewHolder:Lcom/android/settings/applications/ProtectedAppsActivity$AppViewHolder;
     invoke-virtual {p2, v2}, Landroid/view/View;->setTag(Ljava/lang/Object;)V
 
-    .line 348
+    .line 325
     :goto_0
     invoke-virtual {p0, p1}, Lcom/android/settings/applications/ProtectedAppsActivity$AppsAdapter;->getItem(I)Ljava/lang/Object;
 
@@ -163,7 +163,7 @@
 
     check-cast v0, Lcom/android/settings/applications/ProtectedAppsActivity$AppEntry;
 
-    .line 350
+    .line 327
     .local v0, app:Lcom/android/settings/applications/ProtectedAppsActivity$AppEntry;
     iget-object v3, v2, Lcom/android/settings/applications/ProtectedAppsActivity$AppViewHolder;->title:Landroid/widget/TextView;
 
@@ -171,7 +171,7 @@
 
     invoke-virtual {v3, v4}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 352
+    .line 329
     iget-object v3, p0, Lcom/android/settings/applications/ProtectedAppsActivity$AppsAdapter;->mIcons:Ljava/util/concurrent/ConcurrentHashMap;
 
     iget-object v4, v0, Lcom/android/settings/applications/ProtectedAppsActivity$AppEntry;->componentName:Landroid/content/ComponentName;
@@ -186,7 +186,7 @@
 
     check-cast v1, Landroid/graphics/drawable/Drawable;
 
-    .line 353
+    .line 330
     .local v1, icon:Landroid/graphics/drawable/Drawable;
     iget-object v3, v2, Lcom/android/settings/applications/ProtectedAppsActivity$AppViewHolder;->icon:Landroid/widget/ImageView;
 
@@ -196,10 +196,10 @@
     :goto_1
     invoke-virtual {v3, v1}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    .line 355
+    .line 332
     return-object p2
 
-    .line 345
+    .line 322
     .end local v0           #app:Lcom/android/settings/applications/ProtectedAppsActivity$AppEntry;
     .end local v2           #viewHolder:Lcom/android/settings/applications/ProtectedAppsActivity$AppViewHolder;
     :cond_0
@@ -212,7 +212,7 @@
     .restart local v2       #viewHolder:Lcom/android/settings/applications/ProtectedAppsActivity$AppViewHolder;
     goto :goto_0
 
-    .line 353
+    .line 330
     .restart local v0       #app:Lcom/android/settings/applications/ProtectedAppsActivity$AppEntry;
     .restart local v1       #icon:Landroid/graphics/drawable/Drawable;
     :cond_1
@@ -225,7 +225,7 @@
     .locals 1
 
     .prologue
-    .line 360
+    .line 337
     const/4 v0, 0x1
 
     return v0
@@ -235,10 +235,10 @@
     .locals 6
 
     .prologue
-    .line 365
+    .line 342
     invoke-super {p0}, Landroid/widget/ArrayAdapter;->notifyDataSetChanged()V
 
-    .line 368
+    .line 345
     new-instance v2, Ljava/util/ArrayList;
 
     invoke-virtual {p0}, Lcom/android/settings/applications/ProtectedAppsActivity$AppsAdapter;->getCount()I
@@ -247,7 +247,7 @@
 
     invoke-direct {v2, v4}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 369
+    .line 346
     .local v2, newApps:Ljava/util/List;,"Ljava/util/List<Lcom/android/settings/applications/ProtectedAppsActivity$AppEntry;>;"
     new-instance v3, Ljava/util/ArrayList;
 
@@ -257,7 +257,7 @@
 
     invoke-direct {v3, v4}, Ljava/util/ArrayList;-><init>(I)V
 
-    .line 370
+    .line 347
     .local v3, oldApps:Ljava/util/List;,"Ljava/util/List<Lcom/android/settings/applications/ProtectedAppsActivity$AppEntry;>;"
     const/4 v1, 0x0
 
@@ -269,14 +269,14 @@
 
     if-ge v1, v4, :cond_1
 
-    .line 371
+    .line 348
     invoke-virtual {p0, v1}, Lcom/android/settings/applications/ProtectedAppsActivity$AppsAdapter;->getItem(I)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Lcom/android/settings/applications/ProtectedAppsActivity$AppEntry;
 
-    .line 372
+    .line 349
     .local v0, app:Lcom/android/settings/applications/ProtectedAppsActivity$AppEntry;
     iget-object v4, p0, Lcom/android/settings/applications/ProtectedAppsActivity$AppsAdapter;->mApps:Ljava/util/List;
 
@@ -286,22 +286,22 @@
 
     if-eqz v4, :cond_0
 
-    .line 373
+    .line 350
     invoke-interface {v3, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 370
+    .line 347
     :goto_1
     add-int/lit8 v1, v1, 0x1
 
     goto :goto_0
 
-    .line 375
+    .line 352
     :cond_0
     invoke-interface {v2, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     goto :goto_1
 
-    .line 379
+    .line 356
     .end local v0           #app:Lcom/android/settings/applications/ProtectedAppsActivity$AppEntry;
     :cond_1
     invoke-interface {v2}, Ljava/util/List;->size()I
@@ -310,7 +310,7 @@
 
     if-lez v4, :cond_2
 
-    .line 380
+    .line 357
     new-instance v4, Lcom/android/settings/applications/ProtectedAppsActivity$AppsAdapter$LoadIconsTask;
 
     const/4 v5, 0x0
@@ -327,17 +327,17 @@
 
     invoke-virtual {v4, v5}, Lcom/android/settings/applications/ProtectedAppsActivity$AppsAdapter$LoadIconsTask;->execute([Ljava/lang/Object;)Landroid/os/AsyncTask;
 
-    .line 381
+    .line 358
     invoke-interface {v2, v3}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
-    .line 382
+    .line 359
     iput-object v2, p0, Lcom/android/settings/applications/ProtectedAppsActivity$AppsAdapter;->mApps:Ljava/util/List;
 
-    .line 386
+    .line 363
     :goto_2
     return-void
 
-    .line 384
+    .line 361
     :cond_2
     iput-object v3, p0, Lcom/android/settings/applications/ProtectedAppsActivity$AppsAdapter;->mApps:Ljava/util/List;
 

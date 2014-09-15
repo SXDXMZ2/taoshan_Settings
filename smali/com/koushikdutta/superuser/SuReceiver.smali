@@ -171,7 +171,7 @@
     if-eqz v12, :cond_3
 
     .line 67
-    const v12, 0x7f080026
+    const v12, 0x7f0c0026
 
     const/4 v13, 0x1
 
@@ -227,7 +227,7 @@
     .line 70
     .end local v9           #toast:Ljava/lang/String;
     :cond_3
-    const v12, 0x7f080027
+    const v12, 0x7f0c0027
 
     const/4 v13, 0x1
 
@@ -288,7 +288,7 @@
 
     move-result-object v12
 
-    const/high16 v13, 0x7f08
+    const/high16 v13, 0x7f0c
 
     move-object/from16 v0, p1
 

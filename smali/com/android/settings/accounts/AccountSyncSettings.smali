@@ -176,7 +176,7 @@
 
     .line 223
     :cond_1
-    const v4, 0x7f080ab1
+    const v4, 0x7f0c0aac
 
     const/4 v5, 0x1
 
@@ -730,7 +730,7 @@
     if-nez v20, :cond_a
 
     .line 408
-    const v25, 0x7f080a99
+    const v25, 0x7f0c0a94
 
     move-object/from16 v0, v22
 
@@ -892,7 +892,7 @@
     if-eqz v3, :cond_b
 
     .line 410
-    const v25, 0x7f080a9c
+    const v25, 0x7f0c0a97
 
     move-object/from16 v0, v22
 
@@ -928,7 +928,7 @@
 
     move-result-object v25
 
-    const v26, 0x7f080a9b
+    const v26, 0x7f0c0a96
 
     const/16 v27, 0x1
 
@@ -1491,7 +1491,7 @@
 
     .prologue
     .line 520
-    const v0, 0x7f080baf
+    const v0, 0x7f0c0baa
 
     return v0
 .end method
@@ -1525,7 +1525,7 @@
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setVisibility(I)V
 
     .line 171
-    const v0, 0x7f0d021a
+    const v0, 0x7f0d0218
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1536,7 +1536,7 @@
     iput-object v0, p0, Lcom/android/settings/accounts/AccountSyncSettings;->mUserId:Landroid/widget/TextView;
 
     .line 172
-    const v0, 0x7f0d021b
+    const v0, 0x7f0d0219
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1547,7 +1547,7 @@
     iput-object v0, p0, Lcom/android/settings/accounts/AccountSyncSettings;->mProviderId:Landroid/widget/TextView;
 
     .line 173
-    const v0, 0x7f0d0219
+    const v0, 0x7f0d0217
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1762,7 +1762,7 @@
     .parameter "id"
 
     .prologue
-    const v5, 0x7f080aad
+    const v5, 0x7f0c0aa8
 
     const v4, 0x104000a
 
@@ -1790,7 +1790,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080aae
+    const v2, 0x7f0c0aa9
 
     invoke-virtual {v1, v2}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
@@ -1802,7 +1802,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080aaa
+    const v2, 0x7f0c0aa5
 
     new-instance v3, Lcom/android/settings/accounts/AccountSyncSettings$1;
 
@@ -1844,7 +1844,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080aaf
+    const v2, 0x7f0c0aaa
 
     invoke-virtual {v1, v2}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
@@ -1871,13 +1871,13 @@
 
     invoke-direct {v1, v2}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v2, 0x7f080ab2
+    const v2, 0x7f0c0aad
 
     invoke-virtual {v1, v2}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
     move-result-object v1
 
-    const v2, 0x7f080ab3
+    const v2, 0x7f0c0aae
 
     invoke-virtual {v1, v2}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
@@ -1907,7 +1907,7 @@
     .line 232
     const/4 v4, 0x1
 
-    const v5, 0x7f080a9f
+    const v5, 0x7f0c0a9a
 
     invoke-virtual {p0, v5}, Lcom/android/settings/accounts/AccountSyncSettings;->getString(I)Ljava/lang/String;
 
@@ -1927,7 +1927,7 @@
     .local v2, syncNow:Landroid/view/MenuItem;
     const/4 v4, 0x2
 
-    const v5, 0x7f080aa0
+    const v5, 0x7f0c0a9b
 
     invoke-virtual {p0, v5}, Lcom/android/settings/accounts/AccountSyncSettings;->getString(I)Ljava/lang/String;
 
@@ -1966,7 +1966,7 @@
     .line 241
     const/4 v4, 0x3
 
-    const v5, 0x7f080aaa
+    const v5, 0x7f0c0aa5
 
     invoke-virtual {p0, v5}, Lcom/android/settings/accounts/AccountSyncSettings;->getString(I)Ljava/lang/String;
 

@@ -246,7 +246,7 @@
 
     .prologue
     .line 90
-    const v0, 0x7f0400a6
+    const v0, 0x7f0400a8
 
     invoke-virtual {p0, v0}, Lcom/android/settings/cyanogenmod/TimeRangePreference;->setLayoutResource(I)V
 

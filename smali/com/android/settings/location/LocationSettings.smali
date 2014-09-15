@@ -466,12 +466,12 @@
 
     .line 160
     .local v1, banner:Landroid/preference/Preference;
-    const v6, 0x7f040061
+    const v6, 0x7f040062
 
     invoke-virtual {v1, v6}, Landroid/preference/Preference;->setLayoutResource(I)V
 
     .line 161
-    const v6, 0x7f0807d3
+    const v6, 0x7f0c07ce
 
     invoke-virtual {v1, v6}, Landroid/preference/Preference;->setTitle(I)V
 
@@ -643,7 +643,7 @@
 
     .prologue
     .line 230
-    const v0, 0x7f080bb5
+    const v0, 0x7f0c0bb0
 
     return v0
 .end method
@@ -785,7 +785,7 @@
     :pswitch_0
     iget-object v3, p0, Lcom/android/settings/location/LocationSettings;->mLocationMode:Landroid/preference/Preference;
 
-    const v4, 0x7f0807d1
+    const v4, 0x7f0c07cc
 
     invoke-virtual {v3, v4}, Landroid/preference/Preference;->setSummary(I)V
 
@@ -795,7 +795,7 @@
     :pswitch_1
     iget-object v3, p0, Lcom/android/settings/location/LocationSettings;->mLocationMode:Landroid/preference/Preference;
 
-    const v4, 0x7f0807d0
+    const v4, 0x7f0c07cb
 
     invoke-virtual {v3, v4}, Landroid/preference/Preference;->setSummary(I)V
 
@@ -805,7 +805,7 @@
     :pswitch_2
     iget-object v3, p0, Lcom/android/settings/location/LocationSettings;->mLocationMode:Landroid/preference/Preference;
 
-    const v4, 0x7f0807cf
+    const v4, 0x7f0c07ca
 
     invoke-virtual {v3, v4}, Landroid/preference/Preference;->setSummary(I)V
 
@@ -815,7 +815,7 @@
     :pswitch_3
     iget-object v3, p0, Lcom/android/settings/location/LocationSettings;->mLocationMode:Landroid/preference/Preference;
 
-    const v4, 0x7f0807ce
+    const v4, 0x7f0c07c9
 
     invoke-virtual {v3, v4}, Landroid/preference/Preference;->setSummary(I)V
 

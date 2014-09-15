@@ -8,10 +8,6 @@
         <item quantity="other">%d φορές</item>
         <item quantity="one">μια φορά</item>
     </plurals>
-    <plurals name="show_dev_countdown_cm">
-        <item quantity="other">Απομένουν %1$d βήματα για να ενεργοποιήσετε τις επιλογές για προγραμματιστές.</item>
-        <item quantity="one">Απομένει %1$d βήμα για να ενεργοποιήσετε τις επιλογές για προγραμματιστές.</item>
-    </plurals>
     <plurals name="show_dev_countdown">
         <item quantity="other">Απομένουν %1$d βήματα για να ενεργοποιήσετε τις ρυθμίσεις για προγραμματιστές.</item>
         <item quantity="one">Απομένει %1$d βήμα για να ενεργοποιήσετε τις ρυθμίσεις για προγραμματιστές.</item>

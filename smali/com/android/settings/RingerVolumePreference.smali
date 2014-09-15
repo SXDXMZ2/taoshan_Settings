@@ -191,7 +191,7 @@
     invoke-virtual {p0, v0}, Lcom/android/settings/RingerVolumePreference;->setStreamType(I)V
 
     .line 168
-    const v0, 0x7f040093
+    const v0, 0x7f040095
 
     invoke-virtual {p0, v0}, Lcom/android/settings/RingerVolumePreference;->setDialogLayoutResource(I)V
 
@@ -1071,7 +1071,7 @@
     invoke-virtual {v14, v1}, Landroid/view/View;->setVisibility(I)V
 
     .line 246
-    const v1, 0x7f0806d4
+    const v1, 0x7f0c06cf
 
     invoke-virtual {v15, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -1332,7 +1332,7 @@
     invoke-virtual {v14, v1}, Landroid/view/View;->setVisibility(I)V
 
     .line 251
-    const v1, 0x7f080116
+    const v1, 0x7f0c0116
 
     invoke-virtual {v15, v1}, Landroid/widget/TextView;->setText(I)V
 

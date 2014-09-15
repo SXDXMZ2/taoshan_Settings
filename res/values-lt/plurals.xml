@@ -10,11 +10,6 @@
         <item quantity="one">kartą</item>
         <item quantity="few">%d kartus</item>
     </plurals>
-    <plurals name="show_dev_countdown_cm">
-        <item quantity="other">Jūs esate %1$d žingsnių toliau iki kūrėjo parinkčių įjungimo.</item>
-        <item quantity="one">Jūs esate %1$d žingsniu toliau iki kūrėjo parinkčių įjungimo.</item>
-        <item quantity="few">Jūs esate %1$d žingsniais toliau iki kūrėjo parinkčių įjungimo.</item>
-    </plurals>
     <plurals name="show_dev_countdown">
         <item quantity="other">Liko atlikti %1$d veiksm. ir būsite kūrėjas.</item>
         <item quantity="one">Liko atlikti %1$d veiksm. ir būsite kūrėjas.</item>

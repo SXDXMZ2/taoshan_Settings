@@ -27,7 +27,7 @@
     .parameter
 
     .prologue
-    .line 88
+    .line 86
     iput-object p1, p0, Lcom/android/settings/applications/LockPatternActivity$2;->this$0:Lcom/android/settings/applications/LockPatternActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -42,54 +42,18 @@
     .parameter "v"
 
     .prologue
-    const/4 v1, 0x1
-
-    .line 91
-    iget-object v0, p0, Lcom/android/settings/applications/LockPatternActivity$2;->this$0:Lcom/android/settings/applications/LockPatternActivity;
-
-    iget-boolean v0, v0, Lcom/android/settings/applications/LockPatternActivity;->mCreate:Z
-
-    if-eqz v0, :cond_0
-
-    iget-object v0, p0, Lcom/android/settings/applications/LockPatternActivity$2;->this$0:Lcom/android/settings/applications/LockPatternActivity;
-
-    iget-boolean v0, v0, Lcom/android/settings/applications/LockPatternActivity;->mConfirming:Z
-
-    if-nez v0, :cond_0
-
-    iget-object v0, p0, Lcom/android/settings/applications/LockPatternActivity$2;->this$0:Lcom/android/settings/applications/LockPatternActivity;
-
-    iget-boolean v0, v0, Lcom/android/settings/applications/LockPatternActivity;->mRetryPattern:Z
-
-    if-nez v0, :cond_0
-
-    .line 93
-    iget-object v0, p0, Lcom/android/settings/applications/LockPatternActivity$2;->this$0:Lcom/android/settings/applications/LockPatternActivity;
-
-    iput-boolean v1, v0, Lcom/android/settings/applications/LockPatternActivity;->mRetryPattern:Z
-
-    .line 94
-    iget-object v0, p0, Lcom/android/settings/applications/LockPatternActivity$2;->this$0:Lcom/android/settings/applications/LockPatternActivity;
-
-    #calls: Lcom/android/settings/applications/LockPatternActivity;->resetPatternState(Z)V
-    invoke-static {v0, v1}, Lcom/android/settings/applications/LockPatternActivity;->access$000(Lcom/android/settings/applications/LockPatternActivity;Z)V
-
-    .line 99
-    :goto_0
-    return-void
-
-    .line 97
-    :cond_0
+    .line 89
     iget-object v0, p0, Lcom/android/settings/applications/LockPatternActivity$2;->this$0:Lcom/android/settings/applications/LockPatternActivity;
 
     const/4 v1, 0x0
 
     invoke-virtual {v0, v1}, Lcom/android/settings/applications/LockPatternActivity;->setResult(I)V
 
-    .line 98
+    .line 90
     iget-object v0, p0, Lcom/android/settings/applications/LockPatternActivity$2;->this$0:Lcom/android/settings/applications/LockPatternActivity;
 
     invoke-virtual {v0}, Lcom/android/settings/applications/LockPatternActivity;->finish()V
 
-    goto :goto_0
+    .line 91
+    return-void
 .end method

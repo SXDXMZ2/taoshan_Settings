@@ -94,12 +94,12 @@
     iput-object v0, p0, Lcom/android/settings/profiles/NFCProfileSelect;->mProfileManager:Landroid/app/ProfileManager;
 
     .line 63
-    const v0, 0x7f040075
+    const v0, 0x7f040077
 
     invoke-virtual {p0, v0}, Lcom/android/settings/profiles/NFCProfileSelect;->setContentView(I)V
 
     .line 64
-    const v0, 0x7f0800cf
+    const v0, 0x7f0c00cf
 
     invoke-virtual {p0, v0}, Lcom/android/settings/profiles/NFCProfileSelect;->setTitle(I)V
 
@@ -209,7 +209,7 @@
 
     .line 94
     .local v0, builder:Landroid/app/AlertDialog$Builder;
-    const v4, 0x7f0800c2
+    const v4, 0x7f0c00c2
 
     invoke-virtual {v0, v4}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 

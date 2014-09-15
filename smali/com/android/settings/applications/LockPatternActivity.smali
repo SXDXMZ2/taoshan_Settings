@@ -41,68 +41,49 @@
 
 .field mRetry:I
 
-.field mRetryPattern:Z
-
 
 # direct methods
 .method public constructor <init>()V
-    .locals 2
+    .locals 1
 
     .prologue
-    const/4 v1, 0x0
+    const/4 v0, 0x0
 
     .line 42
     invoke-direct {p0}, Landroid/app/Activity;-><init>()V
 
     .line 61
-    iput v1, p0, Lcom/android/settings/applications/LockPatternActivity;->mRetry:I
+    iput v0, p0, Lcom/android/settings/applications/LockPatternActivity;->mRetry:I
 
     .line 64
-    const/4 v0, 0x1
+    iput-boolean v0, p0, Lcom/android/settings/applications/LockPatternActivity;->mConfirming:Z
 
-    iput-boolean v0, p0, Lcom/android/settings/applications/LockPatternActivity;->mRetryPattern:Z
-
-    .line 65
-    iput-boolean v1, p0, Lcom/android/settings/applications/LockPatternActivity;->mConfirming:Z
-
-    .line 67
+    .line 66
     new-instance v0, Lcom/android/settings/applications/LockPatternActivity$1;
 
     invoke-direct {v0, p0}, Lcom/android/settings/applications/LockPatternActivity$1;-><init>(Lcom/android/settings/applications/LockPatternActivity;)V
 
     iput-object v0, p0, Lcom/android/settings/applications/LockPatternActivity;->mCancelPatternRunnable:Ljava/lang/Runnable;
 
-    .line 88
+    .line 86
     new-instance v0, Lcom/android/settings/applications/LockPatternActivity$2;
 
     invoke-direct {v0, p0}, Lcom/android/settings/applications/LockPatternActivity$2;-><init>(Lcom/android/settings/applications/LockPatternActivity;)V
 
     iput-object v0, p0, Lcom/android/settings/applications/LockPatternActivity;->mCancelOnClickListener:Landroid/view/View$OnClickListener;
 
-    .line 102
+    .line 94
     new-instance v0, Lcom/android/settings/applications/LockPatternActivity$3;
 
     invoke-direct {v0, p0}, Lcom/android/settings/applications/LockPatternActivity$3;-><init>(Lcom/android/settings/applications/LockPatternActivity;)V
 
     iput-object v0, p0, Lcom/android/settings/applications/LockPatternActivity;->mContinueOnClickListener:Landroid/view/View$OnClickListener;
 
-    .line 228
+    .line 217
     return-void
 .end method
 
-.method static synthetic access$000(Lcom/android/settings/applications/LockPatternActivity;Z)V
-    .locals 0
-    .parameter "x0"
-    .parameter "x1"
-
-    .prologue
-    .line 42
-    invoke-direct {p0, p1}, Lcom/android/settings/applications/LockPatternActivity;->resetPatternState(Z)V
-
-    return-void
-.end method
-
-.method static synthetic access$200(Lcom/android/settings/applications/LockPatternActivity;)V
+.method static synthetic access$100(Lcom/android/settings/applications/LockPatternActivity;)V
     .locals 0
     .parameter "x0"
 
@@ -113,9 +94,8 @@
     return-void
 .end method
 
-.method private resetPatternState(Z)V
+.method private resetPatternState()V
     .locals 8
-    .parameter "clear"
 
     .prologue
     const/4 v7, 0x0
@@ -126,12 +106,12 @@
 
     const/4 v3, 0x0
 
-    .line 206
+    .line 197
     invoke-static {p0}, Landroid/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
 
     move-result-object v1
 
-    .line 207
+    .line 198
     .local v1, prefs:Landroid/content/SharedPreferences;
     const-string v2, "pattern_lock_protected_apps"
 
@@ -139,7 +119,7 @@
 
     move-result-object v0
 
-    .line 208
+    .line 199
     .local v0, pattern:Ljava/lang/String;
     if-eqz v0, :cond_0
 
@@ -157,9 +137,7 @@
 
     move-result v2
 
-    if-nez v2, :cond_0
-
-    if-eqz p1, :cond_2
+    if-eqz v2, :cond_2
 
     :cond_0
     move v2, v4
@@ -167,20 +145,20 @@
     :goto_0
     iput-boolean v2, p0, Lcom/android/settings/applications/LockPatternActivity;->mCreate:Z
 
-    .line 211
+    .line 201
     iput-object v7, p0, Lcom/android/settings/applications/LockPatternActivity;->mPatternHash:[B
 
-    .line 212
+    .line 202
     if-eqz v0, :cond_1
 
-    .line 213
+    .line 203
     invoke-static {v0, v3}, Landroid/util/Base64;->decode(Ljava/lang/String;I)[B
 
     move-result-object v2
 
     iput-object v2, p0, Lcom/android/settings/applications/LockPatternActivity;->mPatternHash:[B
 
-    .line 216
+    .line 206
     :cond_1
     iget-object v2, p0, Lcom/android/settings/applications/LockPatternActivity;->mContinue:Landroid/widget/Button;
 
@@ -191,7 +169,7 @@
     :goto_1
     invoke-virtual {v2, v4}, Landroid/widget/Button;->setEnabled(Z)V
 
-    .line 217
+    .line 207
     iget-object v4, p0, Lcom/android/settings/applications/LockPatternActivity;->mCancel:Landroid/widget/Button;
 
     iget-boolean v2, p0, Lcom/android/settings/applications/LockPatternActivity;->mCreate:Z
@@ -203,22 +181,7 @@
     :goto_2
     invoke-virtual {v4, v2}, Landroid/widget/Button;->setVisibility(I)V
 
-    .line 218
-    iget-object v2, p0, Lcom/android/settings/applications/LockPatternActivity;->mCancel:Landroid/widget/Button;
-
-    invoke-virtual {p0}, Lcom/android/settings/applications/LockPatternActivity;->getResources()Landroid/content/res/Resources;
-
-    move-result-object v4
-
-    const v6, 0x7f080519
-
-    invoke-virtual {v4, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
-
-    move-result-object v4
-
-    invoke-virtual {v2, v4}, Landroid/widget/Button;->setText(Ljava/lang/CharSequence;)V
-
-    .line 219
+    .line 208
     iget-object v2, p0, Lcom/android/settings/applications/LockPatternActivity;->mContinue:Landroid/widget/Button;
 
     iget-boolean v4, p0, Lcom/android/settings/applications/LockPatternActivity;->mCreate:Z
@@ -228,7 +191,7 @@
     :goto_3
     invoke-virtual {v2, v3}, Landroid/widget/Button;->setVisibility(I)V
 
-    .line 220
+    .line 209
     iget-object v3, p0, Lcom/android/settings/applications/LockPatternActivity;->mPatternLockHeader:Landroid/widget/TextView;
 
     iget-boolean v2, p0, Lcom/android/settings/applications/LockPatternActivity;->mCreate:Z
@@ -239,7 +202,7 @@
 
     move-result-object v2
 
-    const v4, 0x7f08080b
+    const v4, 0x7f0c0806
 
     invoke-virtual {v2, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -248,48 +211,48 @@
     :goto_4
     invoke-virtual {v3, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 223
+    .line 212
     iget-object v2, p0, Lcom/android/settings/applications/LockPatternActivity;->mLockPatternView:Lcom/android/internal/widget/LockPatternView;
 
     invoke-virtual {v2}, Lcom/android/internal/widget/LockPatternView;->clearPattern()V
 
-    .line 225
+    .line 214
     invoke-virtual {p0}, Lcom/android/settings/applications/LockPatternActivity;->invalidateOptionsMenu()V
 
-    .line 226
+    .line 215
     return-void
 
     :cond_2
     move v2, v3
 
-    .line 208
+    .line 199
     goto :goto_0
 
     :cond_3
     move v4, v3
 
-    .line 216
+    .line 206
     goto :goto_1
 
     :cond_4
     move v2, v5
 
-    .line 217
+    .line 207
     goto :goto_2
 
     :cond_5
     move v3, v5
 
-    .line 219
+    .line 208
     goto :goto_3
 
-    .line 220
+    .line 209
     :cond_6
     invoke-virtual {p0}, Lcom/android/settings/applications/LockPatternActivity;->getResources()Landroid/content/res/Resources;
 
     move-result-object v2
 
-    const v4, 0x7f080818
+    const v4, 0x7f0c0813
 
     invoke-virtual {v2, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -302,68 +265,14 @@
     .locals 3
 
     .prologue
-    .line 175
-    iget-object v0, p0, Lcom/android/settings/applications/LockPatternActivity;->mPatternLockHeader:Landroid/widget/TextView;
-
-    invoke-virtual {p0}, Lcom/android/settings/applications/LockPatternActivity;->getResources()Landroid/content/res/Resources;
-
-    move-result-object v1
-
-    const v2, 0x7f08015f
-
-    invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
-
-    .line 177
-    iget-object v0, p0, Lcom/android/settings/applications/LockPatternActivity;->mItem:Landroid/view/MenuItem;
-
-    const v1, 0x7f0200b6
-
-    invoke-interface {v0, v1}, Landroid/view/MenuItem;->setIcon(I)Landroid/view/MenuItem;
-
-    .line 178
-    iget-object v0, p0, Lcom/android/settings/applications/LockPatternActivity;->mAccountView:Lcom/android/settings/cyanogenmod/ProtectedAccountView;
-
-    const/4 v1, 0x0
-
-    invoke-virtual {v0, v1}, Lcom/android/settings/cyanogenmod/ProtectedAccountView;->setVisibility(I)V
-
-    .line 179
-    iget-object v0, p0, Lcom/android/settings/applications/LockPatternActivity;->mLockPatternView:Lcom/android/internal/widget/LockPatternView;
-
-    const/16 v1, 0x8
-
-    invoke-virtual {v0, v1}, Lcom/android/internal/widget/LockPatternView;->setVisibility(I)V
-
-    .line 180
-    return-void
-.end method
-
-.method private switchToPattern(Z)V
-    .locals 4
-    .parameter "reset"
-
-    .prologue
-    const/4 v3, 0x0
-
-    .line 163
-    if-eqz p1, :cond_0
-
-    .line 164
-    invoke-direct {p0, v3}, Lcom/android/settings/applications/LockPatternActivity;->resetPatternState(Z)V
-
     .line 166
-    :cond_0
     iget-object v0, p0, Lcom/android/settings/applications/LockPatternActivity;->mPatternLockHeader:Landroid/widget/TextView;
 
     invoke-virtual {p0}, Lcom/android/settings/applications/LockPatternActivity;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
 
-    const v2, 0x7f080818
+    const v2, 0x7f0c015d
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -374,28 +283,82 @@
     .line 168
     iget-object v0, p0, Lcom/android/settings/applications/LockPatternActivity;->mItem:Landroid/view/MenuItem;
 
-    const v1, 0x7f02007d
+    const v1, 0x7f0200b6
 
     invoke-interface {v0, v1}, Landroid/view/MenuItem;->setIcon(I)Landroid/view/MenuItem;
 
     .line 169
     iget-object v0, p0, Lcom/android/settings/applications/LockPatternActivity;->mAccountView:Lcom/android/settings/cyanogenmod/ProtectedAccountView;
 
-    invoke-virtual {v0}, Lcom/android/settings/cyanogenmod/ProtectedAccountView;->clearFocusOnInput()V
+    const/4 v1, 0x0
+
+    invoke-virtual {v0, v1}, Lcom/android/settings/cyanogenmod/ProtectedAccountView;->setVisibility(I)V
 
     .line 170
+    iget-object v0, p0, Lcom/android/settings/applications/LockPatternActivity;->mLockPatternView:Lcom/android/internal/widget/LockPatternView;
+
+    const/16 v1, 0x8
+
+    invoke-virtual {v0, v1}, Lcom/android/internal/widget/LockPatternView;->setVisibility(I)V
+
+    .line 171
+    return-void
+.end method
+
+.method private switchToPattern(Z)V
+    .locals 3
+    .parameter "reset"
+
+    .prologue
+    .line 154
+    if-eqz p1, :cond_0
+
+    .line 155
+    invoke-direct {p0}, Lcom/android/settings/applications/LockPatternActivity;->resetPatternState()V
+
+    .line 157
+    :cond_0
+    iget-object v0, p0, Lcom/android/settings/applications/LockPatternActivity;->mPatternLockHeader:Landroid/widget/TextView;
+
+    invoke-virtual {p0}, Lcom/android/settings/applications/LockPatternActivity;->getResources()Landroid/content/res/Resources;
+
+    move-result-object v1
+
+    const v2, 0x7f0c0813
+
+    invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    .line 159
+    iget-object v0, p0, Lcom/android/settings/applications/LockPatternActivity;->mItem:Landroid/view/MenuItem;
+
+    const v1, 0x7f02007d
+
+    invoke-interface {v0, v1}, Landroid/view/MenuItem;->setIcon(I)Landroid/view/MenuItem;
+
+    .line 160
+    iget-object v0, p0, Lcom/android/settings/applications/LockPatternActivity;->mAccountView:Lcom/android/settings/cyanogenmod/ProtectedAccountView;
+
+    invoke-virtual {v0}, Lcom/android/settings/cyanogenmod/ProtectedAccountView;->clearFocusOnInput()V
+
+    .line 161
     iget-object v0, p0, Lcom/android/settings/applications/LockPatternActivity;->mAccountView:Lcom/android/settings/cyanogenmod/ProtectedAccountView;
 
     const/16 v1, 0x8
 
     invoke-virtual {v0, v1}, Lcom/android/settings/cyanogenmod/ProtectedAccountView;->setVisibility(I)V
 
-    .line 171
+    .line 162
     iget-object v0, p0, Lcom/android/settings/applications/LockPatternActivity;->mLockPatternView:Lcom/android/internal/widget/LockPatternView;
 
-    invoke-virtual {v0, v3}, Lcom/android/internal/widget/LockPatternView;->setVisibility(I)V
+    const/4 v1, 0x0
 
-    .line 172
+    invoke-virtual {v0, v1}, Lcom/android/internal/widget/LockPatternView;->setVisibility(I)V
+
+    .line 163
     return-void
 .end method
 
@@ -408,15 +371,15 @@
     .prologue
     const/4 v2, 0x0
 
-    .line 183
+    .line 174
     invoke-super {p0, p1}, Landroid/app/Activity;->onCreate(Landroid/os/Bundle;)V
 
-    .line 184
-    const v0, 0x7f04007f
+    .line 175
+    const v0, 0x7f040081
 
     invoke-virtual {p0, v0}, Lcom/android/settings/applications/LockPatternActivity;->setContentView(I)V
 
-    .line 186
+    .line 177
     const v0, 0x7f0d0148
 
     invoke-virtual {p0, v0}, Lcom/android/settings/applications/LockPatternActivity;->findViewById(I)Landroid/view/View;
@@ -427,7 +390,7 @@
 
     iput-object v0, p0, Lcom/android/settings/applications/LockPatternActivity;->mPatternLockHeader:Landroid/widget/TextView;
 
-    .line 187
+    .line 178
     const v0, 0x7f0d014b
 
     invoke-virtual {p0, v0}, Lcom/android/settings/applications/LockPatternActivity;->findViewById(I)Landroid/view/View;
@@ -438,14 +401,14 @@
 
     iput-object v0, p0, Lcom/android/settings/applications/LockPatternActivity;->mCancel:Landroid/widget/Button;
 
-    .line 188
+    .line 179
     iget-object v0, p0, Lcom/android/settings/applications/LockPatternActivity;->mCancel:Landroid/widget/Button;
 
     iget-object v1, p0, Lcom/android/settings/applications/LockPatternActivity;->mCancelOnClickListener:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 189
+    .line 180
     const v0, 0x7f0d014c
 
     invoke-virtual {p0, v0}, Lcom/android/settings/applications/LockPatternActivity;->findViewById(I)Landroid/view/View;
@@ -456,14 +419,14 @@
 
     iput-object v0, p0, Lcom/android/settings/applications/LockPatternActivity;->mContinue:Landroid/widget/Button;
 
-    .line 190
+    .line 181
     iget-object v0, p0, Lcom/android/settings/applications/LockPatternActivity;->mContinue:Landroid/widget/Button;
 
     iget-object v1, p0, Lcom/android/settings/applications/LockPatternActivity;->mContinueOnClickListener:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 192
+    .line 183
     const v0, 0x7f0d014a
 
     invoke-virtual {p0, v0}, Lcom/android/settings/applications/LockPatternActivity;->findViewById(I)Landroid/view/View;
@@ -474,12 +437,12 @@
 
     iput-object v0, p0, Lcom/android/settings/applications/LockPatternActivity;->mAccountView:Lcom/android/settings/cyanogenmod/ProtectedAccountView;
 
-    .line 193
+    .line 184
     iget-object v0, p0, Lcom/android/settings/applications/LockPatternActivity;->mAccountView:Lcom/android/settings/cyanogenmod/ProtectedAccountView;
 
     invoke-virtual {v0, p0}, Lcom/android/settings/cyanogenmod/ProtectedAccountView;->setOnNotifyAccountResetCb(Lcom/android/settings/cyanogenmod/ProtectedAccountView$OnNotifyAccountReset;)V
 
-    .line 194
+    .line 185
     const v0, 0x7f0d0149
 
     invoke-virtual {p0, v0}, Lcom/android/settings/applications/LockPatternActivity;->findViewById(I)Landroid/view/View;
@@ -490,20 +453,20 @@
 
     iput-object v0, p0, Lcom/android/settings/applications/LockPatternActivity;->mLockPatternView:Lcom/android/internal/widget/LockPatternView;
 
-    .line 196
-    invoke-direct {p0, v2}, Lcom/android/settings/applications/LockPatternActivity;->resetPatternState(Z)V
+    .line 187
+    invoke-direct {p0}, Lcom/android/settings/applications/LockPatternActivity;->resetPatternState()V
 
-    .line 199
+    .line 190
     iget-object v0, p0, Lcom/android/settings/applications/LockPatternActivity;->mLockPatternView:Lcom/android/internal/widget/LockPatternView;
 
     invoke-virtual {v0, v2}, Lcom/android/internal/widget/LockPatternView;->setSaveEnabled(Z)V
 
-    .line 200
+    .line 191
     iget-object v0, p0, Lcom/android/settings/applications/LockPatternActivity;->mLockPatternView:Lcom/android/internal/widget/LockPatternView;
 
     invoke-virtual {v0, v2}, Lcom/android/internal/widget/LockPatternView;->setFocusable(Z)V
 
-    .line 201
+    .line 192
     iget-object v0, p0, Lcom/android/settings/applications/LockPatternActivity;->mLockPatternView:Lcom/android/internal/widget/LockPatternView;
 
     new-instance v1, Lcom/android/settings/applications/LockPatternActivity$UnlockPatternListener;
@@ -514,7 +477,7 @@
 
     invoke-virtual {v0, v1}, Lcom/android/internal/widget/LockPatternView;->setOnPatternListener(Lcom/android/internal/widget/LockPatternView$OnPatternListener;)V
 
-    .line 203
+    .line 194
     return-void
 .end method
 
@@ -525,16 +488,16 @@
     .prologue
     const/4 v2, 0x0
 
-    .line 130
+    .line 121
     invoke-interface {p1}, Landroid/view/Menu;->clear()V
 
-    .line 131
+    .line 122
     iget-boolean v0, p0, Lcom/android/settings/applications/LockPatternActivity;->mCreate:Z
 
     if-nez v0, :cond_0
 
-    .line 132
-    const v0, 0x7f08015e
+    .line 123
+    const v0, 0x7f0c015c
 
     invoke-interface {p1, v2, v2, v2, v0}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
@@ -556,14 +519,14 @@
 
     invoke-interface {v0, v1}, Landroid/view/MenuItem;->setShowAsAction(I)V
 
-    .line 137
+    .line 128
     invoke-interface {p1, v2}, Landroid/view/Menu;->findItem(I)Landroid/view/MenuItem;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/android/settings/applications/LockPatternActivity;->mItem:Landroid/view/MenuItem;
 
-    .line 139
+    .line 130
     :cond_0
     const/4 v0, 0x1
 
@@ -574,12 +537,12 @@
     .locals 1
 
     .prologue
-    .line 159
+    .line 150
     const/4 v0, 0x1
 
     invoke-direct {p0, v0}, Lcom/android/settings/applications/LockPatternActivity;->switchToPattern(Z)V
 
-    .line 160
+    .line 151
     return-void
 .end method
 
@@ -590,18 +553,18 @@
     .prologue
     const/4 v0, 0x0
 
-    .line 144
+    .line 135
     invoke-interface {p1}, Landroid/view/MenuItem;->getItemId()I
 
     move-result v1
 
     packed-switch v1, :pswitch_data_0
 
-    .line 153
+    .line 144
     :goto_0
     return v0
 
-    .line 146
+    .line 137
     :pswitch_0
     iget-object v1, p0, Lcom/android/settings/applications/LockPatternActivity;->mAccountView:Lcom/android/settings/cyanogenmod/ProtectedAccountView;
 
@@ -611,22 +574,22 @@
 
     if-nez v1, :cond_0
 
-    .line 147
+    .line 138
     invoke-direct {p0, v0}, Lcom/android/settings/applications/LockPatternActivity;->switchToPattern(Z)V
 
-    .line 151
+    .line 142
     :goto_1
     const/4 v0, 0x1
 
     goto :goto_0
 
-    .line 149
+    .line 140
     :cond_0
     invoke-direct {p0}, Lcom/android/settings/applications/LockPatternActivity;->switchToAccount()V
 
     goto :goto_1
 
-    .line 144
+    .line 135
     :pswitch_data_0
     .packed-switch 0x0
         :pswitch_0
@@ -647,28 +610,28 @@
     .end annotation
 
     .prologue
-    .line 321
+    .line 303
     .local p1, pattern:Ljava/util/List;,"Ljava/util/List<Lcom/android/internal/widget/LockPatternView$Cell;>;"
     if-nez p1, :cond_0
 
-    .line 322
+    .line 304
     const/4 v1, 0x0
 
-    .line 336
+    .line 318
     :goto_0
     return-object v1
 
-    .line 325
+    .line 307
     :cond_0
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v5
 
-    .line 326
+    .line 308
     .local v5, patternSize:I
     new-array v6, v5, [B
 
-    .line 327
+    .line 309
     .local v6, res:[B
     const/4 v2, 0x0
 
@@ -676,14 +639,14 @@
     :goto_1
     if-ge v2, v5, :cond_1
 
-    .line 328
+    .line 310
     invoke-interface {p1, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Lcom/android/internal/widget/LockPatternView$Cell;
 
-    .line 329
+    .line 311
     .local v0, cell:Lcom/android/internal/widget/LockPatternView$Cell;
     invoke-virtual {v0}, Lcom/android/internal/widget/LockPatternView$Cell;->getRow()I
 
@@ -701,12 +664,12 @@
 
     aput-byte v7, v6, v2
 
-    .line 327
+    .line 309
     add-int/lit8 v2, v2, 0x1
 
     goto :goto_1
 
-    .line 332
+    .line 314
     .end local v0           #cell:Lcom/android/internal/widget/LockPatternView$Cell;
     :cond_1
     :try_start_0
@@ -716,7 +679,7 @@
 
     move-result-object v3
 
-    .line 333
+    .line 315
     .local v3, md:Ljava/security/MessageDigest;
     invoke-virtual {v3, v6}, Ljava/security/MessageDigest;->digest([B)[B
     :try_end_0
@@ -724,11 +687,11 @@
 
     move-result-object v1
 
-    .line 334
+    .line 316
     .local v1, hash:[B
     goto :goto_0
 
-    .line 335
+    .line 317
     .end local v1           #hash:[B
     .end local v3           #md:Ljava/security/MessageDigest;
     :catch_0
@@ -737,6 +700,6 @@
     .local v4, nsa:Ljava/security/NoSuchAlgorithmException;
     move-object v1, v6
 
-    .line 336
+    .line 318
     goto :goto_0
 .end method

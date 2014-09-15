@@ -140,7 +140,7 @@
     if-eqz v21, :cond_5
 
     .line 134
-    const v21, 0x7f08054b
+    const v21, 0x7f0c0546
 
     move/from16 v0, v21
 
@@ -375,7 +375,7 @@
     .line 136
     .restart local v12       #ownerInfoPref:Landroid/preference/Preference;
     :cond_5
-    const v21, 0x7f080549
+    const v21, 0x7f0c0544
 
     move/from16 v0, v21
 
@@ -634,7 +634,7 @@
 
     if-eqz v21, :cond_12
 
-    const v17, 0x7f080a3b
+    const v17, 0x7f0c0a36
 
     .line 239
     .local v17, storageSummaryRes:I
@@ -1025,7 +1025,7 @@
     .restart local v4       #credentialStorageType:Landroid/preference/Preference;
     .restart local v20       #um:Landroid/os/UserManager;
     :cond_12
-    const v17, 0x7f080a3c
+    const v17, 0x7f0c0a37
 
     goto/16 :goto_7
 
@@ -1121,7 +1121,7 @@
 
     move-result-object v22
 
-    const v23, 0x7f08059b
+    const v23, 0x7f0c0596
 
     invoke-virtual/range {v22 .. v23}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1443,7 +1443,7 @@
     .line 373
     if-lez p1, :cond_0
 
-    const v1, 0x7f0802ab
+    const v1, 0x7f0c02a6
 
     const/4 v2, 0x1
 
@@ -1474,7 +1474,7 @@
     .line 373
     .end local v0           #message:Ljava/lang/String;
     :cond_0
-    const v1, 0x7f0802ac
+    const v1, 0x7f0c02a7
 
     invoke-virtual {p0, v1}, Lcom/android/settings/SecuritySettings;->getString(I)Ljava/lang/String;
 
@@ -1500,7 +1500,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f08078c
+    const v2, 0x7f0c0787
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1520,7 +1520,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080829
+    const v2, 0x7f0c0824
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1561,7 +1561,7 @@
 
     .prologue
     .line 443
-    const v0, 0x7f080bb6
+    const v0, 0x7f0c0bb1
 
     return v0
 .end method

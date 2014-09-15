@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="allow">Allow</string>
+    <string name="deny">Deny</string>
     <string name="delete">Delete</string>
     <string name="battery_info_status_full">Full</string>
     <string name="yes">Yes</string>
     <string name="no">No</string>
     <string name="create">Create</string>
-    <string name="allow">Allow</string>
-    <string name="deny">Deny</string>
     <string name="device_info_default">Unknown</string>
     <string name="show_dev_on">You are now a developer!</string>
     <string name="show_dev_already">No need, you are already a developer.</string>
@@ -647,6 +647,8 @@ Phone setup can require significant network activity."</string>
     <string name="volume_notification_mute">Mute notifications</string>
     <string name="volume_alarm_mute">Mute alarms</string>
     <string name="vibrate_when_ringing_title">Vibrate when ringing</string>
+    <string name="system_update_settings_list_item_title">System updates</string>
+    <string name="system_update_settings_list_item_summary" />
     <string name="dock_settings">Dock</string>
     <string name="dock_settings_title">Dock settings</string>
     <string name="dock_audio_settings_title">Audio</string>
@@ -711,8 +713,6 @@ Possibly incorrect PIN."</string>
     <string name="wrong_pin_code_pukked">Incorrect SIM PIN code; you must now contact your carrier to unlock your device.</string>
     <string name="pin_failed">SIM PIN operation failed!</string>
     <string name="device_info_settings">Phone status</string>
-    <string name="system_update_settings_list_item_title">System updates</string>
-    <string name="system_update_settings_list_item_summary" />
     <string name="firmware_version">Android version</string>
     <string name="model_number">Model number</string>
     <string name="fcc_equipment_id">Equipment ID</string>

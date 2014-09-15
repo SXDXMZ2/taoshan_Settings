@@ -27,7 +27,7 @@
     .parameter
 
     .prologue
-    .line 340
+    .line 332
     iput-object p1, p0, Lcom/android/settings/bluetooth/BluetoothEventManager$ClassChangedHandler;->this$0:Lcom/android/settings/bluetooth/BluetoothEventManager;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -41,7 +41,7 @@
     .parameter "x1"
 
     .prologue
-    .line 340
+    .line 332
     invoke-direct {p0, p1}, Lcom/android/settings/bluetooth/BluetoothEventManager$ClassChangedHandler;-><init>(Lcom/android/settings/bluetooth/BluetoothEventManager;)V
 
     return-void
@@ -56,7 +56,7 @@
     .parameter "device"
 
     .prologue
-    .line 343
+    .line 335
     iget-object v0, p0, Lcom/android/settings/bluetooth/BluetoothEventManager$ClassChangedHandler;->this$0:Lcom/android/settings/bluetooth/BluetoothEventManager;
 
     #getter for: Lcom/android/settings/bluetooth/BluetoothEventManager;->mDeviceManager:Lcom/android/settings/bluetooth/CachedBluetoothDeviceManager;
@@ -66,6 +66,6 @@
 
     invoke-virtual {v0, p3}, Lcom/android/settings/bluetooth/CachedBluetoothDeviceManager;->onBtClassChanged(Landroid/bluetooth/BluetoothDevice;)V
 
-    .line 344
+    .line 336
     return-void
 .end method

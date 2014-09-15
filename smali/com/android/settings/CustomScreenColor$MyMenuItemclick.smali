@@ -107,7 +107,7 @@
     nop
 
     :pswitch_data_0
-    .packed-switch 0x7f0d0305
+    .packed-switch 0x7f0d0303
         :pswitch_0
         :pswitch_1
         :pswitch_2

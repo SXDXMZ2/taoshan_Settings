@@ -10,11 +10,6 @@
         <item quantity="one">raz</item>
         <item quantity="few">%d razy</item>
     </plurals>
-    <plurals name="show_dev_countdown_cm">
-        <item quantity="other">Jesteś teraz %1$d kroków od włączenia opcji programistycznych.</item>
-        <item quantity="one">Jesteś teraz %1$d krok od włączenia opcji programistycznych.</item>
-        <item quantity="few">Jesteś teraz %1$d kroki od włączenia opcji programistycznych.</item>
-    </plurals>
     <plurals name="show_dev_countdown">
         <item quantity="other">Od zostania programistą dzieli Cię już tylko tyle kroków: %1$d.</item>
         <item quantity="one">Od zostania programistą dzieli Cię już tylko %1$d krok.</item>

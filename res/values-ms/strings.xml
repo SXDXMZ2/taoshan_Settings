@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="allow">Benarkan</string>
+    <string name="deny">Nafikan</string>
     <string name="delete">Padam</string>
     <string name="battery_info_status_full">Penuh</string>
     <string name="cell_broadcast_settings_summary">Pilih jenis amaran kecemasan untuk dipaparkan.</string>
@@ -23,8 +25,6 @@
     <string name="yes">Ya</string>
     <string name="no">Tidak</string>
     <string name="create">Buat</string>
-    <string name="allow">Benarkan</string>
-    <string name="deny">Nafikan</string>
     <string name="device_info_default">Tidak diketahui</string>
     <string name="show_dev_on">Anda kini pemaju!</string>
     <string name="show_dev_already">Tidak perlu, anda sudah pun menjadi pemaju.</string>
@@ -655,6 +655,8 @@ Persediaan telefon berpotensi menggunakan aktiviti rangkaian yang banyak."</stri
     <string name="volume_notification_mute">Redam pemberitahuan</string>
     <string name="volume_alarm_mute">Redam penggera</string>
     <string name="vibrate_when_ringing_title">Bergetar apabila berdering</string>
+    <string name="system_update_settings_list_item_title">Kemas kini sistem</string>
+    <string name="system_update_settings_list_item_summary" />
     <string name="dock_settings">Dok</string>
     <string name="dock_settings_title">Tetapan dok</string>
     <string name="dock_audio_settings_title">Audio</string>
@@ -717,8 +719,6 @@ Mungkin PIN salah."</string>
     <string name="sim_enter_ok">OK</string>
     <string name="sim_enter_cancel">Batal</string>
     <string name="device_info_settings">Status telefon</string>
-    <string name="system_update_settings_list_item_title">Kemas kini sistem</string>
-    <string name="system_update_settings_list_item_summary" />
     <string name="firmware_version">Versi Android</string>
     <string name="model_number">Nombor model</string>
     <string name="fcc_equipment_id">ID Peralatan</string>
@@ -1891,4 +1891,36 @@ Mana-mana pengguna boleh meluluskan kebenaran kemas kini apl bagi pihak pengguna
     <string name="user_image_take_photo">Ambil foto</string>
     <string name="user_image_choose_photo">Pilih foto dari Galeri</string>
     <string name="regulatory_info_text" />
+    <string name="quick_settings_description">Pilih bilangan tetapan pantas dalam panel Pemberitahuan dan sunting urutannya</string>
+    <string name="swiqi_strings_swiqi_desc_txt">Peningkat kualiti imej untuk foto dan video</string>
+    <string name="theme_label_summary">Tukar atau muat turun tema</string>
+    <string name="find_my_device">Cari peranti saya</string>
+    <string name="display_category_personalisation_title">Pemeribadian</string>
+    <string name="xperia_connectivity">Kesambungan Xperia™</string>
+    <string name="preference_summary">Jika anda kehilangan peranti anda – kesan, kunci dan/atau padamkan data anda dengan my Xperia</string>
+    <string name="playanywhere_strings_throw_settings_title_txt">Tetapan Throw</string>
+    <string name="playanywhere_strings_throw_setting_summary_txt">Main kandungan dalam Xperia™ anda secara wayarles pada peranti lain</string>
+    <string name="usbux_strings_local_connectivity_settings_summary_txt">Sambungkan peranti anda ke peranti lain atau PC dengan USB atau melalui Wi-Fi</string>
+    <string name="mil_strings_app_name_mirrorlink_settings_txt">Tetapan MirrorLink™</string>
+    <string name="mil_strings_mirrorlink_activator_txt">Mulakan MirrorLink™</string>
+    <string name="mil_strings_dialog_usb_not_connected_txt">Tiada peranti dikesan. Pastikan peranti yang serasi disambungkan.</string>
+    <string name="mil_strings_dialog_mirrorlink_start_txt">MirrorLink™ akan bermula sebentar lagi. Ia mungkin tidak berfungsi dengan betul jika peranti tidak disahkan oleh MirrorLink™.</string>
+    <string name="mil_strings_mirrorlink_activator_sub_txt">Apabila disambungkan kepada peranti yang disahkan MirrorLink™ menggunakan USB, anda boleh mengawal Xperia™ anda dari peranti itu</string>
+    <string name="setupguide_settings_title">Panduan persediaan</string>
+    <string name="lockscreen_app_name">Skrin kunci</string>
+    <string name="lockscreen_settings_title">Skrin kunci</string>
+    <string name="lockscreen_settings_title_txt">Skrin kunci</string>
+    <string name="lockscreen_settings_wallpaper_summary_txt">Tukar hias latar dalam skrin berkunci</string>
+    <string name="lockscreen_setting_wallpaper_wait_txt">Menetapkan hias latar</string>
+    <string name="lockscreen_could_not_load_wallpaper_txt">Tidak dapat menetapkan hias latar</string>
+    <string name="lockscreen_dialog_title_pick_wallpaper">Pilih hias latar</string>
+    <string name="lockscreen_wallpaper_picker_semc_name">Hias latar Xperia™</string>
+    <string name="lockscreen_wallpaper_picker_semc_set_wallpaper">Tetapkan hias latar</string>
+    <string name="lockscreen_wallpaper_picker_album_name">Album</string>
+    <string name="lockscreen_unlock_hint">Leret ke atas atau bawah untuk membuka kunci</string>
+    <string name="lockscreen_short_unlock_hint">Leret untuk membuka kunci</string>
+    <string name="lockscreen_accessibility_unlock_hint">Gerakkan ke atas atau bawah dari tengah skrin untuk buka kunci</string>
+    <string name="lockscreen_set_as_wallpaper_txt">Kunci skrin kertas hias latar</string>
+    <string name="status_bar_tab_quick_settings_title">Tetapan cepat</string>
+    <string name="power_settings_title">Pengurusan kuasa</string>
 </resources>

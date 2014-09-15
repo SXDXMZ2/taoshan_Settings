@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/display_category_personalisation_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceScreen android:title="@string/themes_settings_title" android:key="theme_settings" android:summary="@string/theme_label_summary" android:fragment="com.android.settings.ThemeSettings" android:breadCrumbTitle="@string/themes_settings_title" />
+    <PreferenceScreen android:title="@string/wallpaper_settings_title_cm" android:key="wallpaperxperia">
+        <intent android:targetPackage="com.sonyericsson.wallpaperpicker" android:action="android.intent.action.MAIN" android:targetClass="com.sonyericsson.wallpaperpicker.WallpaperChooser" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/lockscreen_settings_title_txt" android:key="xperialockscreen" android:summary="@string/lockscreen_settings_wallpaper_summary_txt">
+        <intent android:action="com.sonyericsson.settings.intent.action.LOCKSCREEN" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/status_bar_tab_quick_settings_title" android:key="quick_settings" android:summary="@string/quick_settings_description">
+        <intent android:targetPackage="com.android.systemui" android:targetClass="com.sonymobile.systemui.statusbar.toolssettings.ToolsbarSettings" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/button_settings" android:key="@id/button_settings" android:fragment="com.android.settings.cyanogenmod.ButtonSettings" settings:includeXmlForSearch="@xml/button_settings" />
+    <PreferenceScreen android:title="@string/superuser" android:key="superuser" android:fragment="com.android.settings.cyanogenmod.superuser.PolicyNativeFragment" />
+    <PreferenceCategory android:title="@string/repexpersiskatogori" android:key="repexpersis_katalog">
+        <Preference android:title="@string/category_heads_up" android:key="heads_up_enabled" android:fragment="com.android.settings.headsup.HeadsUpSettings" />
+        <PreferenceScreen android:title="@string/noti_sys_info" android:key="notificationvolkan">
+            <intent android:targetPackage="zzs.notisysinfo" android:action="android.intent.action.MAIN" android:targetClass="zzs.notisysinfo.MyActivity" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/windowzzz" android:key="pencere">
+            <intent android:targetPackage="com.zst.app.multiwindowsidebar" android:action="android.intent.action.MAIN" android:targetClass="com.zst.app.multiwindowsidebar.MainActivity" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

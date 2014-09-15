@@ -105,7 +105,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0800ad
+    const v3, 0x7f0c00ad
 
     const/4 v4, 0x0
 
@@ -168,7 +168,7 @@
     .locals 2
 
     .prologue
-    const v1, 0x7f0d0267
+    const v1, 0x7f0d0265
 
     .line 215
     iget v0, p0, Lcom/android/settings/wifi/WifiApDialog;->mSecurityTypeIndex:I
@@ -495,7 +495,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0400eb
+    const v3, 0x7f0400ec
 
     const/4 v4, 0x0
 
@@ -508,7 +508,7 @@
     .line 124
     iget-object v2, p0, Lcom/android/settings/wifi/WifiApDialog;->mView:Landroid/view/View;
 
-    const v3, 0x7f0d0266
+    const v3, 0x7f0d0264
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -532,14 +532,14 @@
 
     .line 131
     .local v0, context:Landroid/content/Context;
-    const v2, 0x7f08069c
+    const v2, 0x7f0c0697
 
     invoke-virtual {p0, v2}, Lcom/android/settings/wifi/WifiApDialog;->setTitle(I)V
 
     .line 132
     iget-object v2, p0, Lcom/android/settings/wifi/WifiApDialog;->mView:Landroid/view/View;
 
-    const v3, 0x7f0d0240
+    const v3, 0x7f0d023e
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -552,7 +552,7 @@
     .line 133
     iget-object v2, p0, Lcom/android/settings/wifi/WifiApDialog;->mView:Landroid/view/View;
 
-    const v3, 0x7f0d0265
+    const v3, 0x7f0d0263
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -578,7 +578,7 @@
     .line 136
     const/4 v2, -0x1
 
-    const v3, 0x7f08066a
+    const v3, 0x7f0c0665
 
     invoke-virtual {v0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -591,7 +591,7 @@
     .line 137
     const/4 v2, -0x2
 
-    const v3, 0x7f08066c
+    const v3, 0x7f0c0667
 
     invoke-virtual {v0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -655,7 +655,7 @@
     .line 151
     iget-object v2, p0, Lcom/android/settings/wifi/WifiApDialog;->mView:Landroid/view/View;
 
-    const v3, 0x7f0d0268
+    const v3, 0x7f0d0266
 
     invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

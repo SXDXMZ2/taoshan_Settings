@@ -8,10 +8,6 @@
         <item quantity="other">%d פעמים</item>
         <item quantity="one">פעם אחת</item>
     </plurals>
-    <plurals name="show_dev_countdown_cm">
-        <item quantity="other">אתה במרחק של %1$d צעדים מהפעלת אפשרויות מפתח.</item>
-        <item quantity="one">אתה במרחק של צעד אחד מהפעלת אפשרויות מפתח.</item>
-    </plurals>
     <plurals name="show_dev_countdown">
         <item quantity="other">אתה כעת במרחק של %1$d צעדים מלהיות מפתח.</item>
         <item quantity="one">אתה כעת במרחק של צעד %1$d מלהיות מפתח.</item>

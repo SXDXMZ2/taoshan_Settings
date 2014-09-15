@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="allow">Payagan</string>
+    <string name="deny">Tanggihan</string>
     <string name="delete">Tanggalin</string>
     <string name="battery_info_status_full">Buo</string>
     <string name="yes">Oo</string>
     <string name="no">Hindi</string>
     <string name="create">Likhain</string>
-    <string name="allow">Payagan</string>
-    <string name="deny">Tanggihan</string>
     <string name="device_info_default">Hindi Kilala</string>
     <string name="show_dev_on">Isa ka nang developer!</string>
     <string name="show_dev_already">Hindi na kailangan, isa ka nang developer.</string>
@@ -647,6 +647,8 @@ Maaaring mangailangan ng malaking aktibidad ng network ang pag-setup ng telepono
     <string name="volume_notification_mute">I-mute ang mga notification</string>
     <string name="volume_alarm_mute">I-mute ang mga alarm</string>
     <string name="vibrate_when_ringing_title">I-vibrate kapag nagri-ring</string>
+    <string name="system_update_settings_list_item_title">Mga pag-update ng system</string>
+    <string name="system_update_settings_list_item_summary" />
     <string name="dock_settings">I-dock</string>
     <string name="dock_settings_title">Mga setting ng dock</string>
     <string name="dock_audio_settings_title">Audio</string>
@@ -711,8 +713,6 @@ Posibleng maling PIN."</string>
     <string name="wrong_pin_code_pukked">Maling PIN code ng SIM, dapat ka nang makipag-ugnay sa iyong carrier upang i-unlock ang iyong device.</string>
     <string name="pin_failed">Nabigo ang operasyon ng SIM PIN!</string>
     <string name="device_info_settings">Katayuan ng telepono</string>
-    <string name="system_update_settings_list_item_title">Mga pag-update ng system</string>
-    <string name="system_update_settings_list_item_summary" />
     <string name="firmware_version">Bersyon ng Android</string>
     <string name="model_number">Numero ng modelo</string>
     <string name="fcc_equipment_id">ID ng Kagamitan</string>
@@ -1952,4 +1952,36 @@ Ang sinumang user ay maaaring tumanggap ng na-update na mga pagpapahintulot sa a
     <string name="user_image_take_photo">Kumuha ng larawan</string>
     <string name="user_image_choose_photo">Pumili ng larawan mula sa Gallery</string>
     <string name="regulatory_info_text" />
+    <string name="quick_settings_description">Pili dami ng quick setting sa Notification panel at i-edit ang ayos nito</string>
+    <string name="swiqi_strings_swiqi_desc_txt">Pahusayin kalidad ng larawan at video</string>
+    <string name="theme_label_summary">Baguhin ang o mag-download ng mga tema</string>
+    <string name="find_my_device">Hanapin ang aking device</string>
+    <string name="display_category_personalisation_title">Pagpe-personalize</string>
+    <string name="xperia_connectivity">Pagkakakonekta ng Xperia™</string>
+    <string name="preference_summary">Kung nawala mo ang iyong device – tuntunin, i-lock at/o burahin ang iyong data gamit ang my Xperia</string>
+    <string name="playanywhere_strings_throw_settings_title_txt">Mga setting ng Throw</string>
+    <string name="playanywhere_strings_throw_setting_summary_txt">Mag-play ng nilalaman nang wireless sa iyong Xperia™ sa iba pang mga device</string>
+    <string name="usbux_strings_local_connectivity_settings_summary_txt">Ikonekta ang iyong device sa iba pang mga device o sa mga PC gamit ang USB o Wi-Fi</string>
+    <string name="mil_strings_app_name_mirrorlink_settings_txt">Mga setting ng MirrorLink™</string>
+    <string name="mil_strings_mirrorlink_activator_txt">Simulan MirrorLink™</string>
+    <string name="mil_strings_dialog_usb_not_connected_txt">Walang nakitang mga device. Tiyaking nakakonekta ang katugmang device.</string>
+    <string name="mil_strings_dialog_mirrorlink_start_txt">Magsisimula na ang MirrorLink™. Maaaring hindi ito gumana nang maayos kung hindi na-certify sa MirrorLink™ ang device.</string>
+    <string name="mil_strings_mirrorlink_activator_sub_txt">Kapag konektado sa isang device na certified ng MirrorLink™ gamit ang USB, maaari mong kontrolin ang iyong Xperia™ mula sa device</string>
+    <string name="setupguide_settings_title">Gabay sa pag-setup</string>
+    <string name="lockscreen_app_name">Lock screen</string>
+    <string name="lockscreen_settings_title">Lock screen</string>
+    <string name="lockscreen_settings_title_txt">Lock screen</string>
+    <string name="lockscreen_settings_wallpaper_summary_txt">Baguhin wallpaper sa naka-lock na screen</string>
+    <string name="lockscreen_setting_wallpaper_wait_txt">Itinatakda ang wallpaper</string>
+    <string name="lockscreen_could_not_load_wallpaper_txt">Hindi maitakda ang wallpaper</string>
+    <string name="lockscreen_dialog_title_pick_wallpaper">Pumili ng wallpaper</string>
+    <string name="lockscreen_wallpaper_picker_semc_name">Mga wallpaper ng Xperia™</string>
+    <string name="lockscreen_wallpaper_picker_semc_set_wallpaper">Magtakda ng wallpaper</string>
+    <string name="lockscreen_wallpaper_picker_album_name">Album</string>
+    <string name="lockscreen_unlock_hint">Mag-swipe pataas o pababa upang i-unlock</string>
+    <string name="lockscreen_short_unlock_hint">I-swipe upang i-unlock</string>
+    <string name="lockscreen_accessibility_unlock_hint">Mag-swipe pataas o pababa mula sa gitna ng screen upang mag-unlock</string>
+    <string name="lockscreen_set_as_wallpaper_txt">I-lock ang wallpaper ng screen</string>
+    <string name="status_bar_tab_quick_settings_title">Mga mabilisang setting</string>
+    <string name="power_settings_title">Pamamahala ng power</string>
 </resources>

@@ -354,7 +354,7 @@
         <item>HDCPチェックを常に使用する</item>
     </string-array>
     <string-array name="window_animation_scale_entries">
-        <item>アニメーションOFF</item>
+        <item>アニメーションオフ</item>
         <item>アニメーションスケール.5x</item>
         <item>アニメーションスケール1x</item>
         <item>アニメーションスケール1.5x</item>
@@ -363,7 +363,7 @@
         <item>アニメーションスケール10x</item>
     </string-array>
     <string-array name="transition_animation_scale_entries">
-        <item>アニメーションOFF</item>
+        <item>アニメーションオフ</item>
         <item>アニメーションスケール.5x</item>
         <item>アニメーションスケール1x</item>
         <item>アニメーションスケール1.5x</item>
@@ -372,7 +372,7 @@
         <item>アニメーションスケール10x</item>
     </string-array>
     <string-array name="animator_duration_scale_entries">
-        <item>アニメーションOFF</item>
+        <item>アニメーションオフ</item>
         <item>アニメーションスケール.5x</item>
         <item>アニメーションスケール1x</item>
         <item>アニメーションスケール1.5x</item>
@@ -397,7 +397,7 @@
         <item>glGetErrorでのスタック呼び出し</item>
     </string-array>
     <string-array name="show_non_rect_clip_entries">
-        <item>OFF</item>
+        <item>オフ</item>
         <item>非矩形クリップ領域を青で描画</item>
         <item>テスト済み描画コマンドを緑でハイライト表示</item>
     </string-array>
@@ -448,11 +448,6 @@
         <item>かなり不足</item>
         <item>残りわずか</item>
     </string-array>
-    <string-array name="screen_color_setting">
-        <item>標準</item>
-        <item>ビビッド</item>
-        <item>カスタム</item>
-    </string-array>
     <string-array name="wifi_countrycode_entries">
         <item>アメリカ合衆国</item>
         <item>カナダ、台湾</item>
@@ -479,11 +474,6 @@
         <item>15秒 | 1分 | 5分</item>
         <item>30秒 | 2分 | 5分</item>
     </string-array>
-    <string-array name="data_usage_cycle_length">
-        <item>日ごと</item>
-        <item>週ごと</item>
-        <item>月ごと</item>
-    </string-array>
     <string-array name="data_usage_cycle_weekdays">
         <item>日曜日</item>
         <item>月曜日</item>
@@ -497,11 +487,5 @@
         <item>許可</item>
         <item>拒否</item>
         <item>常に尋ねる</item>
-    </string-array>
-    <string-array name="qs_quick_access_size_entries">
-        <item>縦長</item>
-        <item>小</item>
-        <item>大</item>
-        <item>横長</item>
     </string-array>
 </resources>

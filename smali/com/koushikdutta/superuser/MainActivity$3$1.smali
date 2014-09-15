@@ -64,7 +64,7 @@
     invoke-virtual {v0, v1, v2}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
     .line 214
-    const v1, 0x7f080047
+    const v1, 0x7f0c0047
 
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -74,7 +74,7 @@
     if-eqz v1, :cond_0
 
     .line 217
-    const v1, 0x7f080049
+    const v1, 0x7f0c0049
 
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
@@ -91,7 +91,7 @@
 
     .line 220
     :cond_0
-    const v1, 0x7f08004a
+    const v1, 0x7f0c004a
 
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 

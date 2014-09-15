@@ -100,7 +100,7 @@
 
     invoke-direct {v0, v1}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f080663
+    const v1, 0x7f0c065e
 
     const/4 v2, 0x1
 
@@ -120,7 +120,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f080664
+    const v1, 0x7f0c065f
 
     new-instance v2, Lcom/android/settings/wifi/WifiScanModeActivity$AlertDialogFragment$2;
 
@@ -130,7 +130,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f080665
+    const v1, 0x7f0c0660
 
     new-instance v2, Lcom/android/settings/wifi/WifiScanModeActivity$AlertDialogFragment$1;
 

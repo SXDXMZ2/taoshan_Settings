@@ -358,13 +358,13 @@
 
     invoke-direct {v3, v1}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v4, 0x7f0808cc
+    const v4, 0x7f0c08c7
 
     invoke-virtual {v3, v4}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
     move-result-object v3
 
-    const v4, 0x7f0808cd
+    const v4, 0x7f0c08c8
 
     new-instance v5, Lcom/android/settings/inputmethod/KeyboardLayoutDialogFragment$2;
 
@@ -386,7 +386,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f040054
+    const v4, 0x7f040055
 
     const/4 v5, 0x0
 

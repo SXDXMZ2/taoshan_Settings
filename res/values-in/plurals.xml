@@ -6,9 +6,6 @@
     <plurals name="app_ops_count">
         <item quantity="other">%d kali</item>
     </plurals>
-    <plurals name="show_dev_countdown_cm">
-        <item quantity="other">Anda sekarang %1$d beberapa langkah dari mengaktifkan opsi pengembang.</item>
-    </plurals>
     <plurals name="show_dev_countdown">
         <item quantity="other">Tinggal %1$d langkah untuk menjadi pengembang.</item>
         <item quantity="one">Tinggal %1$d langkah untuk menjadi pengembang.</item>

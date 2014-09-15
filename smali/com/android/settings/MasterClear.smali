@@ -535,7 +535,7 @@
     .end local v9           #authContext:Landroid/content/Context;
     :cond_4
     :goto_4
-    const v21, 0x7f04006d
+    const v21, 0x7f04006f
 
     const/16 v22, 0x0
 
@@ -669,13 +669,13 @@
 
     invoke-direct {v1, v2, p0}, Lcom/android/settings/ChooseLockSettingsHelper;-><init>(Landroid/app/Activity;Landroid/app/Fragment;)V
 
-    const v2, 0x7f08079f
+    const v2, 0x7f0c079a
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
     move-result-object v2
 
-    const v3, 0x7f0807a0
+    const v3, 0x7f0c079b
 
     invoke-virtual {v0, v3}, Landroid/content/res/Resources;->getText(I)Ljava/lang/CharSequence;
 
@@ -754,7 +754,7 @@
     invoke-virtual {v1, v0}, Landroid/preference/Preference;->setFragment(Ljava/lang/String;)V
 
     .line 116
-    const v0, 0x7f0807a2
+    const v0, 0x7f0c079d
 
     invoke-virtual {v1, v0}, Landroid/preference/Preference;->setTitle(I)V
 
@@ -849,7 +849,7 @@
 
     .prologue
     .line 258
-    const v0, 0x7f04006c
+    const v0, 0x7f04006e
 
     const/4 v1, 0x0
 

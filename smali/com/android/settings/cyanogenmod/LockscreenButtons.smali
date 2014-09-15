@@ -150,7 +150,7 @@
 
     move-result-object v7
 
-    const v8, 0x10400d3
+    const v8, 0x10400d2
 
     invoke-virtual {v7, v8}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -241,7 +241,7 @@
     invoke-virtual {v7, v6}, Landroid/preference/CheckBoxPreference;->setEnabled(Z)V
 
     .line 175
-    const v6, 0x7f080172
+    const v6, 0x7f0c016e
 
     invoke-virtual {p0, v6}, Lcom/android/settings/cyanogenmod/LockscreenButtons;->getString(I)Ljava/lang/String;
 
@@ -777,7 +777,7 @@
     .restart local v14       #oldValues:[Ljava/lang/CharSequence;
     .restart local v15       #pref:Landroid/preference/ListPreference;
     :cond_8
-    const v17, 0x7f0802e6
+    const v17, 0x7f0c02e1
 
     move-object/from16 v0, p0
 

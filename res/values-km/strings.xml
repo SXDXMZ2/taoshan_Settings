@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="allow">អនុញ្ញាត</string>
+    <string name="deny">បដិសេធ</string>
     <string name="delete">លុប</string>
     <string name="battery_info_status_full">ពេញ</string>
     <string name="cell_broadcast_settings_summary">ជ្រើស​ប្រភេទ​ការ​ជូន​ដំណឹង​ពេល​អាសន្ន​ត្រូវ​បង្ហាញ</string>
@@ -23,8 +25,6 @@
     <string name="yes">បាទ/ចាស</string>
     <string name="no">ទេ</string>
     <string name="create">បង្កើត</string>
-    <string name="allow">អនុញ្ញាត</string>
-    <string name="deny">បដិសេធ</string>
     <string name="device_info_default">មិន​ស្គាល់</string>
     <string name="show_dev_on">ឥឡូវ​អ្នក​ក្លាយ​ជា​អ្នក​អភិវឌ្ឍ​ហើយ!</string>
     <string name="show_dev_already">មិន​ចាំបាច់​ទេ អ្នក​ជា​អ្នក​អភិវឌ្ឍ​រួច​ហើយ។</string>
@@ -655,6 +655,8 @@
     <string name="volume_notification_mute">បិទ​សំឡេង​​ការ​ជូន​ដំណឹង</string>
     <string name="volume_alarm_mute">ធ្វើ​ឲ្យ​សំឡេង​រោទ៍​ស្ងាត់</string>
     <string name="vibrate_when_ringing_title">ញ័រ​ពេល​រោទ៍</string>
+    <string name="system_update_settings_list_item_title">បច្ចុប្បន្នភាព​ប្រព័ន្ធ</string>
+    <string name="system_update_settings_list_item_summary" />
     <string name="dock_settings">ភ្ជាប់</string>
     <string name="dock_settings_title">កំណត់​ការ​ភ្ជាប់</string>
     <string name="dock_audio_settings_title">សំឡេង</string>
@@ -717,8 +719,6 @@
     <string name="sim_enter_ok">យល់​ព្រម</string>
     <string name="sim_enter_cancel">បោះ​បង់</string>
     <string name="device_info_settings">ស្ថានភាព​ទូរស័ព្ទ</string>
-    <string name="system_update_settings_list_item_title">បច្ចុប្បន្នភាព​ប្រព័ន្ធ</string>
-    <string name="system_update_settings_list_item_summary" />
     <string name="firmware_version">កំណែ Android</string>
     <string name="model_number">លេខ​គំរូ</string>
     <string name="fcc_equipment_id">លេខ​សម្គាល់​បរិក្ខារ</string>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="superuser">スーパーユーザー</string>
-    <string name="su_allow">許可</string>
-    <string name="su_allow_countdown">許可（%1$s）</string>
-    <string name="su_deny">拒否</string>
-    <string name="status_incoming">スーパーユーザーリクエストが来ています…</string>
+    <string name="allow">許可</string>
+    <string name="allow_countdown">許可（%1$s）</string>
+    <string name="deny">許可しない</string>
+    <string name="status_incoming">スーパーユーザーリクエストがありました…</string>
     <string name="unknown_uid">不明なUID: %s</string>
     <string name="application_request">%sがスーパーユーザーアクセスをリクエストしています。</string>
-    <string name="info">警告: 心当たりのないリクエストは拒否することを推奨します。</string>
+    <string name="info">警告: 心当たりのないリクエストは許可しないことを推奨します。</string>
     <string name="request">スーパーユーザーリクエスト</string>
     <string name="package_header">パッケージ:</string>
     <string name="app_header">アプリ:</string>
@@ -21,13 +21,13 @@
     <string name="settings">設定</string>
     <string name="delete">削除</string>
     <string name="no_logs">ログはありません</string>
-    <string name="no_apps">スーパーユーザーアプリのポリシーは現在ありません。</string>
+    <string name="no_apps">スーパーユーザーアプリのポリシーはありません。</string>
     <string name="logging">ログ</string>
     <string name="logging_summary">すべてのスーパーユーザーリクエストのログを有効にする</string>
     <string name="pin_protection">PINによる保護</string>
-    <string name="pin_protection_summary">スーパーユーザーリクエストの許可にPINの入力を要求する</string>
+    <string name="pin_protection_summary">スーパーユーザーリクエストの承認にPINの入力を要求する</string>
     <string name="request_timeout">リクエストのタイムアウト</string>
-    <string name="request_timeout_summary">スーパーユーザーリクエストは%s秒後にタイムアウトして拒否されます</string>
+    <string name="request_timeout_summary">スーパーユーザーリクエストは%s秒でタイムアウトして拒否されます</string>
     <string name="notifications">通知</string>
     <string name="none">なし</string>
     <string name="notifications_summary">スーパーユーザー権限がアプリに許可または拒否されたときに%sを表示する</string>
@@ -36,18 +36,18 @@
     <string name="incorrect_pin">PINが正しくありません</string>
     <string name="confirm_pin">PINの確認</string>
     <string name="pin_mismatch">PINが一致しません</string>
-    <string name="pin_set">スーパーユーザーのPINによる保護が有効です</string>
+    <string name="pin_set">スーパーユーザーのPINによる保護が有効</string>
     <string name="number_seconds">%s秒</string>
-    <string name="superuser_granted">スーパーユーザーが%sに許可されました</string>
-    <string name="superuser_denied">スーパーユーザーが%sに許可されませんでした</string>
+    <string name="superuser_granted">スーパーユーザーは%sを許可しました</string>
+    <string name="superuser_denied">スーパーユーザーは%sを拒否しました</string>
     <string name="toast">トースト</string>
     <string name="notification">通知</string>
-    <string name="no_notification">通知は表示されません</string>
-    <string name="developer_warning">"開発者への警告:
+    <string name="no_notification">通知を表示しない</string>
+    <string name="developer_warning">"開発者警告:
 android.permission.ACCESS_SUPERUSER
 がマニフェストで宣言されていません。"</string>
     <string name="superuser_description">すべてのデバイスの機能とストレージへの完全なアクセス許可</string>
-    <string name="superuser_description_more">スーパーユーザーはセキュリティで保護されている繊細なハードウェア要素を含めた端末のすべての機能とストレージへの完全なアクセスを許可します。この権限は潜在的に危険です。</string>
+    <string name="superuser_description_more">スーパーユーザーはセキュリティーで保護されている繊細なハードウェア要素を含めた端末のすべての機能とストレージへの完全なアクセスを許可します。この権限は潜在的に危険です。</string>
     <string name="declared_permission">宣言された権限</string>
     <string name="declared_permission_summary">android.permission.ACCESS_SUPERUSERを宣言しているアプリからのリクエストのみを許可する</string>
     <string name="automatic_response">自動応答</string>
@@ -58,28 +58,28 @@ android.permission.ACCESS_SUPERUSER
     <string name="security">セキュリティ</string>
     <string name="multiuser_policy">マルチユーザーポリシー</string>
     <string name="multiuser_owner_only_summary">端末の所有者のみスーパーユーザーをリクエストできます</string>
-    <string name="multiuser_owner_managed_summary">他のユーザーがスーパーユーザーをリクエストしたときは端末の所有者にプロンプトで確認する</string>
+    <string name="multiuser_owner_managed_summary">他のユーザーがスーパーユーザーをリクエストしたときに端末の所有者にプロンプトで確認する</string>
     <string name="multiuser_user_summary">すべてのユーザーがスーパーユーザーをリクエストできます</string>
     <string name="multiuser_owner_only">所有者のみ</string>
     <string name="multiuser_owner_managed">所有者が管理しています</string>
     <string name="multiuser_user">すべてのユーザー</string>
-    <string name="multiuser_require_owner">マルチユーザーポリシーは端末の所有者のみ管理できます。</string>
-    <string name="owner_login_info">このリクエストを許可または拒否するには、所有者のアカウントに切り替えてください。</string>
+    <string name="multiuser_require_owner">マルチユーザーポリシーは端末の所有者のみが管理できます。</string>
+    <string name="owner_login_info">このリクエストを許可または拒否するには、所有者アカウントに切り替えてください。</string>
     <string name="all_commands">すべてのコマンド</string>
     <string name="about">情報</string>
     <string name="apps">アプリ</string>
-    <string name="installing">インストール中</string>
-    <string name="installing_superuser">スーパーユーザーをインストール中…</string>
+    <string name="installing">インストールしています</string>
+    <string name="installing_superuser">スーパーユーザーをインストールしています…</string>
     <string name="install_superuser">スーパーユーザーをインストール</string>
     <string name="install_superuser_info">"スーパーユーザーバイナリ（su）を更新する必要があります。
 
-インストール方法を選択してください。
-HTC端末はリカバリーモードでのインストールを推奨します。"</string>
+インストール方法を選んでください。
+HTC端末ではリカバリーインストールが推奨されます。"</string>
     <string name="recovery_install">リカバリーインストール</string>
     <string name="install">インストール</string>
-    <string name="checking_superuser">スーパーユーザーを確認中…</string>
+    <string name="checking_superuser">スーパーユーザーを確認しています…</string>
     <string name="install_error">スーパーユーザーのインストール中にエラーが発生しました。エラーログを開発者に送信してください。</string>
-    <string name="install_success">スーパーユーザーのインストールが完了しました。</string>
+    <string name="install_success">スーパーユーザーのインストールに成功しました。</string>
     <string name="su_binary_outdated">suバイナリが古いようです。</string>
     <string name="superuser_access">スーパーユーザーアクセス</string>
     <string name="access_disabled">無効</string>
@@ -91,56 +91,12 @@ HTC端末はリカバリーモードでのインストールを推奨します�
     <string name="theme">テーマ</string>
     <string name="light">ライト</string>
     <string name="dark">ダーク</string>
-    <string name="pin_disabled">スーパーユーザーのPINによる保護は無効です</string>
+    <string name="pin_disabled">スーパーユーザーのPINによる保護は無効</string>
     <string name="revoke_permission">スーパーユーザー権限を取り消す</string>
-    <string name="details">詳細</string>
+    <string name="details">詳細情報</string>
     <string name="db_delete_error">"このアプリからスーパーユーザー権限を取り消すことができませんでした。
-スーパーユーザーアプリを再起動してからもう一度お試しください。"</string>
-    <string name="wifi_disabled_association_rejected">アソシエーションが拒否されました</string>
+スーパーユーザーアプリを再起動して、もう一度お試しください。"</string>
     <string name="battery_info_status_full">フル</string>
-    <string name="bluetooth_enter_pin_msg_hs">&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>とペアリングするには、デバイスが要求するPINを入力してください（16桁以上）:</string>
-    <string name="bluetooth_profile_sap">SIMアクセス</string>
-    <string name="bluetooth_profile_dun">ダイヤルアップネットワークアクセス</string>
-    <string name="bluetooth_sap_profile_summary_connected">SIMアクセスサーバーに接続しました</string>
-    <string name="bluetooth_dun_profile_summary_connected">DUNサーバーに接続しました</string>
-    <string name="bluetooth_sap_profile_summary_use_for">SIMアクセスに使用する</string>
-    <string name="bluetooth_dun_profile_summary_use_for">ダイアルアップネットワークアクセスに使用する</string>
-    <string name="screencolor">画面の色</string>
-    <string name="custom_screencolor">カスタムの画面の色</string>
-    <string name="device_additional_status_summary">電話番号、電波状態、IMEIなど</string>
-    <string name="device_additional_status">追加の状態情報</string>
-    <string name="enable_quickboot_title">クイックブートモードを有効化</string>
-    <string name="enable_quickboot_summary">通常の電源OFFの代わりに端末をクイックブートモードにする</string>
-    <string name="data_usage_tab_slot">SIM </string>
-    <string name="sel_sub_title">サブスクリプションを構成</string>
-    <string name="sel_sub_summary">サブスクリプションを選択する</string>
-    <string name="select_subscription">サブスクリプションを選択</string>
-    <string name="no_sim_info">"SIMカードの情報が利用できません。
-メニューにアクセスできません"</string>
-    <string name="subs_settings">サブスクリプションの状態</string>
-    <string name="set_data_subscription_progress">データサブスクリプションを設定中…</string>
-    <string name="set_dds_success">データサブスクリプションの設定が完了しました</string>
-    <string name="set_dds_failed">データサブスクリプションの設定中にエラーが発生しました。既存のデータ接続を削除してもう一度お試しください。</string>
-    <string name="set_dds_error">データサブスクリプションの設定中にエラーが発生しました。</string>
-    <string name="set_sms_error">SMSサブスクリプションの設定中にエラーが発生しました。サブスクリプションが有効ではありません。</string>
-    <string name="set_voice_error">音声サブスクリプションの設定中にエラーが発生しました。</string>
-    <string name="set_priority_sub_error">優先サブスクリプションの設定中にエラーが発生しました。サブスクリプションが有効ではありません。</string>
-    <string name="prompt_user">プロンプトユーザー</string>
-    <string name="tune_away_title">チューンアウェイ</string>
-    <string name="tune_away_enabled">チューンアウェイは有効です</string>
-    <string name="tune_away_disabled">チューンアウェイは無効です</string>
-    <string name="screencolor_save">保存</string>
-    <string name="screencolor_cancel">キャンセル</string>
-    <string name="previous_str">以前の</string>
-    <string name="new_str">新しい</string>
-    <string name="restore_preview">デフォルトの写真を表示</string>
-    <string name="selectnewfile_menu">ギャラリーから新しい写真を表示</string>
-    <string name="selectfile_menu">ギャラリーから写真を表示</string>
-    <string name="restore_default_str">リセット</string>
-    <string name="hue_str">色相: %1$s</string>
-    <string name="saturation_str">彩度: %1$s</string>
-    <string name="contrast_str">コントラスト: %1$s</string>
-    <string name="intensity_str">強度: %1$s</string>
     <string name="wifi_setting_countrycode_title">Wi-Fi地域コード</string>
     <string name="wifi_setting_countrycode_summary">Wi-Fiの地域コードを指定する</string>
     <string name="wifi_setting_countrycode_error">地域コードを設定中に問題が発生しました。</string>
@@ -149,14 +105,14 @@ HTC端末はリカバリーモードでのインストールを推奨します�
     <string name="wifi_ssid_input_limit">SSIDが最大長を超えています</string>
     <string name="p2p_device_name_input_limit">P2Pの名前が最大長を超えています</string>
     <string name="change_crypt_password_title">パスワードを変更</string>
-    <string name="change_crypt_password_summary">端末の暗号化に使用するパスワードを変更する</string>
+    <string name="change_crypt_password_summary">端末の暗号化に使用しているパスワードを変更する</string>
     <string name="encryptionpassword_choose_your_password_header">暗号化パスワードを設定</string>
     <string name="lock_screen_title">ロック画面</string>
     <string name="increasing_ring_title">着信音の増幅</string>
     <string name="checkbox_increasing_ring">有効にする</string>
-    <string name="increasing_ring_min_volume_title">着信開始音量</string>
+    <string name="increasing_ring_min_volume_title">着信開始時の音量</string>
     <string name="increasing_ring_volume_notice">"注意:
-開始音量が着信音量よりも大きく設定されていると、着信音は着信音量の大きさで再生されます。"</string>
+開始時の音量が着信音量よりも大きく設定されている場合は、着信音は着信音量の大きさで再生されます。"</string>
     <string name="increasing_ring_interval_title">増幅の間隔</string>
     <string name="increasing_ring_interval_eachring">ループごと</string>
     <string name="increasing_ring_interval_half_second">0.5秒</string>
@@ -169,13 +125,13 @@ HTC端末はリカバリーモードでのインストールを推奨します�
     <string name="profiles_add">追加</string>
     <string name="profile_menu_delete">削除</string>
     <string name="profile_settings_title">プロファイル</string>
-    <string name="profile_empty_list_profiles_off">システムのプロファイルを設定または使用するには、プロファイルをONにしてください。</string>
+    <string name="profile_empty_list_profiles_off">システムのプロファイルを設定または使用するにはプロファイルをON</string>
     <string name="profile_trigger_configure">トリガーを設定</string>
     <string name="profile_triggers">トリガー</string>
     <string name="profile_trigger_filter_all">すべてのトリガー</string>
     <string name="profile_trigger_filter_wifi">Wi-Fiトリガー</string>
     <string name="profile_trigger_filter_bluetooth">Bluetoothトリガー</string>
-    <string name="profile_write_nfc_tag">NFCタグに書き込む</string>
+    <string name="profile_write_nfc_tag">NFCタグへ書き込む</string>
     <string name="profile_write_touch_tag">タグにタッチして書き込む</string>
     <string name="profile_write_success">タグに正常に書き込みました</string>
     <string name="profile_write_failed">タグの書き込みに失敗しました</string>
@@ -189,10 +145,10 @@ HTC端末はリカバリーモードでのインストールを推奨します�
     <string name="profile_profile_name_prompt">新しいプロファイルの名前を入力してください</string>
     <string name="menu_new_profile">新しいプロファイル</string>
     <string name="new_profile_name">&lt;新しいプロファイル></string>
-    <string name="rename_dialog_title">名前の変更</string>
+    <string name="rename_dialog_title">名前を変更</string>
     <string name="rename_dialog_message">新しい名前を入力してください</string>
-    <string name="duplicate_profile_name">プロファイルの名前が重複しています！</string>
-    <string name="duplicate_appgroup_name">アプリグループの名前が重複しています！</string>
+    <string name="duplicate_profile_name">同じ名前のプロファイルが既に存在しています</string>
+    <string name="duplicate_appgroup_name">同じ名前のアプリグループが既に存在しています</string>
     <string name="profile_reset_title">リセット</string>
     <string name="profile_reset_message">ユーザーが作成したすべてのプロファイルとアプリグループを削除してデフォルトに戻しますか？</string>
     <string name="profile_delete_confirm">このプロファイルを削除しますか？</string>
@@ -201,9 +157,6 @@ HTC端末はリカバリーモードでのインストールを推奨します�
     <string name="profile_networkmode_2g">2G</string>
     <string name="profile_networkmode_3g">3G</string>
     <string name="profile_networkmode_2g3g">2G/3G</string>
-    <string name="settings_search_action_bar_button">検索</string>
-    <string name="settings_search_autocompleteview_hint">設定を検索</string>
-    <string name="settings_search_loading_text">検索データを読み込み中…</string>
     <string name="profile_connectionoverrides_title">接続の定義</string>
     <string name="profile_volumeoverrides_title">音量の定義</string>
     <string name="connection_state_disabled">無効</string>
@@ -217,8 +170,6 @@ HTC端末はリカバリーモードでのインストールを推奨します�
     <string name="profile_trigger_connect">接続時</string>
     <string name="profile_trigger_disconnect">切断時</string>
     <string name="profile_trigger_notrigger">トリガーとして使用しない</string>
-    <string name="profile_trigger_a2dp_connect">A2DP接続時</string>
-    <string name="profile_trigger_a2dp_disconnect">A2DP切断時</string>
     <string name="sound_mode">通知モード</string>
     <string name="ringer_mode">着信モード</string>
     <string name="lights_mode">ライトモード</string>
@@ -236,10 +187,10 @@ HTC端末はリカバリーモードでのインストールを推奨します�
     <string name="profile_system_settings_title">システムの設定</string>
     <string name="profile_lockmode_title">ロック画面モード</string>
     <string name="profile_lockmode_default">デフォルト</string>
-    <string name="profile_lockmode_insecure">セキュリティを無効にする</string>
+    <string name="profile_lockmode_insecure">パスワードを使用しない</string>
     <string name="profile_lockmode_disabled">無効</string>
     <string name="profile_lockmode_default_summary">システムのデフォルトを使用する</string>
-    <string name="profile_lockmode_insecure_summary">セキュリティのないロック画面を使用する</string>
+    <string name="profile_lockmode_insecure_summary">ロック画面でパスワードを使用しない</string>
     <string name="profile_lockmode_disabled_summary">ロック画面を無効にする</string>
     <string name="profile_airplanemode_title">機内モード</string>
     <string name="toggleWifi">Wi-Fi</string>
@@ -256,7 +207,7 @@ HTC端末はリカバリーモードでのインストールを推奨します�
     <string name="link_volume_mutes">サイレントモードを通知音に反映する</string>
     <string name="volume_keys_control_ring_stream">音量ボタンで着信音の音量をコントロールする</string>
     <string name="ring_mode_title">着信モード</string>
-    <string name="ring_mode_normal">通常</string>
+    <string name="ring_mode_normal">標準</string>
     <string name="ring_mode_vibrate">バイブレーション</string>
     <string name="ring_mode_mute">ミュート</string>
     <string name="volume_overlay_title">音量パネルのスタイル</string>
@@ -266,7 +217,7 @@ HTC端末はリカバリーモードでのインストールを推奨します�
     <string name="volume_overlay_none">なし</string>
     <string name="automation_effects_title">自動制御と効果</string>
     <string name="notification_convert_sound_to_vibration_title">通知のバイブレーション</string>
-    <string name="notification_convert_sound_to_vibration_summary">バイブレーションモードで、それぞれのアプリの設定に関わらずに、すべての通知で振動する</string>
+    <string name="notification_convert_sound_to_vibration_summary">バイブレーションモードで、それぞれのアプリの設定に関わらずすべての通知で振動する</string>
     <string name="notification_vibrate_during_calls_title">通話中のバイブレーション</string>
     <string name="notification_vibrate_during_calls_summary">通話中はおだやかに振動する</string>
     <string name="volume_adjust_sounds_enable_title">音量調整の音</string>
@@ -277,7 +228,6 @@ HTC端末はリカバリーモードでのインストールを推奨します�
     <string name="icon_picker_pack_title">アイコンパック</string>
     <string name="display_lights_settings_title">画面とライト</string>
     <string name="lights_category_title">ライト</string>
-    <string name="notification_light_title">通知のライト</string>
     <string name="notification_light_general_title">全般</string>
     <string name="notification_light_applist_title">アプリ</string>
     <string name="notification_light_phonelist_title">着信</string>
@@ -289,8 +239,6 @@ HTC端末はリカバリーモードでのインストールを推奨します�
     <string name="notification_light_voicemail_title">ボイスメール</string>
     <string name="adaptive_backlight_title">適応バックライト</string>
     <string name="adaptive_backlight_summary">使い勝手を維持したままディスプレイのバックライトを動的に調整して電池の寿命を高める</string>
-    <string name="color_enhancement_title">色補正</string>
-    <string name="color_enhancement_summary">ディスプレイの色を動的に補正する</string>
     <string name="wake_when_plugged_or_unplugged_title">接続時にスリープ解除</string>
     <string name="wake_when_plugged_or_unplugged_summary">電源を接続または切断したときに画面を点灯する</string>
     <string name="screen_animation_off_title">画面消灯アニメーション</string>
@@ -316,19 +264,15 @@ HTC端末はリカバリーモードでのインストールを推奨します�
     <string name="pulse_speed_slow">遅い</string>
     <string name="pulse_speed_very_slow">とても遅い</string>
     <string name="battery_light_title">電池のライト</string>
-    <string name="battery_low_pulse_title">電池残量低下時に点滅</string>
+    <string name="battery_low_pulse_title">バッテリー残量低下時に点滅</string>
     <string name="battery_light_list_title">色</string>
-    <string name="battery_light_low_color_title">電池残量低下</string>
+    <string name="battery_light_low_color_title">バッテリー残量低下</string>
     <string name="battery_light_medium_color_title">充電中</string>
     <string name="battery_light_full_color_title">充電完了</string>
-    <string name="lockpattern_reset_button">パターンをリセット</string>
-    <string name="lockpattern_settings_reset_summary">パターンをリセットするにはプライマリメールアカウントと関連付けられているパスワードを入力してください</string>
-    <string name="lockpattern_settings_enable_error_path_title">間違えたパターンを表示する</string>
+    <string name="lockpattern_settings_enable_error_path_title">エラーのパターンを表示する</string>
     <string name="lockpattern_settings_enable_dots_title">パターンのドットを表示する</string>
     <string name="screen_security_category">画面のセキュリティ</string>
     <string name="screen_security_summary">ロック画面のセキュリティの設定を表示または変更する</string>
-    <string name="unlock_scramble_pin_layout_title">スクランブルレイアウト</string>
-    <string name="unlock_scramble_pin_layout_summary">端末をロック解除するときにPINレイアウトをスクランブルする</string>
     <string name="unlock_menu_unlock_title">メニューボタンでロック解除</string>
     <string name="unlock_menu_unlock_summary">メニューボタンを押して端末のロックを解除する</string>
     <string name="unlock_home_unlock_title">ホームボタンでロック解除</string>
@@ -336,8 +280,8 @@ HTC端末はリカバリーモードでのインストールを推奨します�
     <string name="unlock_camera_unlock_title">カメラボタンでロック解除</string>
     <string name="unlock_camera_unlock_summary">カメラボタンを押して端末のロックを解除する</string>
     <string name="unlock_quick_unlock_control_title">クイックロック解除</string>
-    <string name="unlock_quick_unlock_control_summary">正しいPIN/パスワードが入力されたときは自動的にロックを解除する</string>
-    <string name="unlock_buttons_disabled_by_security">ロック画面はセキュリティで保護されています</string>
+    <string name="unlock_quick_unlock_control_summary">正しいPIN/パスワードが入力されたときに自動でロックを解除する</string>
+    <string name="unlock_buttons_disabled_by_security">ロック画面は保護されています</string>
     <string name="lockscreen_widgets_category_title">ウィジェット</string>
     <string name="lockscreen_maximize_widgets_title">ウィジェットを最大化</string>
     <string name="lockscreen_maximize_widgets_summary">画面点灯時にウィジェットを最大化する</string>
@@ -353,23 +297,15 @@ HTC端末はリカバリーモードでのインストールを推奨します�
     <string name="tile_picker_summary">タイルのレイアウトを表示、選択、変更する</string>
     <string name="tile_choose_title">タイルを選択</string>
     <string name="title_qs_small_icons">小さいタイルで表示</string>
-    <string name="summary_qs_small_icons">列数を増やすために小さいタイルを使用する</string>
+    <string name="summary_qs_small_icons">列の数を増やすために小さいタイルを使用する</string>
     <string name="category_heads_up">ヘッドアップ</string>
-    <string name="summary_heads_up_enabled">ポップアップ通知は有効です</string>
-    <string name="summary_heads_up_disabled">ポップアップ通知は無効です</string>
-    <string name="add_heads_up_package">アプリを追加</string>
-    <string name="add_heads_up_dnd_summary">これらのアプリではヘッドアップを表示しない</string>
-    <string name="add_heads_up_blacklist_summary">これらのアプリからのヘッドアップを表示しない</string>
-    <string name="heads_up_dnd_title">ヘッドアップを表示しない</string>
-    <string name="heads_up_blacklist_title">ブラックリスト</string>
-    <string name="heads_up_disabled_notice">画面上へのポップアップウインドウによるインタラクティブ通知の表示をアプリに許可するには、ヘッドアップを有効にしてください。</string>
+    <string name="heads_up_dnd_title">ヘッドアップしない</string>
     <string name="title_tile_airplane">機内モード</string>
     <string name="title_tile_battery">電池の状態</string>
     <string name="title_tile_bluetooth">Bluetooth</string>
     <string name="title_tile_brightness">画面の明るさ</string>
     <string name="title_tile_camera">カメラ</string>
     <string name="title_tile_compass">コンパス</string>
-    <string name="title_tile_heads_up">ヘッドアップ</string>
     <string name="title_tile_sleep">スリープ</string>
     <string name="title_tile_gps">GPS</string>
     <string name="title_tile_torch">トーチ</string>
@@ -411,7 +347,7 @@ HTC端末はリカバリーモードでのインストールを推奨します�
     <string name="quick_pulldown_left">左</string>
     <string name="quick_pulldown_right">右</string>
     <string name="title_collapse_panel">自動でパネルを閉じる</string>
-    <string name="summary_collapse_panel">タイルを切り替えた後にクイック設定パネルを閉じる</string>
+    <string name="summary_collapse_panel">タイルを切り替え後にクイック設定パネルを閉じる</string>
     <string name="pref_network_mode_title">ネットワークモード</string>
     <string name="pref_screentimeout_mode_title">画面のタイムアウトのモード</string>
     <string name="pref_ring_mode_title">サウンドのモード</string>
@@ -424,37 +360,28 @@ HTC端末はリカバリーモードでのインストールを推奨します�
     <string name="tiles_reset_message">デフォルトのタイルとレイアウトに戻しますか？</string>
     <string name="auto_brightness_setup_title">明るさの自動調整</string>
     <string name="auto_brightness_twilight_adjustment">日の出と日没に合わせる</string>
-    <string name="light_sensor_current_value">現在の光センサの値: %dルクス</string>
-    <string name="auto_brightness_dialog_title">自動明るさレベル</string>
+    <string name="light_sensor_current_value">現在の光センサーの値: %dルクス</string>
+    <string name="auto_brightness_dialog_title">自動明るさ調整のレベル</string>
     <string name="auto_brightness_level_format">%1$dルクス</string>
     <string name="auto_brightness_last_level_format">"%1$d -
 ∞ルクス"</string>
     <string name="auto_brightness_adjust_button">調整</string>
     <string name="auto_brightness_close_button">閉じる</string>
     <string name="auto_brightness_reset_button">リセット</string>
-    <string name="auto_brightness_split_dialog_title">明るさレベルを分割</string>
+    <string name="auto_brightness_split_dialog_title">明るさのレベルを分割</string>
     <string name="auto_brightness_level_dialog_title">ライトレベルのセットアップ</string>
     <string name="auto_brightness_lux">周囲の明るさ（ルクス）</string>
     <string name="auto_brightness_backlight">画面の明るさ（%）</string>
     <string name="auto_brightness_reset_dialog_title">レベルをリセットしますか？</string>
-    <string name="auto_brightness_reset_confirmation">すべての明るさレベルがデフォルトの設定にリセットされます。</string>
+    <string name="auto_brightness_reset_confirmation">すべての明るさのレベルを初期設定にリセットします。</string>
     <string name="auto_brightness_split_lux_format">分割位置（%1$dルクスと%2$dルクスの間）</string>
     <string name="auto_brightness_level_options">ライトレベルのオプション</string>
     <string name="auto_brightness_menu_edit">編集</string>
     <string name="auto_brightness_menu_split">分割</string>
     <string name="auto_brightness_menu_remove">削除</string>
     <string name="auto_brightness_preview">プレビュー</string>
-    <string name="auto_brightness_preview_dialog_title">明るさ曲線のプレビュー</string>
+    <string name="auto_brightness_preview_dialog_title">明るさの曲線のプレビュー</string>
     <string name="auto_brightness_help_dialog_title">ヘルプ</string>
-    <string name="auto_brightness_help_text"><b>明るさの計算方法</b>" 
-
- 明るさ曲線は、与えられた"<i>コントロールポイント</i>の数に<i>三次スプライン補間</i>"を用いて計算されます。 周囲の明るさの特定の範囲に対して、画面の明るさを一定に制御するバケット式の計算ではありません。 その方が、周囲の明るさの小さな変化が画面の明るさに大きな変化を与えませんが、 コントロールポイントの変更の正確な結果を予測することが少し難しくなる可能性があります。
- それを補助するために、明るさ曲線をプレビューでテストできます。プレビューはすべてのコントロールポイントを 区別して表示するために"<i>対数</i>"目盛で曲線を表示しているので注意してください。 均等目盛を使用すると、周囲の明るさが低い範囲での傾向的に重要なコントロールポイントが区別できなくなります。 
-
- "<b>明るさ曲線の編集方法</b>" 
-
- 明るさリストのそれぞれの行は明るさ曲線の一つの"<i>コントロールポイント</i>"に対応しています。 ポイントの明るさレベルを編集するには、それぞれの行にあるスライダーが使用できます。 明るさレベルのプレビューを見るためにスライダーをタッチしている間は、画面の明るさはそれに応じて変化します。
- 追加のオプションは行を長押しすることで利用できます。｢編集｣を選択すると、画面の明るさを手動で入力するのと同じように、 コントロールポイントの周囲の明るさレベルを調整することができます。｢分割｣を選択を選択すると、 追加のコントロールポイントを挿入するためにコピーすることができます。｢削除｣で選択した行を削除します。"</string>
     <string name="auto_brightness_sensitivity_title">感度の調整</string>
     <string name="auto_brightness_sensitivity_verylow">とても低い</string>
     <string name="auto_brightness_sensitivity_low">低い</string>
@@ -470,18 +397,18 @@ HTC端末はリカバリーモードでのインストールを推奨します�
     <string name="display_rotation_90_title">90度</string>
     <string name="display_rotation_180_title">180度</string>
     <string name="display_rotation_270_title">270度</string>
-    <string name="advanced_reboot_title">高度な再起動</string>
-    <string name="advanced_reboot_summary">ロック解除時に、電源メニューにリカバリーやブートローダで再起動したり、ソフトリブートを行うオプションを含める</string>
+    <string name="advanced_reboot_title">詳細な再起動</string>
+    <string name="advanced_reboot_summary">ロック解除時にリカバリーやブートローダで再起動するオプションを電源メニューに含める</string>
     <string name="app_security_title">アプリのセキュリティ</string>
     <string name="root_access">ルートアクセス</string>
     <string name="root_access_warning_title">ルートアクセスを許可しますか？</string>
-    <string name="root_access_warning_message">ルートアクセスのリクエストをアプリに許可することは非常に危険で、システムのセキュリティーが損なわれる可能性があります。</string>
+    <string name="root_access_warning_message">ルートアクセスのリクエストをアプリに許可することは非常に危険であり、システムのセキュリティーが損なわれる可能性があります。</string>
     <string name="root_access_none">無効</string>
     <string name="root_access_apps">アプリのみ</string>
     <string name="root_access_adb">ADBのみ</string>
     <string name="root_access_all">アプリとADB</string>
     <string name="update_recovery_title">CMリカバリーをアップデート</string>
-    <string name="update_recovery_summary">システムアップデートをインストールするときにリカバリーをアップデートする</string>
+    <string name="update_recovery_summary">システムアップデートインストール時にリカバリーをアップデートする</string>
     <string name="ok">OK</string>
     <string name="quiet_hours_title">おやすみモード</string>
     <string name="quiet_hours_summary">端末をサイレントモードにする時間を設定する</string>
@@ -501,7 +428,7 @@ HTC端末はリカバリーモードでのインストールを推奨します�
     <string name="quiet_hours_ringer_allow_all">すべての着信で着信音を鳴らす</string>
     <string name="quiet_hours_ringer_allow_contacts">連絡先からの着信のみ着信音を鳴らす</string>
     <string name="quiet_hours_ringer_allow_starred">お気に入りの連絡先からの着信のみ着信音を鳴らす</string>
-    <string name="quiet_hours_ringer_mute_all">すべての着信で着信音をミュートにする</string>
+    <string name="quiet_hours_ringer_mute_all">すべての着信で着信音を鳴らさない</string>
     <string name="start_time_title">開始</string>
     <string name="end_time_title">終了</string>
     <string name="mod_version">CyanogenModバージョン</string>
@@ -509,17 +436,17 @@ HTC端末はリカバリーモードでのインストールを推奨します�
     <string name="build_date">ビルド日時</string>
     <string name="cpu_info">CPU</string>
     <string name="mem_info">メモリ</string>
-    <string name="phone_service_state">音声: %1$s データ: %2$s</string>
+    <string name="phone_service_state">音声: %1$s、データ: %2$s</string>
     <string name="anonymous_statistics_title">CyanogenModの統計情報</string>
-    <string name="anonymous_statistics_summary">匿名の統計のレポートに同意してCyanogenModの改善を支援する</string>
+    <string name="anonymous_statistics_summary">CyanogenModの改善を助けるために匿名の統計情報を送信する</string>
     <string name="anonymous_statistics_warning_title">情報</string>
-    <string name="anonymous_statistics_warning">"CyanogenModの統計情報に同意すると、端末間のユニークインストール回数を調べるためにCyanogenModの開発者への非個人情報の送信を許可します。送信される情報にはユニークIDが含まれますが、プライバシーや個人データが危険にさらされることはありません。データはブート時に送信されます。
+    <string name="anonymous_statistics_warning">"CyanogenModの統計情報に同意すると、端末間のユニークインストール回数を調べるためにCyanogenModの開発者へ非個人情報の送信を許可します。送信される情報にはユニークIDが含まれますが、プライバシーや個人データが危険にさらされることはありません。データは起動時に送信されます。
 
 送信されるデータの見本は、「データをプレビュー」をタップして確認できます。"</string>
-    <string name="enable_reporting_title">レポートを有効化</string>
+    <string name="enable_reporting_title">送信を有効化</string>
     <string name="preview_data_title">データをプレビュー</string>
     <string name="view_stats_title">統計情報を表示</string>
-    <string name="anonymous_learn_more">詳細</string>
+    <string name="anonymous_learn_more">もっと詳しく</string>
     <string name="anonymous_notification_desc">CyanogenModの統計情報を有効または無効にする</string>
     <string name="preview_id_title">ユニークID</string>
     <string name="preview_device_title">端末</string>
@@ -534,15 +461,15 @@ HTC端末はリカバリーモードでのインストールを推奨します�
     <string name="fonts_settings_title">フォント</string>
     <string name="wallpaper_settings_title_cm">壁紙</string>
     <string name="lockscreen_wallpaper_settings_title">ロック画面の壁紙</string>
-    <string name="bootanim_settings_title">ブートアニメーション</string>
+    <string name="bootanim_settings_title">起動アニメーション</string>
     <string name="soundpack_settings_title">サウンドパック</string>
     <string name="performance_settings_title">パフォーマンス</string>
     <string name="performance_settings_warning_title">注意して進めてください</string>
-    <string name="performance_settings_warning">"これらの設定は実験的で、適用されるあらゆる変更が不安定性、クラッシュ、データの損失、ハードウェア障害を引き起こす原因になる可能性があります。
+    <string name="performance_settings_warning">"これらの設定は実験的であり、あらゆる変更が不安定性、クラッシュ、データの損失、ハードウェア障害を引き起こす原因になる可能性があります。
 
-これらの設定が一つでもデフォルトから変更されている場合は、バグレポートを提出しないようにお願いします。"</string>
-    <string name="performance_set_on_boot">ブート時に設定</string>
-    <string name="performance_set_on_boot_summary">適用した設定をブート時に復元する</string>
+これらの設定をデフォルトから変更した場合には、バグレポートを送信しないようにご協力をお願いします。"</string>
+    <string name="performance_set_on_boot">起動時に設定</string>
+    <string name="performance_set_on_boot_summary">適用した設定を起動時に復元する</string>
     <string name="processor_title">プロセッサ</string>
     <string name="cpu_cur_freq_title">現在のCPU周波数</string>
     <string name="cpu_governors_title">CPUガバナ</string>
@@ -551,34 +478,34 @@ HTC端末はリカバリーモードでのインストールを推奨します�
     <string name="io_scheds_title">I/Oスケジューラ</string>
     <string name="io_sched_title">I/Oスケジューラ</string>
     <string name="perf_profile_title">プロファイル</string>
-    <string name="memory_management_title">メモリの管理</string>
-    <string name="pref_ksm_title">カーネルセームページマージング</string>
+    <string name="memory_management_title">メモリ管理</string>
+    <string name="pref_ksm_title">Kernel Samepage Merging</string>
     <string name="pref_ksm_summary">KSMで物理メモリ使用量を減らしてパフォーマンスを向上させる</string>
     <string name="pref_purgeable_assets_title">アセットのパージを許可</string>
-    <string name="pref_purgeable_assets_summary">必要に応じてビットマップメモリのアセットをパージすることで、より多くのRAMを解放できます（要再起動）</string>
+    <string name="pref_purgeable_assets_summary">必要に応じてビットマップメモリのアセットをパージすることで、より多くのRAMを確保する（要再起動）</string>
     <string name="pref_use_16bpp_alpha_title">16ビット透過</string>
     <string name="pref_use_16bpp_alpha_summary">グラフィックスのパフォーマンスは向上しますが、低品質で視覚アーチファクトを発生させる可能性があります（要再起動）</string>
     <string name="pref_force_highend_gfx_title">ハイエンドグラフィックスを強制</string>
-    <string name="pref_force_highend_gfx_summary">透過のステータスバーやナビゲーションバーのようなハイエンドな視覚効果を有効にする（要再起動）</string>
+    <string name="pref_force_highend_gfx_summary">透過ステータスバー/ナビゲーションバーなどのハイエンドな視覚効果を有効にする（要再起動）</string>
     <string name="kill_app_longpress_back">戻るボタンでアプリを終了</string>
-    <string name="kill_app_longpress_back_summary">戻るボタンを長押ししてフォアグラウンドアプリを終了する</string>
-    <string name="changelog_title">更新履歴</string>
+    <string name="kill_app_longpress_back_summary">戻るボタンの長押しでフォアグラウンドアプリを終了する</string>
+    <string name="changelog_title">更新履歴を表示</string>
     <string name="changelog_loading">更新履歴を読み込んでいます…</string>
     <string name="changelog_error">更新履歴を読み込めませんでした</string>
     <string name="changelog_unknown">不明</string>
     <string name="changelog_version">バージョン</string>
-    <string name="contributor_cloud_title">貢献者</string>
-    <string name="cmupdate_settings_title">CyanogenModアップデート</string>
+    <string name="contributor_cloud_title">貢献者を表示</string>
+    <string name="cmupdate_settings_title">CyanogenModのアップデート</string>
     <string name="cmupdate_settings_summary">利用可能なアップデートを確認、表示、インストールする</string>
     <string name="advanced_settings_title">詳細設定</string>
     <string name="development_tools_title">ツールを起動</string>
     <string name="allow_mock_sms">疑似SMSを許可</string>
     <string name="privacy_settings_cyanogenmod_title">プライバシー</string>
-    <string name="privacy_guard_switch_label">プライバシーガードを有効にする</string>
+    <string name="privacy_guard_switch_label">プライバシーガードを有効化</string>
     <string name="privacy_guard_dlg_title">プライバシーガードを有効にしますか？</string>
-    <string name="privacy_guard_dlg_text">プライバシーガードを有効にすると、アプリは連絡先、メッセージ、通話履歴のような個人データにアクセスできなくなります。</string>
-    <string name="privacy_guard_dlg_system_app_text">内蔵アプリでプライバシーガードを有効にすると、個人データへのアクセスまたは提供ができなくなります。また、他のアプリがうまく動かなくなる可能性があります。</string>
-    <string name="privacy_guard_default_title">デフォルトで有効化</string>
+    <string name="privacy_guard_dlg_text">プライバシーガードを有効にすると、このアプリは連絡先、メッセージ、通話履歴などの個人データにアクセスできなくなります。</string>
+    <string name="privacy_guard_dlg_system_app_text">内蔵アプリでプライバシーガードを有効にすると、個人データの提供またはアクセスができなくなります。また、他のアプリがうまく動かなくなる可能性があります。</string>
+    <string name="privacy_guard_default_title">デフォルトで有効にする</string>
     <string name="privacy_guard_default_summary">新しくインストールされたアプリは自動的に有効にする</string>
     <string name="privacy_guard_manager_title">プライバシーガード</string>
     <string name="privacy_guard_manager_summary">アプリの個人データへのアクセスを管理する</string>
@@ -587,7 +514,7 @@ HTC端末はリカバリーモードでのインストールを推奨します�
     <string name="privacy_guard_help_title">ヘルプ</string>
     <string name="privacy_guard_reset_title">リセット</string>
     <string name="privacy_guard_reset_text">権限をリセットしますか？</string>
-    <string name="privacy_guard_help_text">"この画面では、どのアプリでプライバシーガードを有効にするかタップするだけで選択できます。選択されたアプリは連絡先、メッセージ、通話履歴のような個人データにアクセスできなくなります。エントリーを長押しするとそのアプリの詳細画面が開きます。
+    <string name="privacy_guard_help_text">"この画面では、どのアプリでプライバシーガードを有効にするかタップするだけで選択できます。選択されたアプリは連絡先、メッセージ、通話履歴などの個人データにアクセスできなくなります。エントリーを長押しするとそのアプリの詳細画面が開きます。
 
 内蔵アプリはデフォルトでは表示されませんが、それぞれのメニューオプションから選択することで表示させることができます。"</string>
     <string name="privacy_guard_manager_show_system_apps">内蔵アプリを表示</string>
@@ -597,14 +524,14 @@ HTC端末はリカバリーモードでのインストールを推奨します�
     <string name="blacklist_edit_dialog_title">ブラックリストのエントリーを編集</string>
     <string name="blacklist_prefs">設定</string>
     <string name="blacklist_button_delete">削除</string>
-    <string name="blacklist_empty_text">ブラックリストに番号がありません。追加（+）ボタンをタップしてエントリーを追加してください。</string>
+    <string name="blacklist_empty_text">ブラックリストに番号がありません。追加（+）ボタンをタッチしてエントリーを追加してください。</string>
     <string name="blacklist_disabled_empty_text">この番号からの着信やメッセージをブラックリストに追加するには、ブラックリストを有効にしてください。</string>
     <string name="blacklist_summary_disabled">無効</string>
     <string name="blacklist_summary">ブラックリストに登録されている電話番号からの着信とメッセージはブロックされます</string>
     <string name="blacklist_notify">通知を表示</string>
     <string name="blacklist_private_numbers_title">非通知番号</string>
     <string name="blacklist_private_numbers_summary_disabled">非通知番号からの着信をブロックしない</string>
-    <string name="blacklist_private_numbers_summary">非通知番号からの%sをブロックする</string>
+    <string name="blacklist_private_numbers_summary">非通知番号からの%sをブロック</string>
     <string name="blacklist_unknown_numbers_title">不明な番号</string>
     <string name="blacklist_unknown_numbers_summary_disabled">連絡先に登録されていない番号からの着信やメッセージをブロックしない</string>
     <string name="blacklist_unknown_numbers_summary">連絡先に登録されていない番号からの%sをブロックする</string>
@@ -614,7 +541,7 @@ HTC端末はリカバリーモードでのインストールを推奨します�
     <string name="blacklist_regex_title">ワイルドカードを使用</string>
     <string name="blacklist_regex_summary">「.」をワイルドカードとして使用し、「*」を繰り返しとして使用します。例えば「123.*」なら123から始まる番号をブロックし、｢.*123.*｣なら123を含む番号をブロックします。</string>
     <string name="blacklist_policy_block_calls">着信をブロックする</string>
-    <string name="blacklist_policy_block_messages">メッセージをブロックする</string>
+    <string name="blacklist_policy_block_messages">受信メッセージをブロックする</string>
     <string name="add_blacklist_number">番号を追加</string>
     <string name="remove_blacklist_number_title">番号を削除</string>
     <string name="remove_blacklist_entry">このブラックリストのエントリーを削除しますか？</string>
@@ -633,14 +560,14 @@ HTC端末はリカバリーモードでのインストールを推奨します�
     <string name="gamma_tuning_brightness">明度</string>
     <string name="gamma_tuning_saturation">彩度</string>
     <string name="headset_connect_player_title">音楽アプリを起動</string>
-    <string name="headset_connect_player_summary">ヘッドセット接続時にデフォルトの音楽アプリを起動する</string>
+    <string name="headset_connect_player_summary">ヘッドセットを接続したときにデフォルトの音楽アプリを起動する</string>
     <string name="adb_notify">USBデバッグの通知</string>
     <string name="adb_notify_summary">USBデバッグ接続時に通知を表示する</string>
     <string name="adb_over_network">ネットワーク経由のADB</string>
     <string name="adb_over_network_summary">ネットワークインターフェース（Wi-Fi、USBネットワーク）経由でのTCP/IPデバッグを有効にします。この設定は再起動時にリセットされます。</string>
-    <string name="adb_over_network_warning">"警告: ネットワーク経由でのADBを有効にすると、あなたの携帯電話はデータネットワークを含む接続しているすべてのネットワークから侵入できるようになります。
+    <string name="adb_over_network_warning">"警告: ネットワーク経由でのADBを有効にすると、あなたの携帯電話はデータネットワークを含むすべての接続しているネットワークから侵入できるようになります。
 
-この機能は信頼されたネットワークに接続しているときにのみ使用して下さい。
+この機能は信頼できるネットワークに接続している場合にのみ使用して下さい。
 
 この機能を本当に有効にしますか？"</string>
     <string name="device_hostname">端末のホスト名</string>
@@ -653,11 +580,8 @@ HTC端末はリカバリーモードでのインストールを推奨します�
     <string name="collapse_on_dismiss_if_empty_summary">最後の通知を削除した後に閉じる</string>
     <string name="collapse_on_dismiss_if_no_clearable_summary">最後の削除可能な通知を削除した後に閉じる</string>
     <string name="double_tap_to_wake_title">ダブルタップで起動</string>
-    <string name="proximity_wake_title">誤起動を防止</string>
-    <string name="proximity_wake_summary">画面をスリープ解除する前に接近センサーを確認する</string>
     <string name="category_quick_access">クイックアクセスリボン</string>
     <string name="title_quick_access">ドロワーに表示</string>
-    <string name="title_quick_access_size">リボンバーのサイズ</string>
     <string name="title_quick_access_linked">レイアウトをリンク</string>
     <string name="summary_quick_access_linked">クイック設定パネルと同じタイルとレイアウトを使用する</string>
     <string name="font_size_sample">サンプル</string>
@@ -677,9 +601,9 @@ HTC端末はリカバリーモードでのインストールを推奨します�
     <string name="power_notifications_ringtone_silent">サイレント</string>
     <string name="lockscreen_battery_status_title">電池の状態</string>
     <string name="lockscreen_battery_status_charging">充電中のみ</string>
-    <string name="lockscreen_battery_status_alwayson">常にON</string>
-    <string name="lockscreen_battery_status_alwaysoff">常にOFF</string>
-    <string name="lockscreen_target_info">ショートカットを割り当てるターゲットにスライダーをドラッグしてください</string>
+    <string name="lockscreen_battery_status_alwayson">常に表示</string>
+    <string name="lockscreen_battery_status_alwaysoff">表示しない</string>
+    <string name="lockscreen_target_info">ショートカットを割り当てるにはスライダーをターゲットにドラッグします</string>
     <string name="lockscreen_target_title">スライダーショートカット</string>
     <string name="lockscreen_target_summary">ロック画面のカスタムショートカットを表示または変更する</string>
     <string name="lockscreen_target_reset">ロック画面のショートカットをデフォルトにリセットしました</string>
@@ -687,7 +611,7 @@ HTC端末はリカバリーモードでのインストールを推奨します�
     <string name="lockscreen_target_reset_message">ユーザーが作成したすべてのロック画面のショートカットを削除してデフォルトに戻しますか？</string>
     <string name="lockscreen_target_empty">なし</string>
     <string name="lockscreen_target_edit_title">ショートカットとアイコンを編集</string>
-    <string name="lockscreen_target_edit_msg">アプリまたはアクティビティや関連付けるアイコンを選択または変更します</string>
+    <string name="lockscreen_target_edit_msg">割り当てたいアプリやアクティビティとそのアイコンを選択してください</string>
     <string name="picker_activities">アクティビティ</string>
     <string name="select_custom_app_title">カスタムのアプリを選択</string>
     <string name="select_custom_activity_title">カスタムのアクティビティを選択</string>
@@ -719,28 +643,28 @@ HTC端末はリカバリーモードでのインストールを推奨します�
     <string name="lockscreen_buttons_summary">ロック画面でのボタンの動作を表示または変更する</string>
     <string name="lockscreen_long_press_back_title">戻るボタンの長押し</string>
     <string name="lockscreen_long_press_home_title">ホームボタンの長押し</string>
-    <string name="lockscreen_long_press_menu_title">メニューボタンの長押し</string>
+    <string name="lockscreen_long_press_menu_title">メニュー ボタンの長押し</string>
     <string name="lockscreen_buttons_no_action">なし</string>
     <string name="lockscreen_buttons_flashlight">トーチ</string>
     <string name="lockscreen_buttons_next">次の曲</string>
     <string name="lockscreen_buttons_previous">前の曲</string>
     <string name="lockscreen_buttons_playpause">音楽の再生/一時停止</string>
-    <string name="lockscreen_buttons_toggle_sound">サウンドの切り替え</string>
+    <string name="lockscreen_buttons_toggle_sound">音の切り替え</string>
     <string name="lockscreen_buttons_sleep">スリープ</string>
     <string name="lockscreen_enable_modlock_title">カスタムロック画面</string>
     <string name="navigation_bar_category">ナビゲーションバー</string>
     <string name="navigation_bar_title">ボタンとレイアウト</string>
     <string name="navigation_bar_left_title">左利きモード</string>
     <string name="navigation_bar_left_summary">横画面モードでナビゲーションバーを画面の左側に配置する</string>
-    <string name="navigation_bar_help_text">"1 - 編集を始めるには鍵アイコンをタップしてください
+    <string name="navigation_bar_help_text">"1 - 編集を始めるには鍵アイコンをタップします
 
 2 - ボタンをタップすると機能の割り当てまたは変更をします
 
 3 - ボタンを長押しすると順番を並び替えます
 
-4 - 保存するには鍵アイコンを再びタップしてください
+4 - 保存するには鍵アイコンを再びタップします
 
-5 - システムのデフォルトに戻すにはリセットボタンをタップしてください
+5 - システムのデフォルトに戻すにはリセットボタンをタップします
 
 "</string>
     <string name="navigation_bar_tips">"• 同じ動作は1つのボタンにしか割り当てられません
@@ -753,9 +677,7 @@ HTC端末はリカバリーモードでのインストールを推奨します�
     <string name="navigation_bar_save_message">ナビゲーションバーの設定を保存しました</string>
     <string name="navigation_bar_reset_toast">ナビゲーションバーの設定をデフォルトにリセットしました</string>
     <string name="navigation_bar_menu_editable">編集可能</string>
-    <string name="navigation_bar_menu_locked">ロック中</string>
-    <string name="navigation_bar_arrow_keys_title">入力中の矢印キー</string>
-    <string name="navigation_bar_arrow_keys_summary">入力中に右と左のカーソルボタンを表示する</string>
+    <string name="navigation_bar_menu_locked">ロックされています</string>
     <string name="navigation_ring_title">クイック起動ショートカット</string>
     <string name="navring_target_reset_message">ユーザーが作成したすべてのナビゲーションバーのショートカットを削除してデフォルトに戻しますか？</string>
     <string name="navring_target_reset">ナビゲーションバーのショートカットをデフォルトにリセットしました</string>
@@ -763,11 +685,11 @@ HTC端末はリカバリーモードでのインストールを推奨します�
     <string name="navring_action_kill_app">アプリを終了</string>
     <string name="navring_action_none">なし</string>
     <string name="navring_action_take_screenshot">スクリーンショットを撮る</string>
-    <string name="navring_action_ring_vibrate">サウンド/バイブ</string>
+    <string name="navring_action_ring_vibrate">サウンド/バイブレーション</string>
     <string name="navring_action_ring_silent">サウンド/サイレント</string>
-    <string name="navring_action_ring_vibrate_silent">サウンド/バイブ/サイレント</string>
+    <string name="navring_action_ring_vibrate_silent">サウンド/バイブレーション/サイレント</string>
     <string name="navring_action_screen_off">画面を消灯</string>
-    <string name="navring_action_torch">トーチを切り替える</string>
+    <string name="navring_action_torch">トーチをトグル</string>
     <string name="navring_action_google_now">Google Now</string>
     <string name="navring_choose_action_title">動作を選択</string>
     <string name="power_menu_title">電源メニュー</string>
@@ -778,8 +700,8 @@ HTC端末はリカバリーモードでのインストールを推奨します�
     <string name="expanded_desktop_disabled">無効</string>
     <string name="expanded_desktop_status_bar">ステータスバーを表示する</string>
     <string name="expanded_desktop_no_status_bar">ステータスバーを表示しない</string>
-    <string name="expanded_desktop_system_bars_visibility">ロック画面で無効化</string>
-    <string name="expanded_desktop_system_bars_visibility_summary">拡張デスクトップモード中でもロック画面ではステータスバーとナビゲーションバーを表示する</string>
+    <string name="expanded_desktop_system_bars_visibility">ロック画面では無効</string>
+    <string name="expanded_desktop_system_bars_visibility_summary">拡張デスクトップモードでもロック画面ではステータスバーとナビゲーションバーを表示する</string>
     <string name="power_menu_profiles_title">プロファイルの切り替え</string>
     <string name="power_menu_airplane_title">機内モード</string>
     <string name="power_menu_user_title">ユーザーの切り替え</string>
@@ -797,31 +719,31 @@ HTC端末はリカバリーモードでのインストールを推奨します�
     <string name="hardware_keys_double_tap_title">ダブルタップの動作</string>
     <string name="hardware_keys_action_nothing">なし</string>
     <string name="hardware_keys_action_menu">メニューを開く/閉じる</string>
-    <string name="hardware_keys_action_app_switch">最近使ったアプリ一覧</string>
+    <string name="hardware_keys_action_app_switch">最近使ったアプリ</string>
     <string name="hardware_keys_action_search">検索アシスタント</string>
     <string name="hardware_keys_action_voice_search">音声検索</string>
     <string name="hardware_keys_action_in_app_search">アプリ内検索</string>
     <string name="hardware_keys_action_launch_camera">カメラを起動</string>
     <string name="power_end_call_title">通話を終了</string>
-    <string name="power_end_call_summary">電源ボタンを押して通話を終了する</string>
+    <string name="power_end_call_summary">電源ボタンを押すと現在の通話を終了します</string>
     <string name="button_wake_title">スリープ解除</string>
-    <string name="home_wake_summary">ホームボタンを押してスリープを解除する</string>
-    <string name="home_answer_call_title">着信に応答</string>
-    <string name="home_answer_call_summary">ホームボタンを押して現在の着信に応答する</string>
-    <string name="camera_wake_summary">カメラボタンを押してスリープを解除する</string>
+    <string name="home_wake_summary">ホームボタンを押して端末のスリープを解除する</string>
+    <string name="home_answer_call_title">通話に応答</string>
+    <string name="home_answer_call_summary">ホームボタンを押すと現在の着信に応答します</string>
+    <string name="camera_wake_summary">カメラボタンを押して端末のスリープを解除する</string>
     <string name="camera_sleep_on_release_title">画面の覗き見</string>
-    <string name="camera_sleep_on_release_summary">ボタンを半押しで押し続けている間だけ画面を点灯させる</string>
+    <string name="camera_sleep_on_release_summary">半押しで押し続けている間だけ画面を点灯する</string>
     <string name="camera_music_controls_title">再生コントロール</string>
-    <string name="camera_music_controls_summary">画面消灯時にカメラキーを長押しして曲を再生/一時停止する</string>
-    <string name="volume_wake_summary">どちらかの音量ボタンを押してスリープを解除する</string>
+    <string name="camera_music_controls_summary">画面消灯時にカメラキーの長押しで曲を再生/一時停止する</string>
+    <string name="volume_wake_summary">音量ボタンを押して端末のスリープを解除する</string>
     <string name="volbtn_music_controls_title">再生コントロール</string>
-    <string name="volbtn_music_controls_summary">画面消灯時に音量キーを長押しして曲をシークする</string>
+    <string name="volbtn_music_controls_summary">画面消灯時に音量キーの長押しで曲をシークする</string>
     <string name="volbtn_cursor_control_title">キーボードカーソルコントロール</string>
     <string name="volbtn_cursor_control_off">無効</string>
     <string name="volbtn_cursor_control_on">音量を上げる/下げるボタンでカーソルを左/右に移動する</string>
     <string name="volbtn_cursor_control_on_reverse">音量を上げる/下げるボタンでカーソルを右/左に移動する</string>
-    <string name="swap_volume_buttons_title">再配置</string>
-    <string name="swap_volume_buttons_summary">画面回転時に音量ボタンを入れ替える</string>
+    <string name="swap_volume_buttons_title">音量ボタンを入れ替える</string>
+    <string name="swap_volume_buttons_summary">画面を回転したときに音量ボタンを入れ替える</string>
     <string name="button_backlight_title">バックライト</string>
     <string name="button_backlight_enabled">ボタンを点灯する</string>
     <string name="keyboard_backlight_enabled">キーボードを点灯する</string>
@@ -830,7 +752,7 @@ HTC端末はリカバリーモードでのインストールを推奨します�
     <string name="backlight_timeout_title">点灯のタイムアウト</string>
     <string name="backlight_timeout_unlimited">消灯しない</string>
     <string name="backlight_summary_disabled">無効</string>
-    <string name="backlight_summary_enabled_with_timeout">%s間有効です</string>
+    <string name="backlight_summary_enabled_with_timeout">%s間有効</string>
     <string name="backlight_summary_enabled">有効</string>
     <string name="lockscreen_background">背景</string>
     <string name="lockscreen_background_style_title">ロック画面の背景</string>
@@ -838,13 +760,9 @@ HTC端末はリカバリーモードでのインストールを推奨します�
     <string name="background_wallpaper">カスタムの壁紙</string>
     <string name="background_result_successful">背景を変更しました</string>
     <string name="background_result_not_successful">背景を変更していません</string>
-    <string name="setting_lockscreen_background">背景を適用中</string>
-    <string name="confirm_delete_apn">APNを削除します。</string>
+    <string name="setting_lockscreen_background">背景を適応しています</string>
+    <string name="confirm_delete_apn">APNを削除しますか？</string>
     <string name="status_bar_title">ステータスバー</string>
-    <string name="status_bar_clock_title">時計のスタイル</string>
-    <string name="status_bar_clock_style_default">デフォルト</string>
-    <string name="status_bar_clock_style_center">中央</string>
-    <string name="status_bar_clock_style_hidden">表示しない</string>
     <string name="status_bar_battery_title">電池の状態のスタイル</string>
     <string name="status_bar_style_icon_portrait">縦向きのアイコン</string>
     <string name="status_bar_style_icon_landscape">横向きのアイコン</string>
@@ -852,7 +770,7 @@ HTC端末はリカバリーモードでのインストールを推奨します�
     <string name="status_bar_style_text">テキスト</string>
     <string name="status_bar_style_hidden">表示しない</string>
     <string name="status_bar_battery_show_percent_title">電池の状態をパーセント表示</string>
-    <string name="status_bar_signal_text_title">電波状態のスタイル</string>
+    <string name="status_bar_signal_text_title">電波の状態のスタイル</string>
     <string name="status_bar_signal_style_icon">アイコン</string>
     <string name="status_bar_signal_style_text">テキスト</string>
     <string name="status_bar_toggle_brightness">明るさコントロール</string>
@@ -862,7 +780,7 @@ HTC端末はリカバリーモードでのインストールを推奨します�
     <string name="status_bar_notif_count_summary">保留中の通知の数を表示する</string>
     <string name="status_bar_double_tap_to_sleep_title">ダブルタップでスリープ</string>
     <string name="development_shortcut_title">開発用ショートカット</string>
-    <string name="development_shortcut_summary">｢データを消去｣と｢強制停止｣のオプションを通知領域と最近使ったアプリ一覧に表示する</string>
+    <string name="development_shortcut_summary">｢データを消去｣と｢強制停止｣のオプションを通知領域と最近使ったアプリに表示する</string>
     <string name="usb_mass_storage_title">マスストレージ（UMS）</string>
     <string name="usb_mass_storage_summary">フラッシュデバイスとしてマウントすることでパソコンとSDカードの間で任意のファイルを転送しましょう</string>
     <string name="storage_rescan_media">ストレージのボリュームのためにメディアを再スキャンする</string>
@@ -872,14 +790,14 @@ HTC端末はリカバリーモードでのインストールを推奨します�
     <string name="logger_title">匿名のクラッシュログ</string>
     <string name="logger_summary">クラッシュログの設定を管理する</string>
     <string name="custom_runtime_warning_title">警告</string>
-    <string name="custom_runtime_warning_message">ARTは非常に実験的で、不安定性、クラッシュ、データの損失、端末の正常な起動を妨げる原因になる可能性があるため、CyanogenModでは公式にサポートされていません。詳細については&lt;a href=\"http://source.android.com/devices/tech/dalvik/art.html\">Introducing ART&lt;/a>を参照してください。&lt;br/>&lt;br/>ARTをランタイムとして有効にしている場合はバグレポートを提出しないようにお願いします。&lt;br/>&lt;br/>ランタイムを%1$sから%2$sに変更するために再起動してもよろしいですか？</string>
+    <string name="custom_runtime_warning_message">ARTは非常に実験的であり、不安定性、クラッシュ、データの損失、端末の正常な起動を妨げる原因になる可能性があるため、CyanogenModでは公式にサポートされていません。詳細については&lt;a href=\"http://source.android.com/devices/tech/dalvik/art.html\">Introducing ART&lt;/a>を参照してください。&lt;br/>&lt;br/>ARTをランタイムとして有効にしている場合はバグ報告を送信しないようにご協力をお願いします。&lt;br/>&lt;br/>ランタイムを%1$sから%2$sに変更するために再起動してもよろしいですか？</string>
     <string name="gps_download_data_wifi_only">GPS補助データをWi-Fiネットワーク経由でのみダウンロード</string>
     <string name="battery_info_status_charging_dock_ac">（AC接続）</string>
     <string name="battery_info_status_charging_dock_usb">（USB接続）</string>
     <string name="menu_stats_reset">リセット</string>
-    <string name="cmlicense_title">CyanogenMod利用規約</string>
-    <string name="settings_cmlicense_activity_title">CyanogenMod利用規約</string>
-    <string name="settings_cmlicense_activity_unreachable">データ接続がありません。この情報を表示するにはインターネットに接続されているパソコンから%sにアクセスしてください。</string>
+    <string name="cmlicense_title">CyanogenMod利用規則</string>
+    <string name="settings_cmlicense_activity_title">CyanogenMod利用規則</string>
+    <string name="settings_cmlicense_activity_unreachable">データ接続されていません。この情報を表示するにはインターネットに接続されているパソコンから%sにアクセスしてください。</string>
     <string name="stylus_icon_enabled_title">スタイラス使用時にアイコンを表示</string>
     <string name="stylus_icon_enabled_summary">スタイラスでホバリングまたは描写しているときにポインターアイコンを表示する</string>
     <string name="gestures_settings_title">スタイラスジェスチャー</string>
@@ -1001,22 +919,22 @@ HTC端末はリカバリーモードでのインストールを推奨します�
     <string name="app_ops_categories_messaging">メッセージ</string>
     <string name="app_ops_categories_media">メディア</string>
     <string name="app_ops_categories_device">端末</string>
-    <string name="app_ops_categories_bootup">ブート時の実行</string>
+    <string name="app_ops_categories_bootup">起動時の実行</string>
     <string name="app_ops_entry_summary">%1$s（%2$s使用）</string>
-    <string name="app_ops_allowed_count">%s許可しました</string>
-    <string name="app_ops_ignored_count">%s拒否しました</string>
-    <string name="app_ops_both_count">%1$s許可、%2$s拒否しました</string>
+    <string name="app_ops_allowed_count">%s許可しています</string>
+    <string name="app_ops_ignored_count">%s拒否しています</string>
+    <string name="app_ops_both_count">%1$s許可、%2$s拒否しています</string>
     <string name="app_ops_show_user_apps">ユーザーアプリを表示</string>
     <string name="app_ops_show_system_apps">内蔵アプリを表示</string>
-    <string name="app_ops_reset_counters">許可/拒否のカウンターをリセット</string>
-    <string name="app_ops_reset_confirm_title">カウンターのリセットの確認</string>
-    <string name="app_ops_reset_confirm_mesg">AppOpsのカウンターをリセットしてもよろしいですか？</string>
-    <string name="edge_gesture_service_title">ジェスチャータッチイベントをブロック</string>
+    <string name="app_ops_reset_counters">許可/拒否の設定をリセット</string>
+    <string name="app_ops_reset_confirm_title">設定のリセットの確認</string>
+    <string name="app_ops_reset_confirm_mesg">AppOpsの設定をリセットしてもよろしいですか？</string>
+    <string name="edge_gesture_service_title">ジェスチャーのタッチイベントをブロック</string>
     <string name="edge_gesture_service_summary">ナビゲーションバーとステータスバーのジェスチャーのタッチイベントをアプリに送信しない</string>
     <string name="data_usage_cycle_editor_subtitle_cm">各サイクルの日付</string>
     <string name="data_usage_lengths_spinner_subtitle">サイクルの長さ:</string>
     <string name="disable_navkeys_title">画面上のナビゲーションバーを有効化</string>
-    <string name="disable_navkeys_summary">画面上のナビゲーションバーを有効にしてハードウェアのボタンを無効にする</string>
+    <string name="disable_navkeys_summary">画面ナビゲーションバーを有効にしてハードウェアのボタンを無効にする</string>
     <string name="voice_plus_summary">すべてのアプリでGoogleボイス経由のSMSの送信を有効にする</string>
     <string name="accessibility_sync_in_progress">同期しています。</string>
     <string name="wifi_mode">モード</string>
@@ -1025,9 +943,9 @@ HTC端末はリカバリーモードでのインストールを推奨します�
     <string name="wifi_ibss_freq_title">チャンネル/周波数</string>
     <string name="wifi_channel">チャンネル</string>
     <string name="wifi_mhz">MHz</string>
-    <string name="voice_wakeup_settings_title">音声起動</string>
-    <string name="voice_wakeup_retrain_title">声を再登録</string>
-    <string name="voice_wakeup_activity_title">起動するアクティビティ</string>
+    <string name="voice_wakeup_settings_title">声で起動</string>
+    <string name="voice_wakeup_retrain_title">声を登録</string>
+    <string name="voice_wakeup_activity_title">開始するアクティビティ</string>
     <string name="voice_wakeup_default_activity">Google Now</string>
     <string name="sub_no_sim">SIMがありません</string>
     <string name="multi_sim_settings_title">マルチSIM</string>
@@ -1037,33 +955,16 @@ HTC端末はリカバリーモードでのインストールを推奨します�
     <string name="sms_title">SMSの送信</string>
     <string name="priority_sub_title">サブスクリプションの優先順位</string>
     <string name="bluetooth_accept_all_files">すべてのファイル形式を許可</string>
-    <string name="autoperf_title">アプリごとのプロファイルを有効化</string>
-    <string name="autoperf_summary">さまざまなアプリに対して適切なパフォーマンスプロファイルを自動的に選択する</string>
+    <string name="autoperf_title">アプリごとのプロファイルを有効</string>
+    <string name="autoperf_summary">そのアプリに適切なパフォーマンスプロファイルを自動で選択する</string>
     <string name="graphics_title">グラフィックスとレンダリング</string>
     <string name="menu_hidden_apps_delete">リセット</string>
     <string name="menu_hidden_apps_reset_lock">パターンロックをリセット</string>
     <string name="protected_apps">アプリの保護</string>
     <string name="saving_protected_components">コンポーネントの状態を保存中…</string>
-    <string name="pa_login_username_hint">ユーザー名（メール）</string>
-    <string name="pa_login_password_hint">パスワード</string>
-    <string name="pa_login_submit_button">サインイン</string>
-    <string name="pa_login_checking_password">アカウントを確認中…</string>
-    <string name="pa_login_incorrect_login">ログインできませんでした</string>
-    <string name="keep_screen_on_summary_cm">接続中は画面をスリープにしない</string>
-    <string name="show_dev_on_cm">開発者向けオプションが有効になりました！</string>
-    <string name="show_dev_already_cm">必要ありません、開発者向けオプションは既に有効になっています。</string>
-    <string name="enable_adb_cm">Androidデバッグ</string>
-    <string name="enable_adb_summary_cm">Androidデバッグブリッジ（ADB）インターフェースを有効にする</string>
-    <string name="spam_added_title">%1$sに追加しました</string>
-    <string name="spam_last_blocked_title">前回は%1$sにブロックしました（合計: %2$s）</string>
-    <string name="block_notifications_title">通知のフィルタリング</string>
-    <string name="block_notifications_summary">無視する通知やフィルターを管理する</string>
-    <string name="no_filters_title">フィルターが設定されていません。通知をフィルタリングするには、通知を長押しして「このようなメッセージを無視」を選択してください。</string>
     <string name="yes">はい</string>
     <string name="no">いいえ</string>
     <string name="create">作成</string>
-    <string name="allow">許可</string>
-    <string name="deny">拒否</string>
     <string name="device_info_default">不明</string>
     <string name="show_dev_on">これでデベロッパーになりました！</string>
     <string name="show_dev_already">必要ありません。既にデベロッパーです。</string>
@@ -1542,11 +1443,11 @@ HTC端末はリカバリーモードでのインストールを推奨します�
     <string name="wifi_notify_open_networks_summary">オープンネットワークが利用可能なときに通知する</string>
     <string name="wifi_poor_network_detection">接続不良のとき無効にする</string>
     <string name="wifi_poor_network_detection_summary">安定したインターネット接続があるときのみWi-Fiネットワークを使用する</string>
-    <string name="wifi_scan_always_available">スキャンを常に実行</string>
+    <string name="wifi_scan_always_available">スキャンを常に実行する</string>
     <string name="wifi_scan_always_available_summary">Wi-FiがOFFになっていても、Googleの位置情報サービスと他のアプリでネットワークをスキャンする</string>
     <string name="wifi_install_credentials">証明書のインストール</string>
     <string name="wifi_scan_notify_text_location_on">位置情報の精度を向上させるため、Wi-FiがOFFの場合でもGoogleやその他のアプリは近くのネットワークをスキャンすることができます。このスキャンが必要ない場合は、[詳細設定] > [スキャンを常に実行する]にアクセスします。</string>
-    <string name="wifi_scan_notify_text_location_off">Wi-FiがOFFの場合でもアプリは近くのネットワークをスキャンできます。このスキャンが必要ない場合は、[詳細設定] > [スキャンを常に実行]にアクセスしてください。</string>
+    <string name="wifi_scan_notify_text_location_off">Wi-FiがOFFの場合でもアプリは近くのネットワークをスキャンできます。このスキャンが必要ない場合は、[詳細設定] > [スキャンを常に実行する]にアクセスします。</string>
     <string name="wifi_scan_notify_remember_choice">次回から表示しない</string>
     <string name="wifi_setting_sleep_policy_title">スリープ時にWi-Fi接続を維持</string>
     <string name="wifi_setting_sleep_policy_error">設定の変更中に問題が発生しました</string>
@@ -1704,6 +1605,8 @@ HTC端末はリカバリーモードでのインストールを推奨します�
     <string name="volume_notification_mute">通知音をミュート</string>
     <string name="volume_alarm_mute">アラームをミュート</string>
     <string name="vibrate_when_ringing_title">着信時のバイブレーション</string>
+    <string name="system_update_settings_list_item_title">システムアップデート</string>
+    <string name="system_update_settings_list_item_summary" />
     <string name="dock_settings">ホルダー</string>
     <string name="dock_settings_title">ホルダーの設定</string>
     <string name="dock_audio_settings_title">音声</string>
@@ -1768,8 +1671,6 @@ PINが正しくない可能性があります。"</string>
     <string name="wrong_pin_code_pukked">SIM PINコードが無効です。お使いの端末をロック解除するには携帯通信会社にお問い合わせいただく必要があります。</string>
     <string name="pin_failed">SIM PIN操作に失敗しました。</string>
     <string name="device_info_settings">端末の状態</string>
-    <string name="system_update_settings_list_item_title">システムアップデート</string>
-    <string name="system_update_settings_list_item_summary" />
     <string name="firmware_version">Androidバージョン</string>
     <string name="model_number">モデル番号</string>
     <string name="fcc_equipment_id">装置ID</string>
@@ -2274,7 +2175,7 @@ PINが正しくない可能性があります。"</string>
     <string name="development_settings_not_available">デベロッパー向けオプションはこのユーザーには表示されません</string>
     <string name="enable_adb">USBデバッグ</string>
     <string name="enable_adb_summary">USB接続時はデバッグモードにする</string>
-    <string name="clear_adb_keys">USBデバッグの許可を取り消す</string>
+    <string name="clear_adb_keys">USBデバッグの許可の取り消し</string>
     <string name="bugreport_in_power">電源メニューのバグレポート</string>
     <string name="bugreport_in_power_summary">電源メニューにバグレポートを取得するオプションを含める</string>
     <string name="keep_screen_on">スリープモードにしない</string>
@@ -2430,7 +2331,7 @@ PINが正しくない可能性があります。"</string>
     <string name="battery_stats_duration">電池使用時間: %1$s</string>
     <string name="battery_stats_charging_label">充電中</string>
     <string name="battery_stats_screen_on_label">画面点灯</string>
-    <string name="battery_stats_gps_on_label">GPS ON</string>
+    <string name="battery_stats_gps_on_label">GPSがON</string>
     <string name="battery_stats_wifi_running_label">Wi-Fi</string>
     <string name="battery_stats_wake_lock_label">スリープなし</string>
     <string name="battery_stats_phone_signal_label">モバイルネットワークの電波</string>
@@ -2808,7 +2709,7 @@ PINが正しくない可能性があります。"</string>
     <string name="data_usage_enable_4g">4Gデータ</string>
     <string name="data_usage_app_settings">アプリの設定を表示</string>
     <string name="data_usage_app_restrict_background">バックグラウンドデータを制限する</string>
-    <string name="data_usage_app_restrict_background_summary">モバイルネットワークでのバックグラウンドデータを無効にします。利用可能であればモバイルネットワーク以外が使用されます。</string>
+    <string name="data_usage_app_restrict_background_summary">モバイルネットワークでバックグラウンドデータを無効にし、可能な場合はモバイル以外を使用。</string>
     <string name="data_usage_app_restrict_background_summary_disabled">このアプリのバックグラウンドデータを制限するには、最初にモバイルデータの上限を設定してください。</string>
     <string name="data_usage_app_restrict_dialog_title">バックグラウンドデータを制限しますか？</string>
     <string name="data_usage_app_restrict_dialog">"この機能をONにすると、モバイルネットワークしか使用できない場合にバックグラウンドデータに依存するアプリが停止する可能性があります。
@@ -2831,7 +2732,7 @@ Googleアカウントなど、アカウントによっては、携帯端末で�
     <string name="data_usage_limit_dialog_title">データ使用上限の設定</string>
     <string name="data_usage_limit_dialog_mobile">"モバイルデータ接続は指定の制限に達した場合無効になります。
 
-データ利用は携帯端末で記録されますが、携帯通信会社の利用明細とは異なる可能性があるため、制限にできるだけ余裕をみておくことをおすすめします。"</string>
+データ利用は携帯端末で記録されますが、携帯通信会社の利用明細は異なる可能性があるため、制限にできるだけ余裕をみておくことをおすすめします。"</string>
     <string name="data_usage_restrict_background_title">バックグラウンドデータを制限しますか？</string>
     <string name="data_usage_restrict_background">バックグラウンドのモバイルデータを制限すると、アプリやサービスによっては、Wi-Fiネットワーク未接続時に機能しない場合があります。</string>
     <string name="data_usage_restrict_background_multiuser">"バックグラウンドのモバイルデータを制限すると、アプリやサービスによっては、Wi-Fiネットワーク未接続時に機能しない場合があります。
@@ -3007,4 +2908,40 @@ Googleアカウントなど、アカウントによっては、携帯端末で�
     <string name="user_image_take_photo">写真を撮影</string>
     <string name="user_image_choose_photo">ギャラリーから画像を選ぶ</string>
     <string name="regulatory_info_text" />
+    <string name="quick_settings_description">通知パネルに表示するクイック設定ツールの数とその並び順を編集する</string>
+    <string name="swiqi_strings_swiqi_desc_txt">写真とムービーをくっきりあざやかに映像表現する</string>
+    <string name="theme_label_summary">テーマを変更またはダウンロードします</string>
+    <string name="find_my_device">機器検索</string>
+    <string name="display_category_personalisation_title">個人設定</string>
+    <string name="xperia_connectivity">Xperia™接続設定</string>
+    <string name="preference_summary">機器を失くした場合、my Xperiaで位置を確認したり、データを削除またはロックしたりする事ができます</string>
+    <string name="playanywhere_strings_throw_settings_title_txt">Throw設定</string>
+    <string name="playanywhere_strings_throw_setting_summary_txt">Xperia™の様々なコンテンツを他の機器で再生できます</string>
+    <string name="usbux_strings_local_connectivity_settings_summary_txt">機器をUSB接続またはWi-Fiで他の機器やPCに接続する</string>
+    <string name="mil_strings_app_name_mirrorlink_settings_txt">MirrorLink™設定</string>
+    <string name="mil_strings_mirrorlink_activator_txt">MirrorLink™の開始</string>
+    <string name="mil_strings_dialog_usb_not_connected_txt">機器が検出されませんでした。検出可能な機器が接続されていることを確認してください。</string>
+    <string name="mil_strings_dialog_mirrorlink_start_txt">MirrorLink™はまもなく利用できるようになります。MirrorLink™認証機器でない場合、正しく動作しない可能性があります。</string>
+    <string name="mil_strings_mirrorlink_activator_sub_txt">USBで接続されたMirrorLink™認証機器でXperia™を操作できます</string>
+    <string name="setupguide_settings_title">セットアップガイド</string>
+    <string name="lockscreen_app_name">ロック画面</string>
+    <string name="lockscreen_settings_title">ロック画面</string>
+    <string name="lockscreen_settings_title_txt">ロック画面</string>
+    <string name="lockscreen_settings_wallpaper_summary_txt">ロック画面の壁紙を変更する</string>
+    <string name="lockscreen_setting_wallpaper_wait_txt">壁紙を設定中…</string>
+    <string name="lockscreen_could_not_load_wallpaper_txt">壁紙を設定できませんでした</string>
+    <string name="lockscreen_dialog_title_pick_wallpaper">壁紙を選択</string>
+    <string name="lockscreen_wallpaper_picker_semc_name">Xperia™の壁紙</string>
+    <string name="lockscreen_wallpaper_picker_semc_set_wallpaper">壁紙を設定</string>
+    <string name="lockscreen_wallpaper_picker_album_name">アルバム</string>
+    <string name="lockscreen_unlock_hint">"ロック解除するには
+上下方向にスワイプしてください"</string>
+    <string name="lockscreen_short_unlock_hint">ロック解除するにはスワイプしてください</string>
+    <string name="lockscreen_accessibility_unlock_hint">ロック解除するには、画面の中心から上下方向にスワイプしてください</string>
+    <string name="lockscreen_set_as_wallpaper_txt">ロック画面の壁紙</string>
+    <string name="status_bar_tab_quick_settings_title">クイック設定ツール</string>
+    <string name="power_settings_title">電源管理</string>
+    <string name="status_bar_show_clock_title">時計を表示</string>
+    <string name="title_heads_up_enabled">ヘッドアップを有効化</string>
+    <string name="add_heads_up_dnd_package">｢ヘッドアップしない｣にアプリを追加</string>
 </resources>

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="superuser">Super İstifadәçi</string>
+    <string name="allow">İcazə verin</string>
+    <string name="deny">Rədd edin</string>
     <string name="status_incoming">Daxil olan super istifadәçi sorğusu…</string>
     <string name="unknown_uid">Namәlum UİD: %s</string>
     <string name="application_request">%s super istifadәçi keçidini tәlәb elәyir.</string>
@@ -112,12 +114,9 @@ xaiş olunur Superuser appı yenidən başladın və yenidən cəhd edin."</stri
     <string name="wifi_display_summary_off">Deaktiv</string>
     <string name="wifi_display_summary_on">Açıq</string>
     <string name="wimax_settings_summary">4G şəbəkə və modemi qurun və idarə edin</string>
-    <string name="wifi_setting_countrycode_title">Wi-Fi region kodu</string>
     <string name="yes">Bəli</string>
     <string name="no">Xeyr</string>
     <string name="create">Yarat</string>
-    <string name="allow">İcazə verin</string>
-    <string name="deny">Rədd edin</string>
     <string name="device_info_default">Naməlum</string>
     <string name="show_dev_on">Siz indi tərtibatçısınız!</string>
     <string name="show_dev_already">Ehtiyac yoxdur, Siz artı gəlişdiricisiniz.</string>
@@ -748,6 +747,8 @@ Telefon quraşdırması zəruri şəbəkə aktivliyi tələb edə bilər."</stri
     <string name="volume_notification_mute">Bildirişlərin səsini kəsin</string>
     <string name="volume_alarm_mute">Uyarıları susdurun</string>
     <string name="vibrate_when_ringing_title">Zəng çalanda vibrasiya olsun</string>
+    <string name="system_update_settings_list_item_title">Sistem güncəlləmələri</string>
+    <string name="system_update_settings_list_item_summary" />
     <string name="dock_settings">Dok</string>
     <string name="dock_settings_title">Dok parametrləri</string>
     <string name="dock_audio_settings_title">Audio</string>
@@ -810,8 +811,6 @@ Bəlkə PIN yanlışdır"</string>
     <string name="sim_enter_ok">OK</string>
     <string name="sim_enter_cancel">Ləğv et</string>
     <string name="device_info_settings">Telefon statusu</string>
-    <string name="system_update_settings_list_item_title">Sistem güncəlləmələri</string>
-    <string name="system_update_settings_list_item_summary" />
     <string name="firmware_version">Android versiyası</string>
     <string name="model_number">Model nömrəsi</string>
     <string name="fcc_equipment_id">Avadanlıq ID</string>
@@ -1985,4 +1984,18 @@ Siz yeni istifadəçi yaratdıqdan sonra həmin adam quraşdırma prosesindən k
     <string name="user_image_take_photo">Fotoşəkil çəkin</string>
     <string name="user_image_choose_photo">Qalereyadan şəkil silin</string>
     <string name="regulatory_info_text" />
+    <string name="lockscreen_app_name">Kilid ekranı</string>
+    <string name="lockscreen_settings_title">Kilid ekranı</string>
+    <string name="lockscreen_settings_title_txt">Kilid ekranı</string>
+    <string name="lockscreen_settings_wallpaper_summary_txt">Kilid ekranında divar kağızını dəyişdir</string>
+    <string name="lockscreen_setting_wallpaper_wait_txt">Divar kağızı qurulur</string>
+    <string name="lockscreen_could_not_load_wallpaper_txt">Divar kağızı təyin edilmədi</string>
+    <string name="lockscreen_dialog_title_pick_wallpaper">Divar kağızı seç</string>
+    <string name="lockscreen_wallpaper_picker_semc_name">Xperia™ divar kağızları</string>
+    <string name="lockscreen_wallpaper_picker_semc_set_wallpaper">Divar kağızı qur</string>
+    <string name="lockscreen_wallpaper_picker_album_name">Albom</string>
+    <string name="lockscreen_unlock_hint">Blokdan çıxarmaq üçün yuxarı və ya aşağı çək</string>
+    <string name="lockscreen_short_unlock_hint">Blokdan çıxarmaq üçün çək</string>
+    <string name="lockscreen_accessibility_unlock_hint">Blokdan çıxarmaq üçün ekranın mərkəzindən yuxarı və ya aşağı sürüşdür</string>
+    <string name="lockscreen_set_as_wallpaper_txt">Kilid ekranının divar kağızı</string>
 </resources>

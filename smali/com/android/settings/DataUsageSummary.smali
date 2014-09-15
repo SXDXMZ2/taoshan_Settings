@@ -1144,7 +1144,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v1, 0x7f08006d
+    const v1, 0x7f0c006d
 
     invoke-virtual {p0, v1}, Lcom/android/settings/DataUsageSummary;->getText(I)Ljava/lang/CharSequence;
 
@@ -1285,7 +1285,7 @@
     const/4 v3, -0x2
 
     .line 2440
-    const v0, 0x7f040089
+    const v0, 0x7f04008b
 
     const/4 v1, 0x0
 
@@ -2291,14 +2291,14 @@
     .line 870
     iget-object v0, p0, Lcom/android/settings/DataUsageSummary;->mAppRestrictView:Landroid/view/View;
 
-    const v2, 0x7f080b0f
+    const v2, 0x7f0c0b0a
 
     invoke-static {v0, v2}, Lcom/android/settings/DataUsageSummary;->setPreferenceTitle(Landroid/view/View;I)V
 
     .line 871
     iget-object v0, p0, Lcom/android/settings/DataUsageSummary;->mAppRestrictView:Landroid/view/View;
 
-    const v2, 0x7f080b10
+    const v2, 0x7f0c0b0b
 
     invoke-virtual {p0, v2}, Lcom/android/settings/DataUsageSummary;->getString(I)Ljava/lang/String;
 
@@ -2357,9 +2357,9 @@
     .locals 8
 
     .prologue
-    const v7, 0x7f080b0b
+    const v7, 0x7f0c0b06
 
-    const v6, 0x7f080b00
+    const v6, 0x7f0c0afb
 
     const/4 v0, 0x1
 
@@ -2603,14 +2603,14 @@
     .line 761
     iget-object v0, p0, Lcom/android/settings/DataUsageSummary;->mDataEnabledView:Landroid/view/View;
 
-    const v2, 0x7f080b0c
+    const v2, 0x7f0c0b07
 
     invoke-static {v0, v2}, Lcom/android/settings/DataUsageSummary;->setPreferenceTitle(Landroid/view/View;I)V
 
     .line 762
     iget-object v0, p0, Lcom/android/settings/DataUsageSummary;->mDisableAtLimitView:Landroid/view/View;
 
-    const v2, 0x7f080b02
+    const v2, 0x7f0c0afd
 
     invoke-static {v0, v2}, Lcom/android/settings/DataUsageSummary;->setPreferenceTitle(Landroid/view/View;I)V
 
@@ -2640,14 +2640,14 @@
     .line 767
     iget-object v0, p0, Lcom/android/settings/DataUsageSummary;->mDataEnabledView:Landroid/view/View;
 
-    const v2, 0x7f080b0d
+    const v2, 0x7f0c0b08
 
     invoke-static {v0, v2}, Lcom/android/settings/DataUsageSummary;->setPreferenceTitle(Landroid/view/View;I)V
 
     .line 768
     iget-object v0, p0, Lcom/android/settings/DataUsageSummary;->mDisableAtLimitView:Landroid/view/View;
 
-    const v2, 0x7f080b01
+    const v2, 0x7f0c0afc
 
     invoke-static {v0, v2}, Lcom/android/settings/DataUsageSummary;->setPreferenceTitle(Landroid/view/View;I)V
 
@@ -3267,7 +3267,7 @@
 
     .line 1276
     :cond_0
-    const v0, 0x7f080b29
+    const v0, 0x7f0c0b24
 
     .line 1281
     :goto_2
@@ -3342,7 +3342,7 @@
 
     .line 1278
     :cond_4
-    const v0, 0x7f080b28
+    const v0, 0x7f0c0b23
 
     goto :goto_2
 .end method
@@ -3540,7 +3540,7 @@
 
     const-string v4, "3g"
 
-    const v5, 0x7f080b08
+    const v5, 0x7f0c0b03
 
     invoke-direct {p0, v4, v5}, Lcom/android/settings/DataUsageSummary;->buildTabSpec(Ljava/lang/String;I)Landroid/widget/TabHost$TabSpec;
 
@@ -3553,7 +3553,7 @@
 
     const-string v4, "4g"
 
-    const v5, 0x7f080b07
+    const v5, 0x7f0c0b02
 
     invoke-direct {p0, v4, v5}, Lcom/android/settings/DataUsageSummary;->buildTabSpec(Ljava/lang/String;I)Landroid/widget/TabHost$TabSpec;
 
@@ -3579,7 +3579,7 @@
 
     const-string v4, "wifi"
 
-    const v5, 0x7f080b04
+    const v5, 0x7f0c0aff
 
     invoke-direct {p0, v4, v5}, Lcom/android/settings/DataUsageSummary;->buildTabSpec(Ljava/lang/String;I)Landroid/widget/TabHost$TabSpec;
 
@@ -3604,7 +3604,7 @@
 
     const-string v3, "ethernet"
 
-    const v4, 0x7f080b05
+    const v4, 0x7f0c0b00
 
     invoke-direct {p0, v3, v4}, Lcom/android/settings/DataUsageSummary;->buildTabSpec(Ljava/lang/String;I)Landroid/widget/TabHost$TabSpec;
 
@@ -3735,7 +3735,7 @@
 
     const-string v4, "mobile"
 
-    const v5, 0x7f080b06
+    const v5, 0x7f0c0b01
 
     invoke-direct {p0, v4, v5}, Lcom/android/settings/DataUsageSummary;->buildTabSpec(Ljava/lang/String;I)Landroid/widget/TabHost$TabSpec;
 
@@ -4960,7 +4960,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f080b2a
+    const v3, 0x7f0c0b25
 
     move-object v4, v2
 
@@ -5006,7 +5006,7 @@
     nop
 
     :pswitch_data_0
-    .packed-switch 0x7f0d02f2
+    .packed-switch 0x7f0d02f0
         :pswitch_0
         :pswitch_1
         :pswitch_2
@@ -5050,7 +5050,7 @@
     .line 472
     .local v4, isOwner:Z
     :goto_0
-    const v11, 0x7f0d02f2
+    const v11, 0x7f0d02f0
 
     invoke-interface {p1, v11}, Landroid/view/Menu;->findItem(I)Landroid/view/MenuItem;
 
@@ -5107,7 +5107,7 @@
 
     .line 480
     :goto_2
-    const v11, 0x7f0d02f3
+    const v11, 0x7f0d02f1
 
     invoke-interface {p1, v11}, Landroid/view/Menu;->findItem(I)Landroid/view/MenuItem;
 
@@ -5145,7 +5145,7 @@
     invoke-interface {v11, v12}, Landroid/view/MenuItem;->setChecked(Z)Landroid/view/MenuItem;
 
     .line 485
-    const v11, 0x7f0d02f5
+    const v11, 0x7f0d02f3
 
     invoke-interface {p1, v11}, Landroid/view/Menu;->findItem(I)Landroid/view/MenuItem;
 
@@ -5173,7 +5173,7 @@
     invoke-interface {v12, v11}, Landroid/view/MenuItem;->setVisible(Z)Landroid/view/MenuItem;
 
     .line 489
-    const v11, 0x7f0d02f4
+    const v11, 0x7f0d02f2
 
     invoke-interface {p1, v11}, Landroid/view/Menu;->findItem(I)Landroid/view/MenuItem;
 
@@ -5204,7 +5204,7 @@
     invoke-interface {v8, v11}, Landroid/view/MenuItem;->setChecked(Z)Landroid/view/MenuItem;
 
     .line 493
-    const v11, 0x7f0d02f6
+    const v11, 0x7f0d02f4
 
     invoke-interface {p1, v11}, Landroid/view/Menu;->findItem(I)Landroid/view/MenuItem;
 
@@ -5239,7 +5239,7 @@
 
     .line 501
     :goto_7
-    const v11, 0x7f0d02f7
+    const v11, 0x7f0d02f5
 
     invoke-interface {p1, v11}, Landroid/view/Menu;->findItem(I)Landroid/view/MenuItem;
 
@@ -5274,7 +5274,7 @@
 
     .line 509
     :goto_9
-    const v11, 0x7f0d02f8
+    const v11, 0x7f0d02f6
 
     invoke-interface {p1, v11}, Landroid/view/Menu;->findItem(I)Landroid/view/MenuItem;
 
@@ -5303,7 +5303,7 @@
 
     .line 516
     :goto_b
-    const v9, 0x7f0d02f9
+    const v9, 0x7f0d02f7
 
     invoke-interface {p1, v9}, Landroid/view/Menu;->findItem(I)Landroid/view/MenuItem;
 
@@ -5315,7 +5315,7 @@
 
     move-result-object v9
 
-    const v11, 0x7f080baa
+    const v11, 0x7f0c0ba5
 
     invoke-virtual {v9, v11}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

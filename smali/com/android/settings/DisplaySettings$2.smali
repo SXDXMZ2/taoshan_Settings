@@ -24,7 +24,7 @@
     .parameter
 
     .prologue
-    .line 133
+    .line 129
     iput-object p1, p0, Lcom/android/settings/DisplaySettings$2;->this$0:Lcom/android/settings/DisplaySettings;
 
     invoke-direct {p0}, Lcom/android/internal/view/RotationPolicy$RotationPolicyListener;-><init>()V
@@ -38,12 +38,12 @@
     .locals 1
 
     .prologue
-    .line 136
+    .line 132
     iget-object v0, p0, Lcom/android/settings/DisplaySettings$2;->this$0:Lcom/android/settings/DisplaySettings;
 
     #calls: Lcom/android/settings/DisplaySettings;->updateDisplayRotationPreferenceDescription()V
     invoke-static {v0}, Lcom/android/settings/DisplaySettings;->access$000(Lcom/android/settings/DisplaySettings;)V
 
-    .line 137
+    .line 133
     return-void
 .end method

@@ -464,7 +464,7 @@
         <item>Kore</item>
         <item>Türkiye</item>
         <item>Singapur</item>
-        <item>Brezilya</item>
+        <item>Brazilya</item>
     </string-array>
     <string-array name="profile_entries">
         <item>Açık</item>
@@ -479,11 +479,6 @@
         <item>15s | 1dk | 5dk</item>
         <item>30s | 2dk | 5dk</item>
     </string-array>
-    <string-array name="data_usage_cycle_length">
-        <item>Günlük</item>
-        <item>Haftalık</item>
-        <item>Aylık</item>
-    </string-array>
     <string-array name="data_usage_cycle_weekdays">
         <item>Pazar</item>
         <item>Pazartesi</item>
@@ -497,11 +492,5 @@
         <item>İzin verildi</item>
         <item>Reddedildi</item>
         <item>Her zaman sor</item>
-    </string-array>
-    <string-array name="qs_quick_access_size_entries">
-        <item>Otomatik</item>
-        <item>Otomatik (dar)</item>
-        <item>Büyük</item>
-        <item>Dar</item>
     </string-array>
 </resources>

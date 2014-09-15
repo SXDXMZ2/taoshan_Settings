@@ -496,12 +496,6 @@
     <string-array name="app_ops_permissions">
         <item>Erlaubt</item>
         <item>Verweigert</item>
-        <item>Immer nachfragen</item>
-    </string-array>
-    <string-array name="qs_quick_access_size_entries">
-        <item>Automatisch</item>
-        <item>Automatisch (schmal)</item>
-        <item>Groß</item>
-        <item>Schmal</item>
+        <item>Immer Nachfragen</item>
     </string-array>
 </resources>

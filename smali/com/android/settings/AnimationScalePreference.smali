@@ -40,7 +40,7 @@
     invoke-virtual {p0, v0}, Lcom/android/settings/AnimationScalePreference;->setNegativeButtonText(I)V
 
     .line 41
-    const v0, 0x7f040091
+    const v0, 0x7f040093
 
     invoke-virtual {p0, v0}, Lcom/android/settings/AnimationScalePreference;->setDialogLayoutResource(I)V
 
@@ -88,7 +88,7 @@
 
     .line 48
     .local v0, inflater:Landroid/view/LayoutInflater;
-    const v2, 0x7f040090
+    const v2, 0x7f040092
 
     const/4 v3, 0x0
 

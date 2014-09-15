@@ -6,9 +6,6 @@
     <plurals name="app_ops_count">
         <item quantity="other">%d 次</item>
     </plurals>
-    <plurals name="show_dev_countdown_cm">
-        <item quantity="other">離開發人員只剩下%1$d個步驟。</item>
-    </plurals>
     <plurals name="show_dev_countdown">
         <item quantity="other">您只需完成剩餘的 %1$d 個步驟，即可成為開發人員。</item>
         <item quantity="one">您只需完成剩餘的 %1$d 個步驟，即可成為開發人員。</item>

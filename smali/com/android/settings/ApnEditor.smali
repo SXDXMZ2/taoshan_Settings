@@ -285,7 +285,7 @@
     :cond_0
     iget-object v4, p0, Lcom/android/settings/ApnEditor;->mRes:Landroid/content/res/Resources;
 
-    const v5, 0x7f0c002d
+    const v5, 0x7f0b002d
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -372,7 +372,7 @@
 
     invoke-direct {v0, v1}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f08034e
+    const v1, 0x7f0c0349
 
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
@@ -384,7 +384,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f080013
+    const v1, 0x7f0c0013
 
     new-instance v2, Lcom/android/settings/ApnEditor$1;
 
@@ -394,7 +394,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f080519
+    const v1, 0x7f0c0514
 
     const/4 v2, 0x0
 
@@ -966,7 +966,7 @@
     .line 338
     iget-object v5, p0, Lcom/android/settings/ApnEditor;->mRes:Landroid/content/res/Resources;
 
-    const v6, 0x7f0c0029
+    const v6, 0x7f0b0029
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -1178,7 +1178,7 @@
     .line 609
     iget-object v5, p0, Lcom/android/settings/ApnEditor;->mRes:Landroid/content/res/Resources;
 
-    const v6, 0x7f08078d
+    const v6, 0x7f0c0788
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1200,7 +1200,7 @@
     .line 611
     iget-object v5, p0, Lcom/android/settings/ApnEditor;->mRes:Landroid/content/res/Resources;
 
-    const v6, 0x7f08078e
+    const v6, 0x7f0c0789
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1221,7 +1221,7 @@
     .line 613
     iget-object v5, p0, Lcom/android/settings/ApnEditor;->mRes:Landroid/content/res/Resources;
 
-    const v6, 0x7f08078f
+    const v6, 0x7f0c078a
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1246,7 +1246,7 @@
     .line 615
     iget-object v5, p0, Lcom/android/settings/ApnEditor;->mRes:Landroid/content/res/Resources;
 
-    const v6, 0x7f080790
+    const v6, 0x7f0c078b
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1291,7 +1291,7 @@
     :cond_0
     iget-object v6, p0, Lcom/android/settings/ApnEditor;->mRes:Landroid/content/res/Resources;
 
-    const v7, 0x7f0c002f
+    const v7, 0x7f0b002f
 
     invoke-virtual {v6, v7}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -1475,7 +1475,7 @@
     :cond_0
     iget-object v4, p0, Lcom/android/settings/ApnEditor;->mRes:Landroid/content/res/Resources;
 
-    const v5, 0x7f0c002b
+    const v5, 0x7f0b002b
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -1709,7 +1709,7 @@
 
     move-result-object v11
 
-    const v12, 0x7f080a69
+    const v12, 0x7f0c0a64
 
     invoke-virtual {v11, v12}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2121,7 +2121,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f08076d
+    const v2, 0x7f0c0768
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2751,7 +2751,7 @@
 
     invoke-direct {v1, v2}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v2, 0x7f08078c
+    const v2, 0x7f0c0787
 
     invoke-virtual {v1, v2}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -2805,7 +2805,7 @@
     .line 471
     const/4 v0, 0x1
 
-    const v1, 0x7f080788
+    const v1, 0x7f0c0783
 
     invoke-interface {p1, v2, v0, v2, v1}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
@@ -2819,7 +2819,7 @@
     :cond_0
     const/4 v0, 0x2
 
-    const v1, 0x7f08078a
+    const v1, 0x7f0c0785
 
     invoke-interface {p1, v2, v0, v2, v1}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
@@ -2832,7 +2832,7 @@
     .line 476
     const/4 v0, 0x3
 
-    const v1, 0x7f08078b
+    const v1, 0x7f0c0786
 
     invoke-interface {p1, v2, v0, v2, v1}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
@@ -2985,7 +2985,7 @@
     .line 428
     iget-object v7, p0, Lcom/android/settings/ApnEditor;->mRes:Landroid/content/res/Resources;
 
-    const v9, 0x7f0c0029
+    const v9, 0x7f0b0029
 
     invoke-virtual {v7, v9}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 

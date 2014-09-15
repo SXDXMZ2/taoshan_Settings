@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="superuser">Суперкорисник</string>
-    <string name="su_allow">Дозволи</string>
-    <string name="su_allow_countdown">Дозволи (%1$s)</string>
-    <string name="su_deny">Одбиј</string>
+    <string name="allow">Дозволи</string>
+    <string name="allow_countdown">Дозволи (%1$s)</string>
+    <string name="deny">Одбиј</string>
     <string name="status_incoming">Долазни Суперкорисник захтев…</string>
     <string name="unknown_uid">Непознати UID: %s</string>
     <string name="application_request">%s захтева приступ Суперкорисника</string>
@@ -201,9 +201,6 @@ android.permission.ACCESS_SUPERUSER
     <string name="profile_networkmode_2g">2G</string>
     <string name="profile_networkmode_3g">3G</string>
     <string name="profile_networkmode_2g3g">2G/3G</string>
-    <string name="settings_search_action_bar_button">Претрага</string>
-    <string name="settings_search_autocompleteview_hint">Претражите подешавања</string>
-    <string name="settings_search_loading_text">Учитавање података претраге…</string>
     <string name="profile_connectionoverrides_title">Променљива повезивања</string>
     <string name="profile_volumeoverrides_title">Променљива јачина звука</string>
     <string name="connection_state_disabled">Онемогућено</string>
@@ -217,8 +214,6 @@ android.permission.ACCESS_SUPERUSER
     <string name="profile_trigger_connect">На повезивање</string>
     <string name="profile_trigger_disconnect">На искључивање</string>
     <string name="profile_trigger_notrigger">Нема окидача</string>
-    <string name="profile_trigger_a2dp_connect">На A2DP повезивање</string>
-    <string name="profile_trigger_a2dp_disconnect">На A2DP искључивање</string>
     <string name="sound_mode">Режим обавештења</string>
     <string name="ringer_mode">Режим звона</string>
     <string name="lights_mode">Режим светла</string>
@@ -277,7 +272,6 @@ android.permission.ACCESS_SUPERUSER
     <string name="icon_picker_pack_title">Пакет икона</string>
     <string name="display_lights_settings_title">Екран &amp; светла</string>
     <string name="lights_category_title">Светла</string>
-    <string name="notification_light_title">Светла обавештења</string>
     <string name="notification_light_general_title">Опште</string>
     <string name="notification_light_applist_title">Апликације</string>
     <string name="notification_light_phonelist_title">Телефон</string>
@@ -287,10 +281,8 @@ android.permission.ACCESS_SUPERUSER
     <string name="notification_light_default_value">Подразумевано</string>
     <string name="notification_light_missed_call_title">Пропуштен позив</string>
     <string name="notification_light_voicemail_title">Говорна пошта</string>
-    <string name="adaptive_backlight_title">Прилагодљива позадинска осветљеност</string>
-    <string name="adaptive_backlight_summary">Динамично регулши позадинску осветљеност екрана за максимално трајање батерије уз одржавање употребљивости</string>
-    <string name="color_enhancement_title">Унапређење боје</string>
-    <string name="color_enhancement_summary">Динамично унапреди боју на екрану</string>
+    <string name="adaptive_backlight_title">Прилагодљиво позадинско осветљење</string>
+    <string name="adaptive_backlight_summary">Динамично регулши позадинско осветљење екрана за максимално трајање батерије уз одржавање употребљивости</string>
     <string name="wake_when_plugged_or_unplugged_title">Пробуди на утикачу</string>
     <string name="wake_when_plugged_or_unplugged_summary">Укључи екран код повезивања или искључивања са извора напајања</string>
     <string name="screen_animation_off_title">Анимација искључивања екрана</string>
@@ -298,7 +290,7 @@ android.permission.ACCESS_SUPERUSER
     <string name="screen_animation_style_disabled">Онемогућено</string>
     <string name="screen_animation_style_electronbeam">Електронски сноп</string>
     <string name="screen_animation_style_fade">Постепено губљење</string>
-    <string name="edit_light_settings">Измени подешавања светла</string>
+    <string name="edit_light_settings">Измени подешавања осветљења</string>
     <string name="pulse_speed_title">Дужина и брзина пулсирања</string>
     <string name="default_time">Нормално</string>
     <string name="custom_time">Прилагођено</string>
@@ -315,20 +307,16 @@ android.permission.ACCESS_SUPERUSER
     <string name="pulse_speed_normal">Нормално</string>
     <string name="pulse_speed_slow">Споро</string>
     <string name="pulse_speed_very_slow">Веома споро</string>
-    <string name="battery_light_title">Светло батерије</string>
+    <string name="battery_light_title">Лампица батерије</string>
     <string name="battery_low_pulse_title">Пулсирај ако је батерија празна</string>
     <string name="battery_light_list_title">Боје</string>
     <string name="battery_light_low_color_title">Батерија је скоро празна</string>
     <string name="battery_light_medium_color_title">Пуњење</string>
     <string name="battery_light_full_color_title">Напуњено</string>
-    <string name="lockpattern_reset_button">Ресетуј шаблон</string>
-    <string name="lockpattern_settings_reset_summary">Унеси примарни налог е-поште и повезану лозинку да ресетујеш шаблон закључавања</string>
     <string name="lockpattern_settings_enable_error_path_title">Прикажи грешку шаблона</string>
     <string name="lockpattern_settings_enable_dots_title">Прикажи тачкице шаблона</string>
     <string name="screen_security_category">Безбедност екрана</string>
     <string name="screen_security_summary">Погледај или промени подешавања безбедности закључаног екрана</string>
-    <string name="unlock_scramble_pin_layout_title">Насумичан распоред</string>
-    <string name="unlock_scramble_pin_layout_summary">Насумичан PIN распоред при откључавању уређаја</string>
     <string name="unlock_menu_unlock_title">Мени откључавање</string>
     <string name="unlock_menu_unlock_summary">Притиском на дугме за Мени урађај се откључава</string>
     <string name="unlock_home_unlock_title">Почетна откључавање</string>
@@ -354,22 +342,14 @@ In Бирањем \"ОК\" испод, потврђујеш ово упозор�
     <string name="tile_choose_title">Изабери плочицу</string>
     <string name="title_qs_small_icons">Прикажи мање плочице</string>
     <string name="summary_qs_small_icons">Користи мање плочице да повећаш број колона</string>
-    <string name="category_heads_up">Heads up обавештења</string>
-    <string name="summary_heads_up_enabled">Искачућа обавештења су омогућена</string>
-    <string name="summary_heads_up_disabled">Искачућа обавештења су онемогућена</string>
-    <string name="add_heads_up_package">Додај апликацију</string>
-    <string name="add_heads_up_dnd_summary">Не приказуј искачућа обавештења у овим апликацијама</string>
-    <string name="add_heads_up_blacklist_summary">Не приказуј искачућа обавештења из ових апликација</string>
+    <string name="category_heads_up">Обавештења на екрану</string>
     <string name="heads_up_dnd_title">Не узнемиравај</string>
-    <string name="heads_up_blacklist_title">Црна листа</string>
-    <string name="heads_up_disabled_notice">Да би дозволио апликацијама да приказују интерактивна обавештења у искачућем прозору на твом екрану, омогући Heads up обавештења.</string>
     <string name="title_tile_airplane">Режим рада у авиону</string>
     <string name="title_tile_battery">Статистика батерије</string>
     <string name="title_tile_bluetooth">Bluetooth</string>
-    <string name="title_tile_brightness">Осветљеност</string>
+    <string name="title_tile_brightness">Осветљење</string>
     <string name="title_tile_camera">Камера</string>
     <string name="title_tile_compass">Компас</string>
-    <string name="title_tile_heads_up">Heads up обавештења</string>
     <string name="title_tile_sleep">Спавање</string>
     <string name="title_tile_gps">GPS</string>
     <string name="title_tile_torch">Бакља</string>
@@ -378,7 +358,7 @@ In Бирањем \"ОК\" испод, потврђујеш ово упозор�
     <string name="title_tile_mobiledata">Мобилни подаци</string>
     <string name="title_tile_profile">Профил</string>
     <string name="title_tile_performance_profile">Перформансе профила</string>
-    <string name="title_tile_autorotate">Оријентација</string>
+    <string name="title_tile_autorotate">Екран ротација</string>
     <string name="title_tile_settings">Подешавања</string>
     <string name="title_tile_sound">Звук</string>
     <string name="title_tile_sync">Синхрон.</string>
@@ -396,7 +376,7 @@ In Бирањем \"ОК\" испод, потврђујеш ово упозор�
     <string name="dynamic_tiles_note_title">Напомена</string>
     <string name="dynamic_tiles_note_summary">Динамичне плочице нису увек видљиве и приказаће се само ако је изазвано неким догађајем система</string>
     <string name="title_dynamic_alarm">Аларм</string>
-    <string name="title_dynamic_bugreport">Пријава грешке</string>
+    <string name="title_dynamic_bugreport">Пријава грешака</string>
     <string name="title_dynamic_dock_battery">Батерија</string>
     <string name="title_dynamic_equalizer">Еквилајзер</string>
     <string name="title_dynamic_ime">IME измењивач</string>
@@ -422,7 +402,7 @@ In Бирањем \"ОК\" испод, потврђујеш ово упозор�
     <string name="cm_sound_mode_soundVibrate">Звук &amp; Вибрација</string>
     <string name="tiles_reset_title">Ресетуј</string>
     <string name="tiles_reset_message">Врати подразумевани приказ плочица и распоред?</string>
-    <string name="auto_brightness_setup_title">Аутоматска осветљеност</string>
+    <string name="auto_brightness_setup_title">Аутоматско осветљење</string>
     <string name="auto_brightness_twilight_adjustment">Регулиши излазак и залазак сунца</string>
     <string name="light_sensor_current_value">Тренутна вредност светлосног сензора: %d lux</string>
     <string name="auto_brightness_dialog_title">Аутоматски нивои осветљености</string>
@@ -444,13 +424,13 @@ In Бирањем \"ОК\" испод, потврђујеш ово упозор�
     <string name="auto_brightness_menu_split">Подели</string>
     <string name="auto_brightness_menu_remove">Премести</string>
     <string name="auto_brightness_preview">Преглед</string>
-    <string name="auto_brightness_preview_dialog_title">Осветљеност прегледа кривине</string>
+    <string name="auto_brightness_preview_dialog_title">Осветљење прегледа кривине</string>
     <string name="auto_brightness_help_dialog_title">Помоћ</string>
-    <string name="auto_brightness_help_text"><b>Како се израчунава осветљеност?</b> Крива осветљености се израчунава обављањем <i>cubic spline interpolation</i> на датом броју <i>control points</i>". То није 'тип кофе' калкулација где осветљеност екрана остаје константно за одређени опсег амбијенталне осветљености. На тај начин, мале промене у осветљености амбијента не изазивају велики скок у осветљењу екрана; међутим, то може бити мало тешко предвидети, тачне последице промене контролних тачака.
- Да би се помогло са тим, преглед обрачунате криве се може испитати. Молимо, упамти да прегледи кривине у "<i>logarithmic</i>" скали, тако да све контролне тачке могу бити изразито приказане. Када користиш линеарну скалу, то не би било могуће разликовати када тежи више важних контролних тачака у доњем опсегу амбијенталног осветљења. 
+    <string name="auto_brightness_help_text"><b>Како се израчунава осветљеност?</b> Крива осветљености се израчунава обављањем <i>cubic spline interpolation</i> на датом броју <i>control points</i>". То није 'тип кофе' калкулација где осветљеност екрана остаје константна за одређени опсег амбијенталног осветљења. На тај начин, мале промене у осветљености амбијента не изазивају велики скок у осветљености екрана; међутим, то може бити мало тешко предвидети, тачне последице промене контролних тачака.
+ Да би се помогло са тим, преглед обрачунате криве се може испитати. Молимо, упамтите да прегледи кривине у "<i>logarithmic</i>" скали, тако да све контролне тачке могу бити изразито приказане. Када користите линеарну скалу, то не би било могуће разликовати када тежи више важних контролних тачака у доњем опсегу амбијенталног осветљења. 
 
- "<b>Како да уредиш криву осветљености?</b> Свака линија у листи осветљености одговара једној <i>control point</i>" криви осветљености. Да би изменио ниво осветљености, можеш да користиш клизач представљен у сваком реду. Осветљеност екрана ће се према томе мењати док додирујеш клизач да да преглед нивоа светлости.
- Додатне опције су на располагању дугим притиском на линију. Избором 'Измени', можеш подесити ниво амбијенталног осветљења контролне тачке, као и ручно унети жељену светлину екрана. Избор 'Подели' омогућава да дуплираш једну линију у две како би убацио додатне контролне тачке. 'Уклони' брише изабрану линију. "</string>
+ "<b>Како да уредите криву осветљености?</b> Свака линија у листи осветљености одговара једној <i>control point</i>" криви осветљености. Да би сте изменили ниво осветљености тачке, можете да користите клизач представљен у сваком реду. Осветљеност екрана ће се према томе мењати док додирујете клизач да да преглед нивоа светлости.
+ Додатне опције су на располагању дугим притиском на линију. Избором 'Измени', можете подесите ниво амбијенталног осветљења контролне тачке, као и ручно унети жељену светлину екрана. Избор 'Подели' омогућава Вам да дуплирате једну линију у две како би сте убацили додатне контролне тачке. 'Уклони' брише изабрану линију. "</string>
     <string name="auto_brightness_sensitivity_title">Регулисање осетљивости</string>
     <string name="auto_brightness_sensitivity_verylow">Веома ниска</string>
     <string name="auto_brightness_sensitivity_low">Ниска</string>
@@ -467,11 +447,11 @@ In Бирањем \"ОК\" испод, потврђујеш ово упозор�
     <string name="display_rotation_180_title">180 степени</string>
     <string name="display_rotation_270_title">270 степени</string>
     <string name="advanced_reboot_title">Напредни рестарт</string>
-    <string name="advanced_reboot_summary">Када је телефон откључан, обухвати опције у менију напајања за рестартовање у опоравак, bootloader или обави рестартовање интерфејса</string>
+    <string name="advanced_reboot_summary">"Када је телефон откључан, обухвати опције у менију напајања, за рестарт у 'опоравак' или 'bootloader'"</string>
     <string name="app_security_title">Безбедност апликација</string>
     <string name="root_access">Root приступ</string>
     <string name="root_access_warning_title">Дозволи root приступ?</string>
-    <string name="root_access_warning_message">Дозвољавање апликацијама да захтевају root приступ је веома опасно и може угрозити безбедност твог система!</string>
+    <string name="root_access_warning_message">Дозвољавање апликацијама да захтевају root приступ је веома опасно и може угрозити безбедност система!</string>
     <string name="root_access_none">Онемогућено</string>
     <string name="root_access_apps">Само апликације</string>
     <string name="root_access_adb">Само ADB</string>
@@ -484,7 +464,7 @@ In Бирањем \"ОК\" испод, потврђујеш ово упозор�
     <string name="quiet_hours_enabled">Примени тихе сате</string>
     <string name="quiet_hours_ringer">Звоно телефона</string>
     <string name="quiet_hours_mute">Обавештења</string>
-    <string name="quiet_hours_mute_summary">Утишај обавештења</string>
+    <string name="quiet_hours_mute_summary">Нечујна обавештења</string>
     <string name="quiet_hours_system">Системски звукови</string>
     <string name="quiet_hours_system_summary">Онемогући системске звукове</string>
     <string name="quiet_hours_still">Вибрације</string>
@@ -497,7 +477,7 @@ In Бирањем \"ОК\" испод, потврђујеш ово упозор�
     <string name="quiet_hours_ringer_allow_all">Звоно за све позиве</string>
     <string name="quiet_hours_ringer_allow_contacts">Звоно за све контакте</string>
     <string name="quiet_hours_ringer_allow_starred">Звоно за омиљене контакте</string>
-    <string name="quiet_hours_ringer_mute_all">Утишај звоно за све позиве</string>
+    <string name="quiet_hours_ringer_mute_all">Искључи звоно за све позиве</string>
     <string name="start_time_title">Почетак</string>
     <string name="end_time_title">Крај</string>
     <string name="mod_version">CyanogenMod верзија</string>
@@ -522,7 +502,7 @@ In Бирањем \"ОК\" испод, потврђујеш ово упозор�
     <string name="preview_version_title">Верзија</string>
     <string name="preview_country_title">Земља</string>
     <string name="preview_carrier_title">Преносилац</string>
-    <string name="header_category_interface">Персонализовање</string>
+    <string name="header_category_interface">Персонализација</string>
     <string name="themes_settings_title">Теме</string>
     <string name="themepacks_settings_title">Пакети тема</string>
     <string name="styles_settings_title">Стилови</string>
@@ -558,14 +538,14 @@ In Бирањем \"ОК\" испод, потврђујеш ово упозор�
     <string name="pref_force_highend_gfx_summary">Омогућава врхунске визуелне ефекте као што су транспарентна статусна/навигациона трака (захтева поновно покретање)</string>
     <string name="kill_app_longpress_back">Затвори апликацију дугметом за Назад</string>
     <string name="kill_app_longpress_back_summary">Затвори предњу апликацију дугим притиском на дугме за Назад</string>
-    <string name="changelog_title">Евиденција измена</string>
+    <string name="changelog_title">Погледај евиденцију измена</string>
     <string name="changelog_loading">Учитавање евиденције измена…</string>
     <string name="changelog_error">Није могуће учитати евиденцију измена</string>
     <string name="changelog_unknown">Непознато</string>
     <string name="changelog_version">Верзија</string>
-    <string name="contributor_cloud_title">Сарадници</string>
-    <string name="cmupdate_settings_title">Системска ажурирања</string>
-    <string name="cmupdate_settings_summary">Провери, погледај или инсталирај доступна ажурирања</string>
+    <string name="contributor_cloud_title">Погледај сараднике</string>
+    <string name="cmupdate_settings_title">CyanogenMod ажурирања</string>
+    <string name="cmupdate_settings_summary">Проверите, погледајте или инсталирајте доступна ажурирања</string>
     <string name="advanced_settings_title">Напредно</string>
     <string name="development_tools_title">Покрени алате</string>
     <string name="allow_mock_sms">Дозволи лажни SMS</string>
@@ -593,7 +573,7 @@ In Бирањем \"ОК\" испод, потврђујеш ово упозор�
     <string name="blacklist_edit_dialog_title">Измени црну листу</string>
     <string name="blacklist_prefs">Подешавања</string>
     <string name="blacklist_button_delete">Избриши</string>
-    <string name="blacklist_empty_text">Немаш никакве бројеве на црној листи. Додај унос додиром на дугме Додај (+).</string>
+    <string name="blacklist_empty_text">Немаш никакве бројеве на црној листи. Додај унос додиром на дугме (+).</string>
     <string name="blacklist_disabled_empty_text">За позиве из црне листе и/или порука са одређених бројева, омогући црну листу.</string>
     <string name="blacklist_summary_disabled">Онемогућено</string>
     <string name="blacklist_summary">Долазни позиви и поруке из црне листе телефонских бројева ће бити блокирани</string>
@@ -626,7 +606,7 @@ In Бирањем \"ОК\" испод, потврђујеш ово упозор�
     <string name="gamma_tuning_summary_head">Штипање гама вредности</string>
     <string name="gamma_tuning_control_set_header">Група %d</string>
     <string name="gamma_tuning_contrast">Контраст</string>
-    <string name="gamma_tuning_brightness">Осветљеност</string>
+    <string name="gamma_tuning_brightness">Осветљење</string>
     <string name="gamma_tuning_saturation">Засићење</string>
     <string name="headset_connect_player_title">Покрени музичку апликацију</string>
     <string name="headset_connect_player_summary">Покрени подразумевану музичку апликацију када су слушалице повезане</string>
@@ -640,7 +620,7 @@ In Бирањем \"ОК\" испод, потврђујеш ово упозор�
 
 Да ли заиста желиш да омогућиш ову функцију?"</string>
     <string name="device_hostname">Име хоста уређаја</string>
-    <string name="notification_drawer_title">Обавештења</string>
+    <string name="notification_drawer_title">Фиока са обавештењима</string>
     <string name="notification_drawer_collapse_on_dismiss_title">Аутоматско затварање</string>
     <string name="collapse_on_dismiss_never">Онемогућено</string>
     <string name="collapse_on_dismiss_if_empty">Ако ниједно не преостаје</string>
@@ -649,11 +629,8 @@ In Бирањем \"ОК\" испод, потврђујеш ово упозор�
     <string name="collapse_on_dismiss_if_empty_summary">Затвори након уклањања последњег обавештења</string>
     <string name="collapse_on_dismiss_if_no_clearable_summary">Затвори након уклањања последњег преносивог обавештења</string>
     <string name="double_tap_to_wake_title">Дупли-додир за буђење</string>
-    <string name="proximity_wake_title">Спречи случајно буђење</string>
-    <string name="proximity_wake_summary">Провери растојање сензора пре буђења екрана</string>
     <string name="category_quick_access">Трака брзих приступа</string>
     <string name="title_quick_access">Прикажи у фиоци</string>
-    <string name="title_quick_access_size">Величина траке</string>
     <string name="title_quick_access_linked">Повезани распоред</string>
     <string name="summary_quick_access_linked">Користи исте плочице и распоред као на панелу за Брза подешавања</string>
     <string name="font_size_sample">Пример</string>
@@ -727,7 +704,7 @@ In Бирањем \"ОК\" испод, потврђујеш ово упозор�
     <string name="navigation_bar_category">Навигациона трака</string>
     <string name="navigation_bar_title">Дугмићи и распоред</string>
     <string name="navigation_bar_left_title">Лево-руки режим</string>
-    <string name="navigation_bar_left_summary">Постави навигациону траку на левој страни екрана у положеном режиму</string>
+    <string name="navigation_bar_left_summary">Постави траку за навигацију на левој страни екрана у положеном режиму</string>
     <string name="navigation_bar_help_text">"1 - За почетак уређивања, додирни икону за закључавање
 
 2 - Додирни било које дугме да доделиш или промениш функционалност
@@ -750,8 +727,6 @@ In Бирањем \"ОК\" испод, потврђујеш ово упозор�
     <string name="navigation_bar_reset_toast">Навигациона трака ресетована је на подразумевано</string>
     <string name="navigation_bar_menu_editable">Уредиво</string>
     <string name="navigation_bar_menu_locked">Закључано</string>
-    <string name="navigation_bar_arrow_keys_title">Стрелице при куцању</string>
-    <string name="navigation_bar_arrow_keys_summary">Прикажи лево и десно дугме курсора при куцању</string>
     <string name="navigation_ring_title">Пречице за брзо покретање</string>
     <string name="navring_target_reset_message">Избриши све пречице на навигационој траци и врати на подразумевано?</string>
     <string name="navring_target_reset">Пречице на навигационој траци ресетоване на подразумевано</string>
@@ -797,7 +772,7 @@ In Бирањем \"ОК\" испод, потврђујеш ово упозор�
     <string name="hardware_keys_action_search">Асистент претраге</string>
     <string name="hardware_keys_action_voice_search">Гласовна претрага</string>
     <string name="hardware_keys_action_in_app_search">Претрага у апликацијама</string>
-    <string name="hardware_keys_action_launch_camera">Покрени камеру</string>
+    <string name="hardware_keys_action_launch_camera">Покрени Камеру</string>
     <string name="power_end_call_title">Заврши позив</string>
     <string name="power_end_call_summary">Притискање дугмета за напајање ће завршити тренутни позив</string>
     <string name="button_wake_title">Буђење</string>
@@ -816,13 +791,13 @@ In Бирањем \"ОК\" испод, потврђујеш ово упозор�
     <string name="volbtn_cursor_control_off">Онемогућено</string>
     <string name="volbtn_cursor_control_on">Дугмићи за јачину звука покрећу курсор лево/десно</string>
     <string name="volbtn_cursor_control_on_reverse">Дугмићи за јачину звука покрећу курсор десно/лево</string>
-    <string name="swap_volume_buttons_title">Преусмеравање</string>
+    <string name="swap_volume_buttons_title">Преусмерење</string>
     <string name="swap_volume_buttons_summary">Замени дугмиће за јачину звука када се екран ротира</string>
-    <string name="button_backlight_title">Позадинска осветљеност</string>
+    <string name="button_backlight_title">Позадинско осветљење</string>
     <string name="button_backlight_enabled">Дугмићи са осветљењем</string>
     <string name="keyboard_backlight_enabled">Тастатура са осветљењем</string>
-    <string name="button_backlight_seekbar_title">Осветљеност дугмића</string>
-    <string name="keyboard_backlight_seekbar_title">Осветљеност тастатуре</string>
+    <string name="button_backlight_seekbar_title">Осветљење дугмића</string>
+    <string name="keyboard_backlight_seekbar_title">Осветљење тастатуре</string>
     <string name="backlight_timeout_title">Време истека осветљења</string>
     <string name="backlight_timeout_unlimited">Не искључуј</string>
     <string name="backlight_summary_disabled">Онемогућено</string>
@@ -837,10 +812,6 @@ In Бирањем \"ОК\" испод, потврђујеш ово упозор�
     <string name="setting_lockscreen_background">Примена позадине</string>
     <string name="confirm_delete_apn">APN ће бити избрисан.</string>
     <string name="status_bar_title">Статусна трака</string>
-    <string name="status_bar_clock_title">Стил сата</string>
-    <string name="status_bar_clock_style_default">Подразумевано</string>
-    <string name="status_bar_clock_style_center">Центар</string>
-    <string name="status_bar_clock_style_hidden">Сакривено</string>
     <string name="status_bar_battery_title">Стил статуса батерије</string>
     <string name="status_bar_style_icon_portrait">Усправна икона</string>
     <string name="status_bar_style_icon_landscape">Положена икона</string>
@@ -851,13 +822,13 @@ In Бирањем \"ОК\" испод, потврђујеш ово упозор�
     <string name="status_bar_signal_text_title">Стил статуса сигнала</string>
     <string name="status_bar_signal_style_icon">Икона</string>
     <string name="status_bar_signal_style_text">Текст</string>
-    <string name="status_bar_toggle_brightness">Контрола осветљености</string>
+    <string name="status_bar_toggle_brightness">Контрола осветљења</string>
     <string name="status_bar_toggle_brightness_summary">Подеси осветљеност превлачењем преко статусне траке</string>
-    <string name="status_bar_toggle_info">Није доступно док је аутоматска осветљеност омогућена</string>
-    <string name="status_bar_notif_count_title">Број обавештења</string>
+    <string name="status_bar_toggle_info">Није доступно док је аутоматско осветљење омогућено</string>
+    <string name="status_bar_notif_count_title">Прикажи број обавештења</string>
     <string name="status_bar_notif_count_summary">Прикажи број обавештења на чекању</string>
     <string name="status_bar_double_tap_to_sleep_title">Дупли-додир за спавање</string>
-    <string name="development_shortcut_title">Развојна пречица</string>
+    <string name="development_shortcut_title">Пречица за развој</string>
     <string name="development_shortcut_summary">"Омогући опције 'избриши податке' и 'приморај затварање' у обавештењу и у листи недавних апликација"</string>
     <string name="usb_mass_storage_title">Масовно складиште (UMS)</string>
     <string name="usb_mass_storage_summary">Омогућава да преносиш све датотеке између рачунара и SD картице тако што је монтира као флеш уређај</string>
@@ -870,11 +841,11 @@ In Бирањем \"ОК\" испод, потврђујеш ово упозор�
     <string name="custom_runtime_warning_title">Упозорење</string>
     <string name="custom_runtime_warning_message">ART није званично подржан од стране CyanogenMod-а, јер је високо експерименталан и има потенцијал да изазове нестабилност, падове, и губитак података и превенцију за неприкладно покретање твог уређаја. Посети &lt;a href=\"http://source.android.com/devices/tech/dalvik/art.html\">Introducing ART&lt;/a> за више информација .&lt;br/>&lt;br/>Захтевамо да не подносиш извештаје о грешкама ако омогућиш ART.&lt;br/>&lt;br/>Да ли си сигуран да желиш да рестартујеш уређај да би променио од %1$s на %2$s?</string>
     <string name="gps_download_data_wifi_only">Преузимај GPS податке само преко Wi-Fi мреже</string>
-    <string name="battery_info_status_charging_dock_ac">(БазаAC)</string>
-    <string name="battery_info_status_charging_dock_usb">(БазаUSB)</string>
+    <string name="battery_info_status_charging_dock_ac">(ДokAC)</string>
+    <string name="battery_info_status_charging_dock_usb">(ДokUSB)</string>
     <string name="menu_stats_reset">Ресетуј</string>
-    <string name="cmlicense_title">CyanogenMod лиценца</string>
-    <string name="settings_cmlicense_activity_title">CyanogenMod лиценца</string>
+    <string name="cmlicense_title">CyanogenMod Legal</string>
+    <string name="settings_cmlicense_activity_title">CyanogenMod Legal</string>
     <string name="settings_cmlicense_activity_unreachable">Немаш везу за пренос података. Да би одмах видео ове информације, иди на %s са било ког рачунара који је повезан на интернет.</string>
     <string name="stylus_icon_enabled_title">Прикажи икону када користим оловку</string>
     <string name="stylus_icon_enabled_summary">Прикажи икону курсора када лебдим или цртам помоћу оловке</string>
@@ -899,7 +870,7 @@ In Бирањем \"ОК\" испод, потврђујеш ово упозор�
     <string name="gestures_action_recent">Недавне апкликације</string>
     <string name="stylus_app_not_installed">%s није инсталирано</string>
     <string name="ime_switcher_notify">Бирач обавештења</string>
-    <string name="ime_switcher_notify_summary">Прикажи методу уноса бирача обавештења</string>
+    <string name="ime_switcher_notify_summary">Прикажи режим уноса бирача обавештења</string>
     <string name="app_ops_summaries_coarse_location">груба локација</string>
     <string name="app_ops_summaries_fine_location">фина локација</string>
     <string name="app_ops_summaries_gps">GPS</string>
@@ -1011,8 +982,8 @@ In Бирањем \"ОК\" испод, потврђујеш ово упозор�
     <string name="edge_gesture_service_summary">Немој слати додирне догађаје за навигацију и гестове статусне траке апликацијама</string>
     <string name="data_usage_cycle_editor_subtitle_cm">Датум сваког циклуса:</string>
     <string name="data_usage_lengths_spinner_subtitle">Дужина циклуса:</string>
-    <string name="disable_navkeys_title">Омогући нав. траку на екрану</string>
-    <string name="disable_navkeys_summary">Омогући навигациону траку на екрану и онемогући хардверске дугмиће</string>
+    <string name="disable_navkeys_title">Омогући на екрану нав траке</string>
+    <string name="disable_navkeys_summary">Омогући на екрану траке за навигацију и онемогући хардверске тастере</string>
     <string name="voice_plus_summary">Омогући све апликације за слање SMS порука преко Google Voice-а</string>
     <string name="accessibility_sync_in_progress">Синхронизација у току.</string>
     <string name="wifi_mode">Режим</string>
@@ -1040,26 +1011,9 @@ In Бирањем \"ОК\" испод, потврђујеш ово упозор�
     <string name="menu_hidden_apps_reset_lock">Ресетуј шаблон</string>
     <string name="protected_apps">Заштићене апликације</string>
     <string name="saving_protected_components">Чување компонената…</string>
-    <string name="pa_login_username_hint">Корисничко име (e-пошта)</string>
-    <string name="pa_login_password_hint">Лозинка</string>
-    <string name="pa_login_submit_button">Пријави се</string>
-    <string name="pa_login_checking_password">Провера налога…</string>
-    <string name="pa_login_incorrect_login">Пријављивање је неуспешно</string>
-    <string name="keep_screen_on_summary_cm">Екран се неће искључити док је прикључено напајање</string>
-    <string name="show_dev_on_cm">Развојне опције су омогућене!</string>
-    <string name="show_dev_already_cm">Нема потребе, развојне опције су већ омогућене.</string>
-    <string name="enable_adb_cm">Android отклањање грешака</string>
-    <string name="enable_adb_summary_cm">Омогући Android Debug Bridge (adb) интерфејс</string>
-    <string name="spam_added_title">Додато %1$s</string>
-    <string name="spam_last_blocked_title">Задње блокирано %1$s (укупно: %2$s)</string>
-    <string name="block_notifications_title">Филтер обавештења</string>
-    <string name="block_notifications_summary">Уреди игнорисана обавештења и филтере</string>
-    <string name="no_filters_title">"Нема постављених филтера. Да филтрираш обавештење, дуго притисни и изабери 'Игнориши овакве поруке'."</string>
     <string name="yes">Да</string>
     <string name="no">Не</string>
     <string name="create">Направи</string>
-    <string name="allow">Дозволи</string>
-    <string name="deny">Одбиј</string>
     <string name="device_info_default">Непознато</string>
     <string name="show_dev_on">Постали сте програмер!</string>
     <string name="show_dev_already">Нема потребе, већ сте програмер.</string>
@@ -1700,6 +1654,8 @@ In Бирањем \"ОК\" испод, потврђујеш ово упозор�
     <string name="volume_notification_mute">Искључи звук обавештења</string>
     <string name="volume_alarm_mute">Искључи звук аларма</string>
     <string name="vibrate_when_ringing_title">Вибрирај када звони</string>
+    <string name="system_update_settings_list_item_title">Ажурирања система</string>
+    <string name="system_update_settings_list_item_summary" />
     <string name="dock_settings">Причвршћивање</string>
     <string name="dock_settings_title">Подешавања базне станице</string>
     <string name="dock_audio_settings_title">Аудио</string>
@@ -1764,8 +1720,6 @@ In Бирањем \"ОК\" испод, потврђујеш ово упозор�
     <string name="wrong_pin_code_pukked">Нетачан SIM PIN кôд. Сада морате да контактирате мобилног оператера да бисте откључали уређај.</string>
     <string name="pin_failed">Радња са SIM PIN кодом није успела!</string>
     <string name="device_info_settings">Статус телефона</string>
-    <string name="system_update_settings_list_item_title">Ажурирања система</string>
-    <string name="system_update_settings_list_item_summary" />
     <string name="firmware_version">Android верзија</string>
     <string name="model_number">Број модела</string>
     <string name="fcc_equipment_id">ИД опреме</string>
@@ -3005,4 +2959,37 @@ Google-ов приступ синхронизовању података как�
     <string name="user_image_take_photo">Сними слику</string>
     <string name="user_image_choose_photo">Изабери слику из Галерије</string>
     <string name="regulatory_info_text" />
+    <string name="quick_settings_description">Izaberite broj brzih podešavanja na tabli „Obaveštenja“ i izmenite im redosled</string>
+    <string name="theme_label_summary">Promena ili preuzimanje tema</string>
+    <string name="find_my_device">Pronađi moj uređaj</string>
+    <string name="display_category_personalisation_title">Personalizacija</string>
+    <string name="preference_summary">Ako ikada izgubite uređaj – pronađite, zaključajte i/ili obrišite podatke pomoću aplikacije my Xperia</string>
+    <string name="playanywhere_strings_throw_settings_title_txt">Podešavanje funkcije Throw</string>
+    <string name="playanywhere_strings_throw_setting_summary_txt">Bežično reprodukovanje sadržaja sa Xperia™ uređaja na drugim uređajima</string>
+    <string name="usbux_strings_local_connectivity_settings_summary_txt">Povežite uređaj sa drugim uređajima ili računarima putem USB-a ili Wi-Fi mreže</string>
+    <string name="mil_strings_app_name_mirrorlink_settings_txt">MirrorLink™ postavke</string>
+    <string name="mil_strings_mirrorlink_activator_txt">Pokreni MirrorLink™</string>
+    <string name="mil_strings_dialog_usb_not_connected_txt">Nije otkriven nijedan uređaj. Uverite se da je kompatibilni uređaj povezan.</string>
+    <string name="mil_strings_dialog_mirrorlink_start_txt">MirrorLink™ će se ubrzo pokrenuti. Možda neće ispravno raditi ako uređaj nema MirrorLink™ certifikat.</string>
+    <string name="mil_strings_mirrorlink_activator_sub_txt">Kada ste povezani sa MirrorLink™ certifikovanim uređajem pomoću USB kabla, možete kontrolisati apl. Xperia™ sa uređaja</string>
+    <string name="setupguide_settings_title">Uputstvo za podešavanje</string>
+    <string name="lockscreen_app_name">Ekran za zaključavanje</string>
+    <string name="lockscreen_settings_title">Ekran za zaključavanje</string>
+    <string name="lockscreen_settings_title_txt">Ekran za zaključavanje</string>
+    <string name="lockscreen_settings_wallpaper_summary_txt">Promeni pozadinu na zaključanom ekranu</string>
+    <string name="lockscreen_setting_wallpaper_wait_txt">Podešavanje pozadine</string>
+    <string name="lockscreen_could_not_load_wallpaper_txt">Nije moguće postaviti pozadinu</string>
+    <string name="lockscreen_dialog_title_pick_wallpaper">Izaberite pozadinu</string>
+    <string name="lockscreen_wallpaper_picker_semc_name">Xperia™ pozadine</string>
+    <string name="lockscreen_wallpaper_picker_semc_set_wallpaper">Postavi pozadinu</string>
+    <string name="lockscreen_wallpaper_picker_album_name">Album</string>
+    <string name="lockscreen_unlock_hint">Prevucite nagore ili nadole da biste otključali</string>
+    <string name="lockscreen_short_unlock_hint">Prevucite za otključavanje</string>
+    <string name="lockscreen_accessibility_unlock_hint">Prevucite nagore ili nadole od centra ekrana da biste otključali</string>
+    <string name="lockscreen_set_as_wallpaper_txt">Pozadina na zaklj. ekranu</string>
+    <string name="status_bar_tab_quick_settings_title">Brza podešavanja</string>
+    <string name="power_settings_title">Upravljanje napajanjem</string>
+    <string name="status_bar_show_clock_title">Прикажи сат</string>
+    <string name="title_heads_up_enabled">Омогући обавештења на екрану</string>
+    <string name="add_heads_up_dnd_package">"Додај апликацију у 'Не узнемиравај'"</string>
 </resources>

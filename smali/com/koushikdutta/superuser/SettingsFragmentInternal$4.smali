@@ -63,7 +63,7 @@
 
     .line 159
     .local v0, builder:Landroid/app/AlertDialog$Builder;
-    const v2, 0x7f08004c
+    const v2, 0x7f0c004c
 
     invoke-virtual {v0, v2}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -76,7 +76,7 @@
 
     iget-object v3, p0, Lcom/koushikdutta/superuser/SettingsFragmentInternal$4;->this$0:Lcom/koushikdutta/superuser/SettingsFragmentInternal;
 
-    const v4, 0x7f08004d
+    const v4, 0x7f0c004d
 
     invoke-virtual {v3, v4}, Lcom/koushikdutta/superuser/SettingsFragmentInternal;->getString(I)Ljava/lang/String;
 
@@ -88,7 +88,7 @@
 
     iget-object v3, p0, Lcom/koushikdutta/superuser/SettingsFragmentInternal$4;->this$0:Lcom/koushikdutta/superuser/SettingsFragmentInternal;
 
-    const v4, 0x7f08004e
+    const v4, 0x7f0c004e
 
     invoke-virtual {v3, v4}, Lcom/koushikdutta/superuser/SettingsFragmentInternal;->getString(I)Ljava/lang/String;
 
@@ -100,7 +100,7 @@
 
     iget-object v3, p0, Lcom/koushikdutta/superuser/SettingsFragmentInternal$4;->this$0:Lcom/koushikdutta/superuser/SettingsFragmentInternal;
 
-    const v4, 0x7f08004f
+    const v4, 0x7f0c004f
 
     invoke-virtual {v3, v4}, Lcom/koushikdutta/superuser/SettingsFragmentInternal;->getString(I)Ljava/lang/String;
 
@@ -112,7 +112,7 @@
 
     iget-object v3, p0, Lcom/koushikdutta/superuser/SettingsFragmentInternal$4;->this$0:Lcom/koushikdutta/superuser/SettingsFragmentInternal;
 
-    const v4, 0x7f080050
+    const v4, 0x7f0c0050
 
     invoke-virtual {v3, v4}, Lcom/koushikdutta/superuser/SettingsFragmentInternal;->getString(I)Ljava/lang/String;
 
@@ -143,7 +143,7 @@
     .locals 2
 
     .prologue
-    const v1, 0x7f080050
+    const v1, 0x7f0c0050
 
     .line 132
     invoke-static {}, Lcom/koushikdutta/superuser/util/Settings;->getSuperuserAccess()I
@@ -161,7 +161,7 @@
 
     .line 134
     :pswitch_0
-    const v0, 0x7f08004f
+    const v0, 0x7f0c004f
 
     invoke-virtual {p0, v0}, Lcom/koushikdutta/superuser/SettingsFragmentInternal$4;->setSummary(I)Lcom/koushikdutta/widgets/ListItem;
 
@@ -169,7 +169,7 @@
 
     .line 137
     :pswitch_1
-    const v0, 0x7f08004e
+    const v0, 0x7f0c004e
 
     invoke-virtual {p0, v0}, Lcom/koushikdutta/superuser/SettingsFragmentInternal$4;->setSummary(I)Lcom/koushikdutta/widgets/ListItem;
 
@@ -183,7 +183,7 @@
 
     .line 143
     :pswitch_3
-    const v0, 0x7f08004d
+    const v0, 0x7f0c004d
 
     invoke-virtual {p0, v0}, Lcom/koushikdutta/superuser/SettingsFragmentInternal$4;->setSummary(I)Lcom/koushikdutta/widgets/ListItem;
 

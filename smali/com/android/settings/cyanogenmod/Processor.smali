@@ -168,7 +168,7 @@
 
     .line 102
     :cond_0
-    const v0, 0x7f08042e
+    const v0, 0x7f0c042b
 
     invoke-virtual {p0, v0}, Lcom/android/settings/cyanogenmod/Processor;->getString(I)Ljava/lang/String;
 
@@ -177,7 +177,7 @@
     sput-object v0, Lcom/android/settings/cyanogenmod/Processor;->FREQ_MAX_FILE:Ljava/lang/String;
 
     .line 103
-    const v0, 0x7f08042f
+    const v0, 0x7f0c042c
 
     invoke-virtual {p0, v0}, Lcom/android/settings/cyanogenmod/Processor;->getString(I)Ljava/lang/String;
 
@@ -383,7 +383,7 @@
     invoke-direct {p0}, Lcom/android/settings/cyanogenmod/Processor;->initFreqCapFiles()V
 
     .line 113
-    const v8, 0x7f080237
+    const v8, 0x7f0c0233
 
     invoke-virtual {p0, v8}, Lcom/android/settings/cyanogenmod/Processor;->getString(I)Ljava/lang/String;
 
@@ -392,7 +392,7 @@
     iput-object v8, p0, Lcom/android/settings/cyanogenmod/Processor;->mGovernorFormat:Ljava/lang/String;
 
     .line 114
-    const v8, 0x7f080239
+    const v8, 0x7f0c0235
 
     invoke-virtual {p0, v8}, Lcom/android/settings/cyanogenmod/Processor;->getString(I)Ljava/lang/String;
 
@@ -401,7 +401,7 @@
     iput-object v8, p0, Lcom/android/settings/cyanogenmod/Processor;->mMinFrequencyFormat:Ljava/lang/String;
 
     .line 115
-    const v8, 0x7f08023b
+    const v8, 0x7f0c0237
 
     invoke-virtual {p0, v8}, Lcom/android/settings/cyanogenmod/Processor;->getString(I)Ljava/lang/String;
 

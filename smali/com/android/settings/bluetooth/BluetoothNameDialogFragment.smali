@@ -247,20 +247,6 @@
 
     if-eqz v3, :cond_2
 
-    invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
-
-    move-result-object v3
-
-    invoke-virtual {v3}, Ljava/lang/String;->trim()Ljava/lang/String;
-
-    move-result-object v3
-
-    invoke-virtual {v3}, Ljava/lang/String;->isEmpty()Z
-
-    move-result v3
-
-    if-nez v3, :cond_2
-
     :goto_1
     invoke-virtual {v2, v0}, Landroid/widget/Button;->setEnabled(Z)V
 
@@ -334,7 +320,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080497
+    const v2, 0x7f0c0492
 
     invoke-virtual {v1, v2}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -348,7 +334,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080498
+    const v2, 0x7f0c0493
 
     new-instance v3, Lcom/android/settings/bluetooth/BluetoothNameDialogFragment$2;
 

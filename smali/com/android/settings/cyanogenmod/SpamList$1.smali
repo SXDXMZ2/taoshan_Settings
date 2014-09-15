@@ -1,11 +1,14 @@
 .class Lcom/android/settings/cyanogenmod/SpamList$1;
-.super Landroid/database/ContentObserver;
+.super Ljava/lang/Object;
 .source "SpamList.java"
+
+# interfaces
+.implements Landroid/content/DialogInterface$OnClickListener;
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/android/settings/cyanogenmod/SpamList;
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/android/settings/cyanogenmod/SpamList;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,80 +20,49 @@
 # instance fields
 .field final synthetic this$0:Lcom/android/settings/cyanogenmod/SpamList;
 
+.field final synthetic val$position:I
+
 
 # direct methods
-.method constructor <init>(Lcom/android/settings/cyanogenmod/SpamList;Landroid/os/Handler;)V
+.method constructor <init>(Lcom/android/settings/cyanogenmod/SpamList;I)V
     .locals 0
     .parameter
-    .parameter "x0"
+    .parameter
 
     .prologue
-    .line 63
+    .line 94
     iput-object p1, p0, Lcom/android/settings/cyanogenmod/SpamList$1;->this$0:Lcom/android/settings/cyanogenmod/SpamList;
 
-    invoke-direct {p0, p2}, Landroid/database/ContentObserver;-><init>(Landroid/os/Handler;)V
+    iput p2, p0, Lcom/android/settings/cyanogenmod/SpamList$1;->val$position:I
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public onChange(Z)V
-    .locals 4
-    .parameter "selfChange"
+.method public onClick(Landroid/content/DialogInterface;I)V
+    .locals 2
+    .parameter "dialog"
+    .parameter "which"
 
     .prologue
-    .line 66
+    .line 97
     iget-object v0, p0, Lcom/android/settings/cyanogenmod/SpamList$1;->this$0:Lcom/android/settings/cyanogenmod/SpamList;
 
-    #getter for: Lcom/android/settings/cyanogenmod/SpamList;->mTask:Lcom/android/settings/cyanogenmod/SpamList$FetchFilterTask;
-    invoke-static {v0}, Lcom/android/settings/cyanogenmod/SpamList;->access$000(Lcom/android/settings/cyanogenmod/SpamList;)Lcom/android/settings/cyanogenmod/SpamList$FetchFilterTask;
+    #getter for: Lcom/android/settings/cyanogenmod/SpamList;->mAdapter:Lcom/android/settings/cyanogenmod/SpamList$SpamAdapter;
+    invoke-static {v0}, Lcom/android/settings/cyanogenmod/SpamList;->access$100(Lcom/android/settings/cyanogenmod/SpamList;)Lcom/android/settings/cyanogenmod/SpamList$SpamAdapter;
 
     move-result-object v0
 
-    if-eqz v0, :cond_0
+    iget v1, p0, Lcom/android/settings/cyanogenmod/SpamList$1;->val$position:I
 
-    .line 67
-    iget-object v0, p0, Lcom/android/settings/cyanogenmod/SpamList$1;->this$0:Lcom/android/settings/cyanogenmod/SpamList;
+    invoke-virtual {v0, v1}, Lcom/android/settings/cyanogenmod/SpamList$SpamAdapter;->removeItem(I)V
 
-    #getter for: Lcom/android/settings/cyanogenmod/SpamList;->mTask:Lcom/android/settings/cyanogenmod/SpamList$FetchFilterTask;
-    invoke-static {v0}, Lcom/android/settings/cyanogenmod/SpamList;->access$000(Lcom/android/settings/cyanogenmod/SpamList;)Lcom/android/settings/cyanogenmod/SpamList$FetchFilterTask;
+    .line 98
+    invoke-interface {p1}, Landroid/content/DialogInterface;->dismiss()V
 
-    move-result-object v0
-
-    const/4 v1, 0x1
-
-    invoke-virtual {v0, v1}, Lcom/android/settings/cyanogenmod/SpamList$FetchFilterTask;->cancel(Z)Z
-
-    .line 69
-    :cond_0
-    iget-object v0, p0, Lcom/android/settings/cyanogenmod/SpamList$1;->this$0:Lcom/android/settings/cyanogenmod/SpamList;
-
-    new-instance v1, Lcom/android/settings/cyanogenmod/SpamList$FetchFilterTask;
-
-    iget-object v2, p0, Lcom/android/settings/cyanogenmod/SpamList$1;->this$0:Lcom/android/settings/cyanogenmod/SpamList;
-
-    const/4 v3, 0x0
-
-    invoke-direct {v1, v2, v3}, Lcom/android/settings/cyanogenmod/SpamList$FetchFilterTask;-><init>(Lcom/android/settings/cyanogenmod/SpamList;Lcom/android/settings/cyanogenmod/SpamList$1;)V
-
-    #setter for: Lcom/android/settings/cyanogenmod/SpamList;->mTask:Lcom/android/settings/cyanogenmod/SpamList$FetchFilterTask;
-    invoke-static {v0, v1}, Lcom/android/settings/cyanogenmod/SpamList;->access$002(Lcom/android/settings/cyanogenmod/SpamList;Lcom/android/settings/cyanogenmod/SpamList$FetchFilterTask;)Lcom/android/settings/cyanogenmod/SpamList$FetchFilterTask;
-
-    .line 70
-    iget-object v0, p0, Lcom/android/settings/cyanogenmod/SpamList$1;->this$0:Lcom/android/settings/cyanogenmod/SpamList;
-
-    #getter for: Lcom/android/settings/cyanogenmod/SpamList;->mTask:Lcom/android/settings/cyanogenmod/SpamList$FetchFilterTask;
-    invoke-static {v0}, Lcom/android/settings/cyanogenmod/SpamList;->access$000(Lcom/android/settings/cyanogenmod/SpamList;)Lcom/android/settings/cyanogenmod/SpamList$FetchFilterTask;
-
-    move-result-object v0
-
-    const/4 v1, 0x0
-
-    new-array v1, v1, [Ljava/lang/Void;
-
-    invoke-virtual {v0, v1}, Lcom/android/settings/cyanogenmod/SpamList$FetchFilterTask;->execute([Ljava/lang/Object;)Landroid/os/AsyncTask;
-
-    .line 71
+    .line 99
     return-void
 .end method

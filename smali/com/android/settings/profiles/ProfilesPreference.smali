@@ -53,7 +53,7 @@
 
     const/4 v1, 0x0
 
-    const v2, 0x7f090041
+    const v2, 0x7f080041
 
     invoke-direct {p0, v0, v1, v2}, Landroid/preference/CheckBoxPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
@@ -65,12 +65,12 @@
     iput-object v0, p0, Lcom/android/settings/profiles/ProfilesPreference;->mPrefOnclickListener:Landroid/view/View$OnClickListener;
 
     .line 58
-    const v0, 0x7f04009f
+    const v0, 0x7f0400a1
 
     invoke-virtual {p0, v0}, Lcom/android/settings/profiles/ProfilesPreference;->setLayoutResource(I)V
 
     .line 59
-    const v0, 0x7f0400a0
+    const v0, 0x7f0400a2
 
     invoke-virtual {p0, v0}, Lcom/android/settings/profiles/ProfilesPreference;->setWidgetLayoutResource(I)V
 
@@ -175,7 +175,7 @@
 
     iget-object v2, p0, Lcom/android/settings/profiles/ProfilesPreference;->mSettingsBundle:Landroid/os/Bundle;
 
-    const v3, 0x7f0800ec
+    const v3, 0x7f0c00ec
 
     const/4 v4, 0x0
 

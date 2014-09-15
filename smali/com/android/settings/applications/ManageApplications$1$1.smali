@@ -27,7 +27,7 @@
     .parameter
 
     .prologue
-    .line 1179
+    .line 1173
     iput-object p1, p0, Lcom/android/settings/applications/ManageApplications$1$1;->this$1:Lcom/android/settings/applications/ManageApplications$1;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -41,7 +41,7 @@
     .locals 4
 
     .prologue
-    .line 1182
+    .line 1176
     iget-object v2, p0, Lcom/android/settings/applications/ManageApplications$1$1;->this$1:Lcom/android/settings/applications/ManageApplications$1;
 
     iget-object v2, v2, Lcom/android/settings/applications/ManageApplications$1;->this$0:Lcom/android/settings/applications/ManageApplications;
@@ -63,7 +63,7 @@
 
     if-eqz v2, :cond_2
 
-    .line 1184
+    .line 1178
     const/4 v0, 0x0
 
     .local v0, i:I
@@ -83,7 +83,7 @@
 
     if-ge v0, v2, :cond_1
 
-    .line 1185
+    .line 1179
     iget-object v2, p0, Lcom/android/settings/applications/ManageApplications$1$1;->this$1:Lcom/android/settings/applications/ManageApplications$1;
 
     iget-object v2, v2, Lcom/android/settings/applications/ManageApplications$1;->this$0:Lcom/android/settings/applications/ManageApplications;
@@ -99,24 +99,24 @@
 
     check-cast v1, Lcom/android/settings/applications/ManageApplications$TabInfo;
 
-    .line 1186
+    .line 1180
     .local v1, tab:Lcom/android/settings/applications/ManageApplications$TabInfo;
     iget-object v2, v1, Lcom/android/settings/applications/ManageApplications$TabInfo;->mApplications:Lcom/android/settings/applications/ManageApplications$ApplicationsAdapter;
 
     if-eqz v2, :cond_0
 
-    .line 1187
+    .line 1181
     iget-object v2, v1, Lcom/android/settings/applications/ManageApplications$TabInfo;->mApplications:Lcom/android/settings/applications/ManageApplications$ApplicationsAdapter;
 
     invoke-virtual {v2}, Lcom/android/settings/applications/ManageApplications$ApplicationsAdapter;->pause()V
 
-    .line 1184
+    .line 1178
     :cond_0
     add-int/lit8 v0, v0, 0x1
 
     goto :goto_0
 
-    .line 1190
+    .line 1184
     .end local v1           #tab:Lcom/android/settings/applications/ManageApplications$TabInfo;
     :cond_1
     iget-object v2, p0, Lcom/android/settings/applications/ManageApplications$1$1;->this$1:Lcom/android/settings/applications/ManageApplications$1;
@@ -127,7 +127,7 @@
 
     if-eqz v2, :cond_2
 
-    .line 1191
+    .line 1185
     iget-object v2, p0, Lcom/android/settings/applications/ManageApplications$1$1;->this$1:Lcom/android/settings/applications/ManageApplications$1;
 
     iget-object v2, v2, Lcom/android/settings/applications/ManageApplications$1;->this$0:Lcom/android/settings/applications/ManageApplications;
@@ -145,7 +145,7 @@
 
     invoke-virtual {v2, v3}, Lcom/android/settings/applications/ManageApplications$TabInfo;->resume(I)V
 
-    .line 1194
+    .line 1188
     .end local v0           #i:I
     :cond_2
     return-void

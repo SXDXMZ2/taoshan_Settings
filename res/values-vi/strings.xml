@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="allow">Cho phép</string>
+    <string name="deny">Từ chối</string>
     <string name="delete">Xóa</string>
     <string name="battery_info_status_full">Đầy</string>
     <string name="yes">Có</string>
     <string name="no">Không</string>
     <string name="create">Tạo</string>
-    <string name="allow">Cho phép</string>
-    <string name="deny">Từ chối</string>
     <string name="device_info_default">Không xác định</string>
     <string name="show_dev_on">Bạn đã là nhà phát triển!</string>
     <string name="show_dev_already">Không cần, bạn đã là nhà phát triển.</string>
@@ -647,6 +647,8 @@ Thiết lập điện thoại có thể yêu cầu hoạt động mạng đáng 
     <string name="volume_notification_mute">Ẩn thông báo</string>
     <string name="volume_alarm_mute">Tắt báo thức</string>
     <string name="vibrate_when_ringing_title">Rung khi đổ chuông</string>
+    <string name="system_update_settings_list_item_title">Bản cập nhật hệ thống</string>
+    <string name="system_update_settings_list_item_summary" />
     <string name="dock_settings">Đế</string>
     <string name="dock_settings_title">Cài đặt đế</string>
     <string name="dock_audio_settings_title">Âm thanh</string>
@@ -711,8 +713,6 @@ Có thể mã PIN không đúng."</string>
     <string name="wrong_pin_code_pukked">Mã PIN của SIM không chính xác, bây giờ bạn phải liên hệ với nhà cung cấp dịch vụ để mở khóa thiết bị của bạn.</string>
     <string name="pin_failed">Thao tác mã PIN của SIM không thành công!</string>
     <string name="device_info_settings">Trạng thái điện thoại</string>
-    <string name="system_update_settings_list_item_title">Bản cập nhật hệ thống</string>
-    <string name="system_update_settings_list_item_summary" />
     <string name="firmware_version">Phiên bản của Android</string>
     <string name="model_number">Số kiểu</string>
     <string name="fcc_equipment_id">ID thiết bị</string>
@@ -1952,4 +1952,33 @@ Bất kỳ người dùng nào cũng có thể chấp nhận các quyền của 
     <string name="user_image_take_photo">Chụp ảnh</string>
     <string name="user_image_choose_photo">Chọn ảnh từ Thư viện</string>
     <string name="regulatory_info_text" />
+    <string name="quick_settings_description">Chọn số lượng cài đặt nhanh trong bảng Thông báo và chỉnh sửa thứ tự của các cài đặt đó</string>
+    <string name="swiqi_strings_swiqi_desc_txt">Nâng cao chất lượng ảnh và video</string>
+    <string name="theme_label_summary">Thay đổi hoặc tải xuống chủ đề</string>
+    <string name="find_my_device">Tìm thiết bị của tôi</string>
+    <string name="display_category_personalisation_title">Cá nhân hoá</string>
+    <string name="preference_summary">Nếu bạn mất thiết bị của mình – hãy định vị, khoá và/hoặc xoá dữ liệu của bạn bằng my Xperia</string>
+    <string name="usbux_strings_local_connectivity_settings_summary_txt">Kết nối thiết bị của bạn với các thiết bị khác hoặc PC bằng USB hoặc qua Wi-Fi</string>
+    <string name="mil_strings_app_name_mirrorlink_settings_txt">Cài đặt MirrorLink™</string>
+    <string name="mil_strings_mirrorlink_activator_txt">Khởi động MirrorLink™</string>
+    <string name="mil_strings_dialog_usb_not_connected_txt">Không phát hiện được thiết bị nào. Hãy đảm bảo thiết bị tương thích được kết nối.</string>
+    <string name="mil_strings_dialog_mirrorlink_start_txt">MirrorLink™ sẽ khởi động ngay. MirrorLink™ không thể hoạt động đúng cách nếu thiết bị không được cấp chứng nhận của MirrorLink™.</string>
+    <string name="mil_strings_mirrorlink_activator_sub_txt">Khi được kết nối với thiết bị được chứng nhận bởi MirrorLink™ bằng USB, bạn có thể điều khiển Xperia™ của mình từ thiết bị</string>
+    <string name="setupguide_settings_title">Hướng dẫn cài đặt</string>
+    <string name="lockscreen_app_name">Màn hình khoá</string>
+    <string name="lockscreen_settings_title">Màn hình khoá</string>
+    <string name="lockscreen_settings_title_txt">Màn hình khoá</string>
+    <string name="lockscreen_settings_wallpaper_summary_txt">Thay đổi hình nền trên màn hình khoá</string>
+    <string name="lockscreen_setting_wallpaper_wait_txt">Đang cài hình nền</string>
+    <string name="lockscreen_could_not_load_wallpaper_txt">Không thể cài hình nền</string>
+    <string name="lockscreen_dialog_title_pick_wallpaper">Chọn hình nền</string>
+    <string name="lockscreen_wallpaper_picker_semc_name">"Hình nền của  Xperia™"</string>
+    <string name="lockscreen_wallpaper_picker_semc_set_wallpaper">Cài hình nền</string>
+    <string name="lockscreen_wallpaper_picker_album_name">Album</string>
+    <string name="lockscreen_unlock_hint">Trượt lên hoặc xuống để mở khoá</string>
+    <string name="lockscreen_short_unlock_hint">Vuốt để mở khóa</string>
+    <string name="lockscreen_accessibility_unlock_hint">Trượt lên hoặc xuống từ giữa màn hình để mở khoá</string>
+    <string name="lockscreen_set_as_wallpaper_txt">Hình nền màn hình khoá</string>
+    <string name="status_bar_tab_quick_settings_title">Cài đặt nhanh</string>
+    <string name="power_settings_title">Quản lý pin</string>
 </resources>

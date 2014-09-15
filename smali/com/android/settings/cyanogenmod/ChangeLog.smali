@@ -90,7 +90,7 @@
     .local v1, e:Ljava/io/IOException;
     .restart local v2       #inputReader:Ljava/io/InputStreamReader;
     :goto_1
-    const v9, 0x7f08024e
+    const v9, 0x7f0c024a
 
     :try_start_2
     invoke-virtual {p0, v9}, Lcom/android/settings/cyanogenmod/ChangeLog;->getString(I)Ljava/lang/String;

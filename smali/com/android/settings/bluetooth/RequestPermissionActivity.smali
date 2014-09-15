@@ -98,7 +98,7 @@
     if-eqz v1, :cond_1
 
     .line 156
-    const v1, 0x7f0804b5
+    const v1, 0x7f0c04b0
 
     invoke-virtual {p0, v1}, Lcom/android/settings/bluetooth/RequestPermissionActivity;->getString(I)Ljava/lang/String;
 
@@ -127,7 +127,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b0006
+    const v2, 0x7f0a0006
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getBoolean(I)Z
 
@@ -153,7 +153,7 @@
     if-nez v1, :cond_2
 
     .line 162
-    const v1, 0x7f0804b2
+    const v1, 0x7f0c04ad
 
     invoke-virtual {p0, v1}, Lcom/android/settings/bluetooth/RequestPermissionActivity;->getString(I)Ljava/lang/String;
 
@@ -163,7 +163,7 @@
 
     .line 168
     :goto_1
-    const v1, 0x7f080437
+    const v1, 0x7f0c0001
 
     invoke-virtual {p0, v1}, Lcom/android/settings/bluetooth/RequestPermissionActivity;->getString(I)Ljava/lang/String;
 
@@ -172,7 +172,7 @@
     invoke-virtual {v0, v1, p0}, Landroid/app/AlertDialog$Builder;->setPositiveButton(Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
     .line 169
-    const v1, 0x7f080438
+    const v1, 0x7f0c0003
 
     invoke-virtual {p0, v1}, Lcom/android/settings/bluetooth/RequestPermissionActivity;->getString(I)Ljava/lang/String;
 
@@ -184,7 +184,7 @@
 
     .line 165
     :cond_2
-    const v1, 0x7f0804b1
+    const v1, 0x7f0c04ac
 
     new-array v2, v5, [Ljava/lang/Object;
 

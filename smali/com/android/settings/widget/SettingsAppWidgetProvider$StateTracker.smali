@@ -85,7 +85,7 @@
 
     .line 248
     .local v1, state:Ljava/lang/String;
-    const v2, 0x7f080a24
+    const v2, 0x7f0c0a1f
 
     const/4 v3, 0x2
 
@@ -418,7 +418,7 @@
 
     .line 205
     :pswitch_1
-    const v4, 0x7f080a26
+    const v4, 0x7f0c0a21
 
     invoke-direct {p0, p1, v4}, Lcom/android/settings/widget/SettingsAppWidgetProvider$StateTracker;->getContentDescription(Landroid/content/Context;I)Ljava/lang/String;
 
@@ -446,7 +446,7 @@
 
     .line 212
     :pswitch_2
-    const v4, 0x7f080a25
+    const v4, 0x7f0c0a20
 
     invoke-direct {p0, p1, v4}, Lcom/android/settings/widget/SettingsAppWidgetProvider$StateTracker;->getContentDescription(Landroid/content/Context;I)Ljava/lang/String;
 
@@ -481,7 +481,7 @@
     if-eqz v4, :cond_0
 
     .line 225
-    const v4, 0x7f080a27
+    const v4, 0x7f0c0a22
 
     invoke-direct {p0, p1, v4}, Lcom/android/settings/widget/SettingsAppWidgetProvider$StateTracker;->getContentDescription(Landroid/content/Context;I)Ljava/lang/String;
 
@@ -509,7 +509,7 @@
 
     .line 231
     :cond_0
-    const v4, 0x7f080a28
+    const v4, 0x7f0c0a23
 
     invoke-direct {p0, p1, v4}, Lcom/android/settings/widget/SettingsAppWidgetProvider$StateTracker;->getContentDescription(Landroid/content/Context;I)Ljava/lang/String;
 
